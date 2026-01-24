@@ -1,13 +1,56 @@
 import re
 import spacy
 from collections import Counter
+from gemini_client_setup import call_llm
 
-#Setup google gemini
-#Get domain, subdomain, ideation stage and one line description from user query
 #Get customer persona and market overview from user query
 #Allow cross questioning
 
 nlp = spacy.load("en_core_web_sm")
+
+def idea_confirmation(query, confidence):
+    prompt_template="""You are an expert product and startup analyst.
+    Given:
+    - A processed product idea: {query}
+    - A confidence score indicating specificity: {confidence}
+
+    Classify the ideation maturity of the idea using ONLY one of the following stages:
+    - exploration
+    - problem_framing
+    - solution_ideation
+    - solution_detailing
+    - validation_ready
+
+    Definitions:
+    - exploration: vague idea, no clear product or problem
+    - problem_framing: problem is clear, solution is not
+    - solution_ideation: a solution is proposed but not explained
+    - solution_detailing: a solution with mechanisms or implementation details
+    - validation_ready: clear solution with target users or market intent
+
+    Then also return:
+    1. Ideation stage
+    2. Domain of solution
+    3. Subdomain of solution
+    4. One-line idea description
+    5. Short justification for choosing the ideation stage
+
+    Return ONLY valid JSON with exactly these keys:
+    {
+    "domain": "...",
+    "subdomain": "...",
+    "ideation_stage": "...",
+    "one_line_description": "...",
+    "justification": "..."
+    }
+    No markdown. No extra keys.
+    """
+    user_message = f"""User query: {query}
+    Confidence score (0 to 1): {confidence}
+    """
+    data=call_llm(prompt_template,user_message)
+    required = ["domain", "subdomain", "ideation_stage", "one_line_description","justification"]
+    return {k: data[k] for k in required}
 
 def calculate_confidence_score(doc):
     #Semantic focus
@@ -53,8 +96,8 @@ def calculate_confidence_score(doc):
         scores["noise"] * 0.25
         #scores["length"] * 0.2
     )
-
-    return round(confidence, 2)
+    
+    return confidence
 
 def preprocess_query(query):
     #Convert qury to lowercase and remove special characters
@@ -66,7 +109,11 @@ def preprocess_query(query):
     doc=nlp(query)
     processed_query=' '.join([tokens.lemma_ for tokens in doc if not tokens.is_stop])
     print(processed_query)
-    print("Score:",calculate_confidence_score(nlp(processed_query)))
+    confidence_score=calculate_confidence_score(nlp(processed_query))
+    print("Score:",confidence_score)
+
+    response_dict=idea_confirmation(processed_query,confidence_score)
+    print(response_dict)
 
 #
 #query=input("Enter your idea: ")
