@@ -101,6 +101,7 @@ def create_report1(chat):
     add_turn(chat, "assistant", json.dumps(market, indent=2))
 
     chat["status"] = "MARKET_RESEARCH_READY"
+    chat["finalized"]= True
     save_chat(chat)
     
     #Print report
