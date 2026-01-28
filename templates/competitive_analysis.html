@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Competitive Analysis - MarketScope</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-br from-[#1a0f2e] via-[#0f0818] to-[#1f0f3a] text-white min-h-screen">
+    <div class="flex min-h-screen">
+        <!-- Sidebar -->
+        <aside class="w-64 bg-[#141e2d]/60 backdrop-blur-lg border-r border-white/5 flex flex-col">
+            <div class="flex items-center gap-3 px-5 py-6">
+                <svg class="w-8 h-8 text-[#a78bfa]" viewBox="0 0 24 24" fill="none">
+                    <path d="M3 13h4v8H3v-8zm6-8h4v16H9V5zm6 4h4v12h-4V9z" fill="currentColor"/>
+                    <path d="M5 10l4-3 4 3 6-5" stroke="currentColor" stroke-width="2"/>
+                </svg>
+                <span class="text-xl font-bold">MarketScope</span>
+            </div>
+            
+            <div class="flex items-center gap-3 px-3 py-3 mx-3 mb-6 rounded-lg bg-white/5">
+                <div class="w-8 h-8 rounded-full bg-gradient-to-br from-[#a78bfa] to-[#7c3aed] flex items-center justify-center">
+                    <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none">
+                        <circle cx="12" cy="8" r="4" fill="currentColor"/>
+                        <path d="M4 20c0-4 4-6 8-6s8 2 8 6" stroke="currentColor" stroke-width="2"/>
+                    </svg>
+                </div>
+                <span class="text-sm font-medium">User</span>
+            </div>
+
+            <div class="flex-1 px-5">
+                <h3 class="text-xs font-semibold text-white/60 uppercase mb-4">Recent Analysis</h3>
+                <ul class="space-y-1">
+                    {% for analysis in analysis_history %}
+                    <li class="flex items-center gap-2 px-3 py-2 rounded-md {% if loop.first %}bg-[#a78bfa]/10 text-[#a78bfa]{% endif %}">
+                        <span class="text-xs">✓</span>
+                        <span class="text-sm">{{ analysis }}</span>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="flex-1 px-16 py-12">
+            <div class="mb-8">
+                <a href="/" class="inline-flex items-center gap-2 px-5 py-2.5 bg-white/5 border border-white/10 rounded-lg hover:bg-white/10 transition">
+                    <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none">
+                        <path d="M19 12H5M12 19l-7-7 7-7" stroke="currentColor" stroke-width="2"/>
+                    </svg>
+                    Back to Dashboard
+                </a>
+            </div>
+
+            <div class="text-center mb-12">
+                <h1 class="text-4xl font-bold mb-4">Competitive Benchmarking</h1>
+                <p class="text-white/60 max-w-2xl mx-auto">Compare your product against top competitors and identify key differentiating features</p>
+            </div>
+
+            <div class="max-w-4xl mx-auto">
+                <div class="bg-gradient-to-br from-[#321e46]/40 to-[#231432]/60 border border-[#a78bfa]/20 rounded-2xl p-10 mb-10">
+                    <label class="flex items-center gap-3 text-lg font-semibold text-[#a78bfa] mb-5">
+                        <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none">
+                            <path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                        Describe Your Product Concept
+                    </label>
+                    <textarea 
+                        id="productPrompt" 
+                        class="w-full bg-[#0f1420]/60 border-2 border-[#a78bfa]/20 rounded-xl px-5 py-4 text-white placeholder-white/30 focus:outline-none focus:border-[#a78bfa]/50 transition" 
+                        placeholder="Example: Wireless noise-cancelling earbuds with 48-hour battery life, adaptive sound technology that adjusts to environment, touch controls, and waterproof design for active users. Targeting professionals and commuters who value audio quality and convenience."
+                        rows="6"
+                    ></textarea>
+                    
+                    <div class="flex items-start gap-3 mt-5 p-4 bg-[#a78bfa]/5 border-l-4 border-[#a78bfa]/50 rounded">
+                        <svg class="w-5 h-5 text-[#a78bfa] mt-0.5" viewBox="0 0 24 24" fill="none">
+                            <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+                            <path d="M12 16v-4M12 8h.01" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                        <span class="text-sm text-white/70">List specific features that set your product apart from existing solutions</span>
+                    </div>
+
+                    <button onclick="analyzeProduct('competitive')" class="w-full mt-6 px-6 py-4 bg-gradient-to-r from-[#a78bfa] to-[#7c3aed] rounded-xl font-bold text-lg flex items-center justify-center gap-3 hover:from-[#c4b5fd] hover:to-[#a78bfa] transition shadow-lg shadow-[#a78bfa]/30">
+                        <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none">
+                            <circle cx="11" cy="11" r="8" stroke="currentColor" stroke-width="2"/>
+                            <path d="m21 21-4.35-4.35" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                        Compare Competitors
+                    </button>
+                </div>
+
+                <div id="resultsContainer" class="hidden">
+                    <div class="mb-8 pb-6 border-b border-[#a78bfa]/20">
+                        <h2 class="text-3xl font-bold">Competitive Benchmarking Results</h2>
+                    </div>
+
+                    <div class="grid grid-cols-2 gap-6">
+                        <div class="col-span-2 bg-gradient-to-br from-[#321e46]/30 to-[#231432]/50 border border-[#a78bfa]/15 rounded-xl p-6">
+                            <h3 class="text-lg font-semibold text-[#a78bfa] mb-4">Competitor Comparison</h3>
+                            <div id="competitorComparison"></div>
+                        </div>
+
+                        <div class="bg-gradient-to-br from-[#321e46]/30 to-[#231432]/50 border border-[#a78bfa]/15 rounded-xl p-6">
+                            <h3 class="text-lg font-semibold text-[#a78bfa] mb-4">Your Differentiators</h3>
+                            <ul id="differentiators" class="space-y-3"></ul>
+                        </div>
+
+                        <div class="bg-gradient-to-br from-[#321e46]/30 to-[#231432]/50 border border-[#a78bfa]/15 rounded-xl p-6">
+                            <h3 class="text-lg font-semibold text-[#a78bfa] mb-4">Competitive Advantages</h3>
+                            <ul id="advantages" class="space-y-3"></ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/analysis.js') }}"></script>
+    <script>
+        function toggleDarkMode() {
+            if (document.documentElement.classList.contains('dark')) {
+                document.documentElement.classList.remove('dark');
+                localStorage.theme = 'light';
+            } else {
+                document.documentElement.classList.add('dark');
+                localStorage.theme = 'dark';
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,10 +1,10 @@
 import re
 import spacy
 from collections import Counter
-from gemini_client_setup import call_llm
-from chat_store import create_chat, save_chat, add_turn
-from constraint_handling import constraint_questionnaire
-from report import create_report1
+from .gemini_client_setup import call_llm
+from .chat_store import create_chat, save_chat, add_turn
+from .constraint_handling import constraint_questionnaire
+from .report import create_report1
 import json
 
 #Create json file per project per user (idea_raw,idea_understanding (domain/subdomain/stage/one-liner + target user (later, dynamically)), finalized = true/false, constraints (geolocation (place), budget (price), B2B/B2C(promotion))
@@ -239,10 +239,19 @@ def chat_orchestration(user_id, query):
 
     return chat_id
 
-#
-#query=input("Enter your idea: ")
-#query="I am building something very special. Low cost smartphones with a long battery life!!!"
-#query="I am building something very cool. A low cost smartphones with a long battery life. This will be done by using a solar panel attached to the back of the phone."
-query="I am building something very cool. A low cost smartphones with a 36 hour battery life. This will be done by using a solar panel attached to the back of the phone."
-#query="I am building something very cool. A smartphone in the range of Rs. 10000 with a battery life lasting 36 hours continuously. This will be done by using a solar panel attached to the back of the phone."
-chat_id=chat_orchestration(user_id="user_001", query=query)
+# Export functions for use by other modules
+__all__ = [
+    'preprocess_query',
+    'idea_confirmation', 
+    'apply_user_edits',
+    'get_constraints_from_query',
+    'chat_orchestration',
+    'calculate_confidence_score'
+]
+
+# CLI entry point for testing
+if __name__ == '__main__':
+    query = input("Enter your idea: ")
+    if query.strip():
+        chat_id = chat_orchestration(user_id="user_001", query=query)
+        print(f"Chat ID: {chat_id}")

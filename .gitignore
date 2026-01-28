@@ -1,2 +1,29 @@
+# Environment files
 *.env
-.ienv
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Chat storage (local development data)
+chats/
+
+# OS files
+.DS_Store
+Thumbs.db

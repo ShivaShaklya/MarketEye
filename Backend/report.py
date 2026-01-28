@@ -1,5 +1,5 @@
-from gemini_client_setup import call_llm
-from chat_store import add_turn, save_chat
+from .gemini_client_setup import call_llm
+from .chat_store import add_turn, save_chat
 import json
 
 def create_persona(chat):
