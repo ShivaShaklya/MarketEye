@@ -1,2 +1,5 @@
 *.env
-.ienv
+*.ienv
+*.json
+*.pyc
+*.txt
