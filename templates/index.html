@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MarketEye - AI Market Research</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="app-shell">
+        <aside class="sidebar">
+            <div class="sidebar-brand">
+                <div class="brand-mark" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none">
+                        <path d="M3 13h4v8H3v-8Zm6-8h4v16H9V5Zm6 4h4v12h-4V9Z" fill="currentColor"></path>
+                        <path d="M5 10l4-3 4 3 6-5" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+                    </svg>
+                </div>
+                <div>
+                    <p class="brand-name">MarketEye</p>
+                    <p class="brand-subtitle">AI Market Research</p>
+                </div>
+            </div>
+
+            <div class="profile-card">
+                <div class="profile-avatar">ME</div>
+                <div>
+                    <p class="profile-title">Research Workspace</p>
+                    <p class="profile-copy">Current session</p>
+                </div>
+            </div>
+
+            <div class="sidebar-section">
+                <div class="section-heading">
+                    <span>Capabilities</span>
+                </div>
+                <div class="capability-list">
+                    <div class="capability-pill">Product validation</div>
+                    <div class="capability-pill">Competitive signals</div>
+                    <div class="capability-pill">Opportunity mapping</div>
+                </div>
+            </div>
+
+            <div class="sidebar-section sidebar-section-fill">
+                <div class="section-heading">
+                    <span>Session Notes</span>
+                </div>
+                <div class="insight-stack">
+                    <article class="insight-card insight-card-active">
+                        <span class="insight-badge">Live</span>
+                        <h2>New chat</h2>
+                        <p>Describe your idea and MarketEye will build the analysis progressively.</p>
+                    </article>
+                    <article class="insight-card">
+                        <span class="insight-badge">Data</span>
+                        <h2>Structured responses</h2>
+                        <p>Use follow-up prompts to dig into pricing, competitors, and constraints.</p>
+                    </article>
+                </div>
+            </div>
+
+            <button id="new-chat-btn" class="sidebar-action" type="button">
+                <span>Start New Chat</span>
+                <span class="sidebar-action-icon" aria-hidden="true">&#8635;</span>
+            </button>
+        </aside>
+
+        <main class="main-panel">
+            <div class="ambient ambient-one" aria-hidden="true"></div>
+            <div class="ambient ambient-two" aria-hidden="true"></div>
+
+            <section class="hero-panel">
+                <div class="hero-badge">
+                    <span class="hero-dot"></span>
+                    <span>AI-Powered Intelligence</span>
+                </div>
+
+                <div class="hero-copy">
+                    <h1>Turn rough product ideas into market-ready direction.</h1>
+                    <p>
+                        Use the same MarketEye chat workflow with a capstone-inspired interface built for
+                        exploratory market research, competitor reviews, and structured follow-up analysis.
+                    </p>
+                </div>
+
+                <div class="hero-highlights">
+                    <div class="highlight-chip">Real-time conversation flow</div>
+                    <div class="highlight-chip">Guided market prompts</div>
+                    <div class="highlight-chip">Research-ready outputs</div>
+                </div>
+            </section>
+
+            <section class="workspace-panel">
+                <header class="workspace-header">
+                    <div>
+                        <p class="workspace-kicker">Conversation</p>
+                        <h2>Market research assistant</h2>
+                    </div>
+                    <p class="workspace-note" id="chat-status">Ready for your first prompt</p>
+                </header>
+
+                <main class="chat-messages" id="chat-messages">
+                    <div class="message bot-message">
+                        <div class="message-content">
+                            <p>Welcome to MarketEye.</p>
+                            <p>I'll help you analyze your product idea and generate market research insights.</p>
+                            <p><strong>Start by describing the product, audience, or problem you want to solve.</strong></p>
+                            <p><em>Example: I'm building a low-cost smartphone with solar charging for rural markets.</em></p>
+                        </div>
+                    </div>
+                </main>
+
+                <footer class="chat-input-container">
+                    <div class="input-hint">
+                        Ask about target customers, pricing, gaps in the market, or competitor positioning.
+                    </div>
+                    <form id="chat-form" class="chat-form">
+                        <input
+                            type="text"
+                            id="message-input"
+                            class="message-input"
+                            placeholder="Describe your idea or ask a follow-up question"
+                            autocomplete="off"
+                            required
+                        >
+                        <button type="submit" class="send-btn" id="send-btn">
+                            <span>Send</span>
+                        </button>
+                    </form>
+                </footer>
+            </section>
+        </main>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/chat.js') }}"></script>
+</body>
+</html>

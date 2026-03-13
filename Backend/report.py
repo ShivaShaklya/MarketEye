@@ -91,38 +91,41 @@ def create_market_overview(chat):
     chat["market_overview"] = data
     return data
 
-def create_report1(chat):
-    add_turn(chat, "assistant", "Generating customer personas")
-    persona=create_persona(chat)
-    add_turn(chat, "assistant", json.dumps(persona, indent=2))
-
-    add_turn(chat, "assistant", "Analyzing market overview")
-    market=create_market_overview(chat)
-    add_turn(chat, "assistant", json.dumps(market, indent=2))
-
-    chat["status"] = "MARKET_RESEARCH_READY"
-    chat["finalized"]= True
-    save_chat(chat)
-    
-    #Print report
-    print("\n\nREPORT 1\n\n")
-    idea_understanding=chat["idea_understanding"]
-    constraints=chat["constraints"]
-    
-    print("PRODUCT IDEA")
-    for k,v in idea_understanding.items():
-        print(f"{k}: {v}")
-    print()
-    print("CONSTRAINTS")
-    for k,v in constraints.items():
-        print(f"{k}: {v}")
-    print()
-    print("CUSTOMER PERSONA")
-    for k,v in persona.items():
-        print(f"{k}: {v}")
-    print()
-    print("MARKET OVERVIEW")
-    for k,v in market.items():
-        print(f"{k}: {v}")
-    print()
+# ============================================================================
+# CLI VERSION - COMMENTED OUT (Use _generate_report in chat_orchestration.py for Flask)
+# ============================================================================
+# def create_report1(chat):
+#     add_turn(chat, "assistant", "Generating customer personas")
+#     persona=create_persona(chat)
+#     add_turn(chat, "assistant", json.dumps(persona, indent=2))
+#
+#     add_turn(chat, "assistant", "Analyzing market overview")
+#     market=create_market_overview(chat)
+#     add_turn(chat, "assistant", json.dumps(market, indent=2))
+#
+#     chat["status"] = "MARKET_RESEARCH_READY"
+#     chat["finalized"]= True
+#     save_chat(chat)
+#     
+#     #Print report
+#     print("\n\nREPORT 1\n\n")
+#     idea_understanding=chat["idea_understanding"]
+#     constraints=chat["constraints"]
+#     
+#     print("PRODUCT IDEA")
+#     for k,v in idea_understanding.items():
+#         print(f"{k}: {v}")
+#     print()
+#     print("CONSTRAINTS")
+#     for k,v in constraints.items():
+#         print(f"{k}: {v}")
+#     print()
+#     print("CUSTOMER PERSONA")
+#     for k,v in persona.items():
+#         print(f"{k}: {v}")
+#     print()
+#     print("MARKET OVERVIEW")
+#     for k,v in market.items():
+#         print(f"{k}: {v}")
+#     print()
 

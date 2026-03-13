@@ -104,78 +104,81 @@ def has_numeric_value(text: str) -> bool:
 def needs_numeric_clarification(value: str) -> bool:
     return not any(ch.isdigit() for ch in value)
 
-def clarify_numeric_constraint(chat: dict, key: str, value: str):
-    prompt = NUMERIC_CLARIFIABLE[key]["prompt"].format(value=value)
-    print(f"\nYou mentioned '{value}'.")
-    print(prompt)
-    print(NUMERIC_CLARIFIABLE[key]["examples"])
-
-    user_input = input("> ").strip()
-    add_turn(chat, "user", user_input)
-
-    if user_input:
-        chat["constraints"][key] = user_input
-        add_turn(chat, "assistant", f"Updated {key} to: {user_input}")
-        save_chat(chat)
-
-def clarify_special_features(chat: dict):
-    features = chat["constraints"].get("special_features", [])
-    clarified = []
-
-    for feature in features:
-        # ✅ Skip if already numeric
-        if has_numeric_value(feature):
-            clarified.append(feature)
-            continue
-
-        # ✅ Only clarify vague quantifiable features
-        if is_quantifiable_feature(feature):
-            print(f"\nYou mentioned '{feature}'.")
-            print("Could you describe this more precisely?")
-            print("For example: a number, range, or concrete expectation.")
-
-            user_input = input("> ").strip()
-            add_turn(chat, "user", user_input)
-
-            if user_input:
-                clarified.append(f"{feature} (~{user_input})")
-            else:
-                clarified.append(feature)
-        else:
-            clarified.append(feature)
-
-    chat["constraints"]["special_features"] = clarified
-    save_chat(chat)
-
-def constraint_questionnaire(chat):
-    ideation_stage=chat["idea_understanding"]["ideation_stage"]
-    guidance=STAGE_GUIDANCE[ideation_stage]
-    
-    print(f"\nFor {ideation_stage} stage, our goal is to {guidance['goal']}\n")
-    for q in guidance["questions"]:
-        key=q["key"]
-
-        if key in chat["constraints"]:
-            value=chat["constraints"][key]
-
-            if key in NUMERIC_CLARIFIABLE and isinstance(value,str) and needs_numeric_clarification(value):
-                clarify_numeric_constraint(chat,key,value)
-            continue
-
-        print(q["prompt"])
-        user_input=input("> ").strip()
-        add_turn(chat, "user", user_input)
-
-        if not user_input:
-            continue
-
-        chat.setdefault("constraints",{})
-        chat["constraints"][key]=user_input
-        add_turn(chat, "assistant", f"Noted {key}: {user_input}")
-        save_chat(chat)
-
-    if chat["constraints"].get("special_features"):
-        clarify_special_features(chat)
+# ============================================================================
+# CLI VERSIONS - COMMENTED OUT (Use chat_orchestration.py handlers for Flask)
+# ============================================================================
+# def clarify_numeric_constraint(chat: dict, key: str, value: str):
+#     prompt = NUMERIC_CLARIFIABLE[key]["prompt"].format(value=value)
+#     print(f"\nYou mentioned '{value}'.")
+#     print(prompt)
+#     print(NUMERIC_CLARIFIABLE[key]["examples"])
+#
+#     user_input = input("> ").strip()
+#     add_turn(chat, "user", user_input)
+#
+#     if user_input:
+#         chat["constraints"][key] = user_input
+#         add_turn(chat, "assistant", f"Updated {key} to: {user_input}")
+#         save_chat(chat)
+#
+# def clarify_special_features(chat: dict):
+#     features = chat["constraints"].get("special_features", [])
+#     clarified = []
+#
+#     for feature in features:
+#         # Skip if already numeric
+#         if has_numeric_value(feature):
+#             clarified.append(feature)
+#             continue
+#
+#         # Only clarify vague quantifiable features
+#         if is_quantifiable_feature(feature):
+#             print(f"\nYou mentioned '{feature}'.")
+#             print("Could you describe this more precisely?")
+#             print("For example: a number, range, or concrete expectation.")
+#
+#             user_input = input("> ").strip()
+#             add_turn(chat, "user", user_input)
+#
+#             if user_input:
+#                 clarified.append(f"{feature} (~{user_input})")
+#             else:
+#                 clarified.append(feature)
+#         else:
+#             clarified.append(feature)
+#
+#     chat["constraints"]["special_features"] = clarified
+#     save_chat(chat)
+#
+# def constraint_questionnaire(chat):
+#     ideation_stage=chat["idea_understanding"]["ideation_stage"]
+#     guidance=STAGE_GUIDANCE[ideation_stage]
+#     
+#     print(f"\nFor {ideation_stage} stage, our goal is to {guidance['goal']}\n")
+#     for q in guidance["questions"]:
+#         key=q["key"]
+#
+#         if key in chat["constraints"]:
+#             value=chat["constraints"][key]
+#
+#             if key in NUMERIC_CLARIFIABLE and isinstance(value,str) and needs_numeric_clarification(value):
+#                 clarify_numeric_constraint(chat,key,value)
+#             continue
+#
+#         print(q["prompt"])
+#         user_input=input("> ").strip()
+#         add_turn(chat, "user", user_input)
+#
+#         if not user_input:
+#             continue
+#
+#         chat.setdefault("constraints",{})
+#         chat["constraints"][key]=user_input
+#         add_turn(chat, "assistant", f"Noted {key}: {user_input}")
+#         save_chat(chat)
+#
+#     if chat["constraints"].get("special_features"):
+#         clarify_special_features(chat)
     
 
 

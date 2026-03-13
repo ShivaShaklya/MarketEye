@@ -2,9 +2,11 @@ import re
 import spacy
 from collections import Counter
 from gemini_client_setup import call_llm
-from chat_store import create_chat, save_chat, add_turn
-from constraint_handling import constraint_questionnaire
-from report import create_report1
+from chat_store import save_chat, add_turn
+# CLI imports - commented out since CLI functions are disabled
+# from chat_store import create_chat
+# from constraint_handling import constraint_questionnaire
+# from report import create_report1
 import json
 
 #Create json file per project per user (idea_raw,idea_understanding (domain/subdomain/stage/one-liner + target user (later, dynamically)), finalized = true/false, constraints (geolocation (place), budget (price), B2B/B2C(promotion))
@@ -141,7 +143,7 @@ def preprocess_query(query):
     doc=nlp(query)
     processed_query=' '.join([tokens.lemma_ for tokens in doc if not tokens.is_stop])
     confidence_score=calculate_confidence_score(nlp(processed_query))
-    print("Confidence Score:",confidence_score)
+    # print("Confidence Score:",confidence_score)  # Debug log - commented for Flask
     return processed_query, confidence_score
     
 def get_constraints_from_query(chat):
@@ -186,63 +188,66 @@ def get_constraints_from_query(chat):
     
     return data
 
-def chat_orchestration(user_id, query):
-    chat,chat_id=create_chat(user_id=user_id)
-    chat["idea_raw"]=query
-    add_turn(chat,"user",query)
-
-    processed_query,confidence_score=preprocess_query(query)
-    
-    #Understanding the idea
-    print("\nPRODUCT IDEA DETAILING\n")
-    understanding=idea_confirmation(chat,processed_query,confidence_score)
-    chat["idea_understanding"]=understanding
-    chat["status"]="WAITING_IDEA_CONFIRMATION"
-    add_turn(chat, "assistant", "Extracted understanding:\n" + json.dumps(understanding, ensure_ascii=False, indent=2))
-    save_chat(chat)
-
-    #Confirm/edit
-    while True:
-        print("I understood your idea as:\n")
-        for k,v in understanding.items():
-            if k!="justification":
-                print(k+": "+v)
-        
-        user_reply= input("Is this correct? Confirm or write the changes you want to make: ")
-        if user_reply.lower().strip() in {"yes","y","correct", "looks good", "ok", "okay","confirm"}:
-            print("\nIdea confirmed\n")
-            chat["status"]="WAITING_CONSTRAINTS"
-            add_turn(chat, "assistant", "Idea confirmed. Moving to constraints.")
-            save_chat(chat)
-            break
-        else:
-            understanding=apply_user_edits(chat,understanding, user_reply)
-            chat["idea_understanding"] = understanding
-            add_turn(chat, "assistant", "Updated understanding:\n" + json.dumps(understanding, ensure_ascii=False, indent=2))
-            save_chat(chat)
-
-    #Constratints
-    print("\nConstraint analysis\n")
-    existing_constraints=get_constraints_from_query(chat)
-    if existing_constraints:
-        add_turn(
-            chat,
-            "assistant",
-            "I noticed you already mentioned:\n"
-            + json.dumps(existing_constraints, indent=2)
-        )
-
-    save_chat(chat)
-    constraint_questionnaire(chat)
-    create_report1(chat)
-
-
-    return chat_id
-
+# ============================================================================
+# CLI VERSION - COMMENTED OUT (Use chat_orchestration.py for Flask web interface)
+# ============================================================================
+# def chat_orchestration(user_id, query):
+#     chat,chat_id=create_chat(user_id=user_id)
+#     chat["idea_raw"]=query
+#     add_turn(chat,"user",query)
 #
-#query=input("Enter your idea: ")
-#query="I am building something very special. Low cost smartphones with a long battery life!!!"
-#query="I am building something very cool. A low cost smartphones with a long battery life. This will be done by using a solar panel attached to the back of the phone."
-query="I am building something very cool. A low cost smartphones with a 36 hour battery life. This will be done by using a solar panel attached to the back of the phone."
-#query="I am building something very cool. A smartphone in the range of Rs. 10000 with a battery life lasting 36 hours continuously. This will be done by using a solar panel attached to the back of the phone."
-chat_id=chat_orchestration(user_id="user_001", query=query)
+#     processed_query,confidence_score=preprocess_query(query)
+#     
+#     #Understanding the idea
+#     print("\nPRODUCT IDEA DETAILING\n")
+#     understanding=idea_confirmation(chat,processed_query,confidence_score)
+#     chat["idea_understanding"]=understanding
+#     chat["status"]="WAITING_IDEA_CONFIRMATION"
+#     add_turn(chat, "assistant", "Extracted understanding:\n" + json.dumps(understanding, ensure_ascii=False, indent=2))
+#     save_chat(chat)
+#
+#     #Confirm/edit
+#     while True:
+#         print("I understood your idea as:\n")
+#         for k,v in understanding.items():
+#             if k!="justification":
+#                 print(k+": "+v)
+#         
+#         user_reply= input("Is this correct? Confirm or write the changes you want to make: ")
+#         if user_reply.lower().strip() in {"yes","y","correct", "looks good", "ok", "okay","confirm"}:
+#             print("\nIdea confirmed\n")
+#             chat["status"]="WAITING_CONSTRAINTS"
+#             add_turn(chat, "assistant", "Idea confirmed. Moving to constraints.")
+#             save_chat(chat)
+#             break
+#         else:
+#             understanding=apply_user_edits(chat,understanding, user_reply)
+#             chat["idea_understanding"] = understanding
+#             add_turn(chat, "assistant", "Updated understanding:\n" + json.dumps(understanding, ensure_ascii=False, indent=2))
+#             save_chat(chat)
+#
+#     #Constratints
+#     print("\nConstraint analysis\n")
+#     existing_constraints=get_constraints_from_query(chat)
+#     if existing_constraints:
+#         add_turn(
+#             chat,
+#             "assistant",
+#             "I noticed you already mentioned:\n"
+#             + json.dumps(existing_constraints, indent=2)
+#         )
+#
+#     save_chat(chat)
+#     constraint_questionnaire(chat)
+#     create_report1(chat)
+#
+#
+#     return chat_id
+#
+# # CLI Test Code - Commented out
+# #query=input("Enter your idea: ")
+# #query="I am building something very special. Low cost smartphones with a long battery life!!!"
+# #query="I am building something very cool. A low cost smartphones with a long battery life. This will be done by using a solar panel attached to the back of the phone."
+# #query="I am building something very cool. A low cost smartphones with a 36 hour battery life. This will be done by using a solar panel attached to the back of the phone."
+# #query="I am building something very cool. A smartphone in the range of Rs. 10000 with a battery life lasting 36 hours continuously. This will be done by using a solar panel attached to the back of the phone."
+# #chat_id=chat_orchestration(user_id="user_001", query=query)
