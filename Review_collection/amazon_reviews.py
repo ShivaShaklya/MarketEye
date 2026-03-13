@@ -10,7 +10,7 @@ product_names=["Apple AirPods Pro 2",
 "Dell XPS 15 2024",
 "Alienware m18"]
 
-key="##Add SERPAPI KEY##"
+key="c36808b2ce3be13d724c0bde40425bef6d2fbfb761c8ef0f1861a7d4deb8fbe5"
 asin="B0DFD1SHBS"
 
 def get_asin(product_name):
@@ -49,46 +49,5 @@ for product in product_names:
     asin = get_asin(product)
     data = fetch_product_reviews(asin)
     save_product(product, data)
-
-# ##Search and JSON Extraction
-# #load_dotenv("../Backend/.env")
-# #SERPAPI_API_KEY=os.getenv("SERPAPI_API_KEY")
-# #print("\n\nAPI KEY:\n\n", SERPAPI_API_KEY)
-
-# params={
-#     "api_key":key,
-#     "engine": "amazon_product",
-#     "k":"Apple AirPods Pro 2",
-#     "amazon_domain": "amazon.com",
-#     "asin": asin
-# }
-
-# search=requests.get("https://serpapi.com/search",params=params)
-# print(search.url)
-# response=search.json()
-# print(json.dumps(response, indent=2))
-
-# #Save as JSON
-# os.makedirs("data/amazon_products", exist_ok=True)
-# file_path = f"data/amazon_products/{asin}.json"
-# with open(file_path, "w", encoding="utf-8") as f:
-#     json.dump(response, f, indent=2)
-
-# print(f"Saved product data for {asin}")
-
-# ##Review Extraction
-# reviews = response["reviews_information"]["authors_reviews"]
-# texts = [r["text"] for r in reviews]
-# print(texts)
-
-# ##Sentiment Analysis
-# sia = SentimentIntensityAnalyzer()
-# sentiments = []
-
-# for review in texts:
-#     score = sia.polarity_scores(review)
-#     sentiments.append(score)
-
-# print(sentiments)
 
 
