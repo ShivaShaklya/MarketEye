@@ -1,12 +1,13 @@
 import json
 import os
 
-def match_spec(insight_title):
-    insight = insight_title.lower()
+def match_spec(feature,normalized_specs):
+    words=feature.lower().split()
     for spec_key, value in normalized_specs.items():
-        if any(word in spec_key for word in insight.split()):
-            return f"{insight_title}: {value}"
-    return insight_title
+        if any(word in spec_key for word in words):
+            return value
+    return None
+        
 
 def normalize_specs(data):
     specs = {}
@@ -37,53 +38,51 @@ for file in os.listdir(INPUT_DIR):
             log_file.write(f"{file} (ASIN: {product['asin']})\n")
         continue
 
-    #Specs
-    specs = {}
-    specs.update(data.get("product_details", {}))
-
     #Preprocessing
     asin = product["asin"]
     title = file.removesuffix(".json")
 
-    normalized_specs = {k.lower().replace("_"," "): v for k,v in specs.items()}
-
-    strengths = []
-    weaknesses = []
-    mixed_feedback = []
+    normalized_specs=normalize_specs(data)
+    feature_records=[]
 
     for item in insights:
-        insight_title = item["title"]
-        sentiment = item["sentiment"]
-        description = match_spec(insight_title)
+        feature=item["title"].lower()
+        sentiment=item["sentiment"]
+        mentions=item.get("mentions",{})
 
-        if sentiment == "positive":
-            strengths.append(description)
-        elif sentiment == "negative":
-            weaknesses.append(description)
-        else:
-            mixed_feedback.append(description)
+        positive_mentions=mentions.get("positive",0)
+        negative_mentions=mentions.get("negative",0)
+        total_mentions=mentions.get("total",0)
+        if total_mentions==0:
+            total_mentions=positive_mentions+negative_mentions
+        neutral_mentions=total_mentions-(positive_mentions+negative_mentions)
+        
+        spec_value=match_spec(feature,normalized_specs)
+        record = {
+            "feature": feature,
+            "sentiment": sentiment,
+            "positive_mentions": positive_mentions,
+            "negative_mentions": negative_mentions,
+            "neutral_mentions": neutral_mentions,
+            "mentions_total": total_mentions,
+            "feature_score": positive_mentions-negative_mentions,
+            "source": "amazon",
+            "type":"review",
+            "evidence": item.get("summary", "")
+        }
+        
+        if spec_value:
+            record["value"] = spec_value
 
-    #Special features extraction ##
-    special_features = []
-    for key, value in list(normalized_specs.items())[:10]:
-        if isinstance(value, str) and len(value) < 60:
-            feature = f"{key}: {value}"
-            special_features.append(feature)
-
-    #limit to avoid huge feature lists
-    #special_features = special_features[:10]
+        feature_records.append(record)
 
     result = {
         "asin": asin,
-        "product_title": title,
-        "strengths": strengths,
-        "weaknesses": weaknesses,
-        "mixed_feedback": mixed_feedback,
-        "special_features": special_features,
+        "product": title,
+        "features": feature_records,
         "overall_sentiment": reviews_summary["customer_reviews"],
         "review_summary": reviews_summary["text"]
     }
-
 
     output_file = f"{OUTPUT_DIR}/{title}_insights.json"
 
