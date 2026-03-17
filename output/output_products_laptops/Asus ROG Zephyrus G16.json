@@ -1,0 +1,127 @@
+{
+  "asin": "unknown",
+  "product": "Asus ROG Zephyrus G16",
+  "features": [
+    {
+      "feature": "battery",
+      "sentiment": "positive",
+      "positive_mentions": 36,
+      "negative_mentions": 6,
+      "neutral_mentions": 24,
+      "mentions_total": 66,
+      "feature_score": 30,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "this is the 2024 asus rutog zephrus g16 and this is a redesign the previous g16 was using the chassis of the 2022 m16 and you can only spec it up to a 4060 or a 470 this guy right here you can go all the way up to a 4090 now i m loving this new design that s the direction asus is taken because they couldn t really do more with performance since these new meteor lake processors are very comparable to last year s processors in terms of overall speed but the benefit of these meteor lake processors that you can stick them in thinner chassis you get better battery efficiency it just allows these companies to play with new designs either way i think it looks great you will get a lot of fingerprints on the eclipse gray model of this laptop if you want the white version of it you re going to have to pay 200 more even if the specs are exactly the same now i don t know how you feel about the slash personally i it better than the g14 animated matrix back which was just lights everywhere this will light up in different logos that you choose but you can also customize it to be a notification indicator the overall lid feels premium it s obviously an aluminum chassis this version of it since it s using a 4080 is a bit heavier at 4 However, it has a dedicated gpu for gaming, but it drains battery crazy, and it s also heavy"
+    },
+    {
+      "feature": "camera",
+      "sentiment": "positive",
+      "positive_mentions": 23,
+      "negative_mentions": 1,
+      "neutral_mentions": 23,
+      "mentions_total": 47,
+      "feature_score": 22,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "very helpful for photo and video editors me"
+    },
+    {
+      "feature": "design",
+      "sentiment": "positive",
+      "positive_mentions": 15,
+      "negative_mentions": 2,
+      "neutral_mentions": 13,
+      "mentions_total": 30,
+      "feature_score": 13,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "this is the 2024 asus rutog zephrus g16 and this is a redesign the previous g16 was using the chassis of the 2022 m16 and you can only spec it up to a 4060 or a 470 this guy right here you can go all the way up to a 4090 now i m loving this new design that s the direction asus is taken because they couldn t really do more with performance since these new meteor lake processors are very comparable to last year s processors in terms of overall speed but the benefit of these meteor lake processors that you can stick them in thinner chassis you get better battery efficiency it just allows these companies to play with new designs either way i think it looks great you will get a lot of fingerprints on the eclipse gray model of this laptop if you want the white version of it you re going to have to pay 200 more even if the specs are exactly the same now i don t know how you feel about the slash personally i it better than the g14 animated matrix back which was just lights everywhere this will light up in different logos that you choose but you can also customize it to be a notification indicator the overall lid feels premium it s obviously an aluminum chassis this version of it since it s using a 4080 is a bit heavier at 4"
+    },
+    {
+      "feature": "display",
+      "sentiment": "positive",
+      "positive_mentions": 64,
+      "negative_mentions": 5,
+      "neutral_mentions": 34,
+      "mentions_total": 103,
+      "feature_score": 59,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "and we all know oled is one of the best display tech However, i didn t notice any problems with the hinges, even when pushing the screen back too far and ripping the lid open way too fast, but there was a small amount of screen wobble when using the laptop"
+    },
+    {
+      "feature": "performance",
+      "sentiment": "positive",
+      "positive_mentions": 106,
+      "negative_mentions": 20,
+      "neutral_mentions": 94,
+      "mentions_total": 220,
+      "feature_score": 86,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "but the best and the interesting thing about this laptop is performance However, it has a dedicated gpu for gaming, but it drains battery crazy, and it s also heavy"
+    },
+    {
+      "feature": "price",
+      "sentiment": "positive",
+      "positive_mentions": 22,
+      "negative_mentions": 4,
+      "neutral_mentions": 15,
+      "mentions_total": 41,
+      "feature_score": 18,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "see this laptop series starts from around 2 lakh 60,000 and the one that we have here with an oled screen rtx 5080 and everything maxed out costs a whooping 3 lakh 60,000 but a lot of money now if you ask the question is this the ultimate windows laptop then yes in fact hell yes as of making this video this is one of the fully speced out laptops and i enjoyed it However, but again, it s not as if this is unplayable performance or anything, it s just not as good as the other, sometimes cheaper, 4070 laptops"
+    },
+    {
+      "feature": "software",
+      "sentiment": "positive",
+      "positive_mentions": 48,
+      "negative_mentions": 11,
+      "neutral_mentions": 22,
+      "mentions_total": 81,
+      "feature_score": 37,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "now the special thing about this keyboard is the rgb in the software However, just last gen, there s also the light bar on the lid which they call slash lighting, and there are some customizations you can make through the software, though not many as there s only so much you can do with a strip of white lights"
+    },
+    {
+      "feature": "speaker",
+      "sentiment": "positive",
+      "positive_mentions": 22,
+      "negative_mentions": 3,
+      "neutral_mentions": 10,
+      "mentions_total": 35,
+      "feature_score": 19,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "the rest 50 is a good sound system However, that s because unlike other laptops that give only two or max four speakers, this thing has freaking six speakers, you have four 10 watts front facing speaker and then there are two subwoofers at the bottom"
+    },
+    {
+      "feature": "storage",
+      "sentiment": "positive",
+      "positive_mentions": 28,
+      "negative_mentions": 8,
+      "neutral_mentions": 37,
+      "mentions_total": 73,
+      "feature_score": 20,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "now with the rtx 5000 series, you get dlss 4 which makes frame generation even better However, and with frame gen turned off, see, it is barely giving me 30 fps, which as a gamer makes me really sad"
+    },
+    {
+      "feature": "thermals",
+      "sentiment": "positive",
+      "positive_mentions": 26,
+      "negative_mentions": 5,
+      "neutral_mentions": 21,
+      "mentions_total": 52,
+      "feature_score": 21,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "yes, the laptop doesn t thermal throttle or anything, but if you re gaming, this top portion of the laptop gets very hot However, there was no overheating or any thermal throttling"
+    }
+  ],
+  "review_summary": "this is the 2024 asus rutog zephrus g16 and this is a redesign the previous g16 was using the chassis of the 2022 m16 and you can only spec it up to a 4060 or a 470 this guy right here you can go all the way up to a 4090 now i m loving this new design that s the direction asus is taken because they couldn t really do more with performance since these new meteor lake processors are very comparable to last year s processors in terms of overall speed but the benefit of these meteor lake processors that you can stick them in thinner chassis you get better battery efficiency it just allows these companies to play with new designs either way i think it looks great you will get a lot of fingerprints on the eclipse gray model of this laptop if you want the white version of it you re going to have to pay 200 more even if the specs are exactly the same now i don t know how you feel about the slash personally i it better than the g14 animated matrix back which was just lights everywhere this will light up in different logos that you choose but you can also customize it to be a notification indicator the overall lid feels premium it s obviously an aluminum chassis this version of it since it s using a 4080 is a bit heavier at 4 However, it has a dedicated gpu for gaming, but it drains battery crazy, and it s also heavy very helpful for photo and video editors me this is the 2024 asus rutog zephrus g16 and this is a redesign the previous g16 was using the chassis of the 2022 m16 and you can only spec it up to a 4060 or a 470 this guy right here you can go all the way up to a 4090 now i m loving this new design that s the direction asus is taken because they couldn t really do more with performance since these new meteor lake processors are very comparable to last year s processors in terms of overall speed but the benefit of these meteor lake processors that you can stick them in thinner chassis you get better battery efficiency it just allows these companies to play with new designs either way i think it looks great you will get a lot of fingerprints on the eclipse gray model of this laptop if you want the white version of it you re going to have to pay 200 more even if the specs are exactly the same now i don t know how you feel about the slash personally i it better than the g14 animated matrix back which was just lights everywhere this will light up in different logos that you choose but you can also customize it to be a notification indicator the overall lid feels premium it s obviously an aluminum chassis this version of it since it s using a 4080 is a bit heavier at 4"
+}

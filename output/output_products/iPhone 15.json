@@ -1,0 +1,127 @@
+{
+  "asin": "unknown",
+  "product": "iPhone 15",
+  "features": [
+    {
+      "feature": "battery",
+      "sentiment": "positive",
+      "positive_mentions": 17,
+      "negative_mentions": 2,
+      "neutral_mentions": 21,
+      "mentions_total": 40,
+      "feature_score": 15,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "and the one thing you definitely can argue for 60 hertz would be battery life, because despite all the issues floating around, the battery life on these phones has been pretty good"
+    },
+    {
+      "feature": "camera",
+      "sentiment": "positive",
+      "positive_mentions": 40,
+      "negative_mentions": 0,
+      "neutral_mentions": 30,
+      "mentions_total": 70,
+      "feature_score": 40,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "they also added these clever audio effects and video effects at an os level, so they work inside of any app"
+    },
+    {
+      "feature": "design",
+      "sentiment": "positive",
+      "positive_mentions": 12,
+      "negative_mentions": 0,
+      "neutral_mentions": 5,
+      "mentions_total": 17,
+      "feature_score": 12,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": " iphone 15 has an all new design that s simply gorgeous"
+    },
+    {
+      "feature": "display",
+      "sentiment": "positive",
+      "positive_mentions": 22,
+      "negative_mentions": 3,
+      "neutral_mentions": 8,
+      "mentions_total": 33,
+      "feature_score": 19,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "but around the front, new screen, well, not new, again, but new to this iphone, new screen However, and i would argue that a higher refresh rate is more noticeable to more people than some of those other things"
+    },
+    {
+      "feature": "performance",
+      "sentiment": "positive",
+      "positive_mentions": 18,
+      "negative_mentions": 2,
+      "neutral_mentions": 16,
+      "mentions_total": 36,
+      "feature_score": 16,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "honestly, the renaming of the pro chip might be the most interesting part because it implies that it s definitely not going to trickle down to the baseline phone next year"
+    },
+    {
+      "feature": "price",
+      "sentiment": "positive",
+      "positive_mentions": 11,
+      "negative_mentions": 0,
+      "neutral_mentions": 7,
+      "mentions_total": 18,
+      "feature_score": 11,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "and so, that combined with the fact that it s incredibly cheap and easy and reasonable to get to at least a 90 hertz phone, isn t the new moto g is 90 hertz at 170 or something that"
+    },
+    {
+      "feature": "software",
+      "sentiment": "positive",
+      "positive_mentions": 23,
+      "negative_mentions": 0,
+      "neutral_mentions": 14,
+      "mentions_total": 37,
+      "feature_score": 23,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "i think you could today hand me, a professional, an unlabeled iphone with an a15 bionic and an a16 bionic, and it would take me quite some time to find the real differences between them"
+    },
+    {
+      "feature": "speaker",
+      "sentiment": "positive",
+      "positive_mentions": 7,
+      "negative_mentions": 1,
+      "neutral_mentions": 2,
+      "mentions_total": 10,
+      "feature_score": 6,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "they also added these clever audio effects and video effects at an os level, so they work inside of any app"
+    },
+    {
+      "feature": "storage",
+      "sentiment": "positive",
+      "positive_mentions": 11,
+      "negative_mentions": 0,
+      "neutral_mentions": 4,
+      "mentions_total": 15,
+      "feature_score": 11,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "so an ios update is coming and it seems some specific third party apps, instagram, were also having issues and those should be getting updates too"
+    },
+    {
+      "feature": "thermals",
+      "sentiment": "positive",
+      "positive_mentions": 4,
+      "negative_mentions": 1,
+      "neutral_mentions": 1,
+      "mentions_total": 6,
+      "feature_score": 3,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "1 in with a sharp pixel density of 46 1 ppi and last year there s only a 60 hz refresh rate one of these generations apple should give us a high refresh rate on a ven iphone but not this time this means your swiping and scrolling will again appear less smooth to the eye than on most other phones which feature 90 hz or above i mentioned earlier the screen s brightness and when maxing out the manual slider we achieved around 800 nits about the same as on the iphone 14 but unlike last year s model the iphone 15 s auto brightness mode has the ability to provide a boost when in bright conditions direct sunlight with this boost kicking in we measured nearly 1650 nits maximum a huge improvement besides the extra brightness the display behaves much the same as last year it s extremely color accurate and there s support for true tone which keeps colors looking consistent in various lighting conditions there s also support for hdr10 and dolby vision probably the most notable change is the pill shaped cutout rather than a notch this this cutout houses the selfie cam and the 3d toff camera which is used for apple s face id is fast and responsive as ever you also get the full dynamic island functionality where the ui extends the black bar to show relevant info as well as display shortcuts to call up certain apps from the background for audio the iphone 15 has a stereo speaker setup with dolby atmos support the speakers are a little quieter this time around with a loudness score of good versus last year is very good but the audio quality is excellent all around from base to mids and highs you can hear for yourself through the provided link you can get the iphone 15 with 128 256 or 512 gigs of storage and though that isn t expandable through microsd you can attach usb storage the new iphones run apple s latest ios 17 out of the box and is pretty much the same experience as the previous version with a few new features sprinkled in you don t get a typical always on display with the iphone 15 you would on the pro models but there is support for the new standby mode which is an always on display which turns on while the phone is charging in landscape orientation on top of the extensive widget support we had before now there are interactive widgets which you can manipulate on the home screen itself there is also more customization available for your contacts with a feature called contact posters you have plenty of options including photos memojis and text some other new features in ios 17 include voice isolation during calls off line maps live voicemail and sharing passwords with friends the iphone 15 brings an upgraded ultra wideband two chip for more precise location finding for the find my friends feature and the other new iphones it supports video output via type c alt mode it s display mirroring on all of the iphone 15 models you get letter boxing on a standard 16x9 external display except with certain apps such as netflix which support full screen output the iphone 15 also supports usb host mode through which you can connect peripherals a mouse or keyboard or an external hard drive i mentioned that the iphone 15 s upgrades bring it in line with last year s pro model and that s most apparent with the apple a16 bionic chipset it s the same as in the iphone 14 pro and a nice upgrade over the a15 bionic and the regular iphone 14 both when it comes to raw power and power efficiency in cpu benchmarks the iphone 15 comes in near the top of the charts only out ted by the iphone 15 pro models with their newer silicon it also holds its own in graphics tests against some of the top android devices running a snapdragon hn2 so even though you don t get the cutting edge apple silicon here the peak performance is still among the best the thermal management does leave more to be desired though at least when it comes to gpu performance in our prolonged graphic stress test the iphone 15 s gpu throttled down to around 50 of its initial performance cpu intensive tasks fair much better and the throttling there was negligible but outside of the benchmarks we didn t notice any stutters or drops in performance while gaming and the phone never got uncomfortably hot the iphone 15 has a 3,349 mamp battery and in our tests scored a solid endurance rating of 98 hours better than last year s iphone 14 pro despite having the same chipset similar to previous iphone models the iphone 15 officially supports 20 wat power delivery charging but there s no charger in the box with a proper adapter we were able to charge the phone from 0 to 58 in 30 minutes and a full charge took an hour and 50 minutes not terribly fast there s also support for wireless charging and mag safe support for those magnetized wireless chargers the iphone 15 has two cameras on the back a new 48 megap main cam and a 12 map ultra wide cam it s not the same as the new 48 map cam on the pro pro models but in a similar fashion it outputs 24 mapel photos by default looking at the daylight photos it s apparent that there s plenty of detail here more than we got from last year s 12 megapixel camera the sharpness is great and there s nice contrast and good dynamic range too and as you d expect from an iphone the consistency from shot to shot is excellent also typical of apple the color science is very accurate but looks quite muted compared to the punchy rendition popular with most other manufacturers you can also al take photos in 12 megapixels which does save a little bit of space but there s noticeably less fine detail if you go this route especially in foliage there s a two time zoom toggle and these photos are nice they come out in 12 megap resolution and certain things folage can look a bit fuzzy but otherwise the overall rendition is nearly identical to the regular onetime shots portrait photos from the main cam look great with sharp looking subjects excellent skin tones and really nice separation even though there s no light r scanner you get on the pro model with the new automatic portraits feature the camera can detect a scene suitable for a portrait and give you a popup to quickly toggle a portrait effect on the fly and on top of that even when you don t actively press the f toggle the iphone will still capture a depth map so you can go into the photos app and turn the photo into a portrait later it even works for selfies too in low light photos from the main cam are excellent with great detail and sharpness and a natural color rendition the dynamic rang is pretty wide despite the darker shadows highlights are handled really well there is automatic night mode processing but the trouble is that it s hard to predict when it will kick in the automatic detection is quite conservative and in many scenes it may not trigger when it does though you get brighter and less noisy shadows and some extra sharpening the net mode photos also come out in 12 megapixels rather than 24 the iphone 15 can capture video in up to 4k resolution on all of its cameras the video quality from the main camera is gr with a rich detail and wide dynamic range the picture is clean with no noise and while the colors aren t exactly punchy they look good the main cam has sensor shift ois but electronic stabilization is also available across all the cameras it works great to smooth out bumps and shakes in low light the main cam can capture some excellent videos they re crisp with natural looking colors plenty of detail and low noise now let s talk about the ultra wide cam it s perform is a bit disappointing the 12 megapixel photos come out looking a bit soft and lacking in fine detail with some visible noise and since this camera lacks autofocus you can t use it to show close up subjects you can with the ultrawide on the pro models at least the iphone 15 does a good job in matching the contrast colors and dynamic range to those of the main camera at night the ultra wide cam struggles it shots are quite noisy while shadows are handled decently you can end up with blown highlights the color rendition is notably warmer as well just with the main cam the automatic night mode doesn t activate very reliably when it does kick in the noise is cleaned up somewhat and the exposure is brighter but there is excessive sharpening at it as well when it comes to video capture the ultra wide does a decent job his 4k videos are clean with colors that match the main cams pretty well finally there s the 12 megapix selfie cam which has autofocus it captures sharp photos with pleasant skin tones great contrast and dynamic range and plenty of detail some details in the face do come out too pronounced though which could be unflattering so there you have it the iphone 15 apple didn t reinvent the wheel here but there are some nice upgrades over the vanilla iphone 14 you get the brighter display faster chipset and nicer 48 map main cam and there s the dynamic island too which lends a slightly more modern look these may not be enough reasons to upgrade from the iphone 14 but if you re coming from an older iphone the 15 looks the nicer phone of the two for just 100 bucks more and if you can spare an extra 10 on top of that the outgoing iphone 14 pro where it s still available will get you a stainless steel frame a high refresh rate display and three times optical zoom but still the cheaper iphone 15 is lighter with longer battery life and longer software support and it comes with the super universal usbc connectivity so we think the vanilla iphone 15 is well worth considering if you re planning to get an iphone thanks for watching guys if you re looking for alternatives to the iphone 15 you can check out our reviews of the iphone 14 and the iphone 14 pro see you next time"
+    }
+  ],
+  "review_summary": "and the one thing you definitely can argue for 60 hertz would be battery life, because despite all the issues floating around, the battery life on these phones has been pretty good they also added these clever audio effects and video effects at an os level, so they work inside of any app  iphone 15 has an all new design that s simply gorgeous"
+}

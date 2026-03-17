@@ -1,0 +1,127 @@
+{
+  "asin": "unknown",
+  "product": "Redmi Note 13 Pro",
+  "features": [
+    {
+      "feature": "battery",
+      "sentiment": "positive",
+      "positive_mentions": 20,
+      "negative_mentions": 1,
+      "neutral_mentions": 5,
+      "mentions_total": 26,
+      "feature_score": 19,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "it s the same 5000 mah with 33w fast charging support"
+    },
+    {
+      "feature": "camera",
+      "sentiment": "positive",
+      "positive_mentions": 46,
+      "negative_mentions": 3,
+      "neutral_mentions": 28,
+      "mentions_total": 77,
+      "feature_score": 43,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "it has 200mp main camera with ois support However, they said, it has loss less zoom up to 4x"
+    },
+    {
+      "feature": "design",
+      "sentiment": "positive",
+      "positive_mentions": 22,
+      "negative_mentions": 0,
+      "neutral_mentions": 7,
+      "mentions_total": 29,
+      "feature_score": 22,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "the design was quite good and the display was superb"
+    },
+    {
+      "feature": "display",
+      "sentiment": "positive",
+      "positive_mentions": 33,
+      "negative_mentions": 3,
+      "neutral_mentions": 13,
+      "mentions_total": 49,
+      "feature_score": 30,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "one other thing i liked apart from that is the display However, got a small dent on the lower corner, which you can see on the screen this one"
+    },
+    {
+      "feature": "performance",
+      "sentiment": "positive",
+      "positive_mentions": 31,
+      "negative_mentions": 0,
+      "neutral_mentions": 4,
+      "mentions_total": 35,
+      "feature_score": 31,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "the performance and everything is fine"
+    },
+    {
+      "feature": "price",
+      "sentiment": "positive",
+      "positive_mentions": 21,
+      "negative_mentions": 3,
+      "neutral_mentions": 10,
+      "mentions_total": 34,
+      "feature_score": 18,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "5 megapixels because of pixel bidding the shots have great sharpness plenty of fine detail wide dynamic range and true to life colors and contrast in some rare cases we see slightly clipped highlights but it s nothing too alarming here s a comparison to the poco x6 which is the same phone but with a lower res main camera there s a noticeable difference with the redmi having clearly superior photo quality if you zoom digitally to two times the results are solid there s a minimal loss in quality and it doesn t introduce much noise into the frame at night the main cam does an impressive job with good contrast and color reproduction wide dynamic range and plenty of fine detail there is an automatic night mode but it will only kick in for really dark scenes when it does you get a bit of extra detail added sharpness and better rendition of the highlights and light sources 4k videos from the main cam have great detail and sharpness accurate colors and wide dynamic range all videos have electronic stabilization too low light videos are solid for a mid ranger there s an adequate amount of detail good contrast and natural colors but there s noticeable noise in the shadows too the photos from the 8 megapixel ultra wide camera are far from impressive these shots are rather soft and lacking in fine detail colors seem muted and the contrast needs improvement and at night the ultra wide cams output isn t good although contrast colors and dynamic range are okay in most cases the extreme softness doesn t sit well with us even the dedicated night mode has a hard time salvaging the photos 1080p video from the ultra wide cam is nothing to write home about it looks washed out and soft with limited dynamic range 2 megapixel close ups from the macro camera have a limited amount of detail because of the low resolution plus the lack of autofocus makes it extra hard to take a sharp macro photo and selfies from the 16 megapix front facing cam have good dynamic range and natural condition but overall they are a bit soft so that s the redm note 13 pro 5g there s plenty of upgrades over the previous model including a better display chipset and main camera there s a larger storage option and under display fingerprint reader plus there a competitive fast charging and nice speakers of course it s not perfect the other cameras besides the main one are lackluster about what you d expect at this price point besides that the redmi note 13 pro is solid all around it seems to offer some of the best bang for your buck on the market and it s worth recommending thanks for watching guys if you re looking for alternatives you can check out our reviews of the poco x6 and the samsung galaxy a54 let us know what you think and i ll see you on the next one However, so it has gone to a very aggressive price in china"
+    },
+    {
+      "feature": "software",
+      "sentiment": "positive",
+      "positive_mentions": 39,
+      "negative_mentions": 3,
+      "neutral_mentions": 11,
+      "mentions_total": 53,
+      "feature_score": 36,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "the design was quite good and the display was superb However, in hyperos, many users including me noticed that animations are almost gone, which feels a bit disappointing because those small transitions make the ui feel premium"
+    },
+    {
+      "feature": "speaker",
+      "sentiment": "positive",
+      "positive_mentions": 21,
+      "negative_mentions": 0,
+      "neutral_mentions": 4,
+      "mentions_total": 25,
+      "feature_score": 21,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "its a stereo speaker with hi res audio support"
+    },
+    {
+      "feature": "storage",
+      "sentiment": "positive",
+      "positive_mentions": 25,
+      "negative_mentions": 0,
+      "neutral_mentions": 7,
+      "mentions_total": 32,
+      "feature_score": 25,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "but choose your storage wisely because, it has no memory card slots, but only 2 sim slots"
+    },
+    {
+      "feature": "thermals",
+      "sentiment": "positive",
+      "positive_mentions": 2,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 3,
+      "feature_score": 2,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "fore dis prium smart okay ip 31 that is i but for but for 158 30 92 so at the same heating issue fire continu but initial 3 which is comparatively better stereo speaker so bo but for nor for per blown but better than before but may f default exp com"
+    }
+  ],
+  "review_summary": "it s the same 5000 mah with 33w fast charging support it has 200mp main camera with ois support However, they said, it has loss less zoom up to 4x the design was quite good and the display was superb"
+}

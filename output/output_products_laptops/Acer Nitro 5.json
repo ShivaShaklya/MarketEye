@@ -1,0 +1,127 @@
+{
+  "asin": "unknown",
+  "product": "Acer Nitro 5",
+  "features": [
+    {
+      "feature": "battery",
+      "sentiment": "positive",
+      "positive_mentions": 21,
+      "negative_mentions": 2,
+      "neutral_mentions": 17,
+      "mentions_total": 40,
+      "feature_score": 19,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "there are 2 fast usb a ports with one of them supporting power off charging, and there s a thunderbolt 4 usb c port"
+    },
+    {
+      "feature": "camera",
+      "sentiment": "positive",
+      "positive_mentions": 21,
+      "negative_mentions": 1,
+      "neutral_mentions": 10,
+      "mentions_total": 32,
+      "feature_score": 20,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "now, we ve already created a fun unboxing of this laptop, but in this video, we re going to break down everything that you re going to need to know before deciding if this budget laptop is even worth 750"
+    },
+    {
+      "feature": "design",
+      "sentiment": "positive",
+      "positive_mentions": 19,
+      "negative_mentions": 0,
+      "neutral_mentions": 6,
+      "mentions_total": 25,
+      "feature_score": 19,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "but, before i get to the display, let me make it clear, that i love the new acer nitro design, it s flashy and gamery and even though there s no rgb, i think it looks pretty cool"
+    },
+    {
+      "feature": "display",
+      "sentiment": "positive",
+      "positive_mentions": 47,
+      "negative_mentions": 6,
+      "neutral_mentions": 17,
+      "mentions_total": 70,
+      "feature_score": 41,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "but, before i get to the display, let me make it clear, that i love the new acer nitro design, it s flashy and gamery and even though there s no rgb, i think it looks pretty cool However, if i just bump the table a little you can see the screen just starts wobbling crazy"
+    },
+    {
+      "feature": "performance",
+      "sentiment": "positive",
+      "positive_mentions": 87,
+      "negative_mentions": 9,
+      "neutral_mentions": 25,
+      "mentions_total": 121,
+      "feature_score": 78,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "see, i am talking about the acer nitro v, which is probably the most value for money gaming laptop you can buy in india right now However, it s not bad for gaming or viewing content but it s not the best either"
+    },
+    {
+      "feature": "price",
+      "sentiment": "positive",
+      "positive_mentions": 32,
+      "negative_mentions": 4,
+      "neutral_mentions": 12,
+      "mentions_total": 48,
+      "feature_score": 28,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "see, i am talking about the acer nitro v, which is probably the most value for money gaming laptop you can buy in india right now However, the rtx 4050 gpu with the lpddr5 ram and the 13th gen h series cpu is a killer combo at this price"
+    },
+    {
+      "feature": "software",
+      "sentiment": "positive",
+      "positive_mentions": 44,
+      "negative_mentions": 6,
+      "neutral_mentions": 29,
+      "mentions_total": 79,
+      "feature_score": 38,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "aside from gaming benchmarks, we re also going to be talking about the fan noise, design, and build quality, the internals, thermals, battery, and software However, getting inside requires unscrewing 11 phillips head screws, all the same length"
+    },
+    {
+      "feature": "speaker",
+      "sentiment": "positive",
+      "positive_mentions": 15,
+      "negative_mentions": 5,
+      "neutral_mentions": 11,
+      "mentions_total": 31,
+      "feature_score": 10,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "and then we ve got this dts sound unbound app, which balances your audio settings with your power to save on battery However, as for the speaker, they are bottom firing and they are average sounding, again something expected from a gaming laptop"
+    },
+    {
+      "feature": "storage",
+      "sentiment": "positive",
+      "positive_mentions": 54,
+      "negative_mentions": 4,
+      "neutral_mentions": 23,
+      "mentions_total": 81,
+      "feature_score": 50,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "plus, this has 16 gb ddr5 ram, which is a big win at this price However, the rtx 4050 gpu with the lpddr5 ram and the 13th gen h series cpu is a killer combo at this price"
+    },
+    {
+      "feature": "thermals",
+      "sentiment": "positive",
+      "positive_mentions": 20,
+      "negative_mentions": 0,
+      "neutral_mentions": 11,
+      "mentions_total": 31,
+      "feature_score": 20,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "there s different profiles, you can amp up the fan speeds manually and talking about the fans, there are 2 fans here, and you can idea of the thermal by looking at the inside of the laptop"
+    }
+  ],
+  "review_summary": "there are 2 fast usb a ports with one of them supporting power off charging, and there s a thunderbolt 4 usb c port now, we ve already created a fun unboxing of this laptop, but in this video, we re going to break down everything that you re going to need to know before deciding if this budget laptop is even worth 750 but, before i get to the display, let me make it clear, that i love the new acer nitro design, it s flashy and gamery and even though there s no rgb, i think it looks pretty cool"
+}

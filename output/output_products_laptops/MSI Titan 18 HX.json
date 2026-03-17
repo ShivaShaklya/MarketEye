@@ -1,0 +1,127 @@
+{
+  "asin": "unknown",
+  "product": "MSI Titan 18 HX",
+  "features": [
+    {
+      "feature": "battery",
+      "sentiment": "positive",
+      "positive_mentions": 23,
+      "negative_mentions": 10,
+      "neutral_mentions": 24,
+      "mentions_total": 57,
+      "feature_score": 13,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "so, for gaming, i got about 50 minutes of playing marvel rivals using nvidia s battery boost before needing to charge However, here s how much battery power was lost on average per hour, but the drain isn t looking too bad compared to the other laptops we ve tested so far"
+    },
+    {
+      "feature": "camera",
+      "sentiment": "positive",
+      "positive_mentions": 20,
+      "negative_mentions": 2,
+      "neutral_mentions": 32,
+      "mentions_total": 54,
+      "feature_score": 18,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "now, to be honest, they re all more than capable of running photoshop smoothly"
+    },
+    {
+      "feature": "design",
+      "sentiment": "positive",
+      "positive_mentions": 20,
+      "negative_mentions": 2,
+      "neutral_mentions": 10,
+      "mentions_total": 32,
+      "feature_score": 18,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "in this respect the titan is well, it s a titan of a laptop and everything about it is titan size, the screen, the keyboard, the raw power the massive body, the weight, the 400 watt personal defense system of a power brick"
+    },
+    {
+      "feature": "display",
+      "sentiment": "positive",
+      "positive_mentions": 48,
+      "negative_mentions": 8,
+      "neutral_mentions": 40,
+      "mentions_total": 96,
+      "feature_score": 40,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "well, you do get an nvidia rtx geforce 5090, an 18in uhd plus miniledd display, and up to 96 gb of ram However, i found it weird that they ve got port icons underneath on the bottom panel, but not on top where you d see them when plugging in that s the wrong side msi"
+    },
+    {
+      "feature": "performance",
+      "sentiment": "positive",
+      "positive_mentions": 87,
+      "negative_mentions": 23,
+      "neutral_mentions": 66,
+      "mentions_total": 176,
+      "feature_score": 64,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "single core clock speeds are the best i ve tested on a windows laptop, beating out all others by 1 However, i know you can tweak performance profiles, toggle the mock switch, and even overclock the gpu and vram"
+    },
+    {
+      "feature": "price",
+      "sentiment": "positive",
+      "positive_mentions": 21,
+      "negative_mentions": 2,
+      "neutral_mentions": 21,
+      "mentions_total": 44,
+      "feature_score": 19,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "it costs over 6 grand"
+    },
+    {
+      "feature": "software",
+      "sentiment": "positive",
+      "positive_mentions": 33,
+      "negative_mentions": 9,
+      "neutral_mentions": 31,
+      "mentions_total": 73,
+      "feature_score": 24,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "the msi center software isn t perfect, but at least it s better than the asus armory crate However, 8kg it still weighs the same as last gen, but doesn t quite steal the heaviest laptop crown from alienware s m18 r2"
+    },
+    {
+      "feature": "speaker",
+      "sentiment": "positive",
+      "positive_mentions": 16,
+      "negative_mentions": 6,
+      "neutral_mentions": 22,
+      "mentions_total": 44,
+      "feature_score": 10,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "on the left hand side you have two usba ports, a full size sd card slot and then on the right you have two thunderbolt 5 ports, a usba port and your combo audio jack However, the touchpad decides when to make a click based on if you re touching the touchpad, which sounds fine, but in practice i found things double click and dragging files around to be extremely annoying"
+    },
+    {
+      "feature": "storage",
+      "sentiment": "positive",
+      "positive_mentions": 46,
+      "negative_mentions": 13,
+      "neutral_mentions": 57,
+      "mentions_total": 116,
+      "feature_score": 33,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "well, you do get an nvidia rtx geforce 5090, an 18in uhd plus miniledd display, and up to 96 gb of ram However, i know you can tweak performance profiles, toggle the mock switch, and even overclock the gpu and vram"
+    },
+    {
+      "feature": "thermals",
+      "sentiment": "positive",
+      "positive_mentions": 16,
+      "negative_mentions": 7,
+      "neutral_mentions": 22,
+      "mentions_total": 45,
+      "feature_score": 9,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "the internal temperatures were cool at idle However, they tell me the ssd might add 5 to 8 watts into the cooling system, and that they ve got the connection to the heatpipe as close to the exhaust fins as possible to avoid the heat from the cpu limiting ssd performance"
+    }
+  ],
+  "review_summary": "so, for gaming, i got about 50 minutes of playing marvel rivals using nvidia s battery boost before needing to charge However, here s how much battery power was lost on average per hour, but the drain isn t looking too bad compared to the other laptops we ve tested so far now, to be honest, they re all more than capable of running photoshop smoothly in this respect the titan is well, it s a titan of a laptop and everything about it is titan size, the screen, the keyboard, the raw power the massive body, the weight, the 400 watt personal defense system of a power brick"
+}

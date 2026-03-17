@@ -1,0 +1,127 @@
+{
+  "asin": "unknown",
+  "product": "MacBook Pro 16 M3 Max",
+  "features": [
+    {
+      "feature": "battery",
+      "sentiment": "positive",
+      "positive_mentions": 18,
+      "negative_mentions": 2,
+      "neutral_mentions": 6,
+      "mentions_total": 26,
+      "feature_score": 16,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "still a great laptop, still great displays, amazing speakers, awesome build quality, battery life s still awesome"
+    },
+    {
+      "feature": "camera",
+      "sentiment": "positive",
+      "positive_mentions": 22,
+      "negative_mentions": 0,
+      "neutral_mentions": 14,
+      "mentions_total": 36,
+      "feature_score": 22,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "so i think, and i think it s maybe worth an entire separate video, maybe let me know if you re interested, but i think gaming on the mac is in an all time interesting place right now, because again, lots of games are not available on the mac, but this is the most powerful mac that s ever been made"
+    },
+    {
+      "feature": "design",
+      "sentiment": "positive",
+      "positive_mentions": 13,
+      "negative_mentions": 1,
+      "neutral_mentions": 2,
+      "mentions_total": 16,
+      "feature_score": 12,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": " upbeat music everything that was already great about the outside of apple s laptop redesign is still great"
+    },
+    {
+      "feature": "display",
+      "sentiment": "positive",
+      "positive_mentions": 26,
+      "negative_mentions": 0,
+      "neutral_mentions": 15,
+      "mentions_total": 41,
+      "feature_score": 26,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "the full size hdmi, the magsafe is still here, still has that high quality build, the boxy design, the super bright display"
+    },
+    {
+      "feature": "performance",
+      "sentiment": "positive",
+      "positive_mentions": 36,
+      "negative_mentions": 2,
+      "neutral_mentions": 17,
+      "mentions_total": 55,
+      "feature_score": 34,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "so the new three nanometer m3 family of chips gets announced and it does offer some nice improvements over the m2 family, definitely"
+    },
+    {
+      "feature": "price",
+      "sentiment": "positive",
+      "positive_mentions": 12,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 12,
+      "feature_score": 12,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "99 for this machine if you maxed everything out you can go all the way up to 128 gigs of unified memory and 8 terab of storage with that m3 max processor that will set you back a cool 7,200 for that machine now there is a middle ground which is what i went with i think this is more of a practical solution which is picking out the 64 gigs of memory and the 1 tbte of internal storage with that m3 max you re going to get most the performance at half the price that s only going to push you back about4 grand 39"
+    },
+    {
+      "feature": "software",
+      "sentiment": "positive",
+      "positive_mentions": 22,
+      "negative_mentions": 1,
+      "neutral_mentions": 9,
+      "mentions_total": 32,
+      "feature_score": 21,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "the full size hdmi, the magsafe is still here, still has that high quality build, the boxy design, the super bright display"
+    },
+    {
+      "feature": "speaker",
+      "sentiment": "positive",
+      "positive_mentions": 11,
+      "negative_mentions": 0,
+      "neutral_mentions": 2,
+      "mentions_total": 13,
+      "feature_score": 11,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "still a great laptop, still great displays, amazing speakers, awesome build quality, battery life s still awesome"
+    },
+    {
+      "feature": "storage",
+      "sentiment": "positive",
+      "positive_mentions": 24,
+      "negative_mentions": 0,
+      "neutral_mentions": 2,
+      "mentions_total": 26,
+      "feature_score": 24,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "it almost feels weird to compare it to the m2 stuff because almost nobody with an m2 should be upgrading to this, but at least it s a good frame of reference"
+    },
+    {
+      "feature": "thermals",
+      "sentiment": "positive",
+      "positive_mentions": 5,
+      "negative_mentions": 1,
+      "neutral_mentions": 1,
+      "mentions_total": 7,
+      "feature_score": 4,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "1 lb lighter than the 16in to be more precise and this thing can easily fit on an airplane tray if you fly frequently however i just found myself missing the additional screen real estate for multitasking especially when i m compiling data for creating excel charts that you see on our laptop reviews another instance is when i m editing in d vinci resolve the smaller screen just requires more scrolling to get to certain elements within the timeline it just feels cramped and i always end up just connecting it to an external display to get a comfortable experience i never found myself doing that with a 16 in macbook pro that being said the liquid retina xdr displays are stunning to work with boasting excellent p3 coverage this newer macbook pro is about 100 nits brighter than the m1 macbook pros in terms of peak sdr performance which is a generous improvement but yet i can t help but wish for a higher refresh rate perhaps going from 120 herz to 165 hz or more would have been a compelling reason to upgrade for display fanatics myself not to mention the other tradeoff that i had to deal with was the shorter battery life on the 14 in laptop honestly i anticipated this from the start due to its smaller battery size given the compact form factor compared to the 16 in model however over time i ve just come to realize how valuable that extra runtime would have been especially during travel or when i m away from a plug from my tests it s evident that the 16in m 1 pro outlasted the 14 in m3 max by almost 4 hours under heavier workloads you can see a similar trend as well and i want to clarify this isn t a direct apples to apples no pun intended comparison since the m3 max might be consuming a little more power than the m1 pro but this just paints a picture in terms of what you can expect when you choose to upgrade from the m1 family to the m3 and if you re planning on downsizing as well now i m sure that gap would be narrower if you choose the m3 pro chip so if you really care about battery life and if you need all that performance the 16inch model is the way to go i also noticed that the newer macbook pro doesn t hold up that well with standby time compared to my 16in m1 pro long story short i just found myself plugging in the newer mac more often than my trusty old macbook pro so i thought that was something that was worth mentioning the next thing and probably the most important was the heat output of these machines you see m3 max is no slouch apple has scammed 92 billion transistors into this teeny tiny 3 nm s so it s also got a few more cpu cores and a heck of a lot more gpu cores than the m1 pro chip so naturally that leads to a hotter running chip and i ve noticed fans going all in to cool the hardware now to give you a little bit of perspective my 16in m1 macbook pro was dead quiet under full core workloads which was one of the reasons why i just loved using this laptop a lot of that can be attributed to the bigger chassis and a more robust cooling system the 14 in on the other hand was just trying way too hard to cool the spect out m3 processor it might not be the same with the m3 pro but i will say that the fans don t sound jet engines i m still impressed with how relatively quiet they are but it s just something that i noticed when i switch it over to this laptop now there is a setting where you can run this chip in a lower power state but keep in mind that that drastically reduces the performance by cutting down on power resulting in lower clock speeds and temperatures i feel this is an option that i would use if i m anxious about battery life and if i m doing lighter tasks that don t involve pushing the cpu to its limits now while we re in the topic of performance there s no denying the fact that the m3 max is an absolute beast when compared to the m1 pro the results that you re seeing here clearly favor the new s so but we expected that rendering projects are notably quicker than on my m1 pro exporting photos are exceptionally rapid with 120 gabt of memory packed into a 14 inch laptop boasting this level performance there shouldn t be any excuse to get any work done now i respect the fact that this technology exists but i simply can t wrap my head around how expensive this thing gets i m not telling you to go shell out 10,000 for a laptop i would it myself if anything i consider this as an opportunity to showcase what these chips are capable of and my intention with this video was to hopefully offer some insight for those considering the m3 pro or the m3 max macbook pro these chips are highly capable guys if creator computer engineer music producer or just anyone who needs a reliable machine that can last longer it s an investment these macs won t go wrong especially if your workflow supports apple silicon also if you re configuring the specs just be mindful of what your actual needs are rather than what might seem desirable because those two things are completely different and that can also prevent you from burning a hole in your wallet now the exterior design on the macbook pro has remained mostly consistent the only noticeable tweak is obviously viously this new space black colorway though to me it looks more gray than black apple has claimed that they ve treated this with an anodized seal to resist fingerprints and it does a pretty decent job at that now i i m someone who just likes to clean my tech often i do it every week but i still end up finding some smudges here and there on the bright side the anodized surface seems to have been pretty durable i haven t notice these scratches are wear around the usb ports after 4 months of use now i get that 4 months is is enough to judge the laptop s looks but if you re worried about scratches especially on the darker space black model i would just recommend getting the silver one because this thing is still holding up pretty well the build quality remains excellent but that s no surprise the aluminum chassis feels robust and unibody design provides a simple and solid vibe and that s something that i m still searching for windows laptops while the newer g14 from asus and the razer blade 14 from razer come somewhat closer to this it just doesn t quite match the macbook pros especially when it comes to the keyboard flex there s absolutely none on this laptop the hinge is super smooth i also particularly love the one and opening mechanism it s so satisfying i particularly enjoy the satisfying magnetic snap when closing the laptop it s the attention to detail that just makes it an overall satisfying experience the keyboards on these macs aren t the best i ve encountered superior ones on windows counterparts however they do get the job done and they feel pretty much the same compared to my m1 pro macbook pro now when i set this thing up i do remember the keys being completely matte and finish but over time it looks they re starting to show some shine with extensive use and so i think in the next 2 years these things are probably going to wear off easily it would have been thoughtful if apple added an extra fingerprint resistant layer to enhance the durability of these gey caps but this is what we have for now and quite honestly i feel it s not acceptable for a laptop this that costs so much the trackpad on the other hand fantastic guys i just can t stress enough how great they are on these laptops apple just nailed the perfect blend of responsiveness smoothness and the natural gestures within mac os the haptic motors replicating the primary and secondary clicks work beautifully and it s one of the reasons why i just don t bother carrying an external mouse when i m traveling i can comfortably edit a video using this trackpad and something that i m struggling with on windows laptops also i do want to mentioned that the track bat on the 16 in model is slightly larger which i tend to prefer a lot more so again that s a subjective opinion but something that was worth mentioning the other thing i also noticed is that the speaker quality or the sound quality coming out of these built in speakers the 16in is way superior than the 14inch because the 14 in has smaller drivers compared to the 16 in model because obviously you can fit more into a bigger chassis as opposed to the 14 inch model so if you do value the entertainment experience or if you listen to a lot of music if you watch a lot of movies you re definitely going to the 16 in macbook pro or the 14 inch now the software experience with macco cinema has proven to be robust and reliable now unlike windows where updates can occur randomly even though you can set it to manual mode and mike and demitri can back me up on this maosa works really well in that manual mode ensuring a smooth workflow without any unexpected interruptions it boasts a simple and intuitive interface making it easier to adapt to and it seamless integration with apple s hardware ecosystem is a definite plus features airdrop for instance makes my job a lot easier when transferring media to my iphone especially when i m creating content for platforms instagram i still use some third party apps to optimize my productivity rectangle for better windows management apple can certainly learn a thing or two from microsoft in this area i also love how you can simply drag the cursor all the way to the bottom right hand corner to quickly jot down notes the screen capture tool has been a lifesaver to me if i need to capture pricing information for my laptop reviews or smartphone reviews i might dive into some more of the nuances in another video with mac os if you guys are interested in that type of content let us know in the comments down below i will say i ve come across some discussions on reddit where users who have upgraded to maco sonoma 14"
+    }
+  ],
+  "review_summary": "still a great laptop, still great displays, amazing speakers, awesome build quality, battery life s still awesome so i think, and i think it s maybe worth an entire separate video, maybe let me know if you re interested, but i think gaming on the mac is in an all time interesting place right now, because again, lots of games are not available on the mac, but this is the most powerful mac that s ever been made  upbeat music everything that was already great about the outside of apple s laptop redesign is still great"
+}

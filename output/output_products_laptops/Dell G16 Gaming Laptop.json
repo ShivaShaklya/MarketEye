@@ -1,0 +1,127 @@
+{
+  "asin": "unknown",
+  "product": "Dell G16 Gaming Laptop",
+  "features": [
+    {
+      "feature": "battery",
+      "sentiment": "positive",
+      "positive_mentions": 15,
+      "negative_mentions": 4,
+      "neutral_mentions": 7,
+      "mentions_total": 26,
+      "feature_score": 11,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "3kg with the 330 watt charger included definitely on the heavier side However, yeah it still lost around 6000 points by unplugging the charger, but other laptops lost way more"
+    },
+    {
+      "feature": "camera",
+      "sentiment": "positive",
+      "positive_mentions": 13,
+      "negative_mentions": 1,
+      "neutral_mentions": 10,
+      "mentions_total": 24,
+      "feature_score": 12,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "battery life wasn t very good, lasting for almost 4 and a half hours in our youtube video playback test"
+    },
+    {
+      "feature": "design",
+      "sentiment": "positive",
+      "positive_mentions": 10,
+      "negative_mentions": 0,
+      "neutral_mentions": 3,
+      "mentions_total": 13,
+      "feature_score": 10,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "the g16 is available with either the metallic nightshade finish that i ve got here, or quantum white, which i think looks a bit more interesting"
+    },
+    {
+      "feature": "display",
+      "sentiment": "positive",
+      "positive_mentions": 28,
+      "negative_mentions": 5,
+      "neutral_mentions": 12,
+      "mentions_total": 45,
+      "feature_score": 23,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "the hinge feels nice and smooth even when ripping the lid open fast, and there s only a small amount of screen wobble when typing hard However, there are two different screen options to choose from when ordering with the link below, but we have the lower tier 165hz one here"
+    },
+    {
+      "feature": "performance",
+      "sentiment": "positive",
+      "positive_mentions": 48,
+      "negative_mentions": 4,
+      "neutral_mentions": 28,
+      "mentions_total": 80,
+      "feature_score": 44,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "so we run this website called where we post the latest gaming laptop deals every day so that you can save money However, alienware s command center software lets us pick between these different performance modes, which from lowest to higher are quiet, balanced and performance"
+    },
+    {
+      "feature": "price",
+      "sentiment": "positive",
+      "positive_mentions": 19,
+      "negative_mentions": 2,
+      "neutral_mentions": 4,
+      "mentions_total": 25,
+      "feature_score": 17,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "it s not bad at 1000, but we definitely have cheaper 4050 options on the deals site"
+    },
+    {
+      "feature": "software",
+      "sentiment": "positive",
+      "positive_mentions": 24,
+      "negative_mentions": 2,
+      "neutral_mentions": 16,
+      "mentions_total": 42,
+      "feature_score": 22,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "there are two levels of key brightness available with the f7 shortcut, but there s more customization available through the alienware command center software in the alienfx tab"
+    },
+    {
+      "feature": "speaker",
+      "sentiment": "positive",
+      "positive_mentions": 11,
+      "negative_mentions": 0,
+      "neutral_mentions": 5,
+      "mentions_total": 16,
+      "feature_score": 11,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "they don t sound great, tinny without any bass"
+    },
+    {
+      "feature": "storage",
+      "sentiment": "positive",
+      "positive_mentions": 19,
+      "negative_mentions": 0,
+      "neutral_mentions": 15,
+      "mentions_total": 34,
+      "feature_score": 19,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "the installed ssd is smaller, so only has a small cover that you won t be able to use if you swap it with a larger ssd"
+    },
+    {
+      "feature": "thermals",
+      "sentiment": "positive",
+      "positive_mentions": 15,
+      "negative_mentions": 2,
+      "neutral_mentions": 8,
+      "mentions_total": 25,
+      "feature_score": 13,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "it s on the thicker side, but hopefully this means more room for cooling and better performance"
+    }
+  ],
+  "review_summary": "3kg with the 330 watt charger included definitely on the heavier side However, yeah it still lost around 6000 points by unplugging the charger, but other laptops lost way more battery life wasn t very good, lasting for almost 4 and a half hours in our youtube video playback test the g16 is available with either the metallic nightshade finish that i ve got here, or quantum white, which i think looks a bit more interesting"
+}

@@ -1,0 +1,127 @@
+{
+  "asin": "unknown",
+  "product": "Asus ROG Strix G16",
+  "features": [
+    {
+      "feature": "battery",
+      "sentiment": "positive",
+      "positive_mentions": 29,
+      "negative_mentions": 3,
+      "neutral_mentions": 27,
+      "mentions_total": 59,
+      "feature_score": 26,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "panel power saver is enabled by default, which automatically lowers the screen s refresh rate to 60hz when you unplug the charger to save power However, it was at more 25 to 27 fps with obvious stuttering, so gaming on battery on amd is a worse experience, while also not lasting as long"
+    },
+    {
+      "feature": "camera",
+      "sentiment": "positive",
+      "positive_mentions": 23,
+      "negative_mentions": 3,
+      "neutral_mentions": 9,
+      "mentions_total": 35,
+      "feature_score": 20,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "battery life was better with the intel model, lasting 29 longer in the youtube video playback test, or 53 longer with a game running However, the amd version has a 1080p camera above the screen, but unfortunately it does not have ir for windows hello face unlock, and this is how it sounds while typing on the keyboard"
+    },
+    {
+      "feature": "design",
+      "sentiment": "positive",
+      "positive_mentions": 22,
+      "negative_mentions": 6,
+      "neutral_mentions": 11,
+      "mentions_total": 39,
+      "feature_score": 16,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "the intel version has a brand new design, and is better in almost every way, while the amd version gets sloppy seconds with the older design However, the older amd design is easier to open as the front of its lid sticks out a little, but the intel one wasn t difficult to get into"
+    },
+    {
+      "feature": "display",
+      "sentiment": "positive",
+      "positive_mentions": 56,
+      "negative_mentions": 13,
+      "neutral_mentions": 33,
+      "mentions_total": 102,
+      "feature_score": 43,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "all keys and secondary functions get lit up, and key brightness can be adjusted between 3 levels or turned off with the f2 and f3 shortcut keys However, the hinges feel the same on both, only a little flex when pushing back too far, otherwise they re smooth and sturdy with no screen wobble when typing"
+    },
+    {
+      "feature": "performance",
+      "sentiment": "positive",
+      "positive_mentions": 104,
+      "negative_mentions": 14,
+      "neutral_mentions": 82,
+      "mentions_total": 200,
+      "feature_score": 90,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "but the strix g16 is available with higher and lower tier cpus and gpus with the link below, and if it has a good sale we ll list it on our gaminglaptop However, the strix g16 is a great gaming laptop, but asus have done amd dirty with this one"
+    },
+    {
+      "feature": "price",
+      "sentiment": "positive",
+      "positive_mentions": 15,
+      "negative_mentions": 4,
+      "neutral_mentions": 18,
+      "mentions_total": 37,
+      "feature_score": 11,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "so is the strix g16 worth buying, assuming you find them at a good price However, the main problem that i ve got with it is just that the current price seems to be a bit too high, which is the case with a lot of laptops this year"
+    },
+    {
+      "feature": "software",
+      "sentiment": "positive",
+      "positive_mentions": 49,
+      "negative_mentions": 10,
+      "neutral_mentions": 32,
+      "mentions_total": 91,
+      "feature_score": 39,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "both versions of the strix have grey metal lids and grey plastic interiors, and build quality feels equally great from both However, the weight of both is fairly average as far as 16 inch gaming laptops go, not quite on the higher or lower side, just right in the middle"
+    },
+    {
+      "feature": "speaker",
+      "sentiment": "positive",
+      "positive_mentions": 18,
+      "negative_mentions": 5,
+      "neutral_mentions": 10,
+      "mentions_total": 33,
+      "feature_score": 13,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": " they definitely sound better on the intel model However, the amd version has a 1080p camera above the screen, but unfortunately it does not have ir for windows hello face unlock, and this is how it sounds while typing on the keyboard"
+    },
+    {
+      "feature": "storage",
+      "sentiment": "positive",
+      "positive_mentions": 21,
+      "negative_mentions": 8,
+      "neutral_mentions": 33,
+      "mentions_total": 62,
+      "feature_score": 13,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "i don t the ribbon cable design, but i can look past it as you only have to deal with it if you re changing wi fi, and the compromise of easy ram and ssd access is more important However, they both have g sync when optimus is off, and adaptive sync is available from the integrated graphics with optimus on, so no screen tearing as long as your frame rate is above 48"
+    },
+    {
+      "feature": "thermals",
+      "sentiment": "positive",
+      "positive_mentions": 27,
+      "negative_mentions": 6,
+      "neutral_mentions": 12,
+      "mentions_total": 45,
+      "feature_score": 21,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "manual mode also lets you customize cpu and gpu power limits, temperature limits, and gives you some control over the fan curves However, temperatures are fine at idle, and the rest of the results are from combined cpu and gpu stress tests, which aim to represent a worst case full load scenario"
+    }
+  ],
+  "review_summary": "panel power saver is enabled by default, which automatically lowers the screen s refresh rate to 60hz when you unplug the charger to save power However, it was at more 25 to 27 fps with obvious stuttering, so gaming on battery on amd is a worse experience, while also not lasting as long battery life was better with the intel model, lasting 29 longer in the youtube video playback test, or 53 longer with a game running However, the amd version has a 1080p camera above the screen, but unfortunately it does not have ir for windows hello face unlock, and this is how it sounds while typing on the keyboard the intel version has a brand new design, and is better in almost every way, while the amd version gets sloppy seconds with the older design However, the older amd design is easier to open as the front of its lid sticks out a little, but the intel one wasn t difficult to get into"
+}

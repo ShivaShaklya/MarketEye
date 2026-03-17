@@ -1,0 +1,127 @@
+{
+  "asin": "unknown",
+  "product": "Lenovo ThinkPad X1 Carbon Gen 11",
+  "features": [
+    {
+      "feature": "battery",
+      "sentiment": "positive",
+      "positive_mentions": 31,
+      "negative_mentions": 0,
+      "neutral_mentions": 5,
+      "mentions_total": 36,
+      "feature_score": 31,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "12 kilograms we re gonna look at it now so what we have here is intel 13th generation raptor cpu refresh so this is a u series rather than the p series so it s a 15 watt ultrabuck thin and light c processor and what that does make some sense now in some markets i don t know i hear them mine they might have a p series processor option but the u makes more sense because you don t want heat and you want better battery life in this so i m totally down with that you still have 16 18 by 10 aspect ratio displays in a mind boggling array of display options that we ll get into including a 2"
+    },
+    {
+      "feature": "camera",
+      "sentiment": "positive",
+      "positive_mentions": 30,
+      "negative_mentions": 0,
+      "neutral_mentions": 3,
+      "mentions_total": 33,
+      "feature_score": 30,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "in this video, we re going to briefly go over our six reasons why the gen 11 might be a better purchase than the gen 12 or 13"
+    },
+    {
+      "feature": "design",
+      "sentiment": "positive",
+      "positive_mentions": 23,
+      "negative_mentions": 0,
+      "neutral_mentions": 3,
+      "mentions_total": 26,
+      "feature_score": 23,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "it s designed to help you get more done without overpaying for the latest models that might not offer significant upgrades for most users"
+    },
+    {
+      "feature": "display",
+      "sentiment": "positive",
+      "positive_mentions": 35,
+      "negative_mentions": 1,
+      "neutral_mentions": 4,
+      "mentions_total": 40,
+      "feature_score": 34,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "the 14 in wxga display might not be 4k, but it s sharp, bright at 400 nits, and covers 100 srgb, making it perfect for those who need accuracy and comfort for work or media"
+    },
+    {
+      "feature": "performance",
+      "sentiment": "positive",
+      "positive_mentions": 22,
+      "negative_mentions": 0,
+      "neutral_mentions": 2,
+      "mentions_total": 24,
+      "feature_score": 22,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "sure, the gen 12 and gen 13 have newer processors and slightly improved features, but the gen 11 still holds its own for most users"
+    },
+    {
+      "feature": "price",
+      "sentiment": "positive",
+      "positive_mentions": 10,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 11,
+      "feature_score": 10,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "upgrading to the gen 12 or gen 13 might get you a bump in performance, but unless you need cuttingedge power for gaming or specialized tasks, the x1 carbon gen 11 is still a smart buy for anyone needing reliability, portability, and professional grade features at a better value"
+    },
+    {
+      "feature": "software",
+      "sentiment": "positive",
+      "positive_mentions": 21,
+      "negative_mentions": 0,
+      "neutral_mentions": 4,
+      "mentions_total": 25,
+      "feature_score": 21,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "2 that s a lot of tech in a small package you come to us for the latest greatest hardware reviews and today s sponsor amazon and the oneplus 11 5g might just be the phone that you need i m really thrilled that after a couple years of toying with other things they re back to being that flagship phone that doesn t have the crazy flagship price it s hundreds of dollars cheaper oneplus 11 is super comfy in hand despite being a large screen oled phone thanks to their smart industrial design it s not too wide as always with oneplus you get insanely fast 80 watt charging and guess what the charger is in the box unlike most smartphones today you also get the fastest snapdragon 8 gen 2 processor and the beloved alert slider so you can switch it to vibrator silent mode or of course to have it ring other features include a sophisticated hasselblad camera system on the rear with a 50 megapixel massive sony sensor ois for steady photos and video and you get both ultra wide and telephoto lenses in addition to the main lens a piece of mind you ll get five years of security updates and four years of os updates to learn more visit the link in the description and now back to our video so let s talk about those as everything pad too many display options almost you have two full hd options they re 400 net their ips we have that s full hd plus technically because 16 by 10 aspect ratio 1920 by 1200 and whether you get touch or non touch both are available you re going to get the same matte literally it is a matte display which is neat because it s almost impossible to find a matte touch screen if you want it now it s a perfectly lovely looking display honestly and in a 14 inch size i can t blame you if you choose it for the best battery life there is a privacy screen option same resolution which is 500 nit there is a 2"
+    },
+    {
+      "feature": "speaker",
+      "sentiment": "positive",
+      "positive_mentions": 11,
+      "negative_mentions": 0,
+      "neutral_mentions": 2,
+      "mentions_total": 13,
+      "feature_score": 11,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "0 you ve got that so i keep calling this a business laptop because well thinkpads us how lenovo positions them this has really good quad stereo speakers you ve got two two watt woofers you ve got your set of tweeters up firing so multimedia experience on this is all that is pretty darn good being a business friendly laptop that means while getting inside is not hard phillips head screws no specialty tools just unscrew the visible phillips head screws grab from the back and you can pull off the cover see the underside right there and here are the internals it s an ultra book folks there s not that much you can do obviously you have access to the 57 watt hour battery so you need to replace it and the speaker drivers are visible here are the two watt woofers and then the 0"
+    },
+    {
+      "feature": "storage",
+      "sentiment": "positive",
+      "positive_mentions": 21,
+      "negative_mentions": 1,
+      "neutral_mentions": 2,
+      "mentions_total": 24,
+      "feature_score": 20,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "with a 13th generation intel core i7, 16 gb of ram, and a 1 tb ssd, this laptop handles everything from zoom calls to spreadsheets and multitasking with ease"
+    },
+    {
+      "feature": "thermals",
+      "sentiment": "positive",
+      "positive_mentions": 16,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 16,
+      "feature_score": 16,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "12 kilograms we re gonna look at it now so what we have here is intel 13th generation raptor cpu refresh so this is a u series rather than the p series so it s a 15 watt ultrabuck thin and light c processor and what that does make some sense now in some markets i don t know i hear them mine they might have a p series processor option but the u makes more sense because you don t want heat and you want better battery life in this so i m totally down with that you still have 16 18 by 10 aspect ratio displays in a mind boggling array of display options that we ll get into including a 2"
+    }
+  ],
+  "review_summary": "12 kilograms we re gonna look at it now so what we have here is intel 13th generation raptor cpu refresh so this is a u series rather than the p series so it s a 15 watt ultrabuck thin and light c processor and what that does make some sense now in some markets i don t know i hear them mine they might have a p series processor option but the u makes more sense because you don t want heat and you want better battery life in this so i m totally down with that you still have 16 18 by 10 aspect ratio displays in a mind boggling array of display options that we ll get into including a 2 in this video, we re going to briefly go over our six reasons why the gen 11 might be a better purchase than the gen 12 or 13 it s designed to help you get more done without overpaying for the latest models that might not offer significant upgrades for most users"
+}

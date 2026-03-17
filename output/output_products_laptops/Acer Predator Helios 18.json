@@ -1,0 +1,127 @@
+{
+  "asin": "unknown",
+  "product": "Acer Predator Helios 18",
+  "features": [
+    {
+      "feature": "battery",
+      "sentiment": "positive",
+      "positive_mentions": 15,
+      "negative_mentions": 7,
+      "neutral_mentions": 21,
+      "mentions_total": 43,
+      "feature_score": 8,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "the predator sun software lets you enable optimized battery charging, which limits the maximum charge level to 80 to help improve the longevity of the battery, as keeping it at 100 all the time can degrade it However, the battery isn t screwed in other laptops, so it comes right out and is held in place by the bottom panel"
+    },
+    {
+      "feature": "camera",
+      "sentiment": "positive",
+      "positive_mentions": 15,
+      "negative_mentions": 1,
+      "neutral_mentions": 12,
+      "mentions_total": 28,
+      "feature_score": 14,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "personally i ve found 17 inch laptops to be limiting when video editing on the go, so the 18 inch helios is beneficial there"
+    },
+    {
+      "feature": "design",
+      "sentiment": "positive",
+      "positive_mentions": 14,
+      "negative_mentions": 2,
+      "neutral_mentions": 7,
+      "mentions_total": 23,
+      "feature_score": 12,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "lenovo s legion pro 7i is scoring the same, but that s in a smaller 16 design yet with slightly less fan noise"
+    },
+    {
+      "feature": "display",
+      "sentiment": "positive",
+      "positive_mentions": 46,
+      "negative_mentions": 6,
+      "neutral_mentions": 39,
+      "mentions_total": 91,
+      "feature_score": 40,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "key brightness can be adjusted between four levels or turned off with the f11 and f12 shortcuts, and this controls the brightness of all rgb lighting However, the battery isn t screwed in other laptops, so it comes right out and is held in place by the bottom panel"
+    },
+    {
+      "feature": "performance",
+      "sentiment": "positive",
+      "positive_mentions": 86,
+      "negative_mentions": 9,
+      "neutral_mentions": 50,
+      "mentions_total": 145,
+      "feature_score": 77,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "and if it has a good sale, we ll list it on our gaming laptop However, as predator sense software allows us to change between different performance modes, which from lowest to highest are quiet, balanced, performance, and turbo"
+    },
+    {
+      "feature": "price",
+      "sentiment": "positive",
+      "positive_mentions": 14,
+      "negative_mentions": 2,
+      "neutral_mentions": 12,
+      "mentions_total": 28,
+      "feature_score": 12,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "even in the best performance mode, cpu performance and gaming performance just can t compete with other, sometimes cheaper laptops"
+    },
+    {
+      "feature": "software",
+      "sentiment": "positive",
+      "positive_mentions": 88,
+      "negative_mentions": 20,
+      "neutral_mentions": 84,
+      "mentions_total": 192,
+      "feature_score": 68,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "so, it would appear that for whatever reason, asa are limiting the helios to slower memory speeds than what intel s memory controller can support However, getting inside requires removing 10 tr6 screws, all the same length"
+    },
+    {
+      "feature": "speaker",
+      "sentiment": "positive",
+      "positive_mentions": 15,
+      "negative_mentions": 4,
+      "neutral_mentions": 14,
+      "mentions_total": 33,
+      "feature_score": 11,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "the mechanical keys have a nice tactile feel, and they have a louder clicky sound, as well as a shorter 0 However, they sound all right with some bass, but they re not very clear and they can get very loud"
+    },
+    {
+      "feature": "storage",
+      "sentiment": "positive",
+      "positive_mentions": 29,
+      "negative_mentions": 6,
+      "neutral_mentions": 42,
+      "mentions_total": 77,
+      "feature_score": 23,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "speeds from the installed 2 terbte pcie gen 5 ssd were excellent for the reads, but the rights were similar to what we get from slower gen 4 drives However, this is the lowest single core result we ve seen with the 275hx so far, but i believe cinebench 2024 is affected more by ram than previous versions"
+    },
+    {
+      "feature": "thermals",
+      "sentiment": "positive",
+      "positive_mentions": 19,
+      "negative_mentions": 4,
+      "neutral_mentions": 20,
+      "mentions_total": 43,
+      "feature_score": 15,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "but on the other hand, you might have louder fans and more heat if you re just doing basic tasks that could have been handled by the lowerowered integrated graphics However, the internal temperatures are cool at idle, but it gets quite hot with the combined cpu and gpu stress tests running, which aim to represent a worstc case fullload scenario"
+    }
+  ],
+  "review_summary": "the predator sun software lets you enable optimized battery charging, which limits the maximum charge level to 80 to help improve the longevity of the battery, as keeping it at 100 all the time can degrade it However, the battery isn t screwed in other laptops, so it comes right out and is held in place by the bottom panel personally i ve found 17 inch laptops to be limiting when video editing on the go, so the 18 inch helios is beneficial there lenovo s legion pro 7i is scoring the same, but that s in a smaller 16 design yet with slightly less fan noise"
+}

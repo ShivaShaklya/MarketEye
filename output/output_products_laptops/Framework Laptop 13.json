@@ -1,0 +1,127 @@
+{
+  "asin": "unknown",
+  "product": "Framework Laptop 13",
+  "features": [
+    {
+      "feature": "battery",
+      "sentiment": "positive",
+      "positive_mentions": 23,
+      "negative_mentions": 7,
+      "neutral_mentions": 19,
+      "mentions_total": 49,
+      "feature_score": 16,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "for its price, it s not as premium as other laptops that you could get, a macbook air or one with an intel luna lake processor, which by the way, both have much better battery life However, you do have to pay extra for a charger, but at least it charges via usb type c"
+    },
+    {
+      "feature": "camera",
+      "sentiment": "positive",
+      "positive_mentions": 24,
+      "negative_mentions": 4,
+      "neutral_mentions": 27,
+      "mentions_total": 55,
+      "feature_score": 20,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "i m happy to run mac os and i d appreciate the better battery life, the better creature comforts, and its much more powerful processor, especially its gpu, as i d also use the laptop for video editing However, so, in this video, i m going to share with you the good, the bad, and the ugly of the framework laptop 13"
+    },
+    {
+      "feature": "design",
+      "sentiment": "positive",
+      "positive_mentions": 30,
+      "negative_mentions": 4,
+      "neutral_mentions": 18,
+      "mentions_total": 52,
+      "feature_score": 26,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "so this is the 2023 framework 13 laptop and it s not the intel model that came out earlier this year this is the amd one the one you should probably buy if you re considering this laptop because it resolves a lot of issues that the intel processor has you get much lower fan noise in fact most of the time you re not even going to hear the fan way better battery life and on top of all that you just get better performance now there s two options when you buy this laptop you can either choose the do it yourself version which you have to put some components together or you can buy it built already honestly save a few bucks get the do it yourself version it s very easy to configure this yourself the instructions are crystal clear and it s fun it s not going to give you that full feeling of building an entire pc but it s the closest you re gonna get with a laptop now i put this together in about eight minutes literally in the box it comes with everything you need it has the laptop which is the cover off the bezel off for the display and you when you open it up you look at your motherboard and a display with no bezel around it but immediately i put in the ssd which was a one terabyte wd ssd two sticks of ram which was 16 gigabytes i got an extra wi fi card which i didn t need because there was one already installed but after you do that you just put the keyboard deck back on top of it you screw in the captive screws on the bottom and then you put the bezel around the display and it snaps on magnetically it was it was a breeze but here s the thing if you re expecting this to be as refined as a macbook air it s not that little things are not perfect for example the webcam at the top over here is not perfectly centered even the fingerprint scanner is not directly in the middle so yeah there s little imperfections but look this is a device you can carry for a long time and constantly upgrade it over the years and i think that s really cool but it s a light laptop this thing is only under three pounds it s still an aluminum chassis there s some premium ness to this it reminds me of an older acer chassis that i ve seen in the past but i the idea of having the ability to switch out the ports that is so cool okay for example right now i m rocking two type c ports and then on the other side i have a usb a port and then of course a one terabyte ssd here s the thing when you re putting the ports together the two back ports the ones closest to the back those are usb4 and they both support displayport okay if you use the ports below it these ones over here this only goes up to usb 3 However, that being said, though, had i gone with one of those cheaper laptops, i would have had a much worse screen and probably a worse build quality"
+    },
+    {
+      "feature": "display",
+      "sentiment": "positive",
+      "positive_mentions": 62,
+      "negative_mentions": 8,
+      "neutral_mentions": 35,
+      "mentions_total": 105,
+      "feature_score": 54,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "new motherboards with better cpus, better displays, new ports, improved aesthetics However, let s talk about the display because this was not a particularly bright spot in our testing"
+    },
+    {
+      "feature": "performance",
+      "sentiment": "positive",
+      "positive_mentions": 38,
+      "negative_mentions": 12,
+      "neutral_mentions": 30,
+      "mentions_total": 80,
+      "feature_score": 26,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "well, i m delighted to say that this version with a new ryzen 7 kraken point chip is much improved However, it continued to be a problem in 2024, especially with how inefficient intel s meteor lake chip was"
+    },
+    {
+      "feature": "price",
+      "sentiment": "positive",
+      "positive_mentions": 29,
+      "negative_mentions": 1,
+      "neutral_mentions": 31,
+      "mentions_total": 61,
+      "feature_score": 28,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "even though it is priced as such, you re essentially sacrificing creature comforts for the unique benefits that a framework laptop brings"
+    },
+    {
+      "feature": "software",
+      "sentiment": "positive",
+      "positive_mentions": 39,
+      "negative_mentions": 10,
+      "neutral_mentions": 37,
+      "mentions_total": 86,
+      "feature_score": 29,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "they have easy to follow guides online and extensive community support However, it ramps up fast and it hits about 52 db at full tilt, and there s no real fan control in the bios"
+    },
+    {
+      "feature": "speaker",
+      "sentiment": "positive",
+      "positive_mentions": 11,
+      "negative_mentions": 1,
+      "neutral_mentions": 12,
+      "mentions_total": 24,
+      "feature_score": 10,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "its speakers aren t great"
+    },
+    {
+      "feature": "storage",
+      "sentiment": "positive",
+      "positive_mentions": 100,
+      "negative_mentions": 17,
+      "neutral_mentions": 157,
+      "mentions_total": 274,
+      "feature_score": 83,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "so, the framework 13, it is much improved from the original model that came out 2 years ago However, unlike other manufacturers who ve promised upgradeable laptops but failed to deliver, framework has"
+    },
+    {
+      "feature": "thermals",
+      "sentiment": "positive",
+      "positive_mentions": 17,
+      "negative_mentions": 0,
+      "neutral_mentions": 12,
+      "mentions_total": 29,
+      "feature_score": 17,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "heat you fill and fan noise"
+    }
+  ],
+  "review_summary": "for its price, it s not as premium as other laptops that you could get, a macbook air or one with an intel luna lake processor, which by the way, both have much better battery life However, you do have to pay extra for a charger, but at least it charges via usb type c i m happy to run mac os and i d appreciate the better battery life, the better creature comforts, and its much more powerful processor, especially its gpu, as i d also use the laptop for video editing However, so, in this video, i m going to share with you the good, the bad, and the ugly of the framework laptop 13 so this is the 2023 framework 13 laptop and it s not the intel model that came out earlier this year this is the amd one the one you should probably buy if you re considering this laptop because it resolves a lot of issues that the intel processor has you get much lower fan noise in fact most of the time you re not even going to hear the fan way better battery life and on top of all that you just get better performance now there s two options when you buy this laptop you can either choose the do it yourself version which you have to put some components together or you can buy it built already honestly save a few bucks get the do it yourself version it s very easy to configure this yourself the instructions are crystal clear and it s fun it s not going to give you that full feeling of building an entire pc but it s the closest you re gonna get with a laptop now i put this together in about eight minutes literally in the box it comes with everything you need it has the laptop which is the cover off the bezel off for the display and you when you open it up you look at your motherboard and a display with no bezel around it but immediately i put in the ssd which was a one terabyte wd ssd two sticks of ram which was 16 gigabytes i got an extra wi fi card which i didn t need because there was one already installed but after you do that you just put the keyboard deck back on top of it you screw in the captive screws on the bottom and then you put the bezel around the display and it snaps on magnetically it was it was a breeze but here s the thing if you re expecting this to be as refined as a macbook air it s not that little things are not perfect for example the webcam at the top over here is not perfectly centered even the fingerprint scanner is not directly in the middle so yeah there s little imperfections but look this is a device you can carry for a long time and constantly upgrade it over the years and i think that s really cool but it s a light laptop this thing is only under three pounds it s still an aluminum chassis there s some premium ness to this it reminds me of an older acer chassis that i ve seen in the past but i the idea of having the ability to switch out the ports that is so cool okay for example right now i m rocking two type c ports and then on the other side i have a usb a port and then of course a one terabyte ssd here s the thing when you re putting the ports together the two back ports the ones closest to the back those are usb4 and they both support displayport okay if you use the ports below it these ones over here this only goes up to usb 3 However, that being said, though, had i gone with one of those cheaper laptops, i would have had a much worse screen and probably a worse build quality"
+}

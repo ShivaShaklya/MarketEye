@@ -1,0 +1,127 @@
+{
+  "asin": "unknown",
+  "product": "Dell XPS 13 Plus",
+  "features": [
+    {
+      "feature": "battery",
+      "sentiment": "positive",
+      "positive_mentions": 24,
+      "negative_mentions": 1,
+      "neutral_mentions": 1,
+      "mentions_total": 26,
+      "feature_score": 23,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "opening up the bottom, you ve got easy access to both battery and storage, neither of which are glued in, nice"
+    },
+    {
+      "feature": "camera",
+      "sentiment": "positive",
+      "positive_mentions": 24,
+      "negative_mentions": 1,
+      "neutral_mentions": 2,
+      "mentions_total": 27,
+      "feature_score": 23,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "the anycubic photon m3 is a fantastic 3d printer for entry level users"
+    },
+    {
+      "feature": "design",
+      "sentiment": "positive",
+      "positive_mentions": 26,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 27,
+      "feature_score": 26,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "but under the hood, every design decision here supports a single ambitious goal, to cram a 14 core processor into a 13 inch ultrabook"
+    },
+    {
+      "feature": "display",
+      "sentiment": "positive",
+      "positive_mentions": 34,
+      "negative_mentions": 3,
+      "neutral_mentions": 5,
+      "mentions_total": 42,
+      "feature_score": 31,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "the screen of the xps 13 plus is both excellent and annoying However, but the oled screen has a big problem, battery life"
+    },
+    {
+      "feature": "performance",
+      "sentiment": "positive",
+      "positive_mentions": 23,
+      "negative_mentions": 0,
+      "neutral_mentions": 7,
+      "mentions_total": 30,
+      "feature_score": 23,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "but under the hood, every design decision here supports a single ambitious goal, to cram a 14 core processor into a 13 inch ultrabook"
+    },
+    {
+      "feature": "price",
+      "sentiment": "positive",
+      "positive_mentions": 14,
+      "negative_mentions": 0,
+      "neutral_mentions": 4,
+      "mentions_total": 18,
+      "feature_score": 14,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "so it used to be up here, but that would force the hinge to be considerably wider on the older model which would have cost us you guessed it, valuable heatsink space, no 28 watt processor"
+    },
+    {
+      "feature": "software",
+      "sentiment": "positive",
+      "positive_mentions": 18,
+      "negative_mentions": 3,
+      "neutral_mentions": 2,
+      "mentions_total": 23,
+      "feature_score": 15,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "it s affordably priced, requires minimal assembly and offers great quality 3d resin printing However, microsoft s implementation of bluetooth pairing is arguably a full decade behind ios and android"
+    },
+    {
+      "feature": "speaker",
+      "sentiment": "positive",
+      "positive_mentions": 21,
+      "negative_mentions": 1,
+      "neutral_mentions": 5,
+      "mentions_total": 27,
+      "feature_score": 20,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "over the years, i ve grown accustomed to dongles and in a laptop this size you literally can t fit most connectors, but audio even now is a special case to me"
+    },
+    {
+      "feature": "storage",
+      "sentiment": "positive",
+      "positive_mentions": 20,
+      "negative_mentions": 0,
+      "neutral_mentions": 5,
+      "mentions_total": 25,
+      "feature_score": 20,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "but under the hood, every design decision here supports a single ambitious goal, to cram a 14 core processor into a 13 inch ultrabook"
+    },
+    {
+      "feature": "thermals",
+      "sentiment": "positive",
+      "positive_mentions": 11,
+      "negative_mentions": 1,
+      "neutral_mentions": 1,
+      "mentions_total": 13,
+      "feature_score": 10,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "so it used to be up here, but that would force the hinge to be considerably wider on the older model which would have cost us you guessed it, valuable heatsink space, no 28 watt processor"
+    }
+  ],
+  "review_summary": "opening up the bottom, you ve got easy access to both battery and storage, neither of which are glued in, nice the anycubic photon m3 is a fantastic 3d printer for entry level users but under the hood, every design decision here supports a single ambitious goal, to cram a 14 core processor into a 13 inch ultrabook"
+}

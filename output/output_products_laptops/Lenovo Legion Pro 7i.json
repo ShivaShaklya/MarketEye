@@ -1,0 +1,127 @@
+{
+  "asin": "unknown",
+  "product": "Lenovo Legion Pro 7i",
+  "features": [
+    {
+      "feature": "battery",
+      "sentiment": "positive",
+      "positive_mentions": 50,
+      "negative_mentions": 17,
+      "neutral_mentions": 66,
+      "mentions_total": 133,
+      "feature_score": 33,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "now, in terms of its ports, it has quite a nice selection with the charging port being on the back However, in the gaming test, i play battlefield 1 until its battery died with the same settings as before"
+    },
+    {
+      "feature": "camera",
+      "sentiment": "positive",
+      "positive_mentions": 48,
+      "negative_mentions": 8,
+      "neutral_mentions": 47,
+      "mentions_total": 103,
+      "feature_score": 40,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "and please and subscribe if you these type of videos However, there s a 1440p camera above the screen in the middle, but unfortunately it doesn t have ir for windows hello face unlock, which i thought was a bit strange from a fairly premium laptop"
+    },
+    {
+      "feature": "design",
+      "sentiment": "positive",
+      "positive_mentions": 38,
+      "negative_mentions": 4,
+      "neutral_mentions": 47,
+      "mentions_total": 89,
+      "feature_score": 34,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "despite it being all metal though, it s pretty lightweight and definitely usable with one hand However, it s not exactly feather light, and with a beefy 400 w power brick, your legs will be jacked by the end of the semester, but there is one questionable design choice"
+    },
+    {
+      "feature": "display",
+      "sentiment": "positive",
+      "positive_mentions": 118,
+      "negative_mentions": 15,
+      "neutral_mentions": 101,
+      "mentions_total": 234,
+      "feature_score": 103,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "when we look up from here, we get a gorgeous display with a 2 However, oled displays usually are glossy, but with no anti reflective layer anywhere, this is pretty damn bad"
+    },
+    {
+      "feature": "performance",
+      "sentiment": "positive",
+      "positive_mentions": 257,
+      "negative_mentions": 35,
+      "neutral_mentions": 186,
+      "mentions_total": 478,
+      "feature_score": 222,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "i know i m pretty late for this review, but this is the lenovo legion 7, and it is lenovo s very best thin and light gaming laptop However, so, as for gaming, the legion 7 had no issues whatsoever"
+    },
+    {
+      "feature": "price",
+      "sentiment": "positive",
+      "positive_mentions": 45,
+      "negative_mentions": 10,
+      "neutral_mentions": 39,
+      "mentions_total": 94,
+      "feature_score": 35,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "however, mine came with this very rattly noise on the left side, and that does make it feel a bit cheaper and less built well However,  at lower resolutions the 5080 is competing with more expensive 5090 laptops, while the 5090 legion is generally ahead of other larger 5090 laptops"
+    },
+    {
+      "feature": "software",
+      "sentiment": "positive",
+      "positive_mentions": 104,
+      "negative_mentions": 21,
+      "neutral_mentions": 114,
+      "mentions_total": 239,
+      "feature_score": 83,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "now, in terms of its ports, it has quite a nice selection with the charging port being on the back However, nuke, sebastian, christian sans, real elf, eric the red, wesley rhodess, michael ghost data, anogar, abdullah, and louie"
+    },
+    {
+      "feature": "speaker",
+      "sentiment": "positive",
+      "positive_mentions": 38,
+      "negative_mentions": 4,
+      "neutral_mentions": 48,
+      "mentions_total": 90,
+      "feature_score": 34,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "these speakers sound really good However, we got our two big firing speakers right here"
+    },
+    {
+      "feature": "storage",
+      "sentiment": "positive",
+      "positive_mentions": 72,
+      "negative_mentions": 30,
+      "neutral_mentions": 134,
+      "mentions_total": 236,
+      "feature_score": 42,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "the legion 7 goes up to an rtx 5070, which is a fast card, but other laptops have higher tier options as well, which don t limit them to 8 gb of vr ram this one does However, and the fact that it s limited to a 5070, while it could handle more, means you re stuck with 8 gb of vram, which is starting to become a limit these days"
+    },
+    {
+      "feature": "thermals",
+      "sentiment": "positive",
+      "positive_mentions": 63,
+      "negative_mentions": 6,
+      "neutral_mentions": 55,
+      "mentions_total": 124,
+      "feature_score": 57,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "but that much power in such a thin body doesn t sound good news for thermals and fan noise, does it However, but that doesn t necessarily mean a thinner laptop will run hotter because back in 2020, power and noise were obviously sacrificed to get lower temperatures, while the 2022 models rtx3080 ti obviously pushed that vapor chamber heat sink to its limit"
+    }
+  ],
+  "review_summary": "now, in terms of its ports, it has quite a nice selection with the charging port being on the back However, in the gaming test, i play battlefield 1 until its battery died with the same settings as before and please and subscribe if you these type of videos However, there s a 1440p camera above the screen in the middle, but unfortunately it doesn t have ir for windows hello face unlock, which i thought was a bit strange from a fairly premium laptop despite it being all metal though, it s pretty lightweight and definitely usable with one hand However, it s not exactly feather light, and with a beefy 400 w power brick, your legs will be jacked by the end of the semester, but there is one questionable design choice"
+}

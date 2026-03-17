@@ -1,0 +1,127 @@
+{
+  "asin": "unknown",
+  "product": "Lenovo Yoga 7i",
+  "features": [
+    {
+      "feature": "battery",
+      "sentiment": "positive",
+      "positive_mentions": 32,
+      "negative_mentions": 3,
+      "neutral_mentions": 7,
+      "mentions_total": 42,
+      "feature_score": 29,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "luckily, its charger is pretty light, so if you to carry your charger with you, that s a nice benefit However, don t forget, the only way to charge the laptop is via one of the usbc ports, so you may only have one available unless you use a charging dock"
+    },
+    {
+      "feature": "camera",
+      "sentiment": "positive",
+      "positive_mentions": 33,
+      "negative_mentions": 2,
+      "neutral_mentions": 8,
+      "mentions_total": 43,
+      "feature_score": 31,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "by the way, neither of our units came with the pen, but we have requested it, and we ll do a follow up video on best twoin ones where we ll test it out"
+    },
+    {
+      "feature": "design",
+      "sentiment": "positive",
+      "positive_mentions": 19,
+      "negative_mentions": 0,
+      "neutral_mentions": 5,
+      "mentions_total": 24,
+      "feature_score": 19,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "but between that and its glossy finish, you may experience some reflections in a brighter environment or near a window"
+    },
+    {
+      "feature": "display",
+      "sentiment": "positive",
+      "positive_mentions": 49,
+      "negative_mentions": 4,
+      "neutral_mentions": 22,
+      "mentions_total": 75,
+      "feature_score": 45,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "this is disappointing, but it becomes helpful when you want to utilize the touchcreen or pen capabilities as the screen doesn t move However, the only other negative on the smaller screen is that we did detect some pwm flickering at lower brightness"
+    },
+    {
+      "feature": "performance",
+      "sentiment": "positive",
+      "positive_mentions": 41,
+      "negative_mentions": 3,
+      "neutral_mentions": 16,
+      "mentions_total": 60,
+      "feature_score": 38,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "but if you want to do some light gaming, the intel core ultra 7 processor gets you a more powerful gpu However, next, we see the lower tier 130v graphics in the ultra 5 processor score around 5,000, and the higher tier 140v graphics from the ultra 7 chips score around 7 to 7500"
+    },
+    {
+      "feature": "price",
+      "sentiment": "positive",
+      "positive_mentions": 17,
+      "negative_mentions": 0,
+      "neutral_mentions": 9,
+      "mentions_total": 26,
+      "feature_score": 17,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "these are convertible laptops from lenovo s value range"
+    },
+    {
+      "feature": "software",
+      "sentiment": "positive",
+      "positive_mentions": 29,
+      "negative_mentions": 0,
+      "neutral_mentions": 9,
+      "mentions_total": 38,
+      "feature_score": 29,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "i m going to share my personal mini buying guide for choosing a bang for your buck laptop"
+    },
+    {
+      "feature": "speaker",
+      "sentiment": "positive",
+      "positive_mentions": 14,
+      "negative_mentions": 2,
+      "neutral_mentions": 6,
+      "mentions_total": 22,
+      "feature_score": 12,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "this should give you a pretty good idea of the type of image quality that you re going to get and the type of audio quality that you should expect"
+    },
+    {
+      "feature": "storage",
+      "sentiment": "positive",
+      "positive_mentions": 16,
+      "negative_mentions": 0,
+      "neutral_mentions": 3,
+      "mentions_total": 19,
+      "feature_score": 16,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "the one that i got is specked out with a 13th gen intel core i7 1355u, 16 gigs of ddr5 ram, a 512 gigabyte ssd and thank you to best buy for sponsoring this video"
+    },
+    {
+      "feature": "thermals",
+      "sentiment": "positive",
+      "positive_mentions": 8,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 9,
+      "feature_score": 8,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "now, a lot of people don t care about multi core score or integrated graphics, but they do care about how much heat and fan noise a laptop makes during intensive tasks"
+    }
+  ],
+  "review_summary": "luckily, its charger is pretty light, so if you to carry your charger with you, that s a nice benefit However, don t forget, the only way to charge the laptop is via one of the usbc ports, so you may only have one available unless you use a charging dock by the way, neither of our units came with the pen, but we have requested it, and we ll do a follow up video on best twoin ones where we ll test it out but between that and its glossy finish, you may experience some reflections in a brighter environment or near a window"
+}

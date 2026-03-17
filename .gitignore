@@ -1,7 +1,5 @@
 *.env
 *.ienv
-*.json
-*.jsonl
 *.pyc
 *.txt# Environment files
 *.env

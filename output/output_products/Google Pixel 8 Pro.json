@@ -1,0 +1,127 @@
+{
+  "asin": "unknown",
+  "product": "Google Pixel 8 Pro",
+  "features": [
+    {
+      "feature": "battery",
+      "sentiment": "positive",
+      "positive_mentions": 27,
+      "negative_mentions": 1,
+      "neutral_mentions": 9,
+      "mentions_total": 37,
+      "feature_score": 26,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "it s not ltpo though, so you ll still probably wanna turn off the always on display to save a bit of battery"
+    },
+    {
+      "feature": "camera",
+      "sentiment": "positive",
+      "positive_mentions": 88,
+      "negative_mentions": 11,
+      "neutral_mentions": 57,
+      "mentions_total": 156,
+      "feature_score": 77,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "see, it s not that it s a lazy way of doing it, but i feel a good filmmaker tries to get as reliably good in camera as possible instead of relying on software However, sometimes details get watercolory but at least there s enough resolution that it doesn t look terrible when zoomed out"
+    },
+    {
+      "feature": "design",
+      "sentiment": "positive",
+      "positive_mentions": 28,
+      "negative_mentions": 0,
+      "neutral_mentions": 6,
+      "mentions_total": 34,
+      "feature_score": 28,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "overall, when you put fit and finish and hardware up alongside software experience, and i think these new screens especially, it feels this is finally the generation of pixel that is right alongside the other flagships of the smartphone world"
+    },
+    {
+      "feature": "display",
+      "sentiment": "positive",
+      "positive_mentions": 64,
+      "negative_mentions": 2,
+      "neutral_mentions": 18,
+      "mentions_total": 84,
+      "feature_score": 62,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "but the biggest improvement to the hardware though is definitely upfront, honestly to the point where i feel these new screens tie the phone together in a way that they re up at the level of any other flagship phone"
+    },
+    {
+      "feature": "performance",
+      "sentiment": "positive",
+      "positive_mentions": 38,
+      "negative_mentions": 2,
+      "neutral_mentions": 7,
+      "mentions_total": 47,
+      "feature_score": 36,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "but the biggest improvement to the hardware though is definitely upfront, honestly to the point where i feel these new screens tie the phone together in a way that they re up at the level of any other flagship phone"
+    },
+    {
+      "feature": "price",
+      "sentiment": "positive",
+      "positive_mentions": 20,
+      "negative_mentions": 0,
+      "neutral_mentions": 6,
+      "mentions_total": 26,
+      "feature_score": 20,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "i honestly, i think this is worth the new price tag"
+    },
+    {
+      "feature": "software",
+      "sentiment": "positive",
+      "positive_mentions": 66,
+      "negative_mentions": 3,
+      "neutral_mentions": 18,
+      "mentions_total": 87,
+      "feature_score": 63,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "meaning the shot isn t quite perfect, but we ll just fix that stuff in post production, kinda this However, you will genuinely never have that one person with their eyes closed or looking the wrong way in a group photo ever again"
+    },
+    {
+      "feature": "speaker",
+      "sentiment": "positive",
+      "positive_mentions": 20,
+      "negative_mentions": 2,
+      "neutral_mentions": 6,
+      "mentions_total": 28,
+      "feature_score": 18,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "easy, we got audio eraser, fix it in post, and many of these strategies with a little help from ai, work and that s where the pixel shines"
+    },
+    {
+      "feature": "storage",
+      "sentiment": "positive",
+      "positive_mentions": 24,
+      "negative_mentions": 0,
+      "neutral_mentions": 5,
+      "mentions_total": 29,
+      "feature_score": 24,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "i ve been using the google pixel 8 and 8 pro for a while now i ve taken these phones around the world with me and the only reason that i ve waited till now to talk about them is they re complicated these are the most exciting smartest most futuristic phones that i really want to tell you what the best phones i ve ever seen but i can t the packaging you ll get them with is pretty simple so this is the pixel 8 and then this is the pixel 8 pro and each one comes with a manual charging cable and an adapter to switch from your last phone so when i first picked these phones up and i experienced the design i thought yes the pixel 8 s look and feel the pixel 7s the same space age aesthetic with ultra minimal speaker grills they re a lot more comfortable this silky frosted glass that you get on the pro this material right here this is what every phone should be made of and i ve always said that the pebble is the most comfortable shape that a smartphone can be and well with these new rounded corners this is the closest we ve been in a while now i know some people don t the pixels whole visa thing i ve got a friend who keeps telling me it looks your phone is wearing a headband but i think it s great this visor it keeps the cameras high up on the phones your hands are completely clear of them it s symmetrical so when you put it on a table you don t get any weird rattling when you tap the sides of the screen the only thing that i don t is that they ve given the pro a glossy visor and saved the mat one for the bass pixel 8 and the mat is just way better it doesn t attract fingerprints it doesn t get scratched as easily this one does but at least the visors are very slightly raised in front of the cameras so your cameras are safe and then next to those cameras we ve got a brand new temperature sensor on the pro why do we have a temperature sensor on first glance it seems really dumb and it doesn t exactly get clearer when you open up the new thermometer app to use it i the thing just looks a template that s been drawn out in microsoft paint including an image that s very obviously 240p resolution the app allows you to go up close to household objects and measure the temperature okay i don t see people doing that for enjoyment and then for it to be an useful tool it needs to be laser precise but it isn t point it at the same object from the same distance and every single time the reading is different close enough to get a ballpark idea but not close enough to be a professional piece of equipment so here s my hot take i think google put this in solely for the purposes of human temperature detection the idea that you re feeling sick your pixel is the first thing you can reach for to get a second opinion in fact earlier this year before the phones were even announced we saw a leaked video showing how you can move the sensor across your forehead to get a reading that is a great feature if it works cuz i feel people now are more conscious about getting sick than they ve ever been before and your phone is the one thing that you can pretty much guarantee you will always have with you it s just that if you want to be able to claim that your device can take your body temperature then that requires proper medical clearance which takes time so at the last minute realizing that this clearance is not going to be ready for the phone s launch i m thinking that google just quickly scrambled together another random alternate use for the temperature sensor just so they could still talk about it regardless of if that s true or not right now temperature sensor feels a bit of a miss but the rest of the design is close to perfect for me and then you properly dive into the software with google s version of the new android 14 and this is both where i have some of my biggest problems but also in so many ways this is the user experience that i ve dreamed of most of the time the animations are silky smooth and the attention to detail with them is sublime just for example the way that your screen turns on depends on how the phone is unlocked if you use the power button the animation starts from the power button if you use the fingerprint scanner it starts from the middle of your screen and if it s face unlock the front camera will be the center point or another one when you want a gesture back and forth within an app you pull in from the side well when you pull in here what you re pulling is this little arrow it ll stay attached to the border of the screen until you pull it with enough pressure for it to dislocate when it bounces forward off the border with momentum that has physical impact thanks to the soft vibrations of the phone it s very subtle but it s this stuff that really makes it feel you re interacting with objects that have real weight and presence and i got to say whoever is on google s team making these kinds of minute but meaningful decisions you have my respect it s a large part of what separates the pixel from other androids for me and the haptic vibration experience all around whether you re typing or feeling that slight bump you get every time you scroll past an app or when you re using this inc screen fingerprint scanner it is top class but it s not just about animations it s just the software as a whole feels very attentive it feels very tuned in to what people want when you hear a song playing in a store and you start bopping along and you want to know what it is and then you realize that your phone has not just figured it out for you but it s presenting the information to you on a platter on your always on display display one of the flights i was on recently i just lost my internet connection and suddenly remembered i had no idea what time i was landing but then i pulled out my pixel and it was just there the information was on my lock screen the phone s packed with tutorials that explain how all the more complex things work and that is great cuz i don t think anyone is going to be able to pick up a phone as advanced as the pixel 8 and make the most of it without them every phone could do with more of these to be honest oh yeah and the google assistant more human than ever before i was using this a few days ago to prepare for an interview with very important person you will see that soon but i was essentially going on a really long walk and having the phone dictate articles on the internet to me and it sounds way less artificial than it does on my iphone plus you have the ability to control speed so you can get it to reach you at 0"
+    },
+    {
+      "feature": "thermals",
+      "sentiment": "positive",
+      "positive_mentions": 29,
+      "negative_mentions": 4,
+      "neutral_mentions": 11,
+      "mentions_total": 44,
+      "feature_score": 25,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "i ve been using the google pixel 8 and 8 pro for a while now i ve taken these phones around the world with me and the only reason that i ve waited till now to talk about them is they re complicated these are the most exciting smartest most futuristic phones that i really want to tell you what the best phones i ve ever seen but i can t the packaging you ll get them with is pretty simple so this is the pixel 8 and then this is the pixel 8 pro and each one comes with a manual charging cable and an adapter to switch from your last phone so when i first picked these phones up and i experienced the design i thought yes the pixel 8 s look and feel the pixel 7s the same space age aesthetic with ultra minimal speaker grills they re a lot more comfortable this silky frosted glass that you get on the pro this material right here this is what every phone should be made of and i ve always said that the pebble is the most comfortable shape that a smartphone can be and well with these new rounded corners this is the closest we ve been in a while now i know some people don t the pixels whole visa thing i ve got a friend who keeps telling me it looks your phone is wearing a headband but i think it s great this visor it keeps the cameras high up on the phones your hands are completely clear of them it s symmetrical so when you put it on a table you don t get any weird rattling when you tap the sides of the screen the only thing that i don t is that they ve given the pro a glossy visor and saved the mat one for the bass pixel 8 and the mat is just way better it doesn t attract fingerprints it doesn t get scratched as easily this one does but at least the visors are very slightly raised in front of the cameras so your cameras are safe and then next to those cameras we ve got a brand new temperature sensor on the pro why do we have a temperature sensor on first glance it seems really dumb and it doesn t exactly get clearer when you open up the new thermometer app to use it i the thing just looks a template that s been drawn out in microsoft paint including an image that s very obviously 240p resolution the app allows you to go up close to household objects and measure the temperature okay i don t see people doing that for enjoyment and then for it to be an useful tool it needs to be laser precise but it isn t point it at the same object from the same distance and every single time the reading is different close enough to get a ballpark idea but not close enough to be a professional piece of equipment so here s my hot take i think google put this in solely for the purposes of human temperature detection the idea that you re feeling sick your pixel is the first thing you can reach for to get a second opinion in fact earlier this year before the phones were even announced we saw a leaked video showing how you can move the sensor across your forehead to get a reading that is a great feature if it works cuz i feel people now are more conscious about getting sick than they ve ever been before and your phone is the one thing that you can pretty much guarantee you will always have with you it s just that if you want to be able to claim that your device can take your body temperature then that requires proper medical clearance which takes time so at the last minute realizing that this clearance is not going to be ready for the phone s launch i m thinking that google just quickly scrambled together another random alternate use for the temperature sensor just so they could still talk about it regardless of if that s true or not right now temperature sensor feels a bit of a miss but the rest of the design is close to perfect for me and then you properly dive into the software with google s version of the new android 14 and this is both where i have some of my biggest problems but also in so many ways this is the user experience that i ve dreamed of most of the time the animations are silky smooth and the attention to detail with them is sublime just for example the way that your screen turns on depends on how the phone is unlocked if you use the power button the animation starts from the power button if you use the fingerprint scanner it starts from the middle of your screen and if it s face unlock the front camera will be the center point or another one when you want a gesture back and forth within an app you pull in from the side well when you pull in here what you re pulling is this little arrow it ll stay attached to the border of the screen until you pull it with enough pressure for it to dislocate when it bounces forward off the border with momentum that has physical impact thanks to the soft vibrations of the phone it s very subtle but it s this stuff that really makes it feel you re interacting with objects that have real weight and presence and i got to say whoever is on google s team making these kinds of minute but meaningful decisions you have my respect it s a large part of what separates the pixel from other androids for me and the haptic vibration experience all around whether you re typing or feeling that slight bump you get every time you scroll past an app or when you re using this inc screen fingerprint scanner it is top class but it s not just about animations it s just the software as a whole feels very attentive it feels very tuned in to what people want when you hear a song playing in a store and you start bopping along and you want to know what it is and then you realize that your phone has not just figured it out for you but it s presenting the information to you on a platter on your always on display display one of the flights i was on recently i just lost my internet connection and suddenly remembered i had no idea what time i was landing but then i pulled out my pixel and it was just there the information was on my lock screen the phone s packed with tutorials that explain how all the more complex things work and that is great cuz i don t think anyone is going to be able to pick up a phone as advanced as the pixel 8 and make the most of it without them every phone could do with more of these to be honest oh yeah and the google assistant more human than ever before i was using this a few days ago to prepare for an interview with very important person you will see that soon but i was essentially going on a really long walk and having the phone dictate articles on the internet to me and it sounds way less artificial than it does on my iphone plus you have the ability to control speed so you can get it to reach you at 0 However, though, admittedly, checking somebody s temperature via phone is more niche than the phone replacing a flashlight, and it s a feature i ve only used once in six months to check my temperature when i was sick"
+    }
+  ],
+  "review_summary": "it s not ltpo though, so you ll still probably wanna turn off the always on display to save a bit of battery see, it s not that it s a lazy way of doing it, but i feel a good filmmaker tries to get as reliably good in camera as possible instead of relying on software However, sometimes details get watercolory but at least there s enough resolution that it doesn t look terrible when zoomed out overall, when you put fit and finish and hardware up alongside software experience, and i think these new screens especially, it feels this is finally the generation of pixel that is right alongside the other flagships of the smartphone world"
+}

@@ -1,0 +1,127 @@
+{
+  "asin": "unknown",
+  "product": "Samsung Galaxy Z Fold 5",
+  "features": [
+    {
+      "feature": "battery",
+      "sentiment": "positive",
+      "positive_mentions": 25,
+      "negative_mentions": 4,
+      "neutral_mentions": 6,
+      "mentions_total": 35,
+      "feature_score": 21,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "one other advantage with samsung ecosystem is reverse wireless charging However, watch and tws can be charged using reverse wireless charging"
+    },
+    {
+      "feature": "camera",
+      "sentiment": "positive",
+      "positive_mentions": 41,
+      "negative_mentions": 8,
+      "neutral_mentions": 23,
+      "mentions_total": 72,
+      "feature_score": 33,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "one thing i felt most useful was, the main camera can be used for seflies as it s foldable However, video recording on iphone can t be paused but only be stopped"
+    },
+    {
+      "feature": "design",
+      "sentiment": "positive",
+      "positive_mentions": 25,
+      "negative_mentions": 2,
+      "neutral_mentions": 2,
+      "mentions_total": 29,
+      "feature_score": 23,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "this is a custom snapdragon agent to build for samsung phones it has a slightly faster cpu and gpu so if you compare it with the z44 it scores about 15 more in benchmarks in real life apps still open faster putting apps to split screen is again faster even multitasking is faster opening multiple apps from the dock is faster but it was already faster on the z fold 4 and while playing bgmi now we ll play at hdr 60fps so overall the gameplay was really good but getting a bigger screen doesn t make you come first i am still second i believe snapdragon engine 2 after two to three years is the gold processor android has got it just gives day to day performance improvements and that performance improvement shows in the camera as well you get a 50 megapixel main camera 12 megapixel ultra wide and a 10 megapixel 3x telephoto lens it s about the same camera as last year and we took some photos with the c45 photo looks vivid eye pleasing it has that sharpness we took a few photos side by side with the z fold 4 as well the full 5 photos feels a bit sharper but that is due to the new processor you can do 8k 30 fps on the main camera we also took a video in 4k 60fps and if you slow it down it looks beautiful you get the same 10 megapixel selfie camera on the cover display that can record in 4k 60fps and you get a 4 megapixel under display camera now we have tried all the foldables this year from xiaomi vivo oppo the recent one which launched in india the cheapest foldable techno fold but more or less all of them are beta or unfinished product samsung has five generation of lead there s not a single foldable in india that can compete with this i would to put forward my wish list for the z fold 6 a make it lighter the s23 ultra weighs in 235 grams bring the fold closer to the weight of a normal phone be somehow just make the s pen go inside the phone i ve already made the s pen so thin just see i would to give it to you guys comment what you would to see in the next folding generation about this without confusing it all the pricing is unchanged you get the z45 for 154 triple nine there s eight thousand bank cashback and 5000 upgrade bonus so as simple as it gets if you want a fold in 2023 this is the only foldable i can recap and without a second thought i think there s also a lot of confusion between a normal phone and a folding and flipping phone we got this comment and frankly none of us had an answer so if you think we should compare a normal phone versus a folding phone let us know your thoughts on it will for surely do that this is really signing off see you in the next video pew"
+    },
+    {
+      "feature": "display",
+      "sentiment": "positive",
+      "positive_mentions": 59,
+      "negative_mentions": 8,
+      "neutral_mentions": 18,
+      "mentions_total": 85,
+      "feature_score": 51,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "one main advantage with a large screen is multitasking However, there is still technically a very small gap, but it s a huge leap from previous generations, and it helps keep dirt, dust, and debris that might be in your pocket out of the device, leading to less broken and no scratched inner screens"
+    },
+    {
+      "feature": "performance",
+      "sentiment": "positive",
+      "positive_mentions": 32,
+      "negative_mentions": 5,
+      "neutral_mentions": 14,
+      "mentions_total": 51,
+      "feature_score": 27,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "gaming on iphone feels good However, multitasking doesn t cause any performance lag"
+    },
+    {
+      "feature": "price",
+      "sentiment": "positive",
+      "positive_mentions": 22,
+      "negative_mentions": 2,
+      "neutral_mentions": 5,
+      "mentions_total": 29,
+      "feature_score": 20,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "okay so this year s galaxy unpacked we talked a lot about z flip 5 with that huge cover display galaxy watch classic with the rotating bezel come back and the humongous giant tab s9 ultra but the least attention was given to the z45 and i would say this is the s23 ultra of foldables let me explain why so you get this box it feels one of those expensive wallet boxes you get the phone some paperwork type c2 type c cable and that s it minimal life also you get these cases with it this one is pretty cool it has a pop socket behind it and this metal ring feels so premium also you get this s pen case and samsung has managed to make the s pen 41 slimmer and it does all the things you can do with the previous fold but better and in a smaller form factor anyways now there are three striking differences when you hold the z fold 4 and z45 side by side number one flex hinge now when you pick up both the folds by looks there s not much difference on the back the camera is now changed the flash is on the right but if you see both the folds sideways the z45 now shuts completely close this is the new flex hinge hold on i can show you in a better way see if i pass a light through them the z44 you can see the light whereas in z45 there s barely any light passing through now you would be how come that banters to me well now if you keep your z45 in your pocket there s less chance of dust entering the inner screen and now since the hinge is new it is slimmer now and most of the time you hold the fold by the hinge although the z45 is now 2"
+    },
+    {
+      "feature": "software",
+      "sentiment": "positive",
+      "positive_mentions": 41,
+      "negative_mentions": 2,
+      "neutral_mentions": 11,
+      "mentions_total": 54,
+      "feature_score": 39,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "melody music plays when a iphone user switches to android that too foldable in particular, 00 00 13,840 00 00 13,819 the top 10 advantages are"
+    },
+    {
+      "feature": "speaker",
+      "sentiment": "positive",
+      "positive_mentions": 15,
+      "negative_mentions": 0,
+      "neutral_mentions": 2,
+      "mentions_total": 17,
+      "feature_score": 15,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "the cover display is similar with 735 nits on the manual slider and nearly 1150 nits in auto mode and a nice feature is that when you re using the manual control the brightness matches between the inner and the outer screens the z fold 5 s inner display is sharp and contrasty and the larger size really makes a difference compared to your typical smartphone the color accuracy can be great depending on your color settings and you get support for hdr 10 plus here samsung hasn t made any changes to the crease where the screen folds over it s just as pronounced as it was last year but what nice detail is that again the selfie camera lies hidden under the inner display so at least that won t interrupt the expansive panel however if you want to take the best quality selfies you d probably use the main rear cameras using the cover screen as a viewfinder the refresh rate behavior is the same between the inner and the outer displays the 120 hertz smooths out movements on the screen while you swipe around and is quick to dial down to 24 hertz when you stop interacting with the screen to save power samsung claims it can go down to 1 hertz as well but we didn t encounter such use cases stylus support is maintained on the z fold 5 along with a bunch of exclusive apps to take advantage of it you still don t get a holder for the stylus built into the phone though what you can get is a new s pen slim case sold separately it can hold the stylus for you while adding only a few millimeters of thickness the s pen stylus itself is thinner and more compact this year too it s worth mentioning that only the foldable internal display supports the s pen you can t use it on the cover screen for audio the z fold 5 has a pair of stereo speakers they re louder than last year with a very good mark on our charts and the quality is great too with some bass nice vocals and well presented highs you can click the provided link to check how they sound for yourself for biometrics the z fold 5 has a side mounted fingerprint scanner built into the power button it s fast and reliable and although it isn t expandable through microsd you can get a ton of storage on the z fold 5"
+    },
+    {
+      "feature": "storage",
+      "sentiment": "positive",
+      "positive_mentions": 22,
+      "negative_mentions": 1,
+      "neutral_mentions": 2,
+      "mentions_total": 25,
+      "feature_score": 21,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "4 mm slimmer and compared to the z fold 4 it is only 10 grams lighter but in hand the z45 feels much lighter you get corning gorilla glass vectors 2 on the cover display and back glass which should make it better to drops let s test that on this table three two one i ll have a heart attack i can t do it number two folding display now you get the same 6"
+    },
+    {
+      "feature": "thermals",
+      "sentiment": "mixed",
+      "positive_mentions": 1,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 2,
+      "feature_score": 0,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "that cover screen is just a wee bit too skinny while the internal panel is far too boxy giving you next to no peripheral vision this bendy samsung is certainly best suited to more casual efforts no worries about overheating here on the z45 though unlike google s pixel fold you ve got a much larger vapor chamber compared with the older z fold 4 and that plus the efficient snapdragon platform means that the fold 5 doesn t ever melt down even when you re using it in strong sunlight or when you re gaming for bloody ages gotta say though i would really some proper gaming features what for instance sony serves up on its more recent smartphones it s still a bit bare bonds on all of samsung s blowers and naturally you ve got 5g support as you d expect from pretty much any smartphone these days let alone one that costs almost two grand and esim support as well as physical sim support and i had very few issues when it came to the connectivity besides the fact that the galaxy z fold 5 occasionally decided that the internet connection on a wi fi network was not really good enough to worth bothering with and so it would just disconnect the wi fi entirely without bothering to tell me i d just be there merrily downloading a massive apple streaming ridiculously high resolution video and then realizing the maps that you rinse in my mobile data allowance then restart on the wi fi items to fix the issue it s absolutely fine until the next time it decides it can t be bothered anymore as for the battery well it s a 4 400 milliamp hour capacity cell no upgrade over last year s model and lagging behind rivals the pixel fold and i gotta say the battery life on this thing has been all over the bloody place so quite a few evenings over the past fortnite i ve been in power saving mode by the evening which limits the brightness the performance etc i do tend to get around five to six hours of screen on time from a full charge depending on what you re doing of course the more you use the likes of the camera the faster that battery is going to drain and that is with a mixture of using the external display and the internal display however if you are using that internal screen quite a lot outdoors where it s quite sunny so the brightness has to be boosted all the way up you will see that battery life drop significantly even if i was just browsing the web maybe reading some comics things that i still found i got around four hours screen on time max so if you re fortunate enough to live somewhere that s rather sunny unlike your bloody blighty of course then you might want to carry a battery pack around with you just to make sure you steer charged up and when it comes time to juice the galaxy z fold 5 back up again well you ve got what samsung terms super fast charging i wouldn t say it s particularly nippy certainly compared with some chinese rivals and i certainly wouldn t chuck the word super in there not unless you think that the biggest problem with tortoises is just how bloody speedy they are and you do have a bit of tasty wireless charging support as well which again isn t particularly fast now let s finish up this cracking in depth review with a squint at the galaxy z fold 5 s optics and if you re familiar at all with the galaxy z fold 4 those specs might sound pretty bloody familiar although some upgrades have been made for this year s tech so you once again have a 50 megapixel primary camera sensor with optical image stabilization and this does a solid job for capturing picks at most times of day especially when you re shooting in natural light the focus is fast and even when you re shooting something moving at top speed i saw very few blurry or otherwise buggered up snaps we re talking plenty of crisp detail and all these slightly boosted colors to help bring your photos to life so exactly what you would expect from a samsung blower when you re dealing with more ambient light or particularly tricky contrast the zenfold 5 isn t always quite so success full it s here where rivals the pixels and the iphones of the world perform better i thought this bendy wonder rarely produces picks with flareon when you re dealing with strong lighting if that lighten is softer you can expect some grin to creep in while any subject that can t keep still may end up a wee bit smudged you got a night mode for those evening picks although this obviously isn t much good if yourself or your subject is moving as long as everything is nice and still low you will get a bright detailed shot and relatively quickly overall i found that my picks weren t as dependably attractive as what you would get on the likes of the galaxy s23 series smartphones but still not bad at all just a bit of a letdown considering how expensive this thing is for alternative shots samsung also packs in a 12 megapixel ultra wide angle shooter this is nothing out of the ordinary it s more susceptible to oversaturation in stronger lighting and not quite as capable when it comes to capturing vibrant tons but overall it s pretty decent much more useful is the 10 megapixel telephoto shooter with a three times optical zoom and once again image stabilization this maxes out at 30 times zoom far from the spare zoom of the s23 ultra with its 10 times optical zoom although i rarely had to punch in above the 20 time zoom level anyway and once you do get above that level everything gets quite grainy the zoom worked well even at night helped by the stabilization as long as once again you re subject in bouncing around an idiot and as usual samsung is absolutely stuffed the galaxy z45 full of bonus camera modes you ve got the obvious stuff the night mode the portrait mode the obligatory food mode you ve got that pro mode if you want to tinker with the settings and fan favorites the single take as for whole movies well this foldable morphle is as good as ever you can record up to 8k resolution video with smooth image stabilization even when you re moving about the place at a reasonable pace you ve also got clear audio capture even at a distance which is great for shooting those horror movies with the family and yeah the picture quality takes an inevitable hit in more naf lighten but at least you ll still end up with something serviceable i gotta say along with iphone samsung blows are one of my favorites when it comes to shooting video and the galaxy z45 doesn t really disappoint there is a simple 10 megapixel selfie camera on that cover screen but you are best off using the rear cam for selfies that is of course if you can deal with the slightly awkward way you have to handle this big square slab in order to take these shots thankfully you do have the hand recognition so you don t have to mess around tapping that shutter button and over the past couple of weeks i ve used the galaxy zedfold 5 a few times to do some skyping and zoom and basic video chat shenanigans using that internal 4 megapixel selfie cam and it s surprisingly decent the pictures and is hazy foggy and crappy as i was expecting and there you have it my lovelies that is what i reckon of samsung s galaxy z fold 5 after using it as my full time smartphone for a couple of weeks now i gotta say even though i m not really a massive fan of these almighty bendy blowers i do prefer the likes of the flip style efforts which are a lot more compact i did really enjoy my time with this big old beast a lot of that is down to samsung s software the fact that the internal display is very well supported indeed and an absolute joy to use unfortunately that external display is still just a bit too skinny a bit too annoying to do much of anything with and it s a shame that samsung still doesn t pack its best possible camera take on tube such an expensive blower it s my perfect massive foldable form would be a hybrid of the galaxy z fold 5 and that pixel fold i prefer the more squat niche for the pixel fold you can use that external display and it is an absolute joy because it s quite compact but also just a great aspect ratio unfortunately the pixel fold is also quite bulky at times so yeah which one should you chuck your almost two grand at well i ve done a side by side comparison of the pair if you want a closer look at the advantages and disadvantages of each in the meantime be greater your thoughts on the galaxy z45 down below as i see it goes on general worldwide release this week subscribe ding that notifications bell on the usual youtube bollocks and of yourselves a wonderful rest of the week cheers everyone love you thank you"
+    }
+  ],
+  "review_summary": "one other advantage with samsung ecosystem is reverse wireless charging However, watch and tws can be charged using reverse wireless charging one thing i felt most useful was, the main camera can be used for seflies as it s foldable However, video recording on iphone can t be paused but only be stopped this is a custom snapdragon agent to build for samsung phones it has a slightly faster cpu and gpu so if you compare it with the z44 it scores about 15 more in benchmarks in real life apps still open faster putting apps to split screen is again faster even multitasking is faster opening multiple apps from the dock is faster but it was already faster on the z fold 4 and while playing bgmi now we ll play at hdr 60fps so overall the gameplay was really good but getting a bigger screen doesn t make you come first i am still second i believe snapdragon engine 2 after two to three years is the gold processor android has got it just gives day to day performance improvements and that performance improvement shows in the camera as well you get a 50 megapixel main camera 12 megapixel ultra wide and a 10 megapixel 3x telephoto lens it s about the same camera as last year and we took some photos with the c45 photo looks vivid eye pleasing it has that sharpness we took a few photos side by side with the z fold 4 as well the full 5 photos feels a bit sharper but that is due to the new processor you can do 8k 30 fps on the main camera we also took a video in 4k 60fps and if you slow it down it looks beautiful you get the same 10 megapixel selfie camera on the cover display that can record in 4k 60fps and you get a 4 megapixel under display camera now we have tried all the foldables this year from xiaomi vivo oppo the recent one which launched in india the cheapest foldable techno fold but more or less all of them are beta or unfinished product samsung has five generation of lead there s not a single foldable in india that can compete with this i would to put forward my wish list for the z fold 6 a make it lighter the s23 ultra weighs in 235 grams bring the fold closer to the weight of a normal phone be somehow just make the s pen go inside the phone i ve already made the s pen so thin just see i would to give it to you guys comment what you would to see in the next folding generation about this without confusing it all the pricing is unchanged you get the z45 for 154 triple nine there s eight thousand bank cashback and 5000 upgrade bonus so as simple as it gets if you want a fold in 2023 this is the only foldable i can recap and without a second thought i think there s also a lot of confusion between a normal phone and a folding and flipping phone we got this comment and frankly none of us had an answer so if you think we should compare a normal phone versus a folding phone let us know your thoughts on it will for surely do that this is really signing off see you in the next video pew"
+}

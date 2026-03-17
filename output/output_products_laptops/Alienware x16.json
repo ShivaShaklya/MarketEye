@@ -1,0 +1,127 @@
+{
+  "asin": "unknown",
+  "product": "Alienware x16",
+  "features": [
+    {
+      "feature": "battery",
+      "sentiment": "positive",
+      "positive_mentions": 23,
+      "negative_mentions": 8,
+      "neutral_mentions": 29,
+      "mentions_total": 60,
+      "feature_score": 15,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "1 protocol, capable of charging a macbook pro 16 from 0 to 56 in just 30 minutes However, the 330 watt gan charger is noticeably smaller compared to most other brands, and lower specced versions come with a smaller 240 watt charger"
+    },
+    {
+      "feature": "camera",
+      "sentiment": "positive",
+      "positive_mentions": 25,
+      "negative_mentions": 3,
+      "neutral_mentions": 14,
+      "mentions_total": 42,
+      "feature_score": 22,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "we have been reviewing a ton of 16in gaming laptops over the last couple of weeks and this one the alien way x16 r2 is my favorite for gaming i it better than the legion 7i the pro 7i the asus scar 16 the g16 you guys get the point but just almost every laptop right now this one isn t perfect there are issues that you need to know about if you re considering buying it look since i value your time i m just going to give you the pros the cons and tell you how it stacks up versus the competition the alienware x16 2 sets itself apart from every other gaming laptop in the following ways the typing experience is god tier the optional cherry mx keyboard is one of the most satisfying laptop keyboards to type on the experience is further elevated by how comfortable the soft touch material on the palmrest is and how thin the laptop is too which keeps your hands at an ideal angle the next positive is that this year s alienware x16 r2 has massive improved thermals over the original r1 version that laptop always felt warm and i found it distracting this new version is extremely called to the touch whether doing office work playing a game or compiling code it just never feels that warm this is due to a combination of the inclusion of intel s more efficient core ultra 9 processor and dell s improved cooling design the rtx 480 and 490 configurations now have a larger surface area that attaches to the heat pipes and due to the improved thermals this laptop is really quiet seriously in light use i could barely hear the fans going in a quiet room it was quieter than lenovo s excellent yoga pro 9i and the new legion 7i and noticeably quieter than asus s gaming laptops and when you re gaming or doing performance tasks software development this alien w s fan noise is very competitive for a laptop with this performance and when you re doing performance tasks just all modern alien wees dell squeezes every ounce of juice out of the components inside and when it comes to graphics performance the itx 480 in this laptop performs very well and as it should and if you re wondering why other laptops with this same graphics beat it out in time spy that is predominantly due to those laptops using intel s hx processor that processor is more powerful but it s also more power hungry speaking personally i d take the trade off of less cpu performance for a more comfortable gaming experience any day and for most use cases the core ultra 9 is powerful enough anyway and just a little note here all our performance graphs were using the laptop s performance modes some laptops this one do have an overdrive or turbo mode these modes give you a little extra performance for a lot of extra fan noise we don t recommend using them because of that that being said if you do want to see these laptops max performance here is geekbench cinebench time spy and cyber punk on battery the laptop is as good as you re going to get for one with this power that being said cp performance does drop a bit when on battery but when running performance tasks this laptop lasts a little longer than its competitors now when doing very light tasks expect to get around 8 hours of use which again is about as good as you re going to get and finally the laptop at least when it s open looks stunning mainly due to the bright individually lit rgb keys and the industrial design cues it just looks so clean sitting on a desk with a screen open this is made possible by the ports being all around the back it keeps the cables neatly away all right i could go into more minor positives the trackpad being quite good but i ve covered the material points so let s switch gears and talk about this laptop s issues the biggest of which is the display it is the dimmer screen of any of its competitors and that is a crying shame as the rest of the panel specs are quite good and even though the screen does have a matte finish so you don t have to worry about reflections it s still not bright enough to use in a well lit room you re going to find yourself smashing the brightness up button to try to get more out of it for a laptop this expensive to be nerfed with such an obvious issue just comes down to poor product management after the failure of dell s redesigned xps laptops i m just going to come out and say what everyone is thinking dell has a product management problem decisions this show that they are out of touch with their consumers there is simply no excuse for putting a panel this dim in a laptop this expensive all it does is restrict the people who can buy this otherwise excellent device to those who will use it in a dimly lit environment the next issue is really the laptop s chassis even though it s nice and thin it s got a really large footprint to it it just won t fit in a lot of backpacks and laptop sleeves which is a pity as its weight is pretty decent for a laptop packing this much power if it weren t for the odd size and shape it would be ideal for those who to take their laptop with them and on that odd chassis design the keyboard is pushed forward and that makes the palis smaller than on other laptops i have small hands so i don t have a problem with this but taylor found it uncomfortable and even though the keyboard is perfection in terms of its tactile feel there are two issues to be aware of one if you get the cherry mx keyboard it is a clicky keyboard and it is loud and when you type fast sometimes you can hear a lasting ring is the keys clack if this annoys you save 100 and get the basse keyboard it s still very good number two there is an additional column of special keys on the right side of the keyboard that controls the volume up and down and muting the mic you may find you mispress these keys but at least you won t mispress the power button by design the power button requires substantial force to register look if this is your only keyboard you ll get used to the layout but i d prefer dell just stuck to a regular one and put these keys somewhere else now for a 16 in laptop the port selection is a little me all the ports are around the back which as i said does have its advantages but it also makes commonly used ones harder to access especially as there is this bright light bar right around them that will blind you when you try to find them also there is a micro sd card reader instead of a fullsize one which sucks plus the usba a ports are both the slow of 5 gb ones only one of the two usbc ports supports thunderbolt and there is no ethernet port that being said this laptop does have the hardware required to support wi fi 7 when it officially becomes available so that s certainly a positive the speakers are also surprisingly disappointing when delo showed me the x16 they made a big hooper of these speakers even had me listen to them in a soundproof booth look they get loud but the sound quality and the dynamic range it just isn t there and yes i ve tried every conceivable setting in the dolby access app it didn t solve this and the webcam it is pretty bad for the money you re paying here i am in the best possible lighting and audio conditions and when it comes to upgradability both the ssds are upgradable but the memory is solded and it maxes out at 32 gig lastly it s expensive at the time of this review with the configuration i recommend a core ultra 9 processor and rtx 480 32 g of memory and the cherry mx keyboard you re looking at 3,200 that is significantly more than the legion pro 7i which has similar specs for 2700 and on that note let s wrap the alienware x16 r2 significantly improves on the pri generation solving one of the major issues that we had with that laptop it is now much cooler to the touch in every use case so here s where it stacks up versus the competitors if you re looking for a somewhat portable 16 in gaming laptop and you re happy with the performance of an rtx 4070 the legion 7i is a better buy it looks nice it screen is much brighter it has upgradable memory and it s far cheaper however it is definitely a warm feeling laptop and you just going to have to deal with that but if you do want a laptop with an rtx 480 or 4090 this alienware really does shine it is expensive but as i said it s my favorite gaming laptop right now the main reason is because it is the most comfortable to game on i don t feel crazy warm temperatures i m not annoyed by excessive fan noise yet it still gives me incredible gaming performance and when in my dim office the screen it is really good but if you do need a brighter screen and fan noise doesn t bother you as much asus s stre scar 16 that is taylor s favorite now before you run out and buy any of these laptops we need to make sure you re getting the best prices on them and that s where our website comes in it shows all the laptops that we ve tested and recommend for various types of users as well as where to go to get the best deals on them let s end with a youtuber stick if you this video what to do smash the button and get subscribed not only does it show your appreciation but it helps us grow the channel which means that we can make more videos for you plus as i always say it makes my dearest mother very proud go do something awesome with your day and i will catch you later However, the cooling pad i test with, linked below the video, was able to drop temps by about 6 degrees celsius"
+    },
+    {
+      "feature": "design",
+      "sentiment": "positive",
+      "positive_mentions": 30,
+      "negative_mentions": 2,
+      "neutral_mentions": 8,
+      "mentions_total": 40,
+      "feature_score": 28,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "while the simplistic design and included braided type c cable compliment any workspace"
+    },
+    {
+      "feature": "display",
+      "sentiment": "positive",
+      "positive_mentions": 53,
+      "negative_mentions": 7,
+      "neutral_mentions": 37,
+      "mentions_total": 97,
+      "feature_score": 46,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "key brightness can be turned off or adjusted between two brightness levels with the f7 shortcuts, while some keys volume and mic mute on the right change to white to show that they re enabled However, the total system latency is the amount of time between a mouse click and when a gunshot fire appears on the screen in cs go"
+    },
+    {
+      "feature": "performance",
+      "sentiment": "positive",
+      "positive_mentions": 78,
+      "negative_mentions": 16,
+      "neutral_mentions": 41,
+      "mentions_total": 135,
+      "feature_score": 62,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "honestly, the performance from this laptop surprised me considering its thinner size However, alienware s command center software lets us pick between these different performance modes, which from lowest to higher are quiet, balanced, performance, and overdrive"
+    },
+    {
+      "feature": "price",
+      "sentiment": "positive",
+      "positive_mentions": 31,
+      "negative_mentions": 2,
+      "neutral_mentions": 13,
+      "mentions_total": 46,
+      "feature_score": 29,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "the screen was a little dim, only just getting to 300 nits at full brightness, which is the minimum i want to see from budget friendly laptops, so this is disappointing from such an expensive machine"
+    },
+    {
+      "feature": "software",
+      "sentiment": "positive",
+      "positive_mentions": 48,
+      "negative_mentions": 20,
+      "neutral_mentions": 25,
+      "mentions_total": 93,
+      "feature_score": 28,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "the interior is all black with a smooth finish and overall build quality feels good However, alienware s command center software lets us pick between these different performance modes, which from lowest to higher are quiet, balanced, performance, and overdrive"
+    },
+    {
+      "feature": "speaker",
+      "sentiment": "positive",
+      "positive_mentions": 23,
+      "negative_mentions": 5,
+      "neutral_mentions": 10,
+      "mentions_total": 38,
+      "feature_score": 18,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "there are front facing speakers on the left and right of the keyboard, as well as 4 woofers underneath along the front However, the keyboard isn t uncomfortable, but the side speakers over the air exhausts are hot"
+    },
+    {
+      "feature": "storage",
+      "sentiment": "positive",
+      "positive_mentions": 29,
+      "negative_mentions": 3,
+      "neutral_mentions": 14,
+      "mentions_total": 46,
+      "feature_score": 26,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "the speeds from the 1tb ssd were excellent, and my microsd card performed quite well too However, unfortunately memory is soldered to the board and cannot be upgraded one of the downsides to thinning down a laptop to this degree, so make sure you buy it with the amount you need, because you re stuck with it"
+    },
+    {
+      "feature": "thermals",
+      "sentiment": "positive",
+      "positive_mentions": 25,
+      "negative_mentions": 2,
+      "neutral_mentions": 17,
+      "mentions_total": 44,
+      "feature_score": 23,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "ugreen takes safety seriously with their thermal guard system, which monitors temperature 6000 times a minute"
+    }
+  ],
+  "review_summary": "1 protocol, capable of charging a macbook pro 16 from 0 to 56 in just 30 minutes However, the 330 watt gan charger is noticeably smaller compared to most other brands, and lower specced versions come with a smaller 240 watt charger we have been reviewing a ton of 16in gaming laptops over the last couple of weeks and this one the alien way x16 r2 is my favorite for gaming i it better than the legion 7i the pro 7i the asus scar 16 the g16 you guys get the point but just almost every laptop right now this one isn t perfect there are issues that you need to know about if you re considering buying it look since i value your time i m just going to give you the pros the cons and tell you how it stacks up versus the competition the alienware x16 2 sets itself apart from every other gaming laptop in the following ways the typing experience is god tier the optional cherry mx keyboard is one of the most satisfying laptop keyboards to type on the experience is further elevated by how comfortable the soft touch material on the palmrest is and how thin the laptop is too which keeps your hands at an ideal angle the next positive is that this year s alienware x16 r2 has massive improved thermals over the original r1 version that laptop always felt warm and i found it distracting this new version is extremely called to the touch whether doing office work playing a game or compiling code it just never feels that warm this is due to a combination of the inclusion of intel s more efficient core ultra 9 processor and dell s improved cooling design the rtx 480 and 490 configurations now have a larger surface area that attaches to the heat pipes and due to the improved thermals this laptop is really quiet seriously in light use i could barely hear the fans going in a quiet room it was quieter than lenovo s excellent yoga pro 9i and the new legion 7i and noticeably quieter than asus s gaming laptops and when you re gaming or doing performance tasks software development this alien w s fan noise is very competitive for a laptop with this performance and when you re doing performance tasks just all modern alien wees dell squeezes every ounce of juice out of the components inside and when it comes to graphics performance the itx 480 in this laptop performs very well and as it should and if you re wondering why other laptops with this same graphics beat it out in time spy that is predominantly due to those laptops using intel s hx processor that processor is more powerful but it s also more power hungry speaking personally i d take the trade off of less cpu performance for a more comfortable gaming experience any day and for most use cases the core ultra 9 is powerful enough anyway and just a little note here all our performance graphs were using the laptop s performance modes some laptops this one do have an overdrive or turbo mode these modes give you a little extra performance for a lot of extra fan noise we don t recommend using them because of that that being said if you do want to see these laptops max performance here is geekbench cinebench time spy and cyber punk on battery the laptop is as good as you re going to get for one with this power that being said cp performance does drop a bit when on battery but when running performance tasks this laptop lasts a little longer than its competitors now when doing very light tasks expect to get around 8 hours of use which again is about as good as you re going to get and finally the laptop at least when it s open looks stunning mainly due to the bright individually lit rgb keys and the industrial design cues it just looks so clean sitting on a desk with a screen open this is made possible by the ports being all around the back it keeps the cables neatly away all right i could go into more minor positives the trackpad being quite good but i ve covered the material points so let s switch gears and talk about this laptop s issues the biggest of which is the display it is the dimmer screen of any of its competitors and that is a crying shame as the rest of the panel specs are quite good and even though the screen does have a matte finish so you don t have to worry about reflections it s still not bright enough to use in a well lit room you re going to find yourself smashing the brightness up button to try to get more out of it for a laptop this expensive to be nerfed with such an obvious issue just comes down to poor product management after the failure of dell s redesigned xps laptops i m just going to come out and say what everyone is thinking dell has a product management problem decisions this show that they are out of touch with their consumers there is simply no excuse for putting a panel this dim in a laptop this expensive all it does is restrict the people who can buy this otherwise excellent device to those who will use it in a dimly lit environment the next issue is really the laptop s chassis even though it s nice and thin it s got a really large footprint to it it just won t fit in a lot of backpacks and laptop sleeves which is a pity as its weight is pretty decent for a laptop packing this much power if it weren t for the odd size and shape it would be ideal for those who to take their laptop with them and on that odd chassis design the keyboard is pushed forward and that makes the palis smaller than on other laptops i have small hands so i don t have a problem with this but taylor found it uncomfortable and even though the keyboard is perfection in terms of its tactile feel there are two issues to be aware of one if you get the cherry mx keyboard it is a clicky keyboard and it is loud and when you type fast sometimes you can hear a lasting ring is the keys clack if this annoys you save 100 and get the basse keyboard it s still very good number two there is an additional column of special keys on the right side of the keyboard that controls the volume up and down and muting the mic you may find you mispress these keys but at least you won t mispress the power button by design the power button requires substantial force to register look if this is your only keyboard you ll get used to the layout but i d prefer dell just stuck to a regular one and put these keys somewhere else now for a 16 in laptop the port selection is a little me all the ports are around the back which as i said does have its advantages but it also makes commonly used ones harder to access especially as there is this bright light bar right around them that will blind you when you try to find them also there is a micro sd card reader instead of a fullsize one which sucks plus the usba a ports are both the slow of 5 gb ones only one of the two usbc ports supports thunderbolt and there is no ethernet port that being said this laptop does have the hardware required to support wi fi 7 when it officially becomes available so that s certainly a positive the speakers are also surprisingly disappointing when delo showed me the x16 they made a big hooper of these speakers even had me listen to them in a soundproof booth look they get loud but the sound quality and the dynamic range it just isn t there and yes i ve tried every conceivable setting in the dolby access app it didn t solve this and the webcam it is pretty bad for the money you re paying here i am in the best possible lighting and audio conditions and when it comes to upgradability both the ssds are upgradable but the memory is solded and it maxes out at 32 gig lastly it s expensive at the time of this review with the configuration i recommend a core ultra 9 processor and rtx 480 32 g of memory and the cherry mx keyboard you re looking at 3,200 that is significantly more than the legion pro 7i which has similar specs for 2700 and on that note let s wrap the alienware x16 r2 significantly improves on the pri generation solving one of the major issues that we had with that laptop it is now much cooler to the touch in every use case so here s where it stacks up versus the competitors if you re looking for a somewhat portable 16 in gaming laptop and you re happy with the performance of an rtx 4070 the legion 7i is a better buy it looks nice it screen is much brighter it has upgradable memory and it s far cheaper however it is definitely a warm feeling laptop and you just going to have to deal with that but if you do want a laptop with an rtx 480 or 4090 this alienware really does shine it is expensive but as i said it s my favorite gaming laptop right now the main reason is because it is the most comfortable to game on i don t feel crazy warm temperatures i m not annoyed by excessive fan noise yet it still gives me incredible gaming performance and when in my dim office the screen it is really good but if you do need a brighter screen and fan noise doesn t bother you as much asus s stre scar 16 that is taylor s favorite now before you run out and buy any of these laptops we need to make sure you re getting the best prices on them and that s where our website comes in it shows all the laptops that we ve tested and recommend for various types of users as well as where to go to get the best deals on them let s end with a youtuber stick if you this video what to do smash the button and get subscribed not only does it show your appreciation but it helps us grow the channel which means that we can make more videos for you plus as i always say it makes my dearest mother very proud go do something awesome with your day and i will catch you later However, the cooling pad i test with, linked below the video, was able to drop temps by about 6 degrees celsius while the simplistic design and included braided type c cable compliment any workspace"
+}

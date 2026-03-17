@@ -1,0 +1,127 @@
+{
+  "asin": "unknown",
+  "product": "Microsoft Surface Laptop 5",
+  "features": [
+    {
+      "feature": "battery",
+      "sentiment": "positive",
+      "positive_mentions": 28,
+      "negative_mentions": 1,
+      "neutral_mentions": 10,
+      "mentions_total": 39,
+      "feature_score": 27,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "well, evo balances battery life with performance, so it s really good for on the go productivity"
+    },
+    {
+      "feature": "camera",
+      "sentiment": "positive",
+      "positive_mentions": 33,
+      "negative_mentions": 1,
+      "neutral_mentions": 14,
+      "mentions_total": 48,
+      "feature_score": 32,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "the advantage of this is you get additional vertical space and that tends to work well when say you re composing a word document or maybe you re working on a spreadsheet, but let s say you re watching a video on youtube, you ll get those black lines on the top and on the bottom"
+    },
+    {
+      "feature": "design",
+      "sentiment": "positive",
+      "positive_mentions": 23,
+      "negative_mentions": 2,
+      "neutral_mentions": 5,
+      "mentions_total": 30,
+      "feature_score": 21,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "and it is a lovely machine with apple level build quality a fantastic keyboard and trackpad it s just that when it comes to performance and battery life right now there s no windows laptop that can really catch their similarly priced m1 or m2 macbook air so the question is is this a good alternative to the macbook air or something the dell xps 13 or has dropping the ryzen cpu option and reusing the same design again with its fairly limited ports it s tough to recommend as windows machines go this is a pretty refined device and if you are just using it to browse the web watch netflix do some office work maybe a bit of lightroom editing you really can t go wrong now once again there are two options you ve got the 13"
+    },
+    {
+      "feature": "display",
+      "sentiment": "positive",
+      "positive_mentions": 40,
+      "negative_mentions": 4,
+      "neutral_mentions": 15,
+      "mentions_total": 59,
+      "feature_score": 36,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "the screen on this laptop is 13 and a half inches, but there is also a 15 inch version, and overall, i think the screen looks fantastic However, brightness is fine, colors are fine, it s all good but it no longer wows you, it would if it was an oled display or a mini led that ll see your eyeballs or something"
+    },
+    {
+      "feature": "performance",
+      "sentiment": "positive",
+      "positive_mentions": 30,
+      "negative_mentions": 4,
+      "neutral_mentions": 9,
+      "mentions_total": 43,
+      "feature_score": 26,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "well, evo balances battery life with performance, so it s really good for on the go productivity However, it handles things productivity software, web browsing, or watching videos well, but here again, if you re planning on doing heavy gaming or video editing, this graphics card is not the best for that, so here too, it depends on your needs"
+    },
+    {
+      "feature": "price",
+      "sentiment": "positive",
+      "positive_mentions": 18,
+      "negative_mentions": 0,
+      "neutral_mentions": 5,
+      "mentions_total": 23,
+      "feature_score": 18,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": " if you ve ever used a cheap plastic laptop before, you ll really appreciate the difference"
+    },
+    {
+      "feature": "software",
+      "sentiment": "positive",
+      "positive_mentions": 33,
+      "negative_mentions": 4,
+      "neutral_mentions": 12,
+      "mentions_total": 49,
+      "feature_score": 29,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "within the box itself, you get the laptop, a power supply, and there s also a quick start guide along with safety and warranty information However, it handles things productivity software, web browsing, or watching videos well, but here again, if you re planning on doing heavy gaming or video editing, this graphics card is not the best for that, so here too, it depends on your needs"
+    },
+    {
+      "feature": "speaker",
+      "sentiment": "positive",
+      "positive_mentions": 19,
+      "negative_mentions": 0,
+      "neutral_mentions": 4,
+      "mentions_total": 23,
+      "feature_score": 19,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "now looking at the microphones, you have two of them, so you would expect them to be pretty good, but when i tested them, they didn t sound that great"
+    },
+    {
+      "feature": "storage",
+      "sentiment": "positive",
+      "positive_mentions": 19,
+      "negative_mentions": 0,
+      "neutral_mentions": 10,
+      "mentions_total": 29,
+      "feature_score": 19,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "for the memory, you can get anywhere between 8 gigabytes all the way up to 32 gigabytes of ram, and for the storage space, you can get anywhere between 256 gigabytes all the way up to one terabyte, and for both of these, the more you can get the better, of course that will cost you"
+    },
+    {
+      "feature": "thermals",
+      "sentiment": "positive",
+      "positive_mentions": 7,
+      "negative_mentions": 0,
+      "neutral_mentions": 4,
+      "mentions_total": 11,
+      "feature_score": 7,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "5 inch model it s a smidge heavier than the macbook air and also a fair bit thicker so it s not the thinnest or the lightest but you can easily carry around all day there s this classy mirrored windows logo on the lid we get these nice rounded corners and angled edges that keeps everything feeling slim and as for ports well there aren t really an awful lot of them we have the surface connector charger on this side that is all you have on the right side as you re looking at on the other side we have a full size usb a a usbc thunderbolt 4 which is very good to see and also a headphone jack but the good news is that thunderbolt 4 port means that you now have a ton of other options for hubs and connect activity and also means you don t have to rely on microsoft s overpriced surface dock 2 which attaches via the surface connect port there s still no wi fi 6e but it s not the end of the world one of the best things about the surface laptop 5 and really any surface device is the keyboard this is still one of the best keyboards for me at least on any windows laptop there s good feedback it s not too clacky and my fingers always found the right key there isn t a ton of travel but this is still a great keyboard and as for the touchpad it could be a little bit bigger but feedback is nice it s responsive and is accurate i also think maybe i could have forgiven these fairly chunky bezels for a 2022 laptop if they d improve the webcam if there was a really beefy high quality webcam in here well it s still 720p no change there although they say they have improved the image quality the processing so let me know what you think in the comments i think it s doing a pretty good job if i change the lighting conditions a little bit you can see how it copes we also get dual far field microphones and i am impressed how good the microphone quality sounds on this web cam and of course also we get an ir sensor for windows hello face unlocking now considering the only real upgrade with this of any significance is that jump to 12 gen intel processors the question is how fast is it well performance in everyday apps is totally fine even editing the old photo and playing some less demanding games is no problem and impressively even in the top spec form of the i7 the fans only come in under serious load and even then they re still pretty quiet with temperatures sitting around the mid 80s and the chassis stayed nice and cool even under moderate load i did try a little bit of video editing and while it s fine for basic 1080p projects if you have a lot of assets or you re hitting with 4k you ll probably want something with a bit more grunt also the iris xe integrated graphics got me just over 50 fps in rainbow six siege albeit on low settings and around 60 in overwatch 2 so they re both just about playable foreign sometimes but these omni sonic speakers do support dobby atmos so if you are watching something that does support ammos i did find this surround sound was quite good but regular videos it s a little bit tinny even so voices are clear and they can get loud enough for watching movies if you sat close by but of course a pair of headphones will always be better and you do have this three and a half mil jack if you prefer so how much well the 13"
+    }
+  ],
+  "review_summary": "well, evo balances battery life with performance, so it s really good for on the go productivity the advantage of this is you get additional vertical space and that tends to work well when say you re composing a word document or maybe you re working on a spreadsheet, but let s say you re watching a video on youtube, you ll get those black lines on the top and on the bottom and it is a lovely machine with apple level build quality a fantastic keyboard and trackpad it s just that when it comes to performance and battery life right now there s no windows laptop that can really catch their similarly priced m1 or m2 macbook air so the question is is this a good alternative to the macbook air or something the dell xps 13 or has dropping the ryzen cpu option and reusing the same design again with its fairly limited ports it s tough to recommend as windows machines go this is a pretty refined device and if you are just using it to browse the web watch netflix do some office work maybe a bit of lightroom editing you really can t go wrong now once again there are two options you ve got the 13"
+}

@@ -1,0 +1,127 @@
+{
+  "asin": "unknown",
+  "product": "iPhone 15 Pro Max",
+  "features": [
+    {
+      "feature": "battery",
+      "sentiment": "positive",
+      "positive_mentions": 30,
+      "negative_mentions": 4,
+      "neutral_mentions": 17,
+      "mentions_total": 51,
+      "feature_score": 26,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "but the real highlight of this build here, let s be honest, is there s a new port at the bottom, that usb type c, which makes a big difference to people me who have other gadgets in their life, computers, headphones, mouse, keyboard, i just bring one charger, it works with everything However, and then, we also started to see some of those headlines about battery life potentially being worse and there s also some overheating issues popping up on twitter or x and some people were asking if mine has had any issues"
+    },
+    {
+      "feature": "camera",
+      "sentiment": "positive",
+      "positive_mentions": 67,
+      "negative_mentions": 14,
+      "neutral_mentions": 37,
+      "mentions_total": 118,
+      "feature_score": 53,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "i talked about the handshake it does with plugging directly into other phones and reverse charging them at four and a half watts in the unboxing video, that s pretty neat However, and also, my worries about the light colored scratches, if you go deep enough, were all confirmed by zack, jerryrigeverything, in his video cutting the thing up"
+    },
+    {
+      "feature": "design",
+      "sentiment": "positive",
+      "positive_mentions": 29,
+      "negative_mentions": 0,
+      "neutral_mentions": 8,
+      "mentions_total": 37,
+      "feature_score": 29,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "so apple made an update to the build and the materials of the iphone this year, they ve softened the corners a little bit, it s clearly still a boxy design, but, now, instead of a completely flat glass at the front, there s this gentle little curve just at the very edges"
+    },
+    {
+      "feature": "display",
+      "sentiment": "positive",
+      "positive_mentions": 35,
+      "negative_mentions": 1,
+      "neutral_mentions": 6,
+      "mentions_total": 42,
+      "feature_score": 34,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "i think that ll maybe make screen protectors slightly more intricate, but i think it has a nice look to it"
+    },
+    {
+      "feature": "performance",
+      "sentiment": "positive",
+      "positive_mentions": 26,
+      "negative_mentions": 3,
+      "neutral_mentions": 15,
+      "mentions_total": 44,
+      "feature_score": 23,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "but that is a good segue to the main enabler, the new powerhouse chip inside this phone with a new name, the a17 pro However, 0 data transfer speeds so you can get that prores footage off the phone noticeably faster, and you can , for the first time, shoot video directly onto an external drive"
+    },
+    {
+      "feature": "price",
+      "sentiment": "positive",
+      "positive_mentions": 16,
+      "negative_mentions": 2,
+      "neutral_mentions": 4,
+      "mentions_total": 22,
+      "feature_score": 14,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "it s funny, i ve always associated a heavy phone with expensive feeling,, the ceramic phones are extra heavy, they feel substance"
+    },
+    {
+      "feature": "software",
+      "sentiment": "positive",
+      "positive_mentions": 46,
+      "negative_mentions": 1,
+      "neutral_mentions": 20,
+      "mentions_total": 67,
+      "feature_score": 45,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "so easiest place to start is the way they ve built this phone"
+    },
+    {
+      "feature": "speaker",
+      "sentiment": "positive",
+      "positive_mentions": 4,
+      "negative_mentions": 1,
+      "neutral_mentions": 1,
+      "mentions_total": 6,
+      "feature_score": 3,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "one of the areas this phone is still better than some new iphones as well is the audio performance"
+    },
+    {
+      "feature": "storage",
+      "sentiment": "positive",
+      "positive_mentions": 29,
+      "negative_mentions": 1,
+      "neutral_mentions": 9,
+      "mentions_total": 39,
+      "feature_score": 28,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "it s funny, i ve always associated a heavy phone with expensive feeling,, the ceramic phones are extra heavy, they feel substance"
+    },
+    {
+      "feature": "thermals",
+      "sentiment": "positive",
+      "positive_mentions": 11,
+      "negative_mentions": 1,
+      "neutral_mentions": 4,
+      "mentions_total": 16,
+      "feature_score": 10,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "and i m outside with my phone at max brightness with gps going all day out in the sun, and it was fine, no problem, no overheating issues"
+    }
+  ],
+  "review_summary": "but the real highlight of this build here, let s be honest, is there s a new port at the bottom, that usb type c, which makes a big difference to people me who have other gadgets in their life, computers, headphones, mouse, keyboard, i just bring one charger, it works with everything However, and then, we also started to see some of those headlines about battery life potentially being worse and there s also some overheating issues popping up on twitter or x and some people were asking if mine has had any issues i talked about the handshake it does with plugging directly into other phones and reverse charging them at four and a half watts in the unboxing video, that s pretty neat However, and also, my worries about the light colored scratches, if you go deep enough, were all confirmed by zack, jerryrigeverything, in his video cutting the thing up so apple made an update to the build and the materials of the iphone this year, they ve softened the corners a little bit, it s clearly still a boxy design, but, now, instead of a completely flat glass at the front, there s this gentle little curve just at the very edges"
+}

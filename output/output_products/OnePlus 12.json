@@ -1,0 +1,127 @@
+{
+  "asin": "unknown",
+  "product": "OnePlus 12",
+  "features": [
+    {
+      "feature": "battery",
+      "sentiment": "positive",
+      "positive_mentions": 50,
+      "negative_mentions": 4,
+      "neutral_mentions": 16,
+      "mentions_total": 70,
+      "feature_score": 46,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "this is something oneplus has done really well for a long time, even with high performance mode being off in the battery settings by default However, so, no qi2 wireless, no magnets, but very, very fast charging"
+    },
+    {
+      "feature": "camera",
+      "sentiment": "positive",
+      "positive_mentions": 63,
+      "negative_mentions": 5,
+      "neutral_mentions": 19,
+      "mentions_total": 87,
+      "feature_score": 58,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "either way, way better display, better chip, better battery, and also now the cameras have gotten an upgrade However, now, i m just gonna say, cameras have been a relatively weak point for oneplus s highest end phones for a while now"
+    },
+    {
+      "feature": "design",
+      "sentiment": "positive",
+      "positive_mentions": 24,
+      "negative_mentions": 2,
+      "neutral_mentions": 8,
+      "mentions_total": 34,
+      "feature_score": 22,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "it s easy to get caught up in the samsung new cycle this time of year but this the newly announced oneplus 12 i think deserves just as much attention i m going to say something a little crazy here but i think that this phone in mid january 2024 already has a very good chance to become top three smartphones of the entire year let me explain first of all it comes with a proper box it is mostly a waste of space since this entire insert on top is just filled with booklet after booklet with still in 2002 but then underneath the phone there is not just a usbc cable but also a top of the line 100 w charging brake which does sweeten the deal oh and the phone also comes with a pre applied screen protector which is not an assumed thing anymore and as we go through this phone i just want you to keep in the back of your mind the price because even though i will be comparing it to phones the samsung galaxy s24 ultra the iphone 15 pro max unlike those phones which are 1,200 plus this is 799 and for that it doesn t just pass it absolutely nails the six core pillars of a great smartphone design battery screen software speed and camera but that one comes with a catch so this is what the phone looks and to be honest i love how confidently they ve designed it you ve got this chrome rail on the sides which then melts into the back you got a matte marble texture which feels a bit plasticky but looks ultra premium and then a separate glossy marble on the cameras which is even paired with a smattering of glitter this thing has the character of one of those insane collector s edition phones we d unbox in the rarest phones videos but it s not one plus past oneplus phones it s nicely curved it s rounded it s comfortable and it s got an alert slider on top which i can see the appeal of as a way to shut your phone up while it s in your pocket but i don t think i d ever use it while the phone s in my hand since there s no way that this yeah there you go it s easier than just tapping a virtual button on screen however the phone does fix a separate problem that i have been having you must have tried at some point using a touchcreen when either your screen or your fingers are wet right and noticed how even a single drop of water is enough for your phone to think there s another finger on screen and all hell to break loose well the oneplus 12 has aquatouch which is a customized display chipset that pays very close attention and can differentiate between the two now it still can cause the occasional screen spasm that this is not your new diving companion and sometimes the fingerprint scanner doesn t work when the phone s wet but it is 90 there to just being able to ignore that water which as someone who catches up with the latest news in the world with pok mon while having a shower feels so freeing it s finally after 10 years getting the full benefit from our phones being water resistant thanks milo the only thing that stops this design being absolute top tier for me is that the phone is not the prettiest from the front the top corners look a bit ears because of the way the screen curves away on the sides and you ve also got that classic oversized bottom bezel which frustrates me a little more each year as more of more of the competition start to do away with it but now is where the phone starts to really separate itself with pill and number two battery it feels battery life is one of those things that almost every manufacturer is just scared to give you too much of they ll happily give us two times the screen resolution or five times the camera resolution we need but not battery maybe companies are worried that you won t keep upgrading if your battery stays good or because god forbid they might have to make the design 0"
+    },
+    {
+      "feature": "display",
+      "sentiment": "positive",
+      "positive_mentions": 60,
+      "negative_mentions": 5,
+      "neutral_mentions": 12,
+      "mentions_total": 77,
+      "feature_score": 55,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "4,500 nits peak hdr brightness However, the zenbook duo, the full screen, dual screen laptop for 2024, is sick"
+    },
+    {
+      "feature": "performance",
+      "sentiment": "positive",
+      "positive_mentions": 64,
+      "negative_mentions": 4,
+      "neutral_mentions": 8,
+      "mentions_total": 76,
+      "feature_score": 60,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "not that you ll notice a whole ton of difference side by side with a snapdragon 8 gen 2 phone, but this phone does have much better cooling as well, so it s giving them some headroom to play with slightly boosted clock speeds, and it s benchmarking right behind the gaming phones and the s24 ultra However, flagship price, yes, but when it s competing theoretically against some of the ultra phones, 1,000, 1,200, 1,300, then suddenly, it s in the category of, dare i say, flagship killer"
+    },
+    {
+      "feature": "price",
+      "sentiment": "positive",
+      "positive_mentions": 23,
+      "negative_mentions": 1,
+      "neutral_mentions": 3,
+      "mentions_total": 27,
+      "feature_score": 22,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "this may have flown a little bit under the radar, with everything that s been going on, but it s gotten some improvements from last year, and it is priced very competitively"
+    },
+    {
+      "feature": "software",
+      "sentiment": "positive",
+      "positive_mentions": 53,
+      "negative_mentions": 4,
+      "neutral_mentions": 8,
+      "mentions_total": 65,
+      "feature_score": 49,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "in real world use, that just means this phone is super fast, really, really fluid, it s a smooth phone all the time However, it just falls apart a little too quickly as soon as there s adverse conditions, especially low light"
+    },
+    {
+      "feature": "speaker",
+      "sentiment": "positive",
+      "positive_mentions": 15,
+      "negative_mentions": 1,
+      "neutral_mentions": 2,
+      "mentions_total": 18,
+      "feature_score": 14,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "also, dolby atmos with spatial audio support"
+    },
+    {
+      "feature": "storage",
+      "sentiment": "positive",
+      "positive_mentions": 33,
+      "negative_mentions": 0,
+      "neutral_mentions": 2,
+      "mentions_total": 35,
+      "feature_score": 33,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "and you also get a free upgrade to the 16 gigs of ram, half terabyte model for that price if you pre order"
+    },
+    {
+      "feature": "thermals",
+      "sentiment": "positive",
+      "positive_mentions": 14,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 14,
+      "feature_score": 14,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "not that you ll notice a whole ton of difference side by side with a snapdragon 8 gen 2 phone, but this phone does have much better cooling as well, so it s giving them some headroom to play with slightly boosted clock speeds, and it s benchmarking right behind the gaming phones and the s24 ultra"
+    }
+  ],
+  "review_summary": "this is something oneplus has done really well for a long time, even with high performance mode being off in the battery settings by default However, so, no qi2 wireless, no magnets, but very, very fast charging either way, way better display, better chip, better battery, and also now the cameras have gotten an upgrade However, now, i m just gonna say, cameras have been a relatively weak point for oneplus s highest end phones for a while now it s easy to get caught up in the samsung new cycle this time of year but this the newly announced oneplus 12 i think deserves just as much attention i m going to say something a little crazy here but i think that this phone in mid january 2024 already has a very good chance to become top three smartphones of the entire year let me explain first of all it comes with a proper box it is mostly a waste of space since this entire insert on top is just filled with booklet after booklet with still in 2002 but then underneath the phone there is not just a usbc cable but also a top of the line 100 w charging brake which does sweeten the deal oh and the phone also comes with a pre applied screen protector which is not an assumed thing anymore and as we go through this phone i just want you to keep in the back of your mind the price because even though i will be comparing it to phones the samsung galaxy s24 ultra the iphone 15 pro max unlike those phones which are 1,200 plus this is 799 and for that it doesn t just pass it absolutely nails the six core pillars of a great smartphone design battery screen software speed and camera but that one comes with a catch so this is what the phone looks and to be honest i love how confidently they ve designed it you ve got this chrome rail on the sides which then melts into the back you got a matte marble texture which feels a bit plasticky but looks ultra premium and then a separate glossy marble on the cameras which is even paired with a smattering of glitter this thing has the character of one of those insane collector s edition phones we d unbox in the rarest phones videos but it s not one plus past oneplus phones it s nicely curved it s rounded it s comfortable and it s got an alert slider on top which i can see the appeal of as a way to shut your phone up while it s in your pocket but i don t think i d ever use it while the phone s in my hand since there s no way that this yeah there you go it s easier than just tapping a virtual button on screen however the phone does fix a separate problem that i have been having you must have tried at some point using a touchcreen when either your screen or your fingers are wet right and noticed how even a single drop of water is enough for your phone to think there s another finger on screen and all hell to break loose well the oneplus 12 has aquatouch which is a customized display chipset that pays very close attention and can differentiate between the two now it still can cause the occasional screen spasm that this is not your new diving companion and sometimes the fingerprint scanner doesn t work when the phone s wet but it is 90 there to just being able to ignore that water which as someone who catches up with the latest news in the world with pok mon while having a shower feels so freeing it s finally after 10 years getting the full benefit from our phones being water resistant thanks milo the only thing that stops this design being absolute top tier for me is that the phone is not the prettiest from the front the top corners look a bit ears because of the way the screen curves away on the sides and you ve also got that classic oversized bottom bezel which frustrates me a little more each year as more of more of the competition start to do away with it but now is where the phone starts to really separate itself with pill and number two battery it feels battery life is one of those things that almost every manufacturer is just scared to give you too much of they ll happily give us two times the screen resolution or five times the camera resolution we need but not battery maybe companies are worried that you won t keep upgrading if your battery stays good or because god forbid they might have to make the design 0"
+}
