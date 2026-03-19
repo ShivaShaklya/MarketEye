@@ -13,7 +13,13 @@ from flask import Flask, render_template, request, jsonify
 from Backend.chat_orchestration import start_chat, process_message
 import uuid
 
-app = Flask(__name__)
+# app = Flask(__name__)
+app = Flask(
+    __name__,
+    template_folder='Frontend/templates',
+    static_folder='Frontend/static'
+)
+
 
 
 @app.route('/')
