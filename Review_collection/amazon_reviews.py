@@ -4,14 +4,33 @@ from dotenv import load_dotenv
 import json
 from nltk.sentiment import SentimentIntensityAnalyzer
 
-product_names=["Apple AirPods Pro 2",
-"iPhone 15 Pro Max",
-"Samsung Galaxy S24 Ultra",
-"Dell XPS 15 2024",
-"Alienware m18"]
+# product_names=["Apple AirPods Pro 2",
+# "iPhone 15 Pro Max",
+# "Samsung Galaxy S24 Ultra",
+# "Dell XPS 15 2024",
+# "Alienware m18"]
 
-key="c36808b2ce3be13d724c0bde40425bef6d2fbfb761c8ef0f1861a7d4deb8fbe5"
-asin="B0DFD1SHBS"
+key=""
+#asin="B0DFD1SHBS"
+
+def get_product_names():
+    # #Use feature_insights_laptops.json
+    # product_names=set()
+    # with open(r"data/feature_insights_laptops.json", "r", encoding="utf-8") as f:
+    #     data = json.load(f)
+    #     for item in data:
+    #         if item["product"] not in product_names:
+    #             product_names.add(item["product"])
+    # return list(product_names)
+
+    #Use youtube_reviews folder
+    product_names=set()
+    for file in os.listdir(r"data/youtube_reviews/smartphones"):
+        data=json.load(open(os.path.join(r"data/youtube_reviews/smartphones",file),"r", encoding="utf-8"))
+        product=data["product"]
+        if product not in product_names:
+            product_names.add(product)
+    return list(product_names)
 
 def get_asin(product_name):
     params = {
@@ -37,14 +56,18 @@ def fetch_product_reviews(asin):
     return res.json()
 
 def save_product(product_name, data):
-    os.makedirs("data/products", exist_ok=True)
+    os.makedirs("data/products/smartphones/", exist_ok=True)
     safe_name = product_name.replace(" ", "_").lower()
-    file_path = f"data/products/{safe_name}.json"
+    file_path = f"data/products/smartphones/{safe_name}.json"
     with open(file_path, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2)
     print("Saved:", product_name)
 
 #Driver Code
+product_names = list(get_product_names())
+# print(product_names)
+# print(len(product_names))
+#product_names=["Alienware m18"]
 for product in product_names:
     asin = get_asin(product)
     data = fetch_product_reviews(asin)
