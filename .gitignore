@@ -3,7 +3,7 @@
 *.json
 *.jsonl
 *.pyc
-*.txt# Environment files
+*.txt
 *.env
 .env
 .env.local
