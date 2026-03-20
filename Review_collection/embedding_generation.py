@@ -2,12 +2,14 @@ import json
 import os
 import chromadb
 from sentence_transformers import SentenceTransformer
-from product_spec_preprocessing import *
+#from product_spec_preprocessing import *
 
-## 1. Debug specifications
-# 2. Create seperate specifications embedding
-# 3. Integrate amazon reviews + weighted
-
+# Debug specifications
+# If the positive or negative reviews have a ratio of more than 50%, then update the sentiment as mixed
+# Create separate specifications embedding
+# Integrate amazon reviews and add weights
+# Create langchain-based pipeline
+# Complete RAG with gemini output
 
 DATA_PATH="data/youtube_reviews"
 COLLECTION_NAME="feature_rag_youtube"
@@ -23,17 +25,21 @@ model=SentenceTransformer("intfloat/e5-base-v2")
 
 def build_feature_text(product,feature_data):
     feature=feature_data['feature']
-    spec_text = get_relevant_specs(product, feature, specs_dict)
+    value=if feature_data['value'] else None
+    #spec_text = get_relevant_specs(product, feature, specs_dict)
 
-    return f"""
+    emb= f"""
     Product: {product}
     Feature: {feature_data['feature']}
 
     Summary:
-    The {feature_data['feature']} of {product} is {feature_data['sentiment']} based on user reviews.
+    The {feature_data['feature']} of {product} is {feature_data['sentiment']} based on user reviews."""
 
-    Specifications:
-    {spec_text if spec_text else "NA"}
+    if value:
+        emb+=f"""Specifications: {value}"""
+
+    else:
+        f"""
 
     Review insights:
     Positive mentions: {feature_data['positive_mentions']}, 
@@ -60,10 +66,6 @@ metadatas=[]
 embeddings=[]
 ctr=0
 
-print("Loading Specs")
-specs_dict=load_specs("data/products/smartphones")
-print(f"Loaded {len(specs_dict)} products")
-
 #Embeddings creation
 for category in os.listdir("data/youtube_reviews"):
     category_path=os.path.join(DATA_PATH,category)
@@ -87,8 +89,8 @@ for category in os.listdir("data/youtube_reviews"):
                 "sentiment": feature_data["sentiment"],
                 "feature_score": feature_data["feature_score"],
                 "mentions_total": feature_data["mentions_total"],
-                "source": "youtube",
-                "type": "review"
+                "source": "youtube", #amazon/youtube/specs
+                "type": "review" #review/specs
             }
             ctr+=1
             ids.append(doc_id)
