@@ -3,12 +3,13 @@ import os
 import chromadb
 from sentence_transformers import SentenceTransformer
 
-# Create separate specifications embedding - maybe
+# Test specification + youtube review embeddings - not sure
 # Integrate amazon reviews and add weights - amazon reviews pending
 # Create langchain-based pipeline
 # Complete RAG with gemini output
+# Add agentic data responses
 
-DATA_PATH="data/youtube_reviews"
+DATA_PATH="data/processed_youtube"
 COLLECTION_NAME="feature_rag_youtube"
 
 client = chromadb.PersistentClient(path="./chroma_db")
@@ -22,8 +23,10 @@ model=SentenceTransformer("intfloat/e5-base-v2")
 
 def build_feature_text(product,feature_data):
     feature=feature_data['feature']
-    value=if feature_data['value'] else None
-    #spec_text = get_relevant_specs(product, feature, specs_dict)
+    try:
+        value=feature_data["value"]
+    except KeyError:
+        value=None
 
     emb= f"""
     Product: {product}
@@ -35,9 +38,7 @@ def build_feature_text(product,feature_data):
     if value:
         emb+=f"""Specifications: {value}"""
 
-    else:
-        f"""
-
+    emb+=f"""
     Review insights:
     Positive mentions: {feature_data['positive_mentions']}, 
     Negative mentions: {feature_data['negative_mentions']}, 
@@ -49,6 +50,7 @@ def build_feature_text(product,feature_data):
     Evidence Example:
     {feature_data['evidence']}
     """
+    return emb
 
 def embed_document(text):
     return model.encode(f"passage: {text}", normalize_embeddings=True).tolist()
@@ -64,7 +66,7 @@ embeddings=[]
 ctr=0
 
 #Embeddings creation
-for category in os.listdir("data/youtube_reviews"):
+for category in os.listdir("data/processed_youtube"):
     category_path=os.path.join(DATA_PATH,category)
 
     for file in os.listdir(category_path):
