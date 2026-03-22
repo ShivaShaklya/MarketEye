@@ -2,12 +2,9 @@ import json
 import os
 import chromadb
 from sentence_transformers import SentenceTransformer
-#from product_spec_preprocessing import *
 
-# Debug specifications
-# If the positive or negative reviews have a ratio of more than 50%, then update the sentiment as mixed
-# Create separate specifications embedding
-# Integrate amazon reviews and add weights
+# Create separate specifications embedding - maybe
+# Integrate amazon reviews and add weights - amazon reviews pending
 # Create langchain-based pipeline
 # Complete RAG with gemini output
 

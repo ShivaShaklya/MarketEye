@@ -51,7 +51,7 @@ for file in os.listdir(youtube_path):
 
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(youtube_product, f, indent=2)
-    print("Saved:", output_file)'''
+    print("Saved:", output_file)
 
 ##Youtube reviews sentiment (Adding mixed sentiment)
 def get_sentiment(pos, neg, total, original_sentiment):
@@ -91,4 +91,39 @@ for file in os.listdir(youtube_path):
 
         if modified:
             with open(os.path.join(youtube_path,file), "w", encoding="utf-8") as f:
-                json.dump(data, f, indent=2)
+                json.dump(data, f, indent=2)'''
+
+##Product specifications seperate json creation
+import json
+import os
+
+os.makedirs("data/product_specifications/laptops",exist_ok=True)
+
+data_path="data/products/laptops"
+specs_path="data/product_specifications/laptops"
+specs_dict={}
+for file in os.listdir(data_path):
+    with open(os.path.join(data_path,file),"r",encoding="utf-8") as f:
+        data=json.load(f)
+
+    try:
+        for k,v in data["product_details"].items():
+            if k in ["asin","customer_reviews","rating","reviews","best_sellers_rank"]:
+                continue
+            else:
+                specs_dict[k]=v
+    except KeyError:
+        with open("log_file.txt", "a", encoding="utf-8") as log_file:
+            log_file.write(f"{file}\n")
+            continue
+    with open(os.path.join(specs_path,file),"x") as f1:
+        json.dump(specs_dict,f1,indent=2)
+        print("File saved:", file)
+        specs_dict={}
+        continue
+
+        
+
+
+
+
