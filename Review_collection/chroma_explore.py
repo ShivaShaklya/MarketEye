@@ -2,7 +2,7 @@ import chromadb
 from sentence_transformers import SentenceTransformer
 from collections import defaultdict
 
-client = chromadb.PersistentClient(path="./chroma_db")
+client = chromadb.PersistentClient(path="../chroma_db")
 collection1 = client.get_collection("feature_rag_youtube")
 collection2=client.get_collection("rag_product_specifications")
 
@@ -81,7 +81,7 @@ pretty_print_results(results2, "Product Specifications")
 #     print("Feature:", results["metadatas"][0][i]["feature"])
 #     print("Score:", results["metadatas"][0][i]["feature_score"])
 #     print("Distance:", results["distances"][0][i])
-#     print("Text:\n", results["documents"][0][i][:500])'''
+#     print("Text:\n", results["documents"][0][i][:500])
 
 ##
 model = SentenceTransformer("intfloat/e5-base-v2")
@@ -192,7 +192,7 @@ def retrieve_products(query):
 # -------------------------------
 # Run Example
 # -------------------------------
-query = "a laptop with a long battery life and windows 11 os"
+query = "what are the best laptops with a low price and high performance for gaming?"
 
 results = retrieve_products(query)
 
@@ -206,7 +206,7 @@ for i, p in enumerate(results[:10]):
     print(f"Docs Retrieved: {len(p['docs'])}")
     print("-" * 50)
 
-'''##
+##
 model = SentenceTransformer("intfloat/e5-base-v2")
 
 # -------------------------------
@@ -357,3 +357,11 @@ for i, p in enumerate(results[:5]):
         print("Reason: Strong match from reviews")
 
     print("-" * 50)'''
+
+##
+# Peek at first few entries
+results1 = collection1.peek(limit=5)
+print("Results 1:", results1)
+
+results2= collection2.peek(limit=5)
+print("Results 2:", results2)

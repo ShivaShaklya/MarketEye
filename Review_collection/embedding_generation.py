@@ -3,10 +3,11 @@ import os
 import chromadb
 from sentence_transformers import SentenceTransformer
 
-# Test specification + youtube review embeddings - not sure
 # Integrate amazon reviews and add weights - amazon reviews pending
 # Create langchain-based pipeline
 # Complete RAG with gemini output
+# understand how scoring is being done
+# Scrape prices from india #wip- get new api key, limit exhausted
 # Add agentic data responses
 
 DATA_PATH="data/processed_youtube"

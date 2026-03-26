@@ -6,8 +6,8 @@ from sentence_transformers import SentenceTransformer
 DATA_PATH="data/product_specifications"
 COLLECTION_NAME="rag_product_specifications"
 
-client = chromadb.PersistentClient(path="./chroma_db")
-#client.collection.delete(where={"source": "specs"})
+client = chromadb.PersistentClient(path="..\chroma_db")
+#client.delete_collection(COLLECTION_NAME)
 collection=client.get_or_create_collection(
     name=COLLECTION_NAME
 )
@@ -15,14 +15,33 @@ collection=client.get_or_create_collection(
 #Embedding Model
 model=SentenceTransformer("intfloat/e5-base-v2")
 
+def normalize_metadata_value(value):
+    if isinstance(value, (bool, int, float)):
+        return value
+    if isinstance(value, str):
+        value = value.strip()
+        if value.isdigit():
+            return int(value)
+        try:
+            return float(value)
+        except ValueError:
+            return value
+    if isinstance(value, list):
+        return json.dumps([normalize_metadata_value(item) for item in value])
+    if isinstance(value, dict):
+        return json.dumps({k: normalize_metadata_value(v) for k, v in value.items()})
+    return str(value)
+
 def build_document(file_name,category,data):
-    emb=f"{file_name} is a {category}. It has a "
+    emb=f"{file_name} is a {category}."
     for k,v in data.items():
         if isinstance(v, str):
-            emb+=k+" as "+v+". It has a "
+            emb+=" It has a "+ k.replace("_"," ")+" as "+v+". "
         elif isinstance(v, list):
             for i in v:
-                emb+=k+" as "+i+". It has a "
+                emb+=" It has a "+ k.replace("_"," ")+" as "+i+". It has a "
+        else:
+            emb+="It has a "+ k.replace("_"," ")+" as "+str(v)+". "
     return emb
 
 def embed_document(text):
@@ -59,6 +78,7 @@ for category in os.listdir("data/processed_youtube"):
             "source": "specs", #amazon/youtube/specs
             "type": "specs" #review/specs
         }
+        metadata.update({k: normalize_metadata_value(v) for k, v in data.items()})
         ctr+=1
         ids.append(doc_id)
         documents.append(text)
