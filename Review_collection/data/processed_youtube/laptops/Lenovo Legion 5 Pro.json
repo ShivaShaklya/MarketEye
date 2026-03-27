@@ -1,0 +1,130 @@
+{
+  "asin": "unknown",
+  "product": "Lenovo Legion 5 Pro",
+  "features": [
+    {
+      "feature": "battery",
+      "sentiment": "mixed",
+      "positive_mentions": 19,
+      "negative_mentions": 10,
+      "neutral_mentions": 26,
+      "mentions_total": 55,
+      "feature_score": 9,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "this laptop also supports type c charging However, so, you can plug in the laptop before you sleep, it charges up to 80 and then stops"
+    },
+    {
+      "feature": "camera",
+      "sentiment": "positive",
+      "positive_mentions": 27,
+      "negative_mentions": 7,
+      "neutral_mentions": 28,
+      "mentions_total": 62,
+      "feature_score": 20,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "next, let s edit a 4k video in davinci resolve However, and while in normal day to day stuff browsing the web, watching videos, i didn t find any lag"
+    },
+    {
+      "feature": "design",
+      "sentiment": "positive",
+      "positive_mentions": 21,
+      "negative_mentions": 0,
+      "neutral_mentions": 6,
+      "mentions_total": 27,
+      "feature_score": 21,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": " lenovo legion laptops have been around for a long time, and this laptop follows the similar design pattern, which is a good thing"
+    },
+    {
+      "feature": "display",
+      "sentiment": "positive",
+      "positive_mentions": 51,
+      "negative_mentions": 6,
+      "neutral_mentions": 35,
+      "mentions_total": 92,
+      "feature_score": 45,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "and yes, if you re using it on your lap or on the bed, then the screen might slightly wobble, but that s there with every other laptop However, plus, the display is also anti glare, so there are no reflections",
+      "value": [
+        "standing screen display size: 16 Inches"
+      ]
+    },
+    {
+      "feature": "performance",
+      "sentiment": "positive",
+      "positive_mentions": 91,
+      "negative_mentions": 21,
+      "neutral_mentions": 74,
+      "mentions_total": 186,
+      "feature_score": 70,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "well, this is the best gaming laptop to get in 2025 However, and while in normal day to day stuff browsing the web, watching videos, i didn t find any lag"
+    },
+    {
+      "feature": "price",
+      "sentiment": "positive",
+      "positive_mentions": 16,
+      "negative_mentions": 1,
+      "neutral_mentions": 16,
+      "mentions_total": 33,
+      "feature_score": 15,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "now in terms of the laptop itself part of that extra weight comes from the beefy cooling system we saw earlier but it s also just a bigger device this year than before it s got a bigger screen so it s just a bigger footprint there s more material and it s also metal on the top lid this used to be a polycarbonate lid in the previous models this is a metal lid now so it s just a heavy device and if you don t care about weight a lot of people are at home right now and they don t really travel that much with their device then it doesn t matter but for the people that want a laptop because they want to be portable this is definitely one of the heavier packages that you can pick up in this space why did i put it down i want to show you something else in the front okay the next thing i want to talk about is this logo this y shaped lenovo logo for the people that are wondering i just recently figured this out this isn t official but i think that this symbol is representative of a helmet a spartan legion helmet i noticed this because the sim card removal tool that they have with their phones was shaped a helmet and i was is that what this is supposed to be anyways okay so this light up logo is it s a very gamery it s it s not for me i need some people i make it but i think in this day and age most people would rather have gaming laptops that have more muted designs right the previous models one of the things that i praised so much about the legion five from last year and the one before that was how nice it looked as a regular laptop you could bring it to work pull it out and no one would bat an eye because it looks a regular work device but just has gaming capabilities under the hood that is a good look to me and here s the thing i think a lot of people think that and i think lenovo knows that a lot of people think that lenovo has two products legion five legion seven that are so close to each other in terms of performance you can get rtx 3080s for both of them they re so close and performance so how do you split them apart as lenovo you want everyone to buy the more expensive one right who s gonna buy that if this thing is so good and looks just the same how do you do it you make this one look derpier you make this one look the gamer kid one and now the people with the money who can afford the more expensive one will buy that one instead of this one i m just saying i don t seeing it okay the third concern i have about this device is in regards to the trackpad so this trackpad has been shifted over to the left quite a lot and if you re just playing games with the wasd keys your palm will most definitely be rubbing on this touch pad constantly you have to turn it off you have to disable the trackpad when you re using the wasd keys for games because otherwise they re just picking up false movements from your palm constantly but even if you re using this thing as a typing device or some work or productivity device you will constantly be rubbing your palms accidentally on this touch pad and i don t think the software is good enough to do all the palm rejection it needs look at this thing the left side of this trackpad is underneath the s key this is so far over to the left i ve never seen anything this so if you re someone who depends on the touchpad while you re typing or you i don t for whatever reason don t turning it off while you re playing games it is definitely an issue you can work around it but i m just putting it out there for the people that depend on track pads this is what we have a very strangely positioned track pad the tracking is good and the click mechanics great it s just the positioning is weirdly shifted over to that one side the keyboard is also good got some nice lighting controls and you also have the function fan controls which i always to see as well as lighting on the power button that adjusts to the profile that you re in something that not a lot of other devices do the fan noise is very acceptable software is pretty clean i do still wish that they d give better control of the fans i want a bit to adjust those fan curves but maybe it s a little too sweaty for them you also have dynamic power routing for the cpu and gpu as well as a mux switch and of course the ports lenovo does their ports really well in their devices they re rear mounted so you just keep all your cables and stuff away from your workspace you keep your left and right clean i ll always seeing that and there s also a hardware switch an actual kill switch for the webcam it disables the physical connection on the inside so for the people that want that privacy instead of just a little slider thing it s an actual kill switch for the device to just straight up disconnect the camera which is pretty nice okay so that s this device truthfully i think this is a really good device for a lot of people but they ve made some tweaks and adjustments that i personally don t love and i think some of you guys will probably feel the same way okay that s the legion 5 pro hope you guys enjoyed it thumbs if you liked it subs if you loved it see you guys next time"
+    },
+    {
+      "feature": "software",
+      "sentiment": "positive",
+      "positive_mentions": 41,
+      "negative_mentions": 11,
+      "neutral_mentions": 31,
+      "mentions_total": 83,
+      "feature_score": 30,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "5 kilo package it is strangely heavy for a laptop also i m not sure why they put a 300 watt adapter for all the devices this is coming with an rtx 3070 even though it s a very powerful gpu it doesn t need a 300 watt adapter and even if you get the 3060 equipped one you re still getting this huge huge adapter there are companies out there that sell an rtx 360 equipped gaming laptop with 180 watt adapters this is 300 However, now even if you do get the 5 pro with the 4 zone rgb keyboard, it does not use the corsair icue software to customize it, so you don t have to worry about the battery drain issues that i reported in my review of the legion 7"
+    },
+    {
+      "feature": "speaker",
+      "sentiment": "positive",
+      "positive_mentions": 15,
+      "negative_mentions": 3,
+      "neutral_mentions": 21,
+      "mentions_total": 39,
+      "feature_score": 12,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "now another thing that i must mention is as long as you have the laptop on desk while watching movies, it sounds fine However, this is also observed when looking at power limits, in quiet mode the processor was running below 10 watts, while in the stress test it was capped at 25 watts which sounds much more reasonable to me"
+    },
+    {
+      "feature": "storage",
+      "sentiment": "mixed",
+      "positive_mentions": 23,
+      "negative_mentions": 6,
+      "neutral_mentions": 38,
+      "mentions_total": 67,
+      "feature_score": 17,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "playing a game lasted for over 2 hours with nvidia battery boost limiting the frame rate to 30 fps, otherwise while streaming youtube video we can see that using optimus doubles our runtime compared to not using it However, even in dooms the dark age without frame gen and with frame gen"
+    },
+    {
+      "feature": "thermals",
+      "sentiment": "mixed",
+      "positive_mentions": 15,
+      "negative_mentions": 4,
+      "neutral_mentions": 19,
+      "mentions_total": 38,
+      "feature_score": 11,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "get over here this is the first laptop review i ve done in this new studio so this is the legion 5 pro from lenovo very popular laptop one last year very popular device the one before that was also a really popular device and i think lenovo at this point has figured out that they have a product line a legion five series set of devices that people just look forward to and well there s stuff to talk about so i m going to keep the technical review or the technical portion of this review short it does not need to be long it s an excellent machine in terms of its technical capabilities it s got a ryzen 5800h very powerful processor paired with an rtx 3070 that s been fed 140 watts this is one of the most high powered rtx 37s you get in a laptop and it s fed nicely pumps out great performance with very acceptable temperatures these are numbers that would make even sweaty laptop nerds sweat a little bit more in excitement and when you pop this thing open you can see that they ve added a fairly beefy thermal system on this device and the screen is all new this year so it s a 16 by 10 aspect ratio it s just a little bit more vertical room so on the top and the bottom and it s bright color accurate really fast in games it s an awesome awesome screen now i will say that for the people that are unfamiliar with the benefits and negatives that come with 16x10 aspect ratio screens the benefits only exist for productivity if you viewing websites doing work that vertical space is nice but when you re playing games it doesn t make a difference if anything there s just now black bars on the top and bottom and same with viewing content but the overall display is fantastic especially with how bright the display can get now i want to move this conversation away from the technical stuff to what i think is the way more important conversation about a user experience because this is stuff that i would care about if i was going to buy this if i was going to spend real money on this device this is the conversation that matters because let s be real here in 2021 who is making a bad gaming laptop anymore they re all so good that the actual performance metrics they just mean so much less now than this stuff did two years ago so what does matter is the actual user experience i m going to start off with the conversation about weight the cooling system is chunkier it s a heavier laptop than ever before when it came to the legion 5 However, also, one thing to point out is while i was running cinebench, the temperature went up to 98 , but that s okay because it was stressing the cpu 100 "
+    }
+  ],
+  "review_summary": "this laptop also supports type c charging However, so, you can plug in the laptop before you sleep, it charges up to 80 and then stops next, let s edit a 4k video in davinci resolve However, and while in normal day to day stuff browsing the web, watching videos, i didn t find any lag  lenovo legion laptops have been around for a long time, and this laptop follows the similar design pattern, which is a good thing"
+}

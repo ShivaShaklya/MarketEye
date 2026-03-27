@@ -1,0 +1,105 @@
+{
+    "finish": [
+        "Silver",
+        "Blush",
+        "Citrus",
+        "Indigo"
+    ],
+    "chip": [
+        "Apple A18 Pro chip",
+        "6-core CPU with 2 performance cores and 4 efficiency cores",
+        "5-core GPU",
+        "Hardware-accelerated ray tracing",
+        "16-core Neural Engine",
+        "60GB/s memory bandwidth",
+        "Hardware-accelerated H.264, HEVC, ProRes, and ProRes RAW",
+        "Video decode engine",
+        "Video encode engine",
+        "ProRes encode and decode engine",
+        "AV1 decode"
+    ],
+    "display": [
+        "Liquid Retina display",
+        "13.0-inch (diagonal) LED-backlit display with IPS technology; 2408-by-1506 native resolution at 219 pixels per inch",
+        "500 nits brightness",
+        "Support for 1 billion colors",
+        "sRGB color"
+    ],
+    "battery_and_power": [
+        "Up to 16 hours video streaming",
+        "Up to 11 hours wireless web",
+        "Built-in 36.5-watt-hour lithium-ion battery",
+        "20W USB-C Power Adapter",
+        "USB-C Charge Cable (1.5 m)"
+    ],
+    "charging_and_expansion": [
+        "One USB 3 (USB-C) port with support for:",
+        "Charging",
+        "DisplayPort",
+        "USB 3 (up to 10Gb/s)",
+        "Charging",
+        "USB 2 (up to 480Mb/s)",
+        "3.5 mm headphone jack"
+    ],
+    "external_display_support": [
+        "Supports one external display with up to a native resolution of 4K at 60Hz",
+        "Simultaneously supports the built-in display at full native resolution",
+        "USB 3 (USB-C) port supports native DisplayPort 1.4 speeds (up to HBR3)"
+    ],
+    "video_playback": [
+        "Supported formats include HEVC, H.264, AV1, and ProRes",
+        "HDR with Dolby Vision, HDR10+/HDR10, and HLG"
+    ],
+    "audio_playback": [
+        "Supported formats include AAC, MP3, Apple Lossless, FLAC, Dolby Digital, Dolby Digital Plus, and Dolby Atmos"
+    ],
+    "audio": [
+        "Dual-speaker sound system",
+        "Support for Spatial Audio when playing music or video with Dolby Atmos on built-in speakers",
+        "Dual-mic array with directional beamforming",
+        "Voice Isolation and Wide Spectrum microphone modes for enhanced voice clarity in audio and video calls",
+        "3.5 mm headphone jack"
+    ],
+    "operating_requirements": [
+        "Line voltage: 100V to 240V AC",
+        "Frequency: 50Hz to 60Hz",
+        "Operating temperature: 50° to 95° F (10° to 35° C)",
+        "Storage temperature: -13° to 113° F (-25° to 45° C)",
+        "Relative humidity: 0% to 90% noncondensing",
+        "Operating altitude: tested up to 10,000 feet",
+        "Maximum storage altitude: 15,000 feet",
+        "Maximum shipping altitude: 35,000 feet"
+    ],
+    "size_and_weight": [
+        "Height: 0.50 inch (1.27 cm)",
+        "Width: 11.71 inches (29.75 cm)",
+        "Depth: 8.12 inches (20.64 cm)",
+        "Weight: 2.7 pounds (1.23 kg)"
+    ],
+    "operating_system": [
+        "macOS",
+        "macOS is the world's most advanced desktop operating system. It includes easy-to-use and powerful features that help you be more productive and creative, Apple Intelligence, and seamless ways to use iPhone with Mac."
+    ],
+    "apple_intelligence": [
+        "Apple Intelligence is the personal intelligence system that helps you write, express yourself, and get things done effortlessly. With groundbreaking privacy protections, it gives you peace of mind that no one else can access your data - not even Apple."
+    ],
+    "accessibility": [
+        "Features include:",
+        "VoiceOver",
+        "Zoom",
+        "Motion, display, and text settings",
+        "Accessibility Reader",
+        "Voice Control",
+        "Switch Control",
+        "Closed Captions",
+        "Live Captions",
+        "Personal Voice and Live Speech"
+    ],
+    "in_the_box": [
+        "MacBook Neo",
+        "20W USB-C Power Adapter",
+        "USB-C Charge Cable (1.5 m)"
+    ],
+    "price_usd": 699.0,
+    "price_rs": 93901
+}

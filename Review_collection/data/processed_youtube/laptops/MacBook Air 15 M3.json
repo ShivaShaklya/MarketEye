@@ -1,0 +1,137 @@
+{
+  "asin": "unknown",
+  "product": "MacBook Air 15 M3",
+  "features": [
+    {
+      "feature": "battery",
+      "sentiment": "positive",
+      "positive_mentions": 23,
+      "negative_mentions": 5,
+      "neutral_mentions": 9,
+      "mentions_total": 37,
+      "feature_score": 18,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "and also macbook airs, especially the 15 inch, just constantly get great battery life across the board However,  apple charges way too much for the most basic upgrades",
+      "value": [
+        "battery and power: ['Up to 18 hours video streaming', 'Up to 15 hours wireless web', 'Built-in 53.8-watt-hour lithium-polymer battery', '30W USB-C Power Adapter (included with M4 with 8-core GPU)', '35W Dual USB-C Port Compact Power Adapter (included with M4 with 10-core GPU; configurable with M4 with 8-core GPU)', 'USB-C to MagSafe 3 Cable', 'Fast-charge capable with 70W USB-C Power Adapter']"
+      ]
+    },
+    {
+      "feature": "camera",
+      "sentiment": "positive",
+      "positive_mentions": 25,
+      "negative_mentions": 0,
+      "neutral_mentions": 13,
+      "mentions_total": 38,
+      "feature_score": 25,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "now the thing about the macbook air being easy to recommend is we re talking about regular people, which it s very light, regular, normal usage web browsing, listening to music, a bunch of tabs open, work stuff, occasionally compiling or rendering some small things, photo editing and chopping a video or two sometimes, but really very light",
+      "value": [
+        "camera: ['12MP Center Stage camera with support for Desk View', '1080p HD video recording', 'Advanced image signal processor with computational video']"
+      ]
+    },
+    {
+      "feature": "design",
+      "sentiment": "positive",
+      "positive_mentions": 13,
+      "negative_mentions": 0,
+      "neutral_mentions": 4,
+      "mentions_total": 17,
+      "feature_score": 13,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "and so the base macbook air has typically been one of the easiest to recommend laptops in the world by design"
+    },
+    {
+      "feature": "display",
+      "sentiment": "positive",
+      "positive_mentions": 32,
+      "negative_mentions": 1,
+      "neutral_mentions": 10,
+      "mentions_total": 43,
+      "feature_score": 31,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "you also get now dual external display support with the lid closed, but one external display with the laptop open",
+      "value": [
+        "display: ['Liquid Retina display', '15.3-inch (diagonal) LED-backlit display with IPS technology; 2880-by-1864 native resolution at 224 pixels per inch', '500 nits brightness', 'Color', 'Support for 1 billion colors', 'Wide color (P3)', 'True Tone technology']",
+        "display support: ['Simultaneously supports full native resolution on the built-in display at 1 billion colors and:', 'Up to two external displays with up to 6K resolution at 60Hz', 'Thunderbolt 4 digital video output', 'Support for native DisplayPort 1.4 output over USB-C']"
+      ]
+    },
+    {
+      "feature": "performance",
+      "sentiment": "positive",
+      "positive_mentions": 22,
+      "negative_mentions": 0,
+      "neutral_mentions": 11,
+      "mentions_total": 33,
+      "feature_score": 22,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "and it s clearly a more capable chip"
+    },
+    {
+      "feature": "price",
+      "sentiment": "positive",
+      "positive_mentions": 14,
+      "negative_mentions": 5,
+      "neutral_mentions": 6,
+      "mentions_total": 25,
+      "feature_score": 9,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "well, historically, macbook air has been super easy to recommend, but with this m3, they also lowered the price of m2 by a hundred bucks and discontinued the m1 However, this is not exactly new to the industry, but the base price and the base spec has almost become this weird fallacy"
+    },
+    {
+      "feature": "software",
+      "sentiment": "positive",
+      "positive_mentions": 16,
+      "negative_mentions": 1,
+      "neutral_mentions": 4,
+      "mentions_total": 21,
+      "feature_score": 15,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "the first highlight is its build quality"
+    },
+    {
+      "feature": "speaker",
+      "sentiment": "positive",
+      "positive_mentions": 17,
+      "negative_mentions": 2,
+      "neutral_mentions": 4,
+      "mentions_total": 23,
+      "feature_score": 15,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "it also has a satisfying sound you can take it into a coffee shop and type on it without causing too much attention to yourself"
+    },
+    {
+      "feature": "storage",
+      "sentiment": "positive",
+      "positive_mentions": 22,
+      "negative_mentions": 4,
+      "neutral_mentions": 13,
+      "mentions_total": 39,
+      "feature_score": 18,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "and it also appears that the base storage on m3 is much improved However, maybe, possibly not, but obviously it s a bummer having way slower storage on a new m2 and that extra time transferring large files, that adds up over time"
+    },
+    {
+      "feature": "thermals",
+      "sentiment": "positive",
+      "positive_mentions": 3,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 3,
+      "feature_score": 3,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "99 or even less lately using the links below because they keep going on sale for only 100 more than this spec macbook air right here that has 16 gigs of ram and 512 gigs of storage you can get a way better 14 in macbook pro with a faster processor with more gpu and cpu cores and a processor that can just run faster and longer with active cooling yes you get a slightly smaller display but that display is liquid retina hdr and that is 20 brighter than the air and it has hdr and a variable frame rate promotion display that just makes about everything feel faster and smoother on the display you get better speakers you get more ports and you get the ability to run two external displays in addition to the built in display and even better battery life so again i can recommend the 13 in m3 macbook air with 16 gigs of memory 256 or 512 gigs of storage the 16 g 256 gb m3 15 in macbook air or the 14 in macbook pro with the m3 pro processor those are the four macbooks that i could recommend for under 2,000 today no matter what your needs are i think that one of those laptops will most likely fill it without needing to spend any more more than likely i can get away with this spec of the 13 or 15in macbook air and be happy 85 of the time they are fantastic for regular everyday computing and even light creative work i i love the size and form factor and even the fewer ports on this machine are not all that much of an issue when i use a dock at my desk and i have hubs to take on the go so for most people for most things the m3 macbook airs will fit your needs and i think you ll be happy for the next few years as long as you do get 16 gb of memory but what do you guys think about the new m3 macbook airs is it finally time for you to upgrade or replace what you have now if so let me know down in the comments what you re upgrading from and if this is your first time to my channel then check out this video right over here i think it s a good one hit the thumbs up button if you liked it hit subscribe if you want and i ll see you next time"
+    }
+  ],
+  "review_summary": "and also macbook airs, especially the 15 inch, just constantly get great battery life across the board However,  apple charges way too much for the most basic upgrades now the thing about the macbook air being easy to recommend is we re talking about regular people, which it s very light, regular, normal usage web browsing, listening to music, a bunch of tabs open, work stuff, occasionally compiling or rendering some small things, photo editing and chopping a video or two sometimes, but really very light and so the base macbook air has typically been one of the easiest to recommend laptops in the world by design"
+}

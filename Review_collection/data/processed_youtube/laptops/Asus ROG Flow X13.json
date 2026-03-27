@@ -1,0 +1,133 @@
+{
+  "asin": "unknown",
+  "product": "Asus ROG Flow X13",
+  "features": [
+    {
+      "feature": "battery",
+      "sentiment": "positive",
+      "positive_mentions": 23,
+      "negative_mentions": 2,
+      "neutral_mentions": 8,
+      "mentions_total": 33,
+      "feature_score": 21,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "4 inches so it s big enough and because they re utilizing a 16 by 10 aspect ratio you get that extra vertical space the color accuracy is fantastic the color gamut is really good and the screen brightness is more than acceptable now because this is a two in one they re not using a matte display you d find on a typical gaming laptop which means you are going to get a little bit of reflection on the display if you re around a light source it is touch i mentioned before and it does have a high refresh rate of 165 hertz it s also dynamic which means if you have it unplugged from the wall it will automatically switch to 60 hertz to save some battery life but obviously you can change this if you want it to be 165 hertz the entire time the webcam is 1080p so you get better fidelity if you re doing a zoom call or you re gaming but the performance on this guy is the main issue and not in a bad way just in a way that i don t understand well i do understand but let me explain this model here for example comes with the ryzen 9 7940 hs cpu the same one that s in the g14 you also get 16 gigabytes of ddr5 memory you have the 13 inch display and a one terabyte nvme ssd and even though it s sporting an rtx 470 inside of here it s only running at 60 watts the charger they include is tiny it s only 130 watt charger which means there s just not much power coming out of this to sport an rtx 4070 that uses 120 or 140 watts and even the cpu performance compared to other ryzen 9 7940 hs laptops that i ve tested is a bit slower on this guy it s not to the point where it s ridiculous but you will notice it now i do expect this this is a thin laptop you don t have a thick chassis to play with which means you don t have as much room for cooling but the gpu performance does take a hit this gpu is not really acting an rtx 4070 in fact it s acting a rtx 3060 ti does the 360 ti even exist no not in a laptop only desktop so if it did exist that s what this would feel now don t get me wrong that s still very good performance but i feel no one out there should pay extra money for the rtx 4070 i highly suggest taking a look at the rtx 4050 or even the 4060 model the 4070 just doesn t make sense now granted the performance is still good enough i did have a very enjoy durable time with any applications that i used and gaming on this will predominantly be a 1920 by 1200 just because the gpu inside of here it s been rtx 3060 ti if that was a thing so you re going to be dropping the settings if you re playing high demanding titles now obviously you can utilize this qhd plus display if you re playing titles that are a bit older but i think most of the time you re going to be dropping it down now if you re pushing this for a very long time the keyboard deck can get a bit toasty predominantly in the middle i did see the temps go up to about 50 degrees celsius right around over here but the outsides where your hands are mostly for gaming stay relatively cool fan noise is always on this is a thin laptop with an rtx 47 inside even on silent profile fan noise was well into the 40s so expect to hear fans at all times actual cpu temperatures are pretty good in fact they re better than the asus g14 they always stayed in the 80s they didn t really go over 90 and it performed very well even though core clock speeds were nice and high the entire time i was pushing this thing now there are two speakers on the bottom of the laptop not the best place to listen to audio and it doesn t get that loud i feel if you re using this for long periods you re going to want to wear headphones now internally some sacrifices had to be made in order to cram this much performance for one you don t get a full size m2 drive this is a 2230 i believe so it s a smaller form factor read and write speeds are still pretty good but i ve seen newer gen 4 drives that do perform a tiny bit faster swappable wi fi 6e card that s pretty much the only thing that s swappable inside of here ram is completely soldered onto the motherboard but it does run very very fast it s not a vapor chamber cooler you just have two big copper heat pipes running back and forth and you do have a pretty big battery that s 75 watt hours i averaged over seven hours of use before needing to charge now i highly suggest specing this laptop with 32 gigabytes of ram if you re planning on keeping this for a very long times it is soldered onto the motherboard but look i love this thing having a device this small with really good performance is is a treat it s not perfect i don t the soldered on ram i do wish the battery life even though it s really good was a little bit more and obviously if it had better cooling the rtx 4070 that could run more an rtx 4070 which brings me to my suggestion if you re planning on buying this guy don t even look at the 4070 model it just doesn t make sense if it s running at 60 watts ideally 40 50 would probably be the sweet spot but if you want that little bit of extra performance and don t mind paying a tiny bit more then maybe go for the 40 60 but buying the 470 is just not worth it in a chassis this thin either way i love this thing if you have any questions a link to this will also be available in the description down below the video if you liked it subscribe if you haven t already and i ll see you guys in the next one",
+      "value": [
+        "average battery life in hours: 10 Hours"
+      ]
+    },
+    {
+      "feature": "camera",
+      "sentiment": "positive",
+      "positive_mentions": 33,
+      "negative_mentions": 1,
+      "neutral_mentions": 6,
+      "mentions_total": 40,
+      "feature_score": 32,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "meaning that the flow x13, isn t the perfect ultra book and if you plan on doing all day typing, browsing the web and even light photo editing, you ll probably be better served, by an xps 13 or a specter 14"
+    },
+    {
+      "feature": "design",
+      "sentiment": "positive",
+      "positive_mentions": 24,
+      "negative_mentions": 1,
+      "neutral_mentions": 5,
+      "mentions_total": 30,
+      "feature_score": 23,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "that s where this comes in, just a couple of months ago, we lauded the xps 15 for its combination of power and design designating it, the best windows laptop, period but now that it looks we might be able to get more performance, from a much more portable machine, it s looking a lot more the best windows laptop, huge asterisk"
+    },
+    {
+      "feature": "display",
+      "sentiment": "positive",
+      "positive_mentions": 36,
+      "negative_mentions": 4,
+      "neutral_mentions": 15,
+      "mentions_total": 55,
+      "feature_score": 32,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "now you get a couple of options for the gpu that you can have crammed in here but of course we re showing off the most powerful one, an rtx 3080 mobile, with a 280 watt power supply built right in, the rtx 3080 and this compact package, is able to boost up to 1810 megahertz, allowing you to connect to either, a high refresh rate 1440p display or a 4k60 display and have a pretty darn good time, especially with your extra connectivity However, unlike other asus models, there s a 720p camera above the screen in the middle, but there s no ir for windows hello",
+      "value": [
+        "standing screen display size: 13.4 Inches"
+      ]
+    },
+    {
+      "feature": "performance",
+      "sentiment": "positive",
+      "positive_mentions": 45,
+      "negative_mentions": 6,
+      "neutral_mentions": 24,
+      "mentions_total": 75,
+      "feature_score": 39,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "that s where this comes in, just a couple of months ago, we lauded the xps 15 for its combination of power and design designating it, the best windows laptop, period but now that it looks we might be able to get more performance, from a much more portable machine, it s looking a lot more the best windows laptop, huge asterisk However, they have pumped every last watt of power that they can into that intel processor and the gpu in the msi laptop, will leave the flow x13 dead in the water"
+    },
+    {
+      "feature": "price",
+      "sentiment": "positive",
+      "positive_mentions": 14,
+      "negative_mentions": 0,
+      "neutral_mentions": 4,
+      "mentions_total": 18,
+      "feature_score": 14,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "i get it, it s currently the best egpu notebook combination on the market, bar none and good engineering costs good money, but asus s, shot themselves in the foot here, by making the news zephyrus g14 and g15, so darn good for everyday use, that it s hard to not just recommend buying one of those instead"
+    },
+    {
+      "feature": "software",
+      "sentiment": "positive",
+      "positive_mentions": 31,
+      "negative_mentions": 4,
+      "neutral_mentions": 14,
+      "mentions_total": 49,
+      "feature_score": 27,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "where the flow x13 didn t do quite as well though, is gpu benchmarks However, at first i was, at least i ll have a full sized usb port, so maybe i can deal with this but i was shocked at how many things i use on a daily basis, that require thunderbolt"
+    },
+    {
+      "feature": "speaker",
+      "sentiment": "positive",
+      "positive_mentions": 19,
+      "negative_mentions": 0,
+      "neutral_mentions": 3,
+      "mentions_total": 22,
+      "feature_score": 19,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "the speakers are also good but not incredible"
+    },
+    {
+      "feature": "storage",
+      "sentiment": "positive",
+      "positive_mentions": 22,
+      "negative_mentions": 4,
+      "neutral_mentions": 9,
+      "mentions_total": 35,
+      "feature_score": 18,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "now you get a couple of options for the gpu that you can have crammed in here but of course we re showing off the most powerful one, an rtx 3080 mobile, with a 280 watt power supply built right in, the rtx 3080 and this compact package, is able to boost up to 1810 megahertz, allowing you to connect to either, a high refresh rate 1440p display or a 4k60 display and have a pretty darn good time, especially with your extra connectivity However, my laptop 3080 in the xg mobile for example has more vram than a desktop 3080, but it s slower and it s got fewer cuda cores and a lower power limit"
+    },
+    {
+      "feature": "thermals",
+      "sentiment": "positive",
+      "positive_mentions": 18,
+      "negative_mentions": 0,
+      "neutral_mentions": 4,
+      "mentions_total": 22,
+      "feature_score": 18,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "as long as you don t mind turning down some of the eye candy, dedicated graphics beiby, and while we ve seen situations where great specs, can be let down by disappointing cooling"
+    }
+  ],
+  "review_summary": "4 inches so it s big enough and because they re utilizing a 16 by 10 aspect ratio you get that extra vertical space the color accuracy is fantastic the color gamut is really good and the screen brightness is more than acceptable now because this is a two in one they re not using a matte display you d find on a typical gaming laptop which means you are going to get a little bit of reflection on the display if you re around a light source it is touch i mentioned before and it does have a high refresh rate of 165 hertz it s also dynamic which means if you have it unplugged from the wall it will automatically switch to 60 hertz to save some battery life but obviously you can change this if you want it to be 165 hertz the entire time the webcam is 1080p so you get better fidelity if you re doing a zoom call or you re gaming but the performance on this guy is the main issue and not in a bad way just in a way that i don t understand well i do understand but let me explain this model here for example comes with the ryzen 9 7940 hs cpu the same one that s in the g14 you also get 16 gigabytes of ddr5 memory you have the 13 inch display and a one terabyte nvme ssd and even though it s sporting an rtx 470 inside of here it s only running at 60 watts the charger they include is tiny it s only 130 watt charger which means there s just not much power coming out of this to sport an rtx 4070 that uses 120 or 140 watts and even the cpu performance compared to other ryzen 9 7940 hs laptops that i ve tested is a bit slower on this guy it s not to the point where it s ridiculous but you will notice it now i do expect this this is a thin laptop you don t have a thick chassis to play with which means you don t have as much room for cooling but the gpu performance does take a hit this gpu is not really acting an rtx 4070 in fact it s acting a rtx 3060 ti does the 360 ti even exist no not in a laptop only desktop so if it did exist that s what this would feel now don t get me wrong that s still very good performance but i feel no one out there should pay extra money for the rtx 4070 i highly suggest taking a look at the rtx 4050 or even the 4060 model the 4070 just doesn t make sense now granted the performance is still good enough i did have a very enjoy durable time with any applications that i used and gaming on this will predominantly be a 1920 by 1200 just because the gpu inside of here it s been rtx 3060 ti if that was a thing so you re going to be dropping the settings if you re playing high demanding titles now obviously you can utilize this qhd plus display if you re playing titles that are a bit older but i think most of the time you re going to be dropping it down now if you re pushing this for a very long time the keyboard deck can get a bit toasty predominantly in the middle i did see the temps go up to about 50 degrees celsius right around over here but the outsides where your hands are mostly for gaming stay relatively cool fan noise is always on this is a thin laptop with an rtx 47 inside even on silent profile fan noise was well into the 40s so expect to hear fans at all times actual cpu temperatures are pretty good in fact they re better than the asus g14 they always stayed in the 80s they didn t really go over 90 and it performed very well even though core clock speeds were nice and high the entire time i was pushing this thing now there are two speakers on the bottom of the laptop not the best place to listen to audio and it doesn t get that loud i feel if you re using this for long periods you re going to want to wear headphones now internally some sacrifices had to be made in order to cram this much performance for one you don t get a full size m2 drive this is a 2230 i believe so it s a smaller form factor read and write speeds are still pretty good but i ve seen newer gen 4 drives that do perform a tiny bit faster swappable wi fi 6e card that s pretty much the only thing that s swappable inside of here ram is completely soldered onto the motherboard but it does run very very fast it s not a vapor chamber cooler you just have two big copper heat pipes running back and forth and you do have a pretty big battery that s 75 watt hours i averaged over seven hours of use before needing to charge now i highly suggest specing this laptop with 32 gigabytes of ram if you re planning on keeping this for a very long times it is soldered onto the motherboard but look i love this thing having a device this small with really good performance is is a treat it s not perfect i don t the soldered on ram i do wish the battery life even though it s really good was a little bit more and obviously if it had better cooling the rtx 4070 that could run more an rtx 4070 which brings me to my suggestion if you re planning on buying this guy don t even look at the 4070 model it just doesn t make sense if it s running at 60 watts ideally 40 50 would probably be the sweet spot but if you want that little bit of extra performance and don t mind paying a tiny bit more then maybe go for the 40 60 but buying the 470 is just not worth it in a chassis this thin either way i love this thing if you have any questions a link to this will also be available in the description down below the video if you liked it subscribe if you haven t already and i ll see you guys in the next one meaning that the flow x13, isn t the perfect ultra book and if you plan on doing all day typing, browsing the web and even light photo editing, you ll probably be better served, by an xps 13 or a specter 14 that s where this comes in, just a couple of months ago, we lauded the xps 15 for its combination of power and design designating it, the best windows laptop, period but now that it looks we might be able to get more performance, from a much more portable machine, it s looking a lot more the best windows laptop, huge asterisk"
+}

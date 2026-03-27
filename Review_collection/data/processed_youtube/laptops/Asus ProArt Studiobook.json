@@ -1,0 +1,130 @@
+{
+  "asin": "unknown",
+  "product": "Asus ProArt Studiobook",
+  "features": [
+    {
+      "feature": "battery",
+      "sentiment": "positive",
+      "positive_mentions": 27,
+      "negative_mentions": 2,
+      "neutral_mentions": 20,
+      "mentions_total": 49,
+      "feature_score": 25,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "i ran the pro art studio book through our usual battery of performance tests it performed near the top in all of them and a few things stood out to me with the raid 0 nvme storage disk speeds are stupendously fast at up to 5"
+    },
+    {
+      "feature": "camera",
+      "sentiment": "positive",
+      "positive_mentions": 47,
+      "negative_mentions": 2,
+      "neutral_mentions": 28,
+      "mentions_total": 77,
+      "feature_score": 45,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "there is maybe no windows pc maker that s catering to creators more than aces with its pro art lineup a prime example is the studio book 16 oled h 5600 laptop tempting artists with an amd nvidia performance punch 4k oled display asus dial for video or photo editing and more unlike last year s pro art studio book one it s more modestly specked and priced but can this take the place of a higher priced content creation laptop or even a gaming pc with similar parts to find out i got a hold of one and put it to work on some photo and video editing jobs with a little bit of gaming on the side the pro art studio book has an attractive basic black square edge body with the only noticeable feature being the subtle pro art logo on top it s certainly not the smallest 16 inch laptop out there but with a 0"
+    },
+    {
+      "feature": "design",
+      "sentiment": "positive",
+      "positive_mentions": 21,
+      "negative_mentions": 2,
+      "neutral_mentions": 5,
+      "mentions_total": 28,
+      "feature_score": 19,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "the studiobook has a clean matte black finish, and the aluminum alloy build feels great"
+    },
+    {
+      "feature": "display",
+      "sentiment": "positive",
+      "positive_mentions": 58,
+      "negative_mentions": 5,
+      "neutral_mentions": 22,
+      "mentions_total": 85,
+      "feature_score": 53,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "there is maybe no windows pc maker that s catering to creators more than aces with its pro art lineup a prime example is the studio book 16 oled h 5600 laptop tempting artists with an amd nvidia performance punch 4k oled display asus dial for video or photo editing and more unlike last year s pro art studio book one it s more modestly specked and priced but can this take the place of a higher priced content creation laptop or even a gaming pc with similar parts to find out i got a hold of one and put it to work on some photo and video editing jobs with a little bit of gaming on the side the pro art studio book has an attractive basic black square edge body with the only noticeable feature being the subtle pro art logo on top it s certainly not the smallest 16 inch laptop out there but with a 0 However, the only one we re really disappointed by here is the 5070 with the 4k screen",
+      "value": [
+        "standing screen display size: 16 Inches"
+      ]
+    },
+    {
+      "feature": "performance",
+      "sentiment": "positive",
+      "positive_mentions": 52,
+      "negative_mentions": 7,
+      "neutral_mentions": 22,
+      "mentions_total": 81,
+      "feature_score": 45,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "there is maybe no windows pc maker that s catering to creators more than aces with its pro art lineup a prime example is the studio book 16 oled h 5600 laptop tempting artists with an amd nvidia performance punch 4k oled display asus dial for video or photo editing and more unlike last year s pro art studio book one it s more modestly specked and priced but can this take the place of a higher priced content creation laptop or even a gaming pc with similar parts to find out i got a hold of one and put it to work on some photo and video editing jobs with a little bit of gaming on the side the pro art studio book has an attractive basic black square edge body with the only noticeable feature being the subtle pro art logo on top it s certainly not the smallest 16 inch laptop out there but with a 0 However, i don t have a problem with that as an rtx 3080 wouldn t speed up creative apps that much and adds cost and heat and i hate hot laptops all the other parts are high end it s got amd s top mobile 8 car ryzen 5900 hx chip 32 gigabytes of ram and 2 terabytes of nvme storage in raid 0"
+    },
+    {
+      "feature": "price",
+      "sentiment": "positive",
+      "positive_mentions": 19,
+      "negative_mentions": 3,
+      "neutral_mentions": 3,
+      "mentions_total": 25,
+      "feature_score": 16,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "there is maybe no windows pc maker that s catering to creators more than aces with its pro art lineup a prime example is the studio book 16 oled h 5600 laptop tempting artists with an amd nvidia performance punch 4k oled display asus dial for video or photo editing and more unlike last year s pro art studio book one it s more modestly specked and priced but can this take the place of a higher priced content creation laptop or even a gaming pc with similar parts to find out i got a hold of one and put it to work on some photo and video editing jobs with a little bit of gaming on the side the pro art studio book has an attractive basic black square edge body with the only noticeable feature being the subtle pro art logo on top it s certainly not the smallest 16 inch laptop out there but with a 0 However, i don t have a problem with that as an rtx 3080 wouldn t speed up creative apps that much and adds cost and heat and i hate hot laptops all the other parts are high end it s got amd s top mobile 8 car ryzen 5900 hx chip 32 gigabytes of ram and 2 terabytes of nvme storage in raid 0"
+    },
+    {
+      "feature": "software",
+      "sentiment": "positive",
+      "positive_mentions": 41,
+      "negative_mentions": 2,
+      "neutral_mentions": 26,
+      "mentions_total": 69,
+      "feature_score": 39,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "28 pound heft it s relatively slim and light asus says its icecool pro thermal solution boosts airflow by up to 16 percent keeping noise levels below 40 dba in normal mode if needed for rendering or other chores performance mode boosts cpu power up to 95 watts with a commensurate increase in fan noise the most attention grabbing feature is the 3840x2400 16x10 oled display the first 16 inch 4k oled laptop display asus claims as with other oled pc displays i ve seen the specs hardly do it justice it s sharp vibrant and beautiful in person the panel is factory calibrated to both pantone and kalman color accuracy standards it offers 100 dci p3 color coverage allowing for precise color correction in adobe lightroom davinci resolve and other similar programs the million to one contrast ratio with inky oled blacks makes it a joy for content whether you re creating it or consuming it with 550 nits of brightness it conforms to visa s display hdr true black 500 standard for oled displays that s slightly short of the top true black 600 standard and well below the thousand nit plus panels on the new macbook pros but i think it s about as bright as you d need a laptop display to be the other headline feature is the pro art dial i wouldn t blame you for thinking that this is a gimmick as control surfaces often look cool but end up never being used this one has a few things in its favor though it feels nice thanks to the textured grip smooth rotation and clicky detents mainly though it s just easy to find without moving your hand very far as it s located just below and to the left of the keyboard and that way it makes more sense than something microsoft s surface style which is usually placed outside easy grabbing distance with no app open you can use it to turn up the sound or increase monitor brightness you really need adobe s creative cloud suite to make the most of it though with photoshop open pressing the dial launches a dedicated menu with brush options layer zoom and so on pressing the brush menu option opens sub options for hardness flow opacity and more premiere and after effects have similar custom menus i ve used control surfaces in the past as part of my former video editing career but i haven t been a big fan of them on pcs however after trying the asa style with photoshop and premiere pro i got used to it pretty fast it was natural to keep one hand on the keyboard and the other on the dial to jog video swap tools and so on before long it was second nature and sped up my workflow moving to the front of the laptop the trackpad is smooth responsive and has not just two but three buttons taking me back to the 2000s when all pc mice had this the third one adds an extra control that could be useful for 3d or cad apps editing and so on it s also the first laptop touchpad from asus that supports styluses including its own that allows artists to use the touchpad as a precise drawing tablet the keyboard has decent travel and a nice amount of spring back however the entire keyboard is shifted upwards more than usual and the keys are a touch small that s because the asus dial takes up a fair amount of space as for ports it s fairly well equipped with two usbc 3"
+    },
+    {
+      "feature": "speaker",
+      "sentiment": "positive",
+      "positive_mentions": 16,
+      "negative_mentions": 0,
+      "neutral_mentions": 8,
+      "mentions_total": 24,
+      "feature_score": 16,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "28 pound heft it s relatively slim and light asus says its icecool pro thermal solution boosts airflow by up to 16 percent keeping noise levels below 40 dba in normal mode if needed for rendering or other chores performance mode boosts cpu power up to 95 watts with a commensurate increase in fan noise the most attention grabbing feature is the 3840x2400 16x10 oled display the first 16 inch 4k oled laptop display asus claims as with other oled pc displays i ve seen the specs hardly do it justice it s sharp vibrant and beautiful in person the panel is factory calibrated to both pantone and kalman color accuracy standards it offers 100 dci p3 color coverage allowing for precise color correction in adobe lightroom davinci resolve and other similar programs the million to one contrast ratio with inky oled blacks makes it a joy for content whether you re creating it or consuming it with 550 nits of brightness it conforms to visa s display hdr true black 500 standard for oled displays that s slightly short of the top true black 600 standard and well below the thousand nit plus panels on the new macbook pros but i think it s about as bright as you d need a laptop display to be the other headline feature is the pro art dial i wouldn t blame you for thinking that this is a gimmick as control surfaces often look cool but end up never being used this one has a few things in its favor though it feels nice thanks to the textured grip smooth rotation and clicky detents mainly though it s just easy to find without moving your hand very far as it s located just below and to the left of the keyboard and that way it makes more sense than something microsoft s surface style which is usually placed outside easy grabbing distance with no app open you can use it to turn up the sound or increase monitor brightness you really need adobe s creative cloud suite to make the most of it though with photoshop open pressing the dial launches a dedicated menu with brush options layer zoom and so on pressing the brush menu option opens sub options for hardness flow opacity and more premiere and after effects have similar custom menus i ve used control surfaces in the past as part of my former video editing career but i haven t been a big fan of them on pcs however after trying the asa style with photoshop and premiere pro i got used to it pretty fast it was natural to keep one hand on the keyboard and the other on the dial to jog video swap tools and so on before long it was second nature and sped up my workflow moving to the front of the laptop the trackpad is smooth responsive and has not just two but three buttons taking me back to the 2000s when all pc mice had this the third one adds an extra control that could be useful for 3d or cad apps editing and so on it s also the first laptop touchpad from asus that supports styluses including its own that allows artists to use the touchpad as a precise drawing tablet the keyboard has decent travel and a nice amount of spring back however the entire keyboard is shifted upwards more than usual and the keys are a touch small that s because the asus dial takes up a fair amount of space as for ports it s fairly well equipped with two usbc 3"
+    },
+    {
+      "feature": "storage",
+      "sentiment": "positive",
+      "positive_mentions": 28,
+      "negative_mentions": 5,
+      "neutral_mentions": 13,
+      "mentions_total": 46,
+      "feature_score": 23,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "28 pound heft it s relatively slim and light asus says its icecool pro thermal solution boosts airflow by up to 16 percent keeping noise levels below 40 dba in normal mode if needed for rendering or other chores performance mode boosts cpu power up to 95 watts with a commensurate increase in fan noise the most attention grabbing feature is the 3840x2400 16x10 oled display the first 16 inch 4k oled laptop display asus claims as with other oled pc displays i ve seen the specs hardly do it justice it s sharp vibrant and beautiful in person the panel is factory calibrated to both pantone and kalman color accuracy standards it offers 100 dci p3 color coverage allowing for precise color correction in adobe lightroom davinci resolve and other similar programs the million to one contrast ratio with inky oled blacks makes it a joy for content whether you re creating it or consuming it with 550 nits of brightness it conforms to visa s display hdr true black 500 standard for oled displays that s slightly short of the top true black 600 standard and well below the thousand nit plus panels on the new macbook pros but i think it s about as bright as you d need a laptop display to be the other headline feature is the pro art dial i wouldn t blame you for thinking that this is a gimmick as control surfaces often look cool but end up never being used this one has a few things in its favor though it feels nice thanks to the textured grip smooth rotation and clicky detents mainly though it s just easy to find without moving your hand very far as it s located just below and to the left of the keyboard and that way it makes more sense than something microsoft s surface style which is usually placed outside easy grabbing distance with no app open you can use it to turn up the sound or increase monitor brightness you really need adobe s creative cloud suite to make the most of it though with photoshop open pressing the dial launches a dedicated menu with brush options layer zoom and so on pressing the brush menu option opens sub options for hardness flow opacity and more premiere and after effects have similar custom menus i ve used control surfaces in the past as part of my former video editing career but i haven t been a big fan of them on pcs however after trying the asa style with photoshop and premiere pro i got used to it pretty fast it was natural to keep one hand on the keyboard and the other on the dial to jog video swap tools and so on before long it was second nature and sped up my workflow moving to the front of the laptop the trackpad is smooth responsive and has not just two but three buttons taking me back to the 2000s when all pc mice had this the third one adds an extra control that could be useful for 3d or cad apps editing and so on it s also the first laptop touchpad from asus that supports styluses including its own that allows artists to use the touchpad as a precise drawing tablet the keyboard has decent travel and a nice amount of spring back however the entire keyboard is shifted upwards more than usual and the keys are a touch small that s because the asus dial takes up a fair amount of space as for ports it s fairly well equipped with two usbc 3 However, i don t have a problem with that as an rtx 3080 wouldn t speed up creative apps that much and adds cost and heat and i hate hot laptops all the other parts are high end it s got amd s top mobile 8 car ryzen 5900 hx chip 32 gigabytes of ram and 2 terabytes of nvme storage in raid 0"
+    },
+    {
+      "feature": "thermals",
+      "sentiment": "positive",
+      "positive_mentions": 12,
+      "negative_mentions": 1,
+      "neutral_mentions": 5,
+      "mentions_total": 18,
+      "feature_score": 11,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "28 pound heft it s relatively slim and light asus says its icecool pro thermal solution boosts airflow by up to 16 percent keeping noise levels below 40 dba in normal mode if needed for rendering or other chores performance mode boosts cpu power up to 95 watts with a commensurate increase in fan noise the most attention grabbing feature is the 3840x2400 16x10 oled display the first 16 inch 4k oled laptop display asus claims as with other oled pc displays i ve seen the specs hardly do it justice it s sharp vibrant and beautiful in person the panel is factory calibrated to both pantone and kalman color accuracy standards it offers 100 dci p3 color coverage allowing for precise color correction in adobe lightroom davinci resolve and other similar programs the million to one contrast ratio with inky oled blacks makes it a joy for content whether you re creating it or consuming it with 550 nits of brightness it conforms to visa s display hdr true black 500 standard for oled displays that s slightly short of the top true black 600 standard and well below the thousand nit plus panels on the new macbook pros but i think it s about as bright as you d need a laptop display to be the other headline feature is the pro art dial i wouldn t blame you for thinking that this is a gimmick as control surfaces often look cool but end up never being used this one has a few things in its favor though it feels nice thanks to the textured grip smooth rotation and clicky detents mainly though it s just easy to find without moving your hand very far as it s located just below and to the left of the keyboard and that way it makes more sense than something microsoft s surface style which is usually placed outside easy grabbing distance with no app open you can use it to turn up the sound or increase monitor brightness you really need adobe s creative cloud suite to make the most of it though with photoshop open pressing the dial launches a dedicated menu with brush options layer zoom and so on pressing the brush menu option opens sub options for hardness flow opacity and more premiere and after effects have similar custom menus i ve used control surfaces in the past as part of my former video editing career but i haven t been a big fan of them on pcs however after trying the asa style with photoshop and premiere pro i got used to it pretty fast it was natural to keep one hand on the keyboard and the other on the dial to jog video swap tools and so on before long it was second nature and sped up my workflow moving to the front of the laptop the trackpad is smooth responsive and has not just two but three buttons taking me back to the 2000s when all pc mice had this the third one adds an extra control that could be useful for 3d or cad apps editing and so on it s also the first laptop touchpad from asus that supports styluses including its own that allows artists to use the touchpad as a precise drawing tablet the keyboard has decent travel and a nice amount of spring back however the entire keyboard is shifted upwards more than usual and the keys are a touch small that s because the asus dial takes up a fair amount of space as for ports it s fairly well equipped with two usbc 3"
+    }
+  ],
+  "review_summary": "i ran the pro art studio book through our usual battery of performance tests it performed near the top in all of them and a few things stood out to me with the raid 0 nvme storage disk speeds are stupendously fast at up to 5 there is maybe no windows pc maker that s catering to creators more than aces with its pro art lineup a prime example is the studio book 16 oled h 5600 laptop tempting artists with an amd nvidia performance punch 4k oled display asus dial for video or photo editing and more unlike last year s pro art studio book one it s more modestly specked and priced but can this take the place of a higher priced content creation laptop or even a gaming pc with similar parts to find out i got a hold of one and put it to work on some photo and video editing jobs with a little bit of gaming on the side the pro art studio book has an attractive basic black square edge body with the only noticeable feature being the subtle pro art logo on top it s certainly not the smallest 16 inch laptop out there but with a 0 the studiobook has a clean matte black finish, and the aluminum alloy build feels great"
+}

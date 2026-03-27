@@ -1,0 +1,141 @@
+{
+  "asin": "unknown",
+  "product": "Google Pixel 8a",
+  "features": [
+    {
+      "feature": "battery",
+      "sentiment": "positive",
+      "positive_mentions": 25,
+      "negative_mentions": 0,
+      "neutral_mentions": 5,
+      "mentions_total": 30,
+      "feature_score": 25,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "arguably even better cameras with bigger sensors, a bigger battery, faster charging, ip68, and it s the same tensor g3",
+      "value": [
+        "battery power rating: 4492 Milliamp Hours",
+        "battery capacity: 4492 Milliamp Hours"
+      ]
+    },
+    {
+      "feature": "camera",
+      "sentiment": "positive",
+      "positive_mentions": 46,
+      "negative_mentions": 1,
+      "neutral_mentions": 14,
+      "mentions_total": 61,
+      "feature_score": 45,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "so at first glance, it is, well, pretty unmistakably a pixel with the camera bar up top",
+      "value": [
+        "other camera features: Front, Rear"
+      ]
+    },
+    {
+      "feature": "design",
+      "sentiment": "positive",
+      "positive_mentions": 19,
+      "negative_mentions": 1,
+      "neutral_mentions": 1,
+      "mentions_total": 21,
+      "feature_score": 18,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "this is the latest google mid range phone for india and as per rumors this could be the last as well what why and what s new with this pixel 8a and how is it different from the currently discounted pixel 8 well i ve been using the pixel 8a for a few days now there s a big big catch with the pixel 8a but before that first and foremost there are four big upgrades on the pixel 8a this year this time around you get four colors with the pixel 8a this porcelain obsidian bay and this new color aloe google just put pixel 7a in photoshop change the color made the corners more round and voila there you have the pixel 8a it looks exactly the flagship pixel 8 in terms of size inh hand feel the pixel 8a back is plastic but it gets a matte finish this year so fingerprints and all don t show up and personally i m a fan of how pixel look the robocop design it s fun it s unique it s identifiable the pixel 8a looks fun and unique but the moment you turn the phone and look at those bezels that s thick that s a thick bezel for a 50,000 4 the pixel 8a gets an upgraded 120 hz 6"
+    },
+    {
+      "feature": "display",
+      "sentiment": "positive",
+      "positive_mentions": 39,
+      "negative_mentions": 3,
+      "neutral_mentions": 6,
+      "mentions_total": 48,
+      "feature_score": 36,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "and then around the front, an improved display However, 1 inch po led panel, full hd plus resolution , google 20000 and it peak brightness ",
+      "value": [
+        "other display features: Wireless",
+        "standing screen display size: 6.1 Inches"
+      ]
+    },
+    {
+      "feature": "performance",
+      "sentiment": "positive",
+      "positive_mentions": 22,
+      "negative_mentions": 3,
+      "neutral_mentions": 5,
+      "mentions_total": 30,
+      "feature_score": 19,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "forel one on the software experience i personally this particular for i for fastest char 18 support charg to the f pixel g but this is not a gaming the cam 64 and of and finally including goel yy However, now, weirdly, both of these phones have the exact same tensor g3 processor, so this isn t a limitation on the processor side"
+    },
+    {
+      "feature": "price",
+      "sentiment": "positive",
+      "positive_mentions": 30,
+      "negative_mentions": 1,
+      "neutral_mentions": 9,
+      "mentions_total": 40,
+      "feature_score": 29,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "last year s phone was already really good, making a few key improvements where it counts and keeping the price the same, 500"
+    },
+    {
+      "feature": "software",
+      "sentiment": "positive",
+      "positive_mentions": 44,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 45,
+      "feature_score": 44,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "forel one on the software experience i personally this particular for i for fastest char 18 support charg to the f pixel g but this is not a gaming the cam 64 and of and finally including goel yy"
+    },
+    {
+      "feature": "speaker",
+      "sentiment": "positive",
+      "positive_mentions": 14,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 15,
+      "feature_score": 14,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "this is the one with the really smart ai features call assist and pixel vpn and magic eraser audio and all kinds of other classic google features"
+    },
+    {
+      "feature": "storage",
+      "sentiment": "positive",
+      "positive_mentions": 23,
+      "negative_mentions": 1,
+      "neutral_mentions": 2,
+      "mentions_total": 26,
+      "feature_score": 22,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "so we know it s decently capable, if a little, inefficient, but then it ll also start at 128 gigs of storage",
+      "value": [
+        "memory storage capacity: 128 GB"
+      ]
+    },
+    {
+      "feature": "thermals",
+      "sentiment": "positive",
+      "positive_mentions": 5,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 5,
+      "feature_score": 5,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "1 in oled display even the increased nits helps it make more visible in outdoor direct sunlight and just last year you also get in display fingerprint scanner and there s also face unlock in terms of glass protection you get corning gorilla glass 3 to which i was although you should use a case and a tempered glass but 2024 coring gorilla glass 3 that s a bit old now the major concern people have with battery life is how s the heat how s the battery life in real life conditions well i ve been using it for a couple of days only but battery life is good now you get 18w fast charging plus a slightly larger 4,492 mah battery google with the mats but with the mix of wi fi and 5g and half an hour of gaming it easily lasted me a day the screen on time stats are wrong i easily got 6 hours on a full charge which is good for a compact phone also you get wireless charging support ip67 water resistance which brings me to the third most important upgrade on the pixel 8a tenser g3 now pixel uses the same processor on the a ser phone at the flagship pixel ser ser so this pixel 8a also comes with the same tensor g3 as pixel 8 you get 8gb lpddr 5x ram 128 gb ufs 3"
+    }
+  ],
+  "review_summary": "arguably even better cameras with bigger sensors, a bigger battery, faster charging, ip68, and it s the same tensor g3 so at first glance, it is, well, pretty unmistakably a pixel with the camera bar up top this is the latest google mid range phone for india and as per rumors this could be the last as well what why and what s new with this pixel 8a and how is it different from the currently discounted pixel 8 well i ve been using the pixel 8a for a few days now there s a big big catch with the pixel 8a but before that first and foremost there are four big upgrades on the pixel 8a this year this time around you get four colors with the pixel 8a this porcelain obsidian bay and this new color aloe google just put pixel 7a in photoshop change the color made the corners more round and voila there you have the pixel 8a it looks exactly the flagship pixel 8 in terms of size inh hand feel the pixel 8a back is plastic but it gets a matte finish this year so fingerprints and all don t show up and personally i m a fan of how pixel look the robocop design it s fun it s unique it s identifiable the pixel 8a looks fun and unique but the moment you turn the phone and look at those bezels that s thick that s a thick bezel for a 50,000 4 the pixel 8a gets an upgraded 120 hz 6"
+}

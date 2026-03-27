@@ -1,0 +1,141 @@
+{
+  "asin": "unknown",
+  "product": "iPhone 14 Pro Max",
+  "features": [
+    {
+      "feature": "battery",
+      "sentiment": "positive",
+      "positive_mentions": 26,
+      "negative_mentions": 5,
+      "neutral_mentions": 7,
+      "mentions_total": 38,
+      "feature_score": 21,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "if you were going to say, well, your battery is probably shot However, not the best battery life, but still usable",
+      "value": [
+        "battery power rating: 16.75 Watt Hours",
+        "battery capacity: 4323 Milliamp Hours"
+      ]
+    },
+    {
+      "feature": "camera",
+      "sentiment": "positive",
+      "positive_mentions": 70,
+      "negative_mentions": 6,
+      "neutral_mentions": 49,
+      "mentions_total": 125,
+      "feature_score": 64,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "you don t get their camera control, you don t get the apple intelligence, which is a let down for the iphone 14 pro max However, we ll just scroll through here and you can see no issue if i write something out right here iphone 14 pro max update video coming soon",
+      "value": [
+        "other camera features: Front, Rear"
+      ]
+    },
+    {
+      "feature": "design",
+      "sentiment": "positive",
+      "positive_mentions": 15,
+      "negative_mentions": 2,
+      "neutral_mentions": 5,
+      "mentions_total": 22,
+      "feature_score": 13,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "but the camera design layout for some people still more nice"
+    },
+    {
+      "feature": "display",
+      "sentiment": "positive",
+      "positive_mentions": 29,
+      "negative_mentions": 3,
+      "neutral_mentions": 22,
+      "mentions_total": 54,
+      "feature_score": 26,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "thank you this is the iphone 14 pro max the highest tier offering in the new iphone lineup last year the pro max provides the same premium features as the pro model but is larger and has a bigger battery so does that mean that this is the best iphone yet i m will for gsm arena i must find out in our iphone 14 pro max review foreign has split up the iphones in a similar fashion to last year the iphone 14 is a compact model with slim down features the pro is the same size but with the premium feature set and on top is the pro max which doesn t offer more features but its bigger form factor allows for extra screen space as well as a larger battery there are a few changes this year compared to last year s pro max the most noticeable is on the front the notch cutout has turned into a pill shaped one and it has some extra functionality built in there s now also support for an always on display for the first time on the iphones it s the lock screen with a dim brightness level and tone down refresh rate to save energy besides that the pro max has an upgraded chipset a new 48 megapixel main camera on the back and the selfie camera has autofocus this year too the rest of the package including the design is quite a familiar one except for our model s new purple color the hefty build of flat glass and stainless steel is the same as before the slight difference you may notice is that the camera bumps are a little bigger and taller to house the new main cam but the phone s overall weight is still identical down to the gram the iphone 14 pro max of course brings the full ip68 rated protection against dust and water up to a depth of 6 meters just last year s model the phone is built around a 6 However, without going into a bunch of boring information that you probably don t want to hear, the design of the iphone 14 pro max is very similar to its predecessor, except for one key component, the screen",
+      "value": [
+        "other display features: Wireless",
+        "standing screen display size: 6.7 Inches"
+      ]
+    },
+    {
+      "feature": "performance",
+      "sentiment": "positive",
+      "positive_mentions": 23,
+      "negative_mentions": 6,
+      "neutral_mentions": 13,
+      "mentions_total": 42,
+      "feature_score": 17,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "but, honestly, this is really nice performance here in 2026 for a phone that came out in 2022 However, now, this area, i m not liking these upload speed download speeds"
+    },
+    {
+      "feature": "price",
+      "sentiment": "positive",
+      "positive_mentions": 13,
+      "negative_mentions": 1,
+      "neutral_mentions": 3,
+      "mentions_total": 17,
+      "feature_score": 12,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "and if you re currently using one, it s a great iphone to hold on to for a good few more years, as it has all the same fundamentals as the latest 1,200 16 pro max for less than half the price"
+    },
+    {
+      "feature": "software",
+      "sentiment": "positive",
+      "positive_mentions": 38,
+      "negative_mentions": 4,
+      "neutral_mentions": 29,
+      "mentions_total": 71,
+      "feature_score": 34,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "so, i think this is continuing to show why a lot of people are tending to keep their phones a lot longer, but i m just enamored by how nice stainless steel feel However, but when the 14 pro max came out, nobody was complaining that the bezels were thick to begin with, until the bezel race began and you started seeing more android competitors and iphone go a little bit thinner bezels"
+    },
+    {
+      "feature": "speaker",
+      "sentiment": "positive",
+      "positive_mentions": 7,
+      "negative_mentions": 1,
+      "neutral_mentions": 2,
+      "mentions_total": 10,
+      "feature_score": 6,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "7 inch super retina xdr oled display it has a pixel density of 460 ppi ceramic shield protection and a 120hz refresh rate that fast refresh rate made its debut last year and it hasn t changed here it smooths out your swiping and scrolling and can dial down to save energy all the way to 10 hertz while the screen is on and now one hertz for the always on display what has changed is the brightness it s a pretty nice upgrade we were able to measure a maximum of 830 nits with the manual brightness slider but this can boost to 1760 nits in auto mode when in bright sun beating any of the competition by a long shot the most hyped new feature on this display though is the pill cutout which apple calls the dynamic island at first glance it s just a black cutout housing the selfie cam and face id but it s also integrated with the ui extending on the left and right sides when you open a compatible app a music app and displaying relevant info it can also show system alerts charging for example the dynamic island generally works for one thing at a time but in some cases a second app is supported and when you open that up it will split the dynamic island into an eye shape tapping and holding on the dynamic islands icons will open them up into a larger balloon window or in a simple tap will directly open up the respective app overall it s slightly gimmicky but at the same time neat and while the dynamic island is still in its early stages it will have support for even more functionality down the line although the cutout is new it s not exactly smaller it sits a little lower so it takes up a bit more screen space but that s not as big of an issue here as it is on the pro model as this screen has extra space to work with besides that content is sharp vibrant and contrasty and the color accuracy is excellent and their support for hdr10 and dolby vision as well for audio the iphone 14 pro max has a pair of stereo speakers with the earpiece acting as the top one they earned a score of very good in our loudness test and the sound quality is excellent with clean vocals sparkly treble and pronounced slow act of course storage isn t expandable on the iphones but you have plenty of storage options from 128 gigs all the way up to a whole terabyte and the interface of the new iphone generation is the new ios 16"
+    },
+    {
+      "feature": "storage",
+      "sentiment": "positive",
+      "positive_mentions": 17,
+      "negative_mentions": 1,
+      "neutral_mentions": 9,
+      "mentions_total": 27,
+      "feature_score": 16,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "thank you this is the iphone 14 pro max the highest tier offering in the new iphone lineup last year the pro max provides the same premium features as the pro model but is larger and has a bigger battery so does that mean that this is the best iphone yet i m will for gsm arena i must find out in our iphone 14 pro max review foreign has split up the iphones in a similar fashion to last year the iphone 14 is a compact model with slim down features the pro is the same size but with the premium feature set and on top is the pro max which doesn t offer more features but its bigger form factor allows for extra screen space as well as a larger battery there are a few changes this year compared to last year s pro max the most noticeable is on the front the notch cutout has turned into a pill shaped one and it has some extra functionality built in there s now also support for an always on display for the first time on the iphones it s the lock screen with a dim brightness level and tone down refresh rate to save energy besides that the pro max has an upgraded chipset a new 48 megapixel main camera on the back and the selfie camera has autofocus this year too the rest of the package including the design is quite a familiar one except for our model s new purple color the hefty build of flat glass and stainless steel is the same as before the slight difference you may notice is that the camera bumps are a little bigger and taller to house the new main cam but the phone s overall weight is still identical down to the gram the iphone 14 pro max of course brings the full ip68 rated protection against dust and water up to a depth of 6 meters just last year s model the phone is built around a 6",
+      "value": [
+        "memory storage capacity: 128 GB"
+      ]
+    },
+    {
+      "feature": "thermals",
+      "sentiment": "positive",
+      "positive_mentions": 2,
+      "negative_mentions": 0,
+      "neutral_mentions": 4,
+      "mentions_total": 6,
+      "feature_score": 2,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "it s not a groundbreaking update but there are a few new features here and there one of the more notable changes is the lock screen which is now also the always on display swiping up will access your notifications the screen is also customizable with widgets and wallpapers and you can have a number of custom layouts that you can switch between on the fly the lock screen layouts can also be linked to your focus modes so if you re in do not disturb for example you could know just by the appearance of your always on display the focus modes also have the ability to link to your mail and messaging apps to filter your messages and emails right from the source plenty of apps have seen upgrades with ios 16 including facetime and the wallet app visual lookup isn t quite new but it has been improved a lot one thing you can do is isolate an object from a photo or video by tapping and holding on it then you can copy and paste it save it for later or even drag it straight into an editor or messaging app and there s an emergency sos feature which provides several ways to request aid if you re in trouble in some regions you can even set an sos through satellite handy if you have no network coverage powering the iphone 14 pro max is a new chipset the apple a16 bionic which is also found within the iphone 14 pro it contains more power efficient cpu cores as well as more memory bandwidth for the gpu there are also upgrades of the neural engine and the isp for photography and now there s a new display engine too in benchmarks there is a noticeable improvement over last year s a15 bionic when it comes to cpu scores and the iphone 14 pro max tops the charts the gpu performance is about on par with what we ve seen before even so that s still excellent and when it comes to thermal management the iphone 14 pro max does a remarkable job the phone displayed great stability during our stress tests the iphone 14 pro max has a 4 323 million power battery the same size as last year the battery life is very similar too while the screen on time is a bit better the new model earned the same great endurance rating of 121 hours in our tests that s some of the best battery life you can get on an iphone new iphones don t come with a charger in the box but we tested the charging speed using apple s 21 adapter with it we were able to charge the iphone 14 pro max from 0 to 48 in half an hour nothing too remarkable there s also support for wireless charging the cameras of the iphone 14 pro max are the same as the pro model there s a new 48 megapixel main cam with a quad bare filter and it has second gen sensorship stabilization and full focus pixels besides that there s a 12 megapixel ultrawide cam which has a new sensor and lens and last year it has autofocus then there s the 12 megapixel 3 times telephoto and a lidar scanner for portraits and focus since the main cam has a quad bare filter it bins pixels four to one to produce 12 megapixel photos by default these photos are pretty much the same as what we ve seen from the iphones over the past couple of years there s plenty of detail low noise accurate colors and excellent contrast the dynamic range is reasonable without going over the top our only real complaint is to folia transition it s heavily processed and anything but natural looking you also can shoot in the main cam s full 48 megapixels in raw format and compared to the full resolution modes of other phones with quad bear cameras this one is probably the best we ve seen if you take one of those 48 megapixel photos and downsize it back to 12"
+    }
+  ],
+  "review_summary": "if you were going to say, well, your battery is probably shot However, not the best battery life, but still usable you don t get their camera control, you don t get the apple intelligence, which is a let down for the iphone 14 pro max However, we ll just scroll through here and you can see no issue if i write something out right here iphone 14 pro max update video coming soon but the camera design layout for some people still more nice"
+}

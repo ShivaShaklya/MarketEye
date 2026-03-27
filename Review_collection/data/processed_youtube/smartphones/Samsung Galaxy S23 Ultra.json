@@ -1,0 +1,141 @@
+{
+  "asin": "unknown",
+  "product": "Samsung Galaxy S23 Ultra",
+  "features": [
+    {
+      "feature": "battery",
+      "sentiment": "positive",
+      "positive_mentions": 47,
+      "negative_mentions": 3,
+      "neutral_mentions": 12,
+      "mentions_total": 62,
+      "feature_score": 44,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "now keep in mind, this is replacing the galaxy s22 ultra, which was already my best big phone of the year from last year, great battery, great screen, great performance, all of it was rock solid across the board, so there s not a lot that i would naturally want to change However, i had a two day period at 120hz but 1080p, where the only time i charged it was on the wireless charger in my car on the way to and from the studio for the 40 minutes that that drive is",
+      "value": [
+        "battery power rating: 5000 Milliamp Hours",
+        "battery capacity: 5000 Milliamp Hours"
+      ]
+    },
+    {
+      "feature": "camera",
+      "sentiment": "positive",
+      "positive_mentions": 90,
+      "negative_mentions": 2,
+      "neutral_mentions": 55,
+      "mentions_total": 147,
+      "feature_score": 88,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "so if you watched the last video about how apple s taking back the iphone, then already that optimization and customization for parts inside phones is a good thing, generally",
+      "value": [
+        "other camera features: Front"
+      ]
+    },
+    {
+      "feature": "design",
+      "sentiment": "positive",
+      "positive_mentions": 21,
+      "negative_mentions": 1,
+      "neutral_mentions": 5,
+      "mentions_total": 27,
+      "feature_score": 20,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "the first time i picked up samsung s new galaxy s23 ultra i thought oh no this is the first time in samsung s entire history where their pinnacle flagship smartphone looks almost identical to the one that came before it same body same display same battery samsung has always been the innovator and so the idea that this company has just gone an entire year without being able to improve the core design from their last phone is scary because does that mean they feel they ve perfected it is this just what all of their phones are going to look from now on plus how have they still not managed to trim that chin at the bottom why is the selfie camera been demoted from 40 megapixels to just 12"
+    },
+    {
+      "feature": "display",
+      "sentiment": "positive",
+      "positive_mentions": 54,
+      "negative_mentions": 4,
+      "neutral_mentions": 14,
+      "mentions_total": 72,
+      "feature_score": 50,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "now keep in mind, this is replacing the galaxy s22 ultra, which was already my best big phone of the year from last year, great battery, great screen, great performance, all of it was rock solid across the board, so there s not a lot that i would naturally want to change However, just as far as overall package, samsung s software is settled, the screen is sublime, it s still the sickest stylus, and it s snaps significantly smoother shots, sick",
+      "value": [
+        "other display features: Wireless",
+        "standing screen display size: 6.8 Inches"
+      ]
+    },
+    {
+      "feature": "performance",
+      "sentiment": "positive",
+      "positive_mentions": 45,
+      "negative_mentions": 2,
+      "neutral_mentions": 15,
+      "mentions_total": 62,
+      "feature_score": 43,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "now keep in mind, this is replacing the galaxy s22 ultra, which was already my best big phone of the year from last year, great battery, great screen, great performance, all of it was rock solid across the board, so there s not a lot that i would naturally want to change"
+    },
+    {
+      "feature": "price",
+      "sentiment": "positive",
+      "positive_mentions": 21,
+      "negative_mentions": 0,
+      "neutral_mentions": 4,
+      "mentions_total": 25,
+      "feature_score": 21,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "why are the colors of the phone so boring and samey and most importantly why is it noticeably more expensive but now that i ve had some time to think about it i ve calm down and i ve learned a few important details about this phone that have turned my fear and my disappointment into genuine excitement the galaxy s23 ultra is worth your attention and these are the 10 reasons why it takes better selfies while the resolution has been been downgraded from the s22 ultra the quality of the front camera has gone up leading to more accurate skin tones more reliable focusing and a little bit more detail the s23 ultra has more storage 256 gigabytes versus 128 so while the price of entry has gone up all the companies really done is just slashed the base level 128 gigabyte model that you used to be able to get which i don t love it makes the phone even less accessible but i think it makes sense given that we re talking about a media centric phone that can shoot proper 8k video i think it s about time samsung stopped pretending that 128 gigs of non expandable storage is sufficient but the reason why i m calling storage a win is that this is no ordinary 256 gigabytes this is the fastest flash memory in the world meaning that even compared to phones from just a few months ago this thing can read and write files almost two times faster while consuming less power and all you have to do is to open up a few apps on your home screen to see that extra responsiveness in action plus if you are offloading huge files directly to your computer you would feel it there too now samsung s also upgraded the speakers which i think is quite important because this is something they haven t really touched since 2018 with the galaxy note 9"
+    },
+    {
+      "feature": "software",
+      "sentiment": "positive",
+      "positive_mentions": 62,
+      "negative_mentions": 5,
+      "neutral_mentions": 16,
+      "mentions_total": 83,
+      "feature_score": 57,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "okay anyway, that s the chips, that s what that enables, but there s also a new set of cameras, hardware and software across the board that also is better than you think However, just as far as overall package, samsung s software is settled, the screen is sublime, it s still the sickest stylus, and it s snaps significantly smoother shots, sick"
+    },
+    {
+      "feature": "speaker",
+      "sentiment": "positive",
+      "positive_mentions": 21,
+      "negative_mentions": 1,
+      "neutral_mentions": 1,
+      "mentions_total": 23,
+      "feature_score": 20,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "i haven t even talked about the a display, 1440p, 120hz ltpo, 1,750 nits peak brightness, it s still awesome, still has great speakers, still has very reliable software with a pretty good track record now of delivering software updates in a timely fashion for a while"
+    },
+    {
+      "feature": "storage",
+      "sentiment": "positive",
+      "positive_mentions": 30,
+      "negative_mentions": 1,
+      "neutral_mentions": 11,
+      "mentions_total": 42,
+      "feature_score": 29,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "there are previous phones that have had 8k video, it s not the first, but i remember when they first got that capability, they d always be at 24 fps, cause that s the most that they could churn out, which is not the right frame rate, so 8k 30 really good",
+      "value": [
+        "memory storage capacity: 256 GB"
+      ]
+    },
+    {
+      "feature": "thermals",
+      "sentiment": "positive",
+      "positive_mentions": 10,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 10,
+      "feature_score": 10,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "it s a pretty thin update you re not gonna lie you get routines that can trigger a series of actions based on your activities so whether you re sleeping or exercising or driving etc one cool thing which means that your bixby assistant on this phone can respond to incoming calls by just sending back a text and i know bixby was a bit of a laughing stock when it first came out but we tested it recently and honestly it surprised me and clearly a lot of you guys too more importantly though when it comes to software the key thing that has to be said is that samsung has become a bit of an unexpected hero with updates there was a time when buying a samsung flagship meant you d get two years of android updates and you d almost definitely be one of the last to get those updates but if you look at their current track record in the last couple of years something is getting out all of those smaller security patches faster than anyone and right out of the gate they re also promising four full years of major android version upgrade too so this phone is going to be supported all the way to android 17 which is a really significant differentiator if you re planning to keep the phone for that long okay it s time to talk about this design and i know my first impression was to cry myself to sleep i just think it s really good when companies try new things and historically if you could rely on any company to do that that would be samsung but having taken a step back and really thought about it the similarity may not be the worst thing for starters no one s upgrading their phone every single year anymore so this is still going to feel new for someone upgrading from a two to three to four year old samsung phone plus i ve tested a lot of phones where from the outside they look complete generational leaps from their predecessors but then you use them and you almost feel cheated because they re pretty much the exact same thing just in a new set of clothes so this phone looking similar to the last might help prevent that feeling and people feeling they need to buy something that they definitely don t need but i think the most important thing and probably the real reason that samsung kept the design language the same is to let their other phones catch up last year s s22s were a bit kooky you had the s22 ultra which split the cameras into multiple individual modules this and then the s22 and s22 plus which just had one big camera module and so by this time keeping the design similar on the ultra model but updating the normal s23 and s23 plus they ve now at least got a lineup that looks cohesive but also if you look closer it is an upgraded design it s a little boxier both the phone and the s pen that still comes included which i think is an aesthetic perk as well as a functional one because they ve sharpened it up in a way that the phone is more comfortable to hold instead of less comfy i guess i m glad that they haven t just copied apple s design so many companies have they ve retained some of the curve on the screen which is good because it lets your fingers glide onto the display panel from the sides but they ve made it somewhat less curved which means you get more usable flat area of the screen before it starts to slope off it s a really good careful balance and also samsung swapped out the corning gorilla glass victus plus that their phones used to be coated in for gorilla glass victus 2 which is a really interesting material because it s the first time that this corning company is really acknowledging the fact that most of the time when you drop your phone it s not from a perfect angle on some smooth laboratory floor phones need to be able to withstand rough surfaces concrete and there s some quite impressive test footage of it in action which i will not be recreating it s not on purpose and they ve managed to achieve that drop protection while also making this display out of 22 recycled glass which is something that i did want to touch on for a minute samsung is making a real deal about their commitment to the environment and how this phone has parts from recycled water bottles and fishing nets and recycled aluminum but there are plenty of great reasons to buy these new phones i don t think this is one of them they talked about how they could maybe theoretically reduce up to 15 tons of waste plastic in the oceans by the end of the year but these are such tiny numbers in the scheme of things i did the math of this and this is the equivalent of samsung for every 1 000 smartphone sold donating about 0"
+    }
+  ],
+  "review_summary": "now keep in mind, this is replacing the galaxy s22 ultra, which was already my best big phone of the year from last year, great battery, great screen, great performance, all of it was rock solid across the board, so there s not a lot that i would naturally want to change However, i had a two day period at 120hz but 1080p, where the only time i charged it was on the wireless charger in my car on the way to and from the studio for the 40 minutes that that drive is so if you watched the last video about how apple s taking back the iphone, then already that optimization and customization for parts inside phones is a good thing, generally the first time i picked up samsung s new galaxy s23 ultra i thought oh no this is the first time in samsung s entire history where their pinnacle flagship smartphone looks almost identical to the one that came before it same body same display same battery samsung has always been the innovator and so the idea that this company has just gone an entire year without being able to improve the core design from their last phone is scary because does that mean they feel they ve perfected it is this just what all of their phones are going to look from now on plus how have they still not managed to trim that chin at the bottom why is the selfie camera been demoted from 40 megapixels to just 12"
+}

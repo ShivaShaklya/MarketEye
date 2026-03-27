@@ -1,0 +1,148 @@
+{
+  "asin": "unknown",
+  "product": "Samsung Galaxy S24 Plus",
+  "features": [
+    {
+      "feature": "battery",
+      "sentiment": "positive",
+      "positive_mentions": 20,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 20,
+      "feature_score": 20,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "here s the middle child of the flagship s24 family the samsung galaxy s24 plus it s bigger than the galaxy s24 but there s more going on here than just the size i m will for gsm marina and let s see what the s24 plus is all about in our full review the plus models of the galaxy s series have typically been the same phones as the vanilla ones but bigger this could be ideal if you have larger hands and you get a larger screen and battery too but this year s s24 plus also brings another advantage it display has a higher qhd resolution as far as design goes you again get a flatb of gorilla glass victus 2 but this year the finish is matte not glossy there are separate rings for each camera as expected the matte frame is made of a tougher version of armor aluminum now and its sharper edge is something new adding a bit of extra grip and as ever the galaxy flagships bring full ip68 rated ingress protection against dust and water the s24 plus s amoled display has a qhd resolution and it s also slightly bigger than last year at 6",
+      "value": [
+        "battery average life: 18 Hours",
+        "battery capacity: 4900 Milliamp Hours",
+        "battery description: Lithium-Ion",
+        "battery power: 4900 Milliamp Hours"
+      ]
+    },
+    {
+      "feature": "camera",
+      "sentiment": "positive",
+      "positive_mentions": 27,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 28,
+      "feature_score": 27,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "here s the middle child of the flagship s24 family the samsung galaxy s24 plus it s bigger than the galaxy s24 but there s more going on here than just the size i m will for gsm marina and let s see what the s24 plus is all about in our full review the plus models of the galaxy s series have typically been the same phones as the vanilla ones but bigger this could be ideal if you have larger hands and you get a larger screen and battery too but this year s s24 plus also brings another advantage it display has a higher qhd resolution as far as design goes you again get a flatb of gorilla glass victus 2 but this year the finish is matte not glossy there are separate rings for each camera as expected the matte frame is made of a tougher version of armor aluminum now and its sharper edge is something new adding a bit of extra grip and as ever the galaxy flagships bring full ip68 rated ingress protection against dust and water the s24 plus s amoled display has a qhd resolution and it s also slightly bigger than last year at 6",
+      "value": [
+        "rear facing camera photo sensor resolution: 50 MP",
+        "camera description: Front",
+        "camera flash: no flash",
+        "number of rear facing cameras: 3",
+        "number of front cameras: 1"
+      ]
+    },
+    {
+      "feature": "design",
+      "sentiment": "positive",
+      "positive_mentions": 15,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 16,
+      "feature_score": 15,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "here s the middle child of the flagship s24 family the samsung galaxy s24 plus it s bigger than the galaxy s24 but there s more going on here than just the size i m will for gsm marina and let s see what the s24 plus is all about in our full review the plus models of the galaxy s series have typically been the same phones as the vanilla ones but bigger this could be ideal if you have larger hands and you get a larger screen and battery too but this year s s24 plus also brings another advantage it display has a higher qhd resolution as far as design goes you again get a flatb of gorilla glass victus 2 but this year the finish is matte not glossy there are separate rings for each camera as expected the matte frame is made of a tougher version of armor aluminum now and its sharper edge is something new adding a bit of extra grip and as ever the galaxy flagships bring full ip68 rated ingress protection against dust and water the s24 plus s amoled display has a qhd resolution and it s also slightly bigger than last year at 6"
+    },
+    {
+      "feature": "display",
+      "sentiment": "positive",
+      "positive_mentions": 27,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 28,
+      "feature_score": 27,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "here s the middle child of the flagship s24 family the samsung galaxy s24 plus it s bigger than the galaxy s24 but there s more going on here than just the size i m will for gsm marina and let s see what the s24 plus is all about in our full review the plus models of the galaxy s series have typically been the same phones as the vanilla ones but bigger this could be ideal if you have larger hands and you get a larger screen and battery too but this year s s24 plus also brings another advantage it display has a higher qhd resolution as far as design goes you again get a flatb of gorilla glass victus 2 but this year the finish is matte not glossy there are separate rings for each camera as expected the matte frame is made of a tougher version of armor aluminum now and its sharper edge is something new adding a bit of extra grip and as ever the galaxy flagships bring full ip68 rated ingress protection against dust and water the s24 plus s amoled display has a qhd resolution and it s also slightly bigger than last year at 6",
+      "value": [
+        "display type: AMOLED",
+        "display resolution maximum: 3120x1440 Pixels",
+        "display pixel density: 513 Pixels Per Inch (PPI)"
+      ]
+    },
+    {
+      "feature": "performance",
+      "sentiment": "positive",
+      "positive_mentions": 18,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 18,
+      "feature_score": 18,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "here s the middle child of the flagship s24 family the samsung galaxy s24 plus it s bigger than the galaxy s24 but there s more going on here than just the size i m will for gsm marina and let s see what the s24 plus is all about in our full review the plus models of the galaxy s series have typically been the same phones as the vanilla ones but bigger this could be ideal if you have larger hands and you get a larger screen and battery too but this year s s24 plus also brings another advantage it display has a higher qhd resolution as far as design goes you again get a flatb of gorilla glass victus 2 but this year the finish is matte not glossy there are separate rings for each camera as expected the matte frame is made of a tougher version of armor aluminum now and its sharper edge is something new adding a bit of extra grip and as ever the galaxy flagships bring full ip68 rated ingress protection against dust and water the s24 plus s amoled display has a qhd resolution and it s also slightly bigger than last year at 6"
+    },
+    {
+      "feature": "price",
+      "sentiment": "positive",
+      "positive_mentions": 10,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 10,
+      "feature_score": 10,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "1 you can check out our dedicated video just as last year with both the galaxy s24 plus and s24 samsung is using a different chipset depending on the region in markets the usa canada and china you d get the s24 plus with a snapdragon hn3 while elsewhere it would have an exos 2400 our model is the exos variant the performance of the two chipsets should be quite comparable however when looking closely at benchmark scores we do see that our exos s24 plus falls a bit behind phones with a snapdragon hn3 in a few of the graphics tests still regardless of snapdragon or exos you get nextg flagship grade performance improved rate tracing for games and improved ai processing all nice upgrades over the previous generation on top of that all storage versions of the s24 plus get a boost in ram to 12 gigs versus eight last year when it comes to thermal management the s24 plus did an okay job we did see thermal throttling during our prolonged stress tests but it was gradual without sudden dips or spikes the s24 plus has a slightly larger battery than last year now it s 4900 mah hours the battery life itself hasn t improved though just the opposite the s24 plus earned a lower active use score of 12 hours and 30 minutes and the s23 plus had longer run times in most individual tests just last year the s24 plus supports 45 w charging with a proper adapter and cable outside with a 3 amp cable that comes with the phone we were able to charge from 0 to 74 in half an hour and a full charge took 58 minutes there s also support for wireless charging here the cameras of both the s20 4 plus and the s24 are the same for the third year in a row you get a 50 megap main cam a 10 megap three time zoom and a 12 map ultra wide cam but the camera performance is slightly different from last year probably thanks to the new chipset and processing during the day the photos from the main camera are excellent with processing that s much more laidback than last year you still get colors which are vibrant yet not over the top and wide dynamic range but the new model has more tone down sharpening to an extent that some features appear soft the s24 plus s detail has a more natural rendition and there s a bit of extra graininess as well because the noise reduction has been dialed down hoard mode gives you three zoom levels one times and two times are captured on the main camera the three times portraits are taken with the telephoto camera the s24 plus supports an auto night mode and it s more balanced and less extreme than what we ve seen on some other phones the previous generation exposes brighter and brings out more detail ta and shadows but the noise is higher there and there is heavier sharpening and here s a look at the s24 plus s dedicated night mode it provides more restored highlights and light sources and the shadows also get a visible boost there s less noise too but also less fine detail let s move on to the three times telephoto cam it provides great detail and a gently tweaked output compared to the previous generation there s a bit more contrast and graininess on the s24 plus which gives it a slight l different character the telephoto camera s output at night is less than perfect with noise in darker areas last year s telephoto did slightly better the detail level was not much different though turn on the dedicated night mode and it may or may not manage to kick in when it does you get better noise performance and improved highlights however the white balance is inconsistent now we have the ultra wide cam it has excellent dynamic range and it colors match those of the other cams compared to the previous model the shots are less noisy too also the skies are more natural looking now at night the s24 plus s ultra wide camera does seem to have an overall improvement compared to last year the photos are still noise though night mode does improve things but similar to the telephoto the ultra wide exhibits unreliable auto white balance in night mode the galaxy s24 plus s 12 megap selfie camera with autofocus is the same as in the previous generation again you get top class selfies with excellent detail low noise and overall nice looking colors the s24 plus records video in up to 4k at 60 fps with all four of its cameras and the main camera on the back can also do 8k resolution at fps the video quality is thoroughly excellent in good light from all of its cameras the colors are vibrant but realistic and nicely matched between the different cameras exposure is on point and dynamic range leaves no grounds for complaint the detail is great on all three rear cameras too video stabilization is also superb on the s24 plus the camera is panned smoothly and walking shake is nicely ironed out in low light videos from the main cam have respectable quality with good detail and decent noise performance dynamic range is all right and color saturation is maintained as well so there you have it guys the samsung galaxy s24 plus compared to its predecessor you get a stronger frame a brighter more adaptive and higher res display more ram a new chipset the galaxy ai features and longer software support however there isn t a huge difference when it comes to the cameras this time around and the battery life is a bit better on the previous model still the galaxy s24 plus is a solid all around flagship and worth recommending once its launch price settles down a bit thanks for watching guys if you re looking for alternatives you can check out last year s s23 plus or even the s23 ultra both of which are less expensive than the s24 plus let us know what you think and i ll see you on the next one"
+    },
+    {
+      "feature": "software",
+      "sentiment": "positive",
+      "positive_mentions": 28,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 29,
+      "feature_score": 28,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "7 in it has gorilla glass vicus 2 protection and an adaptive 120 hz refresh rate the higher resolution means that this panel is much sharper at 5133 ppi samsung has also trimmed down the bezels a bit for this year s generation colors are quite accurate and there s support for hdr 10 plus video too speaking of hdr on the s24 flagships you can get a super hdr preview on the viewfinder as well as the gallery and supported thirdparty apps the s24 series displays are all ltpo now which means this smooth 120 hz refresh rate is extra adaptive able to dial down as low as 24 herz when idling to save energy last but not least the s24 plus is even brighter than last year we measured a maximum of 780 nits with the manual slider and this boosted to, 1450 nits in auto mode and bright conditions the s24 plus has a pair of stereo speakers with dolby atmos support they re louder than last year and the sound quality is very good identical to that of the vanilla s24 awake you re you can wake up and unlock the phone using the ultrasonic under display fingerprint reader which is quite speedy and you can get the s24 plus with 256 or 512 gigs of ufs 4"
+    },
+    {
+      "feature": "speaker",
+      "sentiment": "positive",
+      "positive_mentions": 11,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 11,
+      "feature_score": 11,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "7 in it has gorilla glass vicus 2 protection and an adaptive 120 hz refresh rate the higher resolution means that this panel is much sharper at 5133 ppi samsung has also trimmed down the bezels a bit for this year s generation colors are quite accurate and there s support for hdr 10 plus video too speaking of hdr on the s24 flagships you can get a super hdr preview on the viewfinder as well as the gallery and supported thirdparty apps the s24 series displays are all ltpo now which means this smooth 120 hz refresh rate is extra adaptive able to dial down as low as 24 herz when idling to save energy last but not least the s24 plus is even brighter than last year we measured a maximum of 780 nits with the manual slider and this boosted to, 1450 nits in auto mode and bright conditions the s24 plus has a pair of stereo speakers with dolby atmos support they re louder than last year and the sound quality is very good identical to that of the vanilla s24 awake you re you can wake up and unlock the phone using the ultrasonic under display fingerprint reader which is quite speedy and you can get the s24 plus with 256 or 512 gigs of ufs 4"
+    },
+    {
+      "feature": "storage",
+      "sentiment": "positive",
+      "positive_mentions": 19,
+      "negative_mentions": 0,
+      "neutral_mentions": 3,
+      "mentions_total": 22,
+      "feature_score": 19,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "here s the middle child of the flagship s24 family the samsung galaxy s24 plus it s bigger than the galaxy s24 but there s more going on here than just the size i m will for gsm marina and let s see what the s24 plus is all about in our full review the plus models of the galaxy s series have typically been the same phones as the vanilla ones but bigger this could be ideal if you have larger hands and you get a larger screen and battery too but this year s s24 plus also brings another advantage it display has a higher qhd resolution as far as design goes you again get a flatb of gorilla glass victus 2 but this year the finish is matte not glossy there are separate rings for each camera as expected the matte frame is made of a tougher version of armor aluminum now and its sharper edge is something new adding a bit of extra grip and as ever the galaxy flagships bring full ip68 rated ingress protection against dust and water the s24 plus s amoled display has a qhd resolution and it s also slightly bigger than last year at 6",
+      "value": [
+        "memory storage capacity: 256 GB"
+      ]
+    },
+    {
+      "feature": "thermals",
+      "sentiment": "positive",
+      "positive_mentions": 2,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 2,
+      "feature_score": 2,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "1 you can check out our dedicated video just as last year with both the galaxy s24 plus and s24 samsung is using a different chipset depending on the region in markets the usa canada and china you d get the s24 plus with a snapdragon hn3 while elsewhere it would have an exos 2400 our model is the exos variant the performance of the two chipsets should be quite comparable however when looking closely at benchmark scores we do see that our exos s24 plus falls a bit behind phones with a snapdragon hn3 in a few of the graphics tests still regardless of snapdragon or exos you get nextg flagship grade performance improved rate tracing for games and improved ai processing all nice upgrades over the previous generation on top of that all storage versions of the s24 plus get a boost in ram to 12 gigs versus eight last year when it comes to thermal management the s24 plus did an okay job we did see thermal throttling during our prolonged stress tests but it was gradual without sudden dips or spikes the s24 plus has a slightly larger battery than last year now it s 4900 mah hours the battery life itself hasn t improved though just the opposite the s24 plus earned a lower active use score of 12 hours and 30 minutes and the s23 plus had longer run times in most individual tests just last year the s24 plus supports 45 w charging with a proper adapter and cable outside with a 3 amp cable that comes with the phone we were able to charge from 0 to 74 in half an hour and a full charge took 58 minutes there s also support for wireless charging here the cameras of both the s20 4 plus and the s24 are the same for the third year in a row you get a 50 megap main cam a 10 megap three time zoom and a 12 map ultra wide cam but the camera performance is slightly different from last year probably thanks to the new chipset and processing during the day the photos from the main camera are excellent with processing that s much more laidback than last year you still get colors which are vibrant yet not over the top and wide dynamic range but the new model has more tone down sharpening to an extent that some features appear soft the s24 plus s detail has a more natural rendition and there s a bit of extra graininess as well because the noise reduction has been dialed down hoard mode gives you three zoom levels one times and two times are captured on the main camera the three times portraits are taken with the telephoto camera the s24 plus supports an auto night mode and it s more balanced and less extreme than what we ve seen on some other phones the previous generation exposes brighter and brings out more detail ta and shadows but the noise is higher there and there is heavier sharpening and here s a look at the s24 plus s dedicated night mode it provides more restored highlights and light sources and the shadows also get a visible boost there s less noise too but also less fine detail let s move on to the three times telephoto cam it provides great detail and a gently tweaked output compared to the previous generation there s a bit more contrast and graininess on the s24 plus which gives it a slight l different character the telephoto camera s output at night is less than perfect with noise in darker areas last year s telephoto did slightly better the detail level was not much different though turn on the dedicated night mode and it may or may not manage to kick in when it does you get better noise performance and improved highlights however the white balance is inconsistent now we have the ultra wide cam it has excellent dynamic range and it colors match those of the other cams compared to the previous model the shots are less noisy too also the skies are more natural looking now at night the s24 plus s ultra wide camera does seem to have an overall improvement compared to last year the photos are still noise though night mode does improve things but similar to the telephoto the ultra wide exhibits unreliable auto white balance in night mode the galaxy s24 plus s 12 megap selfie camera with autofocus is the same as in the previous generation again you get top class selfies with excellent detail low noise and overall nice looking colors the s24 plus records video in up to 4k at 60 fps with all four of its cameras and the main camera on the back can also do 8k resolution at fps the video quality is thoroughly excellent in good light from all of its cameras the colors are vibrant but realistic and nicely matched between the different cameras exposure is on point and dynamic range leaves no grounds for complaint the detail is great on all three rear cameras too video stabilization is also superb on the s24 plus the camera is panned smoothly and walking shake is nicely ironed out in low light videos from the main cam have respectable quality with good detail and decent noise performance dynamic range is all right and color saturation is maintained as well so there you have it guys the samsung galaxy s24 plus compared to its predecessor you get a stronger frame a brighter more adaptive and higher res display more ram a new chipset the galaxy ai features and longer software support however there isn t a huge difference when it comes to the cameras this time around and the battery life is a bit better on the previous model still the galaxy s24 plus is a solid all around flagship and worth recommending once its launch price settles down a bit thanks for watching guys if you re looking for alternatives you can check out last year s s23 plus or even the s23 ultra both of which are less expensive than the s24 plus let us know what you think and i ll see you on the next one"
+    }
+  ],
+  "review_summary": "here s the middle child of the flagship s24 family the samsung galaxy s24 plus it s bigger than the galaxy s24 but there s more going on here than just the size i m will for gsm marina and let s see what the s24 plus is all about in our full review the plus models of the galaxy s series have typically been the same phones as the vanilla ones but bigger this could be ideal if you have larger hands and you get a larger screen and battery too but this year s s24 plus also brings another advantage it display has a higher qhd resolution as far as design goes you again get a flatb of gorilla glass victus 2 but this year the finish is matte not glossy there are separate rings for each camera as expected the matte frame is made of a tougher version of armor aluminum now and its sharper edge is something new adding a bit of extra grip and as ever the galaxy flagships bring full ip68 rated ingress protection against dust and water the s24 plus s amoled display has a qhd resolution and it s also slightly bigger than last year at 6 here s the middle child of the flagship s24 family the samsung galaxy s24 plus it s bigger than the galaxy s24 but there s more going on here than just the size i m will for gsm marina and let s see what the s24 plus is all about in our full review the plus models of the galaxy s series have typically been the same phones as the vanilla ones but bigger this could be ideal if you have larger hands and you get a larger screen and battery too but this year s s24 plus also brings another advantage it display has a higher qhd resolution as far as design goes you again get a flatb of gorilla glass victus 2 but this year the finish is matte not glossy there are separate rings for each camera as expected the matte frame is made of a tougher version of armor aluminum now and its sharper edge is something new adding a bit of extra grip and as ever the galaxy flagships bring full ip68 rated ingress protection against dust and water the s24 plus s amoled display has a qhd resolution and it s also slightly bigger than last year at 6 here s the middle child of the flagship s24 family the samsung galaxy s24 plus it s bigger than the galaxy s24 but there s more going on here than just the size i m will for gsm marina and let s see what the s24 plus is all about in our full review the plus models of the galaxy s series have typically been the same phones as the vanilla ones but bigger this could be ideal if you have larger hands and you get a larger screen and battery too but this year s s24 plus also brings another advantage it display has a higher qhd resolution as far as design goes you again get a flatb of gorilla glass victus 2 but this year the finish is matte not glossy there are separate rings for each camera as expected the matte frame is made of a tougher version of armor aluminum now and its sharper edge is something new adding a bit of extra grip and as ever the galaxy flagships bring full ip68 rated ingress protection against dust and water the s24 plus s amoled display has a qhd resolution and it s also slightly bigger than last year at 6"
+}
