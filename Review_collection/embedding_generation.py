@@ -4,11 +4,9 @@ import chromadb
 from sentence_transformers import SentenceTransformer
 
 # Integrate amazon reviews and add weights - amazon reviews pending
-# Create langchain-based pipeline
-# Complete RAG with gemini output
+# Put category (laptop, smartphone) as a filter in the retrieval step
 # understand how scoring is being done
-# Scrape prices from india #wip- get new api key, limit exhausted
-# Add agentic data responses
+# Rag Validation
 
 DATA_PATH="data/processed_youtube"
 COLLECTION_NAME="feature_rag_youtube"

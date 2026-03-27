@@ -1,5 +1,7 @@
 import json
 import os
+import serpapi
+from dotenv import load_dotenv
 
 '''USD_TO_RS_RATE = 83.0
 PRODUCTS_DATA_PATH = "data/products"
@@ -76,16 +78,15 @@ if __name__ == "__main__":
             _save_price_to_specs(category, file_name, extracted_metadata)
 
 ##
-import serpapi
-
-API_KEY = "c36808b2ce3be13d724c0bde40425bef6d2fbfb761c8ef0f1861a7d4deb8fbe5"
-PROCESSED_YOUTUBE_DATA_PATH = r"Review_collection\data\processed_youtube"
-PRICE_DB_PATH = r"Review_collection\data\price_db"
+load_dotenv()
+api_key = os.getenv("SERPAPI_KEY1")
+API_KEY = api_key
+PROCESSED_YOUTUBE_DATA_PATH = r".\data\processed_youtube"
+PRICE_DB_PATH = r".\data\product_prices"
 DELHI_LOCATION = "Delhi,India"
 
 def _safe_file_name(name):
     return "".join(char.lower() if char.isalnum() else "_" for char in name).strip("_")
-
 
 def _extract_delhi_price_entries(results):
     candidate_collections = [
@@ -154,8 +155,8 @@ def _log_failed_product_name(product_name):
 
 def get_product_names():
     product_names=set()
-    for file in os.listdir(r"data/youtube_reviews/smartphones"):
-        data=json.load(open(os.path.join(r"data/youtube_reviews/smartphones",file),"r", encoding="utf-8"))
+    for file in os.listdir(r"data/youtube_reviews/laptops"):
+        data=json.load(open(os.path.join(r"data/youtube_reviews/laptops",file),"r", encoding="utf-8"))
         product=data["product"]
         if product not in product_names:
             product_names.add(product)
@@ -165,7 +166,7 @@ def get_product_names():
 if __name__ == "__main__":
     client = serpapi.Client(api_key=API_KEY)
     product_names=get_product_names()
-    category="smartphones"
+    category="laptops"
     for product_name in product_names:
         metadata = _fetch_price_metadata(client, product_name)
         if not metadata.get("price_entries"):
@@ -191,17 +192,19 @@ def _extract_price_metadata(product_data):
 
     for entry in price_entries:
         seller = entry.get("seller")
-        if seller and seller.lower() == "amazon.in":
+        if seller and seller.lower() in ["dell india","Mi.com","bhatiamobile","amazon.in", "flipkart", "reliance digital", "tata neu", "jiomart electronics","vijay sales", "ovantica.com"]:
             price = entry.get("extracted_price")
             if price:
                 return {"price_rs": price}
 
-    return {}  # fallback
 
+    return {}  # fallback
 
 def _save_price_to_specs(category, file_name, extracted_metadata):
     if not extracted_metadata:
         print(f"[SKIP] No price for {file_name}")
+        with open("missing_price_log.txt", "a", encoding="utf-8") as log_file:
+            log_file.write(f"{category}/{file_name}\n")
         return
 
     specs_file_path = os.path.join(PRODUCT_SPECS_DATA_PATH, category, file_name)

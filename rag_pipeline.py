@@ -85,17 +85,12 @@ def build_product_profiles(grouped_docs):
                     if key not in ["product", "source", "type"]:
                         if key not in profile["specs"]:
                             profile["specs"][key]=value
-            
-                # if "price_rs" in doc.metadata and profile["price"] is None:
-                #     profile["price"] = str(doc.metadata["price_rs"]) + "INR"
-                # else:
-                #     profile["price"]=None
 
         profiles[product] = profile
 
     return profiles
 
-def profile_to_text(profile): #error- dependent on build_product_profile 
+def profile_to_text(profile):
     text = ""
     for key, value in profile["specs"].items():
         text += f"{key}: {value}. "
@@ -107,7 +102,7 @@ def score_product(profile,constraints): #Not sure
     score = 0
 
     # Product embedding
-    product_text = profile_to_text(profile) #wip error
+    product_text = profile_to_text(profile)
     product_vec = embedding.embed_query(f"passage: {product_text}")
 
     # Semantic feature matching
@@ -152,7 +147,7 @@ def save_report(input_data,response):
         "response": data
     }
 
-    file_path = os.path.join("reports", "market_report2.json")
+    file_path = os.path.join("reports", "market_report3.json")
     with open(file_path, "w", encoding="utf-8") as f:
         json.dump(log_data, f, indent=2)
     print("Report saved to:", file_path)

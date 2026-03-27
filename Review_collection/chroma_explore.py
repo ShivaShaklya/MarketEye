@@ -1,6 +1,7 @@
 import chromadb
 from sentence_transformers import SentenceTransformer
 from collections import defaultdict
+import os
 
 client = chromadb.PersistentClient(path="../chroma_db")
 collection1 = client.get_collection("feature_rag_youtube")
@@ -356,7 +357,13 @@ for i, p in enumerate(results[:5]):
     else:
         print("Reason: Strong match from reviews")
 
-    print("-" * 50)'''
+    print("-" * 50)
+
+## Seeing all active collections in Chroma DB
+collections=client.list_collections()
+for c in collections:
+    print(c.name, c.id)
+print(os.path.abspath("..\chroma_db"))'''
 
 ##
 # Peek at first few entries

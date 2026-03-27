@@ -10,7 +10,8 @@ from nltk.sentiment import SentimentIntensityAnalyzer
 # "Dell XPS 15 2024",
 # "Alienware m18"]
 
-key=""
+load_dotenv()
+key=os.getenv("SERPAPI_API_KEY")
 #asin="B0DFD1SHBS"
 
 def get_product_names():
@@ -56,9 +57,9 @@ def fetch_product_reviews(asin):
     return res.json()
 
 def save_product(product_name, data):
-    os.makedirs("data/products/smartphones/", exist_ok=True)
+    os.makedirs("data/products/missing_data/", exist_ok=True)
     safe_name = product_name.replace(" ", "_").lower()
-    file_path = f"data/products/smartphones/{safe_name}.json"
+    file_path = f"data/products/missing_data/{safe_name}.json"
     with open(file_path, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2)
     print("Saved:", product_name)
@@ -67,7 +68,7 @@ def save_product(product_name, data):
 product_names = list(get_product_names())
 # print(product_names)
 # print(len(product_names))
-#product_names=["Alienware m18"]
+#product_names=["xiaomi_13t_pro"]
 for product in product_names:
     asin = get_asin(product)
     data = fetch_product_reviews(asin)
