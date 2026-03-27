@@ -20,8 +20,6 @@ app = Flask(
     static_folder='Frontend/static'
 )
 
-
-
 @app.route('/')
 def index():
     """Serve the main chat interface."""

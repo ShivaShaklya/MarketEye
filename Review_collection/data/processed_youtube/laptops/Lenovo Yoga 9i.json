@@ -1,0 +1,130 @@
+{
+  "asin": "unknown",
+  "product": "Lenovo Yoga 9i",
+  "features": [
+    {
+      "feature": "battery",
+      "sentiment": "positive",
+      "positive_mentions": 38,
+      "negative_mentions": 4,
+      "neutral_mentions": 33,
+      "mentions_total": 75,
+      "feature_score": 34,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "quick note, the cap of the pen, which you need to remove to charge it, does come off very easily and is very hard to get back on However, when we saw how long the yoga 9i lasts on battery, we were a little disappointed"
+    },
+    {
+      "feature": "camera",
+      "sentiment": "positive",
+      "positive_mentions": 43,
+      "negative_mentions": 5,
+      "neutral_mentions": 37,
+      "mentions_total": 85,
+      "feature_score": 38,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "this goes for both our video playback test, where we play a downloaded movie on repeat, and our office productivity test, where the laptop does basic microsoft office tasks until it dies However, the camera is usable, but not great"
+    },
+    {
+      "feature": "design",
+      "sentiment": "positive",
+      "positive_mentions": 26,
+      "negative_mentions": 2,
+      "neutral_mentions": 13,
+      "mentions_total": 41,
+      "feature_score": 24,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "a lot of this is due to their more unified build"
+    },
+    {
+      "feature": "display",
+      "sentiment": "positive",
+      "positive_mentions": 84,
+      "negative_mentions": 5,
+      "neutral_mentions": 65,
+      "mentions_total": 154,
+      "feature_score": 79,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "where the yoga shines is with its excellent keyboard, bright display, good speakers, and how nice the pen feels when using it as a tablet However, the yoga has sturdy enough hinges to write on the touchcreen, but the screen can flop back a bit when you re walking around with it",
+      "value": [
+        "standing screen display size: 14 Inches"
+      ]
+    },
+    {
+      "feature": "performance",
+      "sentiment": "positive",
+      "positive_mentions": 60,
+      "negative_mentions": 3,
+      "neutral_mentions": 34,
+      "mentions_total": 97,
+      "feature_score": 57,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "the macbooks or the omnic ultra non flip all give you a better performance when on battery However, compared to other laptops with the same processor, it does the worst"
+    },
+    {
+      "feature": "price",
+      "sentiment": "positive",
+      "positive_mentions": 15,
+      "negative_mentions": 2,
+      "neutral_mentions": 13,
+      "mentions_total": 30,
+      "feature_score": 13,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "if you are looking for the best price on any laptop, head on over to our website, bestlaptop"
+    },
+    {
+      "feature": "software",
+      "sentiment": "positive",
+      "positive_mentions": 39,
+      "negative_mentions": 2,
+      "neutral_mentions": 28,
+      "mentions_total": 69,
+      "feature_score": 37,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "a lot of this is due to their more unified build"
+    },
+    {
+      "feature": "speaker",
+      "sentiment": "positive",
+      "positive_mentions": 29,
+      "negative_mentions": 1,
+      "neutral_mentions": 17,
+      "mentions_total": 47,
+      "feature_score": 28,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "where the yoga shines is with its excellent keyboard, bright display, good speakers, and how nice the pen feels when using it as a tablet"
+    },
+    {
+      "feature": "storage",
+      "sentiment": "mixed",
+      "positive_mentions": 10,
+      "negative_mentions": 1,
+      "neutral_mentions": 20,
+      "mentions_total": 31,
+      "feature_score": 9,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "5 seconds apart from all those bells and whistles here s the part where i would say this just beats the mag it and i m talking about a macbook m3 pro that costs almost 2 lakh rupees you put it on cinam r23 single core is more or less same but in multi core it just destroys the macbook if you pick up geekbench ml again the scores are pretty crazy right here is topof the line windows laptop you get core ultra 9 185 h cpu 32 gb ram 1tb ssd nvidia rtx 4050 gpu now two things to note here is the this is an ed series cpu in case you don t know intel cpu have three variants u series which is for low power but higher battery efficiency p series for balance between performance and battery efficiency and then h series for high performance task this year is h series core 9 ultra 185 h with 16 cores 10 efficiency cores clogged at 3"
+    },
+    {
+      "feature": "thermals",
+      "sentiment": "mixed",
+      "positive_mentions": 6,
+      "negative_mentions": 2,
+      "neutral_mentions": 8,
+      "mentions_total": 16,
+      "feature_score": 4,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "you can take notes, draw, and do everything all on one device, but i never stuck to using one long term because there s always some compromise, whether it s performance, thermals, noise, and especially battery life"
+    }
+  ],
+  "review_summary": "quick note, the cap of the pen, which you need to remove to charge it, does come off very easily and is very hard to get back on However, when we saw how long the yoga 9i lasts on battery, we were a little disappointed this goes for both our video playback test, where we play a downloaded movie on repeat, and our office productivity test, where the laptop does basic microsoft office tasks until it dies However, the camera is usable, but not great a lot of this is due to their more unified build"
+}

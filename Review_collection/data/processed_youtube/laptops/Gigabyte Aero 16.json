@@ -1,0 +1,133 @@
+{
+  "asin": "unknown",
+  "product": "Gigabyte Aero 16",
+  "features": [
+    {
+      "feature": "battery",
+      "sentiment": "positive",
+      "positive_mentions": 26,
+      "negative_mentions": 5,
+      "neutral_mentions": 24,
+      "mentions_total": 55,
+      "feature_score": 21,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "even 90 hertz would have been appreciated because i feel people who are buying this might to create but also game on the side now the reflection on the display is not too bad i ve seen glass panels that are significantly worse but if you are sensitive to pwm flickr you re going to want to keep the brightness above 50 because as soon as you drop below 50 the flicker kicks in and if you re sensitive to that it might bother you but let s face it probably most of you here are to talk about performance and this is using the brand new i9 13900h from intel and it s paired with an rtx 4070 now if most of the stuff you re doing is cpu related this new 13900h is not not much of an upgrade compared to the 12900 hk that was in the previous version of this laptop so if you re a developer you have nothing to worry about i wouldn t get jealous it really comes down to the gpu pairing if you re a creator this new rtx 4070 is faster in some instances than the previous 3080 ti that i tested out in the previous version it s not drastically better but it s definitely faster in some situations depending on the application that you re using so if you re coming from a arrow 16 or 15 from a few years ago this is going to be a very nice upgrade the one area where i saw the biggest performance improvement was definitely gaming the new rtx 4070 definitely performs faster than the rtx 3080 ti that was in the previous model from last year so if you re a content creator or a developer who works a lot but also likes to game on the side then you re going to appreciate the performance improvements from the 40 series alone again most of these improvements are from the gpu not so much from the cpu the one area that is drastically better though is heat management this thing runs very cool it never gets super hot don t get me wrong it does have loud fans turbo mode on this thing is over 60 decibels that s nuts 60 decibels on a laptop this is crazy thankfully it s a separate mode that you have to activate yourself which is turbo mode if you use the normal creator mode you re looking at in the 50s if you re looking at eco mode it s obviously going to stay below 40 but if you ever turn on turbo get ready to put on your active noise cancellation because those fans can surely ramp up now there is a muck switch but you do have to restart the computer if you want to utilize it and gigabyte does have their own personal software that lets you tweak things if you want to improve the overall user experience now the internals are pretty easy to get into and you have a 88 watt hour battery i got about 7 hours and 15 minutes of just general productivity i feel if you re doing true hardcore work that battery life may be around three to four hours depending on how intense it is but you do have a lot of copper about four heat pipes at the top it s not a vapor chamber i don t think they re using liquid metal but i don t have any complaints about the cooling overall onedrive is populated you get really good read and write speeds but if you want to upgrade to a second one there s a slot right here on the bottom right swappable wi fi 6e card and you have two slots for ram this is ddr5 4800 megahertz and you can upgrade it to a total of 64 However, you can also limit the battery s maximum charge level to 80 or 60 to help the battery last longer, as keeping it fully charged all the time can degrade it",
+      "value": [
+        "average battery life in hours: 14 Hours"
+      ]
+    },
+    {
+      "feature": "camera",
+      "sentiment": "positive",
+      "positive_mentions": 36,
+      "negative_mentions": 1,
+      "neutral_mentions": 15,
+      "mentions_total": 52,
+      "feature_score": 35,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "so overall gigabyte has improved the laptop compared to last year s model it s just a more pleasing product to use obviously it s not perfect i would have loved to have a high refresh display i would have loved a slightly better clicky touchpad and i would have loved to have a bigger battery because i think for most people who are using this off the charger who are trying to get real work done might find the battery life not to be the greatest but everywhere else they ve improved it and i think it just really comes down to pricing if they can undercut the competition then this might be a very popular creator laptop for a lot of people to consider if you have any more questions let me know in the comment section down below there ll be a link in the description in case you want to pick it up the video if you liked it subscribe if you haven t already and i ll see you guys in the next one"
+    },
+    {
+      "feature": "design",
+      "sentiment": "positive",
+      "positive_mentions": 32,
+      "negative_mentions": 1,
+      "neutral_mentions": 17,
+      "mentions_total": 50,
+      "feature_score": 31,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "it s the oled model utilizing nvidia s new rtx 40 series i review the 2022 model last year and my biggest complaints were the lack of ports they just threw a dongle in the box which was weird for a laptop this size and there s a few other little things that just weren t great but this year they re back they listened they made a few changes and overall this is a much better product than it was before design wise it looks very similar to last year it weighs about 4"
+    },
+    {
+      "feature": "display",
+      "sentiment": "positive",
+      "positive_mentions": 79,
+      "negative_mentions": 7,
+      "neutral_mentions": 40,
+      "mentions_total": 126,
+      "feature_score": 72,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "1 port just the previous version it s very easy to open up with one hand there s a little bit of wobble on the display not as bad as the arrow 16 or 15 rather from two years ago but it s significantly improved i would have loved a slightly tighter hinge but it s not bad enough that i think most people are going to be annoyed the biggest update is this keyboard it just feels so good to type on these switches are 1 However, the lid hinges feel ok, even if i push them back too far or rip the lid open way too fast, and although the screen doesn t really wobble much when typing, it does flop around a bit if you bump it",
+      "value": [
+        "standing screen display size: 16 Inches"
+      ]
+    },
+    {
+      "feature": "performance",
+      "sentiment": "positive",
+      "positive_mentions": 80,
+      "negative_mentions": 16,
+      "neutral_mentions": 56,
+      "mentions_total": 152,
+      "feature_score": 64,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "even 90 hertz would have been appreciated because i feel people who are buying this might to create but also game on the side now the reflection on the display is not too bad i ve seen glass panels that are significantly worse but if you are sensitive to pwm flickr you re going to want to keep the brightness above 50 because as soon as you drop below 50 the flicker kicks in and if you re sensitive to that it might bother you but let s face it probably most of you here are to talk about performance and this is using the brand new i9 13900h from intel and it s paired with an rtx 4070 now if most of the stuff you re doing is cpu related this new 13900h is not not much of an upgrade compared to the 12900 hk that was in the previous version of this laptop so if you re a developer you have nothing to worry about i wouldn t get jealous it really comes down to the gpu pairing if you re a creator this new rtx 4070 is faster in some instances than the previous 3080 ti that i tested out in the previous version it s not drastically better but it s definitely faster in some situations depending on the application that you re using so if you re coming from a arrow 16 or 15 from a few years ago this is going to be a very nice upgrade the one area where i saw the biggest performance improvement was definitely gaming the new rtx 4070 definitely performs faster than the rtx 3080 ti that was in the previous model from last year so if you re a content creator or a developer who works a lot but also likes to game on the side then you re going to appreciate the performance improvements from the 40 series alone again most of these improvements are from the gpu not so much from the cpu the one area that is drastically better though is heat management this thing runs very cool it never gets super hot don t get me wrong it does have loud fans turbo mode on this thing is over 60 decibels that s nuts 60 decibels on a laptop this is crazy thankfully it s a separate mode that you have to activate yourself which is turbo mode if you use the normal creator mode you re looking at in the 50s if you re looking at eco mode it s obviously going to stay below 40 but if you ever turn on turbo get ready to put on your active noise cancellation because those fans can surely ramp up now there is a muck switch but you do have to restart the computer if you want to utilize it and gigabyte does have their own personal software that lets you tweak things if you want to improve the overall user experience now the internals are pretty easy to get into and you have a 88 watt hour battery i got about 7 hours and 15 minutes of just general productivity i feel if you re doing true hardcore work that battery life may be around three to four hours depending on how intense it is but you do have a lot of copper about four heat pipes at the top it s not a vapor chamber i don t think they re using liquid metal but i don t have any complaints about the cooling overall onedrive is populated you get really good read and write speeds but if you want to upgrade to a second one there s a slot right here on the bottom right swappable wi fi 6e card and you have two slots for ram this is ddr5 4800 megahertz and you can upgrade it to a total of 64 However, wi fi performance was ok, but not as good compared to other laptops with the same wi fi 6e card that i ve tested, or last year s aero 17"
+    },
+    {
+      "feature": "price",
+      "sentiment": "positive",
+      "positive_mentions": 24,
+      "negative_mentions": 8,
+      "neutral_mentions": 15,
+      "mentions_total": 47,
+      "feature_score": 16,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "7 millimeters but there s just enough force that it feels really good to type on there s no cramps numpads squished on here they had two years ago the power button is now flush with the rest of the keys instead of being separated at the top the keys themselves are now white instead of black they had on the previous version and same with the actual touch pad the touchpad is glass and it feels good to use when you re moving around your finger but the actual click is very very audible and it feels a bit cheap just note that these vents are not speaker grilles they re just vents to help with airflow the speakers are on the bottom of the laptop there s two two watt speakers and they don t sound that great they re very flat they re very tinny you re going to want to use headphones with this laptop now just the previous version the star of the show is the display it s a gorgeous oled display it has deep blacks the colors pop the contrast ratios are through the roof the color gamut is impeccable if you re a designer you re gonna absolutely love this display if you re watching content on this everything looks fantastic it s 16 by 10 so you get that vertical space the bezels are nice and thin this webcam is 1080p and you have windows hello facial recognition to log you in quickly my only complaint about this display is at 60 hertz with most creator laptops coming out this year getting high refresh rates it s a bummer they stuck with 60 However, cpu performance isn t too bad, beating asus s more expensive zephyrus g14 from last year in both single and multi core performance, though that uses a last gen zen 4 chip, while the aero uses current gen zen 5"
+    },
+    {
+      "feature": "software",
+      "sentiment": "positive",
+      "positive_mentions": 60,
+      "negative_mentions": 7,
+      "neutral_mentions": 40,
+      "mentions_total": 107,
+      "feature_score": 53,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "7 millimeters but there s just enough force that it feels really good to type on there s no cramps numpads squished on here they had two years ago the power button is now flush with the rest of the keys instead of being separated at the top the keys themselves are now white instead of black they had on the previous version and same with the actual touch pad the touchpad is glass and it feels good to use when you re moving around your finger but the actual click is very very audible and it feels a bit cheap just note that these vents are not speaker grilles they re just vents to help with airflow the speakers are on the bottom of the laptop there s two two watt speakers and they don t sound that great they re very flat they re very tinny you re going to want to use headphones with this laptop now just the previous version the star of the show is the display it s a gorgeous oled display it has deep blacks the colors pop the contrast ratios are through the roof the color gamut is impeccable if you re a designer you re gonna absolutely love this display if you re watching content on this everything looks fantastic it s 16 by 10 so you get that vertical space the bezels are nice and thin this webcam is 1080p and you have windows hello facial recognition to log you in quickly my only complaint about this display is at 60 hertz with most creator laptops coming out this year getting high refresh rates it s a bummer they stuck with 60 However, this also means if you remove the software or use a different operating system linux then you ve just got no idea"
+    },
+    {
+      "feature": "speaker",
+      "sentiment": "positive",
+      "positive_mentions": 25,
+      "negative_mentions": 5,
+      "neutral_mentions": 8,
+      "mentions_total": 38,
+      "feature_score": 20,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "2 gen 2 port on the left hand side you have a micro sd card slot combo audio jack and then on the right hand side you have two thunderbolt 4 ports but this year they added ports to the back so your dc in is away from you which is always a good thing then you have a usb a 3 However, you can connect the hub to the type c port on the left in either direction, but one way blocks the air exhaust vent, while the other way blocks the audio combo jack"
+    },
+    {
+      "feature": "storage",
+      "sentiment": "positive",
+      "positive_mentions": 22,
+      "negative_mentions": 0,
+      "neutral_mentions": 24,
+      "mentions_total": 46,
+      "feature_score": 22,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "7 millimeters but there s just enough force that it feels really good to type on there s no cramps numpads squished on here they had two years ago the power button is now flush with the rest of the keys instead of being separated at the top the keys themselves are now white instead of black they had on the previous version and same with the actual touch pad the touchpad is glass and it feels good to use when you re moving around your finger but the actual click is very very audible and it feels a bit cheap just note that these vents are not speaker grilles they re just vents to help with airflow the speakers are on the bottom of the laptop there s two two watt speakers and they don t sound that great they re very flat they re very tinny you re going to want to use headphones with this laptop now just the previous version the star of the show is the display it s a gorgeous oled display it has deep blacks the colors pop the contrast ratios are through the roof the color gamut is impeccable if you re a designer you re gonna absolutely love this display if you re watching content on this everything looks fantastic it s 16 by 10 so you get that vertical space the bezels are nice and thin this webcam is 1080p and you have windows hello facial recognition to log you in quickly my only complaint about this display is at 60 hertz with most creator laptops coming out this year getting high refresh rates it s a bummer they stuck with 60"
+    },
+    {
+      "feature": "thermals",
+      "sentiment": "positive",
+      "positive_mentions": 21,
+      "negative_mentions": 3,
+      "neutral_mentions": 12,
+      "mentions_total": 36,
+      "feature_score": 18,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "even 90 hertz would have been appreciated because i feel people who are buying this might to create but also game on the side now the reflection on the display is not too bad i ve seen glass panels that are significantly worse but if you are sensitive to pwm flickr you re going to want to keep the brightness above 50 because as soon as you drop below 50 the flicker kicks in and if you re sensitive to that it might bother you but let s face it probably most of you here are to talk about performance and this is using the brand new i9 13900h from intel and it s paired with an rtx 4070 now if most of the stuff you re doing is cpu related this new 13900h is not not much of an upgrade compared to the 12900 hk that was in the previous version of this laptop so if you re a developer you have nothing to worry about i wouldn t get jealous it really comes down to the gpu pairing if you re a creator this new rtx 4070 is faster in some instances than the previous 3080 ti that i tested out in the previous version it s not drastically better but it s definitely faster in some situations depending on the application that you re using so if you re coming from a arrow 16 or 15 from a few years ago this is going to be a very nice upgrade the one area where i saw the biggest performance improvement was definitely gaming the new rtx 4070 definitely performs faster than the rtx 3080 ti that was in the previous model from last year so if you re a content creator or a developer who works a lot but also likes to game on the side then you re going to appreciate the performance improvements from the 40 series alone again most of these improvements are from the gpu not so much from the cpu the one area that is drastically better though is heat management this thing runs very cool it never gets super hot don t get me wrong it does have loud fans turbo mode on this thing is over 60 decibels that s nuts 60 decibels on a laptop this is crazy thankfully it s a separate mode that you have to activate yourself which is turbo mode if you use the normal creator mode you re looking at in the 50s if you re looking at eco mode it s obviously going to stay below 40 but if you ever turn on turbo get ready to put on your active noise cancellation because those fans can surely ramp up now there is a muck switch but you do have to restart the computer if you want to utilize it and gigabyte does have their own personal software that lets you tweak things if you want to improve the overall user experience now the internals are pretty easy to get into and you have a 88 watt hour battery i got about 7 hours and 15 minutes of just general productivity i feel if you re doing true hardcore work that battery life may be around three to four hours depending on how intense it is but you do have a lot of copper about four heat pipes at the top it s not a vapor chamber i don t think they re using liquid metal but i don t have any complaints about the cooling overall onedrive is populated you get really good read and write speeds but if you want to upgrade to a second one there s a slot right here on the bottom right swappable wi fi 6e card and you have two slots for ram this is ddr5 4800 megahertz and you can upgrade it to a total of 64 However, the internal temperatures are very cool at idle, and that continues with the rest of the results, which are from combined cpu and gpu stress tests which aim to represent a worst case full load scenario"
+    }
+  ],
+  "review_summary": "even 90 hertz would have been appreciated because i feel people who are buying this might to create but also game on the side now the reflection on the display is not too bad i ve seen glass panels that are significantly worse but if you are sensitive to pwm flickr you re going to want to keep the brightness above 50 because as soon as you drop below 50 the flicker kicks in and if you re sensitive to that it might bother you but let s face it probably most of you here are to talk about performance and this is using the brand new i9 13900h from intel and it s paired with an rtx 4070 now if most of the stuff you re doing is cpu related this new 13900h is not not much of an upgrade compared to the 12900 hk that was in the previous version of this laptop so if you re a developer you have nothing to worry about i wouldn t get jealous it really comes down to the gpu pairing if you re a creator this new rtx 4070 is faster in some instances than the previous 3080 ti that i tested out in the previous version it s not drastically better but it s definitely faster in some situations depending on the application that you re using so if you re coming from a arrow 16 or 15 from a few years ago this is going to be a very nice upgrade the one area where i saw the biggest performance improvement was definitely gaming the new rtx 4070 definitely performs faster than the rtx 3080 ti that was in the previous model from last year so if you re a content creator or a developer who works a lot but also likes to game on the side then you re going to appreciate the performance improvements from the 40 series alone again most of these improvements are from the gpu not so much from the cpu the one area that is drastically better though is heat management this thing runs very cool it never gets super hot don t get me wrong it does have loud fans turbo mode on this thing is over 60 decibels that s nuts 60 decibels on a laptop this is crazy thankfully it s a separate mode that you have to activate yourself which is turbo mode if you use the normal creator mode you re looking at in the 50s if you re looking at eco mode it s obviously going to stay below 40 but if you ever turn on turbo get ready to put on your active noise cancellation because those fans can surely ramp up now there is a muck switch but you do have to restart the computer if you want to utilize it and gigabyte does have their own personal software that lets you tweak things if you want to improve the overall user experience now the internals are pretty easy to get into and you have a 88 watt hour battery i got about 7 hours and 15 minutes of just general productivity i feel if you re doing true hardcore work that battery life may be around three to four hours depending on how intense it is but you do have a lot of copper about four heat pipes at the top it s not a vapor chamber i don t think they re using liquid metal but i don t have any complaints about the cooling overall onedrive is populated you get really good read and write speeds but if you want to upgrade to a second one there s a slot right here on the bottom right swappable wi fi 6e card and you have two slots for ram this is ddr5 4800 megahertz and you can upgrade it to a total of 64 However, you can also limit the battery s maximum charge level to 80 or 60 to help the battery last longer, as keeping it fully charged all the time can degrade it so overall gigabyte has improved the laptop compared to last year s model it s just a more pleasing product to use obviously it s not perfect i would have loved to have a high refresh display i would have loved a slightly better clicky touchpad and i would have loved to have a bigger battery because i think for most people who are using this off the charger who are trying to get real work done might find the battery life not to be the greatest but everywhere else they ve improved it and i think it just really comes down to pricing if they can undercut the competition then this might be a very popular creator laptop for a lot of people to consider if you have any more questions let me know in the comment section down below there ll be a link in the description in case you want to pick it up the video if you liked it subscribe if you haven t already and i ll see you guys in the next one it s the oled model utilizing nvidia s new rtx 40 series i review the 2022 model last year and my biggest complaints were the lack of ports they just threw a dongle in the box which was weird for a laptop this size and there s a few other little things that just weren t great but this year they re back they listened they made a few changes and overall this is a much better product than it was before design wise it looks very similar to last year it weighs about 4"
+}

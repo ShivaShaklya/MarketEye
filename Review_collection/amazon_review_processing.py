@@ -7,7 +7,6 @@ def match_spec(feature,normalized_specs):
         if any(word in spec_key for word in words):
             return value
     return None
-        
 
 def normalize_specs(data):
     specs = {}
@@ -15,8 +14,8 @@ def normalize_specs(data):
     return {k.lower().replace("_", " "): v for k, v in specs.items()}
 
 #Driver Code
-INPUT_DIR = "data/products/"
-OUTPUT_DIR = "data/processed_amazon_products"
+INPUT_DIR = "data/products/laptops/"
+OUTPUT_DIR = "data/processed_amazon_products/laptops"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 for file in os.listdir(INPUT_DIR):
@@ -25,11 +24,19 @@ for file in os.listdir(INPUT_DIR):
 
     file_path = os.path.join(INPUT_DIR, file)
     with open(file_path, "r", encoding="utf-8") as f:
+        print("Processing:", file)
         data = json.load(f)
 
     #Get reviews and product specifications
     product = data["product_results"]
-    reviews_summary = data["reviews_information"]["summary"]
+    try:
+        reviews_summary = data["reviews_information"]["summary"]
+    except KeyError:
+        #write name of product to text file and continue
+        with open("missing_reviews_summary.txt", "a", encoding="utf-8") as log_file:
+            log_file.write(f"{file} (ASIN: {product['asin']})\n")
+        continue
+    
     try:
         insights = reviews_summary["insights"]
     except KeyError:
