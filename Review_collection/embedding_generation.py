@@ -32,7 +32,7 @@ def build_feature_text(product,feature_data):
     Feature: {feature_data['feature']}
 
     Summary:
-    The {feature_data['feature']} of {product} is {feature_data['sentiment']} based on user reviews."""
+    The {feature_data['feature']} of {product} is {feature_data['sentiment']} based on user reviews. """
 
     if value:
         emb+=f"""Specifications: {value}"""

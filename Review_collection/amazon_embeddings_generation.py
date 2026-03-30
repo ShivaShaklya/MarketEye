@@ -17,8 +17,8 @@ def normalize_specs(data):
     return {k.lower().replace("_", " "): v for k, v in specs.items()}
 
 #Driver Code
-INPUT_DIR = r".\data\laptops_insights_2"
-OUTPUT_DIR = "./data/processed_amazon_products/laptops"
+INPUT_DIR = r".\data\smartphones_insights_2"
+OUTPUT_DIR = "./data/processed_amazon/smartphones"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 for file in os.listdir(INPUT_DIR):
@@ -35,7 +35,7 @@ for file in os.listdir(INPUT_DIR):
 
     #Specs mapping
     fname=str(file.removesuffix("_insights.json"))
-    with open(f"./data/product_specifications/laptops/{fname}.json","r", encoding="utf-8") as f1:
+    with open(f"./data/product_specifications/smartphones/{fname}.json","r", encoding="utf-8") as f1:
         specs_data=json.load(f1)
     
     normalized_specs=normalize_specs(specs_data)
@@ -82,7 +82,7 @@ for file in os.listdir(INPUT_DIR):
     print("Saved:", output_file)'''
 
 ##Embeddings generation
-DATA_PATH="data/processed_amazon_products"
+DATA_PATH="data/processed_amazon"
 COLLECTION_NAME="feature_rag_amazon"
 
 client = chromadb.PersistentClient(path="..\chroma_db")
@@ -106,7 +106,7 @@ def build_feature_text(product,feature_data):
     Feature: {feature_data['feature']}
 
     Summary:
-    The {feature_data['feature']} of {product} is {feature_data['sentiment']} based on user reviews."""
+    The {feature_data['feature']} of {product} is {feature_data['sentiment']} based on user reviews. """
 
     if value:
         emb+=f"""Specifications: {value}"""
@@ -139,7 +139,7 @@ embeddings=[]
 ctr=0
 
 #Embeddings creation
-categories=['laptops']
+categories=["laptops", "smartphones"]
 for category in categories:
     category_path=os.path.join(DATA_PATH,category)
 
