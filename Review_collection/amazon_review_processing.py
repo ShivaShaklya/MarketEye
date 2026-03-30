@@ -1,6 +1,7 @@
 import json
 import os
 
+#Amazon Reviews Processing using summary_insights (Not viable now) : Use <feature_sentiment_nikita> and amazon_embeddings_generation.py instead
 def match_spec(feature,normalized_specs):
     words=feature.lower().split()
     for spec_key, value in normalized_specs.items():

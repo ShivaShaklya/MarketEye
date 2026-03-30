@@ -4,6 +4,8 @@ from dotenv import load_dotenv
 import json
 from nltk.sentiment import SentimentIntensityAnalyzer
 
+##Amazon Reviews Scraping using SerpAPI
+
 # product_names=["Apple AirPods Pro 2",
 # "iPhone 15 Pro Max",
 # "Samsung Galaxy S24 Ultra",
@@ -15,7 +17,7 @@ key=os.getenv("SERPAPI_API_KEY")
 #asin="B0DFD1SHBS"
 
 def get_product_names():
-    # #Use feature_insights_laptops.json
+    #Use feature_insights_laptops.json
     # product_names=set()
     # with open(r"data/feature_insights_laptops.json", "r", encoding="utf-8") as f:
     #     data = json.load(f)
