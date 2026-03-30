@@ -1,0 +1,160 @@
+{
+  "asin": "B0DW238TXK",
+  "product": "Asus Rog Flow X13",
+  "features": [
+    {
+      "feature": "software",
+      "sentiment": "mixed",
+      "positive_mentions": 8,
+      "negative_mentions": 8,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 0,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The design is sleek yet durable, and the performance is outstanding\u2014whether I\u2019m handling HRIS systems, multitasking with Microsoft Office, or enjoying gaming sessions like Hogwarts Legacy or Aliens: Fireteam Elite These provide power, charging through any USB C (albeit slow on small bricks, LoL), quality screens, a keyboard that doesn't suck (expectations tempered for those of us with mechanical keyboards), an overall quick and quality experience"
+    },
+    {
+      "feature": "storage",
+      "sentiment": "mixed",
+      "positive_mentions": 10,
+      "negative_mentions": 5,
+      "neutral_mentions": 2,
+      "mentions_total": 0,
+      "feature_score": 5,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The \"Killer Feature\": 112GB of Unified MemoryThe single most important spec for Local AI is VRAM ASUS ROG Flow Z13 (Strix Halo): Access to 96GB+ of VRAM"
+    },
+    {
+      "feature": "performance",
+      "sentiment": "positive",
+      "positive_mentions": 12,
+      "negative_mentions": 3,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 9,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The design is sleek yet durable, and the performance is outstanding\u2014whether I\u2019m handling HRIS systems, multitasking with Microsoft Office, or enjoying gaming sessions like Hogwarts Legacy or Aliens: Fireteam Elite Performance: Fast boot-up, smooth multitasking, and excellent graphics for both work and play"
+    },
+    {
+      "feature": "battery",
+      "sentiment": "mixed",
+      "positive_mentions": 3,
+      "negative_mentions": 3,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 0,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Warranty & Coverage: The Gold Premium Care package gives me peace of mind with accidental damage protection and battery service for years to come Charging is a pain",
+      "value": [
+        "average battery life in hours: 10 Hours"
+      ]
+    },
+    {
+      "feature": "display",
+      "sentiment": "mixed",
+      "positive_mentions": 2,
+      "negative_mentions": 2,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 0,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "These provide power, charging through any USB C (albeit slow on small bricks, LoL), quality screens, a keyboard that doesn't suck (expectations tempered for those of us with mechanical keyboards), an overall quick and quality experience Proof of PowerThe screenshot shows Llama 3",
+      "value": [
+        "standing screen display size: 13.4 Inches"
+      ]
+    },
+    {
+      "feature": "connectivity",
+      "sentiment": "positive",
+      "positive_mentions": 2,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Ports are always missing A 10,000mAh batter plugged in USB C has often gotten me through a few hours of work moving around a construction site or job project"
+    },
+    {
+      "feature": "keyboard",
+      "sentiment": "positive",
+      "positive_mentions": 2,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "These provide power, charging through any USB C (albeit slow on small bricks, LoL), quality screens, a keyboard that doesn't suck (expectations tempered for those of us with mechanical keyboards), an overall quick and quality experience The keyboard attachment"
+    },
+    {
+      "feature": "design",
+      "sentiment": "positive",
+      "positive_mentions": 2,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The design is sleek yet durable, and the performance is outstanding\u2014whether I\u2019m handling HRIS systems, multitasking with Microsoft Office, or enjoying gaming sessions like Hogwarts Legacy or Aliens: Fireteam Elite Portability: Lightweight and versatile, perfect for hybrid work setups and remote productivity"
+    },
+    {
+      "feature": "price",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "And when I try to initiate a return the only option it gives is UPS pickup due to its price",
+      "value": [
+        "price usd: 2749.99",
+        "price rs: 138499"
+      ]
+    },
+    {
+      "feature": "speaker",
+      "sentiment": "negative",
+      "positive_mentions": 0,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": -1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Fans are loud! Redefines jet engine sounds"
+    },
+    {
+      "feature": "fan_noise",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Fans are loud! Redefines jet engine sounds"
+    },
+    {
+      "feature": "thermals",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "I'm a cooling first/ max performance over acoustics"
+    }
+  ]
+}

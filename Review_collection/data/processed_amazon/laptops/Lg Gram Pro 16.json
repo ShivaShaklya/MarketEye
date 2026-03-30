@@ -1,0 +1,136 @@
+{
+  "asin": "B0F1Z394D9",
+  "product": "Lg Gram Pro 16",
+  "features": [
+    {
+      "feature": "display",
+      "sentiment": "mixed",
+      "positive_mentions": 5,
+      "negative_mentions": 3,
+      "neutral_mentions": 2,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Very fast, lightweight and screen viewing quality is very good Even though the screen is very thin, it doesn't seem flimsy to me",
+      "value": [
+        "standing screen display size: 16 Inches"
+      ]
+    },
+    {
+      "feature": "storage",
+      "sentiment": "positive",
+      "positive_mentions": 4,
+      "negative_mentions": 2,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Having suffered 2 recent broken computers, I decided to try a much higher priced LG gram Pro16\" laptop I understand the memory can be upgraded but not something I can do myself"
+    },
+    {
+      "feature": "design",
+      "sentiment": "positive",
+      "positive_mentions": 4,
+      "negative_mentions": 1,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 3,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "It is still too new to say anything about reliability, but its light weight and thin profile are amazing Very fast, lightweight and screen viewing quality is very good"
+    },
+    {
+      "feature": "keyboard",
+      "sentiment": "positive",
+      "positive_mentions": 3,
+      "negative_mentions": 1,
+      "neutral_mentions": 2,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "It looks great but my only complaint is that backlighting the keys when it's dark in my room works ok but the keys are hard to see if the room gets even low light (white on white) The keys backlight is easy enough to toggle on/off"
+    },
+    {
+      "feature": "price",
+      "sentiment": "positive",
+      "positive_mentions": 3,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "I shopped around and found a relatively good price on Amazon that turned out to be $100 less than later \"black Friday\" prices on it, although considerably higher than Dell or HP deals on similarly equipped laptops I got this machine in white as it was offered at a great price",
+      "value": [
+        "price usd: 1494.99",
+        "price rs: 154990"
+      ]
+    },
+    {
+      "feature": "battery",
+      "sentiment": "positive",
+      "positive_mentions": 3,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Battery life is excellent, yet it recharges quickly It's impossibly light weight, the screen is super sharp, and the battery lasts a full workday",
+      "value": [
+        "average battery life in hours: 19.5 Hours"
+      ]
+    },
+    {
+      "feature": "software",
+      "sentiment": "positive",
+      "positive_mentions": 3,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 3,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "When I looked at Consumer Reports laptop ratings, I found that in the PC category of owners reports, LG was the most highly reliable brand It seems most new laptops are not upgradeable"
+    },
+    {
+      "feature": "performance",
+      "sentiment": "positive",
+      "positive_mentions": 3,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 3,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The speed is as good or better than my current desktop 'workhorse' I'm happy with the performance"
+    },
+    {
+      "feature": "connectivity",
+      "sentiment": "positive",
+      "positive_mentions": 2,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "When I looked at Consumer Reports laptop ratings, I found that in the PC category of owners reports, LG was the most highly reliable brand Purchased this 17 inch laptop 1 month ago based on a Consumer Reports recommendation"
+    },
+    {
+      "feature": "speaker",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Sound is also very adequate, though I haven't listened to music with it yet"
+    }
+  ]
+}

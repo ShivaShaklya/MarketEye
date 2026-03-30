@@ -1,0 +1,97 @@
+{
+  "asin": "B0BQNVT4S5",
+  "product": "Razer Blade 18",
+  "features": [
+    {
+      "feature": "display",
+      "sentiment": "mixed",
+      "positive_mentions": 5,
+      "negative_mentions": 3,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The display size and quality makes you forget you\u2019re on a laptop The blooming on the screen is atrocious at this price point",
+      "value": [
+        "standing screen display size: 18 Inches"
+      ]
+    },
+    {
+      "feature": "performance",
+      "sentiment": "positive",
+      "positive_mentions": 4,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 4,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "I needed a portable solution that would allow me to keep working on the road without sacrificing the graphics power and processing speed I need for my job Performance is right up with there with other full TDP/TGP laptops with the 4090"
+    },
+    {
+      "feature": "price",
+      "sentiment": "mixed",
+      "positive_mentions": 1,
+      "negative_mentions": 1,
+      "neutral_mentions": 2,
+      "mentions_total": 0,
+      "feature_score": 0,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "I can get it from another company at a much cheaper price Wonderful, I like it, but it requires a price reduction so that Razer can compete with others with the same specifications",
+      "value": [
+        "price usd: 4599.99",
+        "price rs: 479990"
+      ]
+    },
+    {
+      "feature": "software",
+      "sentiment": "negative",
+      "positive_mentions": 0,
+      "negative_mentions": 1,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": -1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "It\u2019s like ether screen came loose and lets every bit of light past"
+    },
+    {
+      "feature": "design",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Best build quality out there for a gaming laptop"
+    },
+    {
+      "feature": "keyboard",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Keyboard looks amazing and feels pretty good, with less key travel than your typical gaming keyboard on other laptops"
+    },
+    {
+      "feature": "speaker",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Speakers are top notch"
+    }
+  ]
+}

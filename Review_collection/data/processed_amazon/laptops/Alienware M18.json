@@ -1,0 +1,108 @@
+{
+  "asin": "B0CWHGBWL6",
+  "product": "Alienware M18",
+  "features": [
+    {
+      "feature": "software",
+      "sentiment": "mixed",
+      "positive_mentions": 4,
+      "negative_mentions": 5,
+      "neutral_mentions": 3,
+      "mentions_total": 0,
+      "feature_score": -1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Sighs - I reached out to Dell again explaining the NEW problems and sent them a video of my actual machine demonstrating the NEW problems and pointing out how the machine in the photos they sent was not the same machine as mine- they agreed to send someone to replace the motherboard and LCD again The kind tech came to my house did his job - left my house - and guess what now NVIDIA driver doesnt work at all - no video card works no sound card - its a gaming pc but im stuck using the intel processing because the NVIDIA drivers arent working"
+    },
+    {
+      "feature": "performance",
+      "sentiment": "mixed",
+      "positive_mentions": 2,
+      "negative_mentions": 1,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "When playing graphic heavy games the laptop switches to performance mode and turns on extra fans that really move the air and keeps it from getting too hot No issues since, can run AAA games like God of War on HIGH settings around 90-105 fps"
+    },
+    {
+      "feature": "thermals",
+      "sentiment": "negative",
+      "positive_mentions": 1,
+      "negative_mentions": 3,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": -2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "This labtop is better off on \u201cHIGH\u201d don\u2019t use ultra performance mode unless you want to melt your labtop and overheat yourself with the hot ass air Others I've had always ended up throttling themselves (despite being 'higher spec'd' than this one) and either stuttered or over-heated to the point it would lock up or shut down"
+    },
+    {
+      "feature": "display",
+      "sentiment": "negative",
+      "positive_mentions": 1,
+      "negative_mentions": 2,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": -1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "I started it up - the screen flickered a few times - then the ALIENWARE logo wouldn't come on when booted After sending the device into customer service - no motherboard issue - instead they're claiming the LCD screen was cracked along with the palm rest and the back of laptop - consistent with a fall",
+      "value": [
+        "standing screen display size: 18 Inches"
+      ]
+    },
+    {
+      "feature": "speaker",
+      "sentiment": "mixed",
+      "positive_mentions": 1,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 0,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Good quality onboard speakers, lots of customization options for RGB lighting and easy to connect peripherals and accessories The kind tech came to my house did his job - left my house - and guess what now NVIDIA driver doesnt work at all - no video card works no sound card - its a gaming pc but im stuck using the intel processing because the NVIDIA drivers arent working"
+    },
+    {
+      "feature": "fan_noise",
+      "sentiment": "mixed",
+      "positive_mentions": 1,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 0,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "When playing graphic heavy games the laptop switches to performance mode and turns on extra fans that really move the air and keeps it from getting too hot This laptop might get a little 'loud' but it never over heats, never shuts down, and to my surprise, never throttled, not even once"
+    },
+    {
+      "feature": "connectivity",
+      "sentiment": "negative",
+      "positive_mentions": 0,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": -1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Ran into some issues with Bluetooth error and alt+tab disabling itself after setup but took care of it with a bios update using the Alienware support assist"
+    },
+    {
+      "feature": "battery",
+      "sentiment": "negative",
+      "positive_mentions": 0,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": -1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "I also bought a travel laptop AC charger and Alienware backpack with it",
+      "value": [
+        "average battery life in hours: 7 Hours"
+      ]
+    }
+  ]
+}

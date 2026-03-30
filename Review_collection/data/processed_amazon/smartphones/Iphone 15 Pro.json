@@ -1,0 +1,66 @@
+{
+  "asin": "B0CMZL2TJ9",
+  "product": "Iphone 15 Pro",
+  "features": [
+    {
+      "feature": "battery",
+      "sentiment": "positive",
+      "positive_mentions": 4,
+      "negative_mentions": 1,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 3,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Very good condition, looked like a brand new phone all original, battery life is good too (88%), no scratch on the screen, only 3 small in the ring and backside. It looks like new and the battery life is over 90%",
+      "value": [
+        "battery power rating: 3600 Milliamp Hours",
+        "battery capacity: 3274 Milliamp Hours"
+      ]
+    },
+    {
+      "feature": "display",
+      "sentiment": "mixed",
+      "positive_mentions": 1,
+      "negative_mentions": 2,
+      "neutral_mentions": 2,
+      "mentions_total": 0,
+      "feature_score": -1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Very good condition, looked like a brand new phone all original, battery life is good too (88%), no scratch on the screen, only 3 small in the ring and backside. the phone I received has a crack on the bottom of the screen.",
+      "value": [
+        "other display features: Wireless",
+        "standing screen display size: 6.1 Inches"
+      ]
+    },
+    {
+      "feature": "price",
+      "sentiment": "negative",
+      "positive_mentions": 0,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": -1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Definitely not worth the price, since I\u2019m still going to need to replace the screen myself.",
+      "value": [
+        "price usd: 528.97",
+        "price rs: 58999"
+      ]
+    },
+    {
+      "feature": "design",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "There are no scratches on the body so it really stands out."
+    }
+  ]
+}

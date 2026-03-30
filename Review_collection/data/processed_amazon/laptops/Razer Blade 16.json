@@ -1,0 +1,133 @@
+{
+  "asin": "B0DYLFFLK8",
+  "product": "Razer Blade 16",
+  "features": [
+    {
+      "feature": "software",
+      "sentiment": "positive",
+      "positive_mentions": 5,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 4,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "feels like an apple product if they made windows machines nowhere near as good as a macbook but still above average for a windows laptop"
+    },
+    {
+      "feature": "performance",
+      "sentiment": "positive",
+      "positive_mentions": 3,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 3,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "I kitted it out fully, 5090, top end cpu, 64gb RAM and a tonne of storage smooths out games perfectly especially if you already have somewhere over 70fps, i think that\u2019s the sweet spot"
+    },
+    {
+      "feature": "storage",
+      "sentiment": "positive",
+      "positive_mentions": 3,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "I kitted it out fully, 5090, top end cpu, 64gb RAM and a tonne of storage it adds TECHNICALLY 4x frames though in reality it\u2019s more like about 2-3x more frames when taking into account the starting frame rate"
+    },
+    {
+      "feature": "display",
+      "sentiment": "positive",
+      "positive_mentions": 2,
+      "negative_mentions": 0,
+      "neutral_mentions": 2,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The display is gorgeous i found myself trying to find any excuse just to pull it out and use it because of how pretty the display is",
+      "value": [
+        "standing screen display size: 16 Inches"
+      ]
+    },
+    {
+      "feature": "keyboard",
+      "sentiment": "positive",
+      "positive_mentions": 2,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "keyboard, phenomenal beautifully lit keys, double lit so if you hold shift the other version of that same key lights up"
+    },
+    {
+      "feature": "trackpad",
+      "sentiment": "negative",
+      "positive_mentions": 0,
+      "negative_mentions": 3,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": -3,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Also it\u2019s just satisfying to type onNow, the trackpad my trackpad was broken"
+    },
+    {
+      "feature": "design",
+      "sentiment": "positive",
+      "positive_mentions": 2,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "build quality is amazing i said this laptop is amazing, because it is IF you really care about portability, design and sleekness"
+    },
+    {
+      "feature": "thermals",
+      "sentiment": "positive",
+      "positive_mentions": 2,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "the more space you have the higher the cooling capacity if you do, go for the razer blade 18 (yes its a bit thicker but it still is the most beautiful gaming laptop in my opinion - I have one) Also the blade 18 will be more powerful since it has a more powerful power supply (so more power for GPU and CPU) and it has better cooling"
+    },
+    {
+      "feature": "price",
+      "sentiment": "mixed",
+      "positive_mentions": 1,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 0,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "if you want value for money, it\u2019s not here They will try and get more money out of you to try and fix them, but it ends up being the cost of a new laptop",
+      "value": [
+        "price usd: 4479.99",
+        "price rs: 184990"
+      ]
+    },
+    {
+      "feature": "speaker",
+      "sentiment": "negative",
+      "positive_mentions": 0,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": -1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Nothing to complain about thereSpeakers, very very good"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "asin": "B0FFTNCY4Z",
+  "product": "Google Pixel Fold",
+  "features": [
+    {
+      "feature": "display",
+      "sentiment": "positive",
+      "positive_mentions": 7,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 6,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The best feature is of course the large expanded screen. The Gemini integration is really useful, and using the inner screen is very intuitive.",
+      "value": [
+        "display technology: OLED",
+        "other display features: Wireless",
+        "standing screen display size: 6.4 Inches"
+      ]
+    },
+    {
+      "feature": "software",
+      "sentiment": "mixed",
+      "positive_mentions": 1,
+      "negative_mentions": 2,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": -1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Using Android without the typical bloat from Samsung or other OEM providers is my preferred Android experience. Other than the same old Android look and feel (aka cheap phone), the fold crease is very awkward and the frame on the screen for when the phone is unfolded is very odd."
+    },
+    {
+      "feature": "battery",
+      "sentiment": "positive",
+      "positive_mentions": 2,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Battery life has far surpassed my expectations, getting over 7 hours of screen on time (mostly on the inner screen!) It comes with the charge cord and was basically fully charged.",
+      "value": [
+        "battery power rating: 5015",
+        "battery capacity: 5015"
+      ]
+    },
+    {
+      "feature": "price",
+      "sentiment": "positive",
+      "positive_mentions": 2,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Great Value for Money. This phone is maybe worth 200 bucks, definitely way out of its own price point.",
+      "value": [
+        "price usd: 1499.0",
+        "price rs: 144840"
+      ]
+    },
+    {
+      "feature": "camera",
+      "sentiment": "negative",
+      "positive_mentions": 0,
+      "negative_mentions": 1,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": -1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Camera quality is iffy. It was wrapped just as you see in the video reviews.",
+      "value": [
+        "other camera features: Front, Rear"
+      ]
+    },
+    {
+      "feature": "speaker",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Really works nice and has a better mic and speaker than my Sam Z fold 4 had."
+    },
+    {
+      "feature": "fingerprint",
+      "sentiment": "mixed",
+      "positive_mentions": 0,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 0,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The fingerprint reader on the power button is also incredibly sensitive/fastThere are some compromises to be aware of,"
+    },
+    {
+      "feature": "performance",
+      "sentiment": "mixed",
+      "positive_mentions": 0,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 0,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "I don't care that it isn't using Samsung's processor."
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "asin": "B0BN94DL3R",
+  "product": "Iphone 14 Pro Max",
+  "features": [
+    {
+      "feature": "battery",
+      "sentiment": "positive",
+      "positive_mentions": 9,
+      "negative_mentions": 2,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 7,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Even if I need to change the battery in a year or two at Best Buy, I still come out $100 ahead. The iPhone package came in a plain white box (not the original Apple box) and included a generic lightning to USB-A charging cable.",
+      "value": [
+        "battery power rating: 16.75 Watt Hours",
+        "battery capacity: 4323 Milliamp Hours"
+      ]
+    },
+    {
+      "feature": "display",
+      "sentiment": "positive",
+      "positive_mentions": 3,
+      "negative_mentions": 1,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Refurbished iPhone 15 Pro Max 512 GB are $1000 and come with a new battery and screen. It even arrived with a tempered glass screen protector already installed, which was a nice bonus.",
+      "value": [
+        "other display features: Wireless",
+        "standing screen display size: 6.7 Inches"
+      ]
+    },
+    {
+      "feature": "price",
+      "sentiment": "positive",
+      "positive_mentions": 3,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 3,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Good price. Excellent phone at a very reasonable price.",
+      "value": [
+        "price usd: 438.0",
+        "price rs: 49999"
+      ]
+    },
+    {
+      "feature": "performance",
+      "sentiment": "positive",
+      "positive_mentions": 2,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The phone runs smoothly, calls sound clear, and overall performance is excellent.100% recommended. and I\u2019m satisfied with the performance,"
+    },
+    {
+      "feature": "speaker",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The phone runs smoothly, calls sound clear, and overall performance is excellent.100% recommended."
+    },
+    {
+      "feature": "storage",
+      "sentiment": "mixed",
+      "positive_mentions": 0,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 0,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "I def needed the storage update.",
+      "value": [
+        "memory storage capacity: 128 GB"
+      ]
+    },
+    {
+      "feature": "software",
+      "sentiment": "negative",
+      "positive_mentions": 0,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": -1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "I am a PC and Android guy and don't particularly care for Apple products...until now."
+    },
+    {
+      "feature": "design",
+      "sentiment": "mixed",
+      "positive_mentions": 0,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 0,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "so that is something you may consider if size and weight are an issue."
+    }
+  ]
+}

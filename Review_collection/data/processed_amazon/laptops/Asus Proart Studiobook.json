@@ -1,0 +1,45 @@
+{
+  "asin": "B09MDVKWVY",
+  "product": "Asus Proart Studiobook",
+  "features": [
+    {
+      "feature": "software",
+      "sentiment": "positive",
+      "positive_mentions": 3,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "I work on 3d models, imagery and videos, so I needed a powerful computer and this one is it I looked at Lenovo, MSI and Asus, and I'm very happy with my selection on the ProArt! The screen resolution is amazing, the laptop feels substantial, does not run hot which is a HUGE deal, and its crazy fast even when I'm working in the modeling software"
+    },
+    {
+      "feature": "display",
+      "sentiment": "mixed",
+      "positive_mentions": 1,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 0,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Sharp aesthetics, great battery life, and a killer display! I looked at Lenovo, MSI and Asus, and I'm very happy with my selection on the ProArt! The screen resolution is amazing, the laptop feels substantial, does not run hot which is a HUGE deal, and its crazy fast even when I'm working in the modeling software",
+      "value": [
+        "standing screen display size: 16 Inches"
+      ]
+    },
+    {
+      "feature": "battery",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Sharp aesthetics, great battery life, and a killer display!"
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "asin": "B0C543B9DV",
+  "product": "Samsung Galaxy S23 Ultra",
+  "features": [
+    {
+      "feature": "camera",
+      "sentiment": "positive",
+      "positive_mentions": 5,
+      "negative_mentions": 0,
+      "neutral_mentions": 3,
+      "mentions_total": 0,
+      "feature_score": 5,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Phone came in excellent condition, clean no scratches and camera lenses were the same. The phone is absolutely perfect, the only thing I can see is how there\u2019s a black dot on the front camera, so any picture or FaceTime that is done on this phone will have the black dot, it\u2019s kinda annoying",
+      "value": [
+        "other camera features: Front"
+      ]
+    },
+    {
+      "feature": "battery",
+      "sentiment": "positive",
+      "positive_mentions": 3,
+      "negative_mentions": 0,
+      "neutral_mentions": 4,
+      "mentions_total": 0,
+      "feature_score": 3,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Battery life and charging time are phenomenal, camera quality spectacular, super fast processor and overall responsiveness. The battery life is that of a brand new phone.",
+      "value": [
+        "battery power rating: 5000 Milliamp Hours",
+        "battery capacity: 5000 Milliamp Hours"
+      ]
+    },
+    {
+      "feature": "display",
+      "sentiment": "positive",
+      "positive_mentions": 3,
+      "negative_mentions": 1,
+      "neutral_mentions": 3,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "It's not too big for my smaller hands and the screen size is great for watching anything or playing games with high clarity. Screen came with a protector on it and underneath nice and clean once again no scratches.",
+      "value": [
+        "other display features: Wireless",
+        "standing screen display size: 6.8 Inches"
+      ]
+    },
+    {
+      "feature": "price",
+      "sentiment": "negative",
+      "positive_mentions": 0,
+      "negative_mentions": 1,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": -1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "This does take away from the value of the renewed phone being cheaper than a brand new one. And for the price....can't beat it.",
+      "value": [
+        "price usd: 419.99",
+        "price rs: 55999"
+      ]
+    },
+    {
+      "feature": "performance",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Battery life and charging time are phenomenal, camera quality spectacular, super fast processor and overall responsiveness."
+    },
+    {
+      "feature": "fingerprint",
+      "sentiment": "mixed",
+      "positive_mentions": 0,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 0,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The fingerprint sensor works in a snap."
+    },
+    {
+      "feature": "design",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "And the weight is surprisingly less than my older smaller phone."
+    },
+    {
+      "feature": "storage",
+      "sentiment": "mixed",
+      "positive_mentions": 0,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 0,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "So instead of sinking money into the screen, I could get a newer model and more memory than I had before.",
+      "value": [
+        "memory storage capacity: 256 GB"
+      ]
+    }
+  ]
+}

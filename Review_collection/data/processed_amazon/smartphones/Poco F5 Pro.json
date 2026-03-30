@@ -1,0 +1,96 @@
+{
+  "asin": "B0C4L2P362",
+  "product": "Poco F5 Pro",
+  "features": [
+    {
+      "feature": "display",
+      "sentiment": "positive",
+      "positive_mentions": 2,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The 120Hz display is vibrant, and the 64MP triple camera captures stunning photos. It\u2019s incredibly fast, the screen looks amazing, and the battery lasts all day even with heavy use.",
+      "value": [
+        "other display features: Wireless",
+        "standing screen display size: 6.67 Centimeters"
+      ]
+    },
+    {
+      "feature": "price",
+      "sentiment": "positive",
+      "positive_mentions": 2,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "This is a really good phone for the price. Great value for the money!",
+      "value": [
+        "price usd: 306.0",
+        "price rs: 33999"
+      ]
+    },
+    {
+      "feature": "storage",
+      "sentiment": "positive",
+      "positive_mentions": 2,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Con 256 GB de almacenamiento y 12 GB de RAM, ofrece un rendimiento fluido, ideal para multitareas y juegos. The Poco F5 impresses with its connectivity options like 5g and 4g networks, ample 256 GB storage, and generous 12GB RAM.",
+      "value": [
+        "memory storage capacity: 256 GB"
+      ]
+    },
+    {
+      "feature": "battery",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "It\u2019s incredibly fast, the screen looks amazing, and the battery lasts all day even with heavy use.",
+      "value": [
+        "battery power rating: 5000 Milliamp Hours",
+        "battery capacity: 5000 Milliamp Hours"
+      ]
+    },
+    {
+      "feature": "camera",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The 120Hz display is vibrant, and the 64MP triple camera captures stunning photos.",
+      "value": [
+        "other camera features: Front"
+      ]
+    },
+    {
+      "feature": "performance",
+      "sentiment": "mixed",
+      "positive_mentions": 0,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 0,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "La c\u00e1mara triple de 64 MP con estabilizaci\u00f3n OIS captura im\u00e1genes y videos de alta calidad, mientras que su procesador Snapdragon 7+ Gen 2 asegura velocidad y eficiencia."
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "asin": "B0FJ2X1GJ7",
+  "product": "Asus Vivobook Pro 16X",
+  "features": [
+    {
+      "feature": "performance",
+      "sentiment": "positive",
+      "positive_mentions": 2,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Nice display but too glitchy/freeze even after adjusting it for better performance Good and speedy!"
+    },
+    {
+      "feature": "display",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Nice display but too glitchy/freeze even after adjusting it for better performance",
+      "value": [
+        "standing screen display size: 16 Inches"
+      ]
+    }
+  ]
+}

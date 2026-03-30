@@ -1,0 +1,157 @@
+{
+  "asin": "B0D1KQTFT4",
+  "product": "Alienware X16",
+  "features": [
+    {
+      "feature": "software",
+      "sentiment": "mixed",
+      "positive_mentions": 3,
+      "negative_mentions": 4,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": -1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "I hooked it up to a 34-inch ultrawide monitor (3440x1440), the RTX 4080, Ultra 9 185H CPU, and 32GB RAM play almost every game at max settings with smooth FPS The Alienware software takes about 10 to 20 seconds to load when first opening it"
+    },
+    {
+      "feature": "display",
+      "sentiment": "positive",
+      "positive_mentions": 5,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 4,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Display is nice, all text is clear and colors are good I heard many people complaining about the brightness levels",
+      "value": [
+        "standing screen display size: 16 Inches"
+      ]
+    },
+    {
+      "feature": "design",
+      "sentiment": "positive",
+      "positive_mentions": 4,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 4,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Design is good imo Now, for value, you can definitely get better values out there, for example HP Omens gaming laptops, BUT, I love the design of this brand for a while and particularly this year"
+    },
+    {
+      "feature": "keyboard",
+      "sentiment": "positive",
+      "positive_mentions": 3,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 3,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Keys feel great Keys are clear and not blinding like most RGB backlits"
+    },
+    {
+      "feature": "battery",
+      "sentiment": "positive",
+      "positive_mentions": 2,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Battery life is quite good The battery health seems good, though this is something you'll keep plugged in all the time most likely"
+    },
+    {
+      "feature": "performance",
+      "sentiment": "positive",
+      "positive_mentions": 3,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 3,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Why did you pick this product vs others?:Best performance I hooked it up to a 34-inch ultrawide monitor (3440x1440), the RTX 4080, Ultra 9 185H CPU, and 32GB RAM play almost every game at max settings with smooth FPS"
+    },
+    {
+      "feature": "connectivity",
+      "sentiment": "positive",
+      "positive_mentions": 2,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "2 usb 2 usb c, this is the only downside All ports in back"
+    },
+    {
+      "feature": "price",
+      "sentiment": "mixed",
+      "positive_mentions": 1,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 0,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Now, for value, you can definitely get better values out there, for example HP Omens gaming laptops, BUT, I love the design of this brand for a while and particularly this year )So anyway, if you paid almost $2000 for this used laptop, go ahead and be angry, that's a poor value",
+      "value": [
+        "price usd: 1760.92",
+        "price rs: 214189.24"
+      ]
+    },
+    {
+      "feature": "storage",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "I hooked it up to a 34-inch ultrawide monitor (3440x1440), the RTX 4080, Ultra 9 185H CPU, and 32GB RAM play almost every game at max settings with smooth FPS"
+    },
+    {
+      "feature": "fan_noise",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Really fantastic gaming laptop in a small chassis"
+    },
+    {
+      "feature": "thermals",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "It handles anything I throw at it with ease, and the thermals stay well under 85*"
+    },
+    {
+      "feature": "speaker",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The speakers and the build quality really blew me away in the x16"
+    }
+  ]
+}

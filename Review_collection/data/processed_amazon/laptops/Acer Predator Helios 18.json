@@ -1,0 +1,133 @@
+{
+  "asin": "B0FX213C7F",
+  "product": "Acer Predator Helios 18",
+  "features": [
+    {
+      "feature": "software",
+      "sentiment": "negative",
+      "positive_mentions": 1,
+      "negative_mentions": 4,
+      "neutral_mentions": 2,
+      "mentions_total": 0,
+      "feature_score": -3,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "A similar setup would have cost me way more Received my Acer Predator Helios Neo 16 with Core i9 and 32GB RAM"
+    },
+    {
+      "feature": "storage",
+      "sentiment": "positive",
+      "positive_mentions": 3,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "So far, the storage capacity and battery life have been awesome Received my Acer Predator Helios Neo 16 with Core i9 and 32GB RAM"
+    },
+    {
+      "feature": "price",
+      "sentiment": "negative",
+      "positive_mentions": 1,
+      "negative_mentions": 2,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": -1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "A similar setup would have cost me way more If I wanted insurance (which they didn\u2019t cover) I would have had to pay the entire shipping cost myself)",
+      "value": [
+        "price usd: 1788.99",
+        "price rs: 110298"
+      ]
+    },
+    {
+      "feature": "display",
+      "sentiment": "positive",
+      "positive_mentions": 2,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The screen quality is better than my last ACER I keep trying to copy, paste, and save on reflex while working on paperwork and it basically jumpscares me with a pop-up screen",
+      "value": [
+        "standing screen display size: 16 Inches"
+      ]
+    },
+    {
+      "feature": "fan_noise",
+      "sentiment": "negative",
+      "positive_mentions": 0,
+      "negative_mentions": 2,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": -2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "I got an error message related to the GPU when I checked the Nvidia app it said there was no driver installed, it took two attempts for the driver to download when I rebooted the computer it would only light up the keyboard no sounds no fans no start up There was an electronic burning smell, and then the fan wouldn\u2019t shut off and the computer overheated"
+    },
+    {
+      "feature": "battery",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "So far, the storage capacity and battery life have been awesome"
+    },
+    {
+      "feature": "performance",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "I got an error message related to the GPU when I checked the Nvidia app it said there was no driver installed, it took two attempts for the driver to download when I rebooted the computer it would only light up the keyboard no sounds no fans no start up"
+    },
+    {
+      "feature": "speaker",
+      "sentiment": "negative",
+      "positive_mentions": 0,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": -1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "I got an error message related to the GPU when I checked the Nvidia app it said there was no driver installed, it took two attempts for the driver to download when I rebooted the computer it would only light up the keyboard no sounds no fans no start up"
+    },
+    {
+      "feature": "keyboard",
+      "sentiment": "mixed",
+      "positive_mentions": 0,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 0,
+      "source": "amazon",
+      "type": "review",
+      "evidence": ""
+    },
+    {
+      "feature": "thermals",
+      "sentiment": "negative",
+      "positive_mentions": 0,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": -1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "There was an electronic burning smell, and then the fan wouldn\u2019t shut off and the computer overheated"
+    }
+  ]
+}

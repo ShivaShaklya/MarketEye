@@ -1,0 +1,157 @@
+{
+  "asin": "B0CQ3VXJ3J",
+  "product": "Samsung Galaxy Book 4 Pro",
+  "features": [
+    {
+      "feature": "software",
+      "sentiment": "positive",
+      "positive_mentions": 16,
+      "negative_mentions": 2,
+      "neutral_mentions": 2,
+      "mentions_total": 0,
+      "feature_score": 14,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Overall, the Galaxy Book4 Pro is a great choice for those seeking a high-quality, portable laptop The 2024 Samsung Galaxy Book4 Pro 14 inch has one of the most premium builds for a Windows Laptop in its class in my opinion"
+    },
+    {
+      "feature": "storage",
+      "sentiment": "mixed",
+      "positive_mentions": 11,
+      "negative_mentions": 6,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 5,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "I was able to attain the 1 TB SSD, 16 GB RAM, Windows 11 Pro, Core Ultra 7 Version (NP944XGK-KG1US) for $999 due to a pricing error on Amazon 2 ssd's)"
+    },
+    {
+      "feature": "design",
+      "sentiment": "positive",
+      "positive_mentions": 8,
+      "negative_mentions": 2,
+      "neutral_mentions": 2,
+      "mentions_total": 0,
+      "feature_score": 6,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Its compact size and lightweight design make it highly portable, perfect for on-the-go use Additionally, the build quality is solid, and the keyboard provides a comfortable typing experience"
+    },
+    {
+      "feature": "battery",
+      "sentiment": "mixed",
+      "positive_mentions": 6,
+      "negative_mentions": 4,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Battery life is great and the charger works so well 11) Battery Life runs at 8 hours (with full brightness and performance set to maximum with constant load with two m"
+    },
+    {
+      "feature": "performance",
+      "sentiment": "positive",
+      "positive_mentions": 9,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 8,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The SAMSUNG 14\u201d Galaxy Book4 Pro Laptop is a sleek and powerful device that delivers excellent performance for both work and play Under the hood, the laptop is equipped with robust hardware, ensuring smooth multitasking and fast processing speeds"
+    },
+    {
+      "feature": "display",
+      "sentiment": "mixed",
+      "positive_mentions": 5,
+      "negative_mentions": 4,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The vibrant display offers crisp and clear visuals, ideal for multimedia consumption and productivity tasks Beautiful display OLED screen and the sound quality is awesome",
+      "value": [
+        "standing screen display size: 16 Inches"
+      ]
+    },
+    {
+      "feature": "price",
+      "sentiment": "mixed",
+      "positive_mentions": 4,
+      "negative_mentions": 2,
+      "neutral_mentions": 2,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "This was my first ever laptop I bought and I am truly in love with it!!! It's so smooth and the graphics are so amazing and the colors pop out so clear and bright!!! I am absolutely happy with my purchase and definitely worth price I paid for, wow!! The upcharge from 512 GB version to the 1 TB version of this laptop is $300 (Samsung is conducting Apple-Level price gouging but unlike Apple it\u2019s not even using their own top tier in-house parts)",
+      "value": [
+        "price usd: 1199.0",
+        "price rs: 110990"
+      ]
+    },
+    {
+      "feature": "thermals",
+      "sentiment": "negative",
+      "positive_mentions": 0,
+      "negative_mentions": 5,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": -5,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Constantly overheats, awful battery, incredibly slow The ultra core 7 155h would thermal throttle all day long"
+    },
+    {
+      "feature": "keyboard",
+      "sentiment": "mixed",
+      "positive_mentions": 1,
+      "negative_mentions": 1,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 0,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Additionally, the build quality is solid, and the keyboard provides a comfortable typing experience 7) Keyboard comes with the new Microsoft Copilot Key integrated & a dedicated ai NPU chip"
+    },
+    {
+      "feature": "speaker",
+      "sentiment": "positive",
+      "positive_mentions": 2,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Beautiful display OLED screen and the sound quality is awesome Product's quality are well build and the sound system are incredible great!compare with GRAM, the Galaxy is more solid but unfortunately they weight are more heavier!But I will only choose Korean brand for the durability and great sturaction and best performanceCompare with the battery, the galaxy still well manage~"
+    },
+    {
+      "feature": "connectivity",
+      "sentiment": "negative",
+      "positive_mentions": 0,
+      "negative_mentions": 2,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": -2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "3) 2 Thunderbolt 4 Ports, 1 HDMI 2 1 Port (that can run 8k), 1 USB-A Legacy Port, and 1 MicroSD slot"
+    },
+    {
+      "feature": "fan_noise",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "4) Fantastic Build Quality & Ultraportable - a true Windows Built Design rival to an Apple Designed Product"
+    }
+  ]
+}

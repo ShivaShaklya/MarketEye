@@ -1,0 +1,135 @@
+{
+  "asin": "B0DSQMJV9Y",
+  "product": "Xiaomi 14 Ultra",
+  "features": [
+    {
+      "feature": "performance",
+      "sentiment": "positive",
+      "positive_mentions": 6,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 6,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "An excellent phone, rivaling in performance equivalent Apple and Samsung flagmans at quarter price! Great for calls, texts, photos and gaming."
+    },
+    {
+      "feature": "software",
+      "sentiment": "positive",
+      "positive_mentions": 3,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Android is easy and reliable and very customizable. Strong antenna, good Wifi pickup and range, good cellular range.- Works on GSM, no problem swapping in my old TMobile SIM card.- Plenty of customization with layout, colors, wallpapers, tone, volume, alerts, ringtones and sounds.- Easy and fast Android transfer for all apps, contacts, messages and photos."
+    },
+    {
+      "feature": "battery",
+      "sentiment": "positive",
+      "positive_mentions": 3,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "As an iPhone user this is a great backup phone. Battery is great and it's a very sharp screen.",
+      "value": [
+        "battery capacity: 5500 Milliamp Hours",
+        "battery power: 5500 Milliamp Hours"
+      ]
+    },
+    {
+      "feature": "price",
+      "sentiment": "positive",
+      "positive_mentions": 3,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 3,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "I've been using this Xiaomi Redmi Note 14 Pro 5G for about three weeks now and am pleasantly surprised how excellent of a phone it is and especially for the price. Good quality for its price.",
+      "value": [
+        "price usd: 299.5",
+        "price rs: 79999"
+      ]
+    },
+    {
+      "feature": "display",
+      "sentiment": "positive",
+      "positive_mentions": 2,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Battery is great and it's a very sharp screen. CPU: Octa-core processor, up to 2.5GHz GPU.- Crystal AMOLED screen with curved edges is bright, vivid, detailed and smooth with contrast, far superior to OLED and easy on eye strain and adjustable settings of course.-",
+      "value": [
+        "display type: AMOLED",
+        "display resolution maximum: 2712 x 1220",
+        "display pixel density: 395 Pixels Per Inch (PPI)"
+      ]
+    },
+    {
+      "feature": "design",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Back button is also on far right, when it seems like it should be on the far left as it points left.- Solid build, feels sturdy, no loose parts, not too heavy, not too light.- Not a lot of unique color choices in the actual body of phone, I went with black"
+    },
+    {
+      "feature": "network",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Tested range around home, all good on Wifi and cellular signal.",
+      "value": [
+        "wireless network technology: Wi-Fi"
+      ]
+    },
+    {
+      "feature": "camera",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Massive 200 MP main camera, takes brilliant, vivid detailed photos, am a pro photographer and these are some of the nicest I've seen from a phone camera thus far.- Efficient battery at 5500 Milliamp Hours will keep a standby charge for days and usage charge quit long, even if gaming.",
+      "value": [
+        "rear facing camera photo sensor resolution: 200 MP",
+        "number of rear facing cameras: 3",
+        "number of front cameras: 1"
+      ]
+    },
+    {
+      "feature": "speaker",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Also quick charges super fast on a high wattage adapter.- Good speaker volume and internal volume control.-"
+    }
+  ]
+}

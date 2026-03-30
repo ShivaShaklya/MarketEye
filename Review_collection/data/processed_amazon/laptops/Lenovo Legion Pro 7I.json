@@ -1,0 +1,172 @@
+{
+  "asin": "B0G2T512W3",
+  "product": "Lenovo Legion Pro 7I",
+  "features": [
+    {
+      "feature": "performance",
+      "sentiment": "positive",
+      "positive_mentions": 5,
+      "negative_mentions": 2,
+      "neutral_mentions": 2,
+      "mentions_total": 0,
+      "feature_score": 3,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The performance is, in a word, staggering Even when pushing it hard using Lenovo Vantage's preset performance modes, the laptop never feels like it's overheating"
+    },
+    {
+      "feature": "display",
+      "sentiment": "mixed",
+      "positive_mentions": 4,
+      "negative_mentions": 2,
+      "neutral_mentions": 2,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Even notoriously demanding games run with a fluidity that has to be seen to be believed, maintaining high frame rates that take full advantage of the display It has genuinely ruined other screens for me",
+      "value": [
+        "standing screen display size: 16 Inches"
+      ]
+    },
+    {
+      "feature": "software",
+      "sentiment": "mixed",
+      "positive_mentions": 4,
+      "negative_mentions": 2,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "To call this just a \"gaming laptop\" feels like a disservice; it's a meticulously engineered marvel that redefines what's possible in a portable form factor It trades blows with laptops costing hundreds more, offering flagship-tier performance and features without the exorbitant price tag"
+    },
+    {
+      "feature": "thermals",
+      "sentiment": "positive",
+      "positive_mentions": 4,
+      "negative_mentions": 2,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "What's equally impressive is the thermal management Ports, connectivity and cooling seem well-balanced \u2014 you can plug in accessories, external drives or headsets without fuss; fans don\u2019t get unbearably loud unless under heavy load"
+    },
+    {
+      "feature": "storage",
+      "sentiment": "positive",
+      "positive_mentions": 3,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Even notoriously demanding games run with a fluidity that has to be seen to be believed, maintaining high frame rates that take full advantage of the display Every aspect of the Legion Pro 7i feels premium, from its solid aluminum chassis to the scorching-fast storage"
+    },
+    {
+      "feature": "price",
+      "sentiment": "mixed",
+      "positive_mentions": 2,
+      "negative_mentions": 2,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 0,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "What truly seals the deal is the incredible value proposition In a market saturated with overpriced options, this machine feels like a hidden gem",
+      "value": [
+        "price usd: 1892.24",
+        "price rs: 173299"
+      ]
+    },
+    {
+      "feature": "battery",
+      "sentiment": "negative",
+      "positive_mentions": 1,
+      "negative_mentions": 3,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": -2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "What you should know / What could be betterBattery life: Don\u2019t expect long unplugged sessions Like most powerful gaming laptops, the battery drains fast if you actually game on battery power",
+      "value": [
+        "average battery life in hours: 7 Hours"
+      ]
+    },
+    {
+      "feature": "fan_noise",
+      "sentiment": "negative",
+      "positive_mentions": 1,
+      "negative_mentions": 2,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": -1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Ports, connectivity and cooling seem well-balanced \u2014 you can plug in accessories, external drives or headsets without fuss; fans don\u2019t get unbearably loud unless under heavy load Cooling is so much better than my previous laptop it runs quieter to keep cool and lot have to ramp up the fans to annoyingly high levels to game"
+    },
+    {
+      "feature": "keyboard",
+      "sentiment": "positive",
+      "positive_mentions": 2,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "It gets warm, as expected from a high-performance machine, but the heat is managed so well that the keyboard and typing area remain remarkably comfortable \u201dBuild & convenience: Keyboard and overall build feel sturdy and premium"
+    },
+    {
+      "feature": "design",
+      "sentiment": "mixed",
+      "positive_mentions": 1,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 0,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "\u201dBuild & convenience: Keyboard and overall build feel sturdy and premium If you move the machine around a lot (school, caf\u00e9s, trips) you\u2019ll feel the weight"
+    },
+    {
+      "feature": "trackpad",
+      "sentiment": "mixed",
+      "positive_mentions": 0,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 0,
+      "source": "amazon",
+      "type": "review",
+      "evidence": ""
+    },
+    {
+      "feature": "speaker",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "I\u2019ve done some lighter tasks, streaming, and even editing-type work (video/audio) and the system handles it like a champ"
+    },
+    {
+      "feature": "connectivity",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Ports, connectivity and cooling seem well-balanced \u2014 you can plug in accessories, external drives or headsets without fuss; fans don\u2019t get unbearably loud unless under heavy load"
+    }
+  ]
+}

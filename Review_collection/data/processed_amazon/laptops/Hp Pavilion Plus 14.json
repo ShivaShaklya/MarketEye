@@ -1,0 +1,132 @@
+{
+  "asin": "B0F22QRCMS",
+  "product": "Hp Pavilion Plus 14",
+  "features": [
+    {
+      "feature": "software",
+      "sentiment": "mixed",
+      "positive_mentions": 7,
+      "negative_mentions": 5,
+      "neutral_mentions": 4,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Did have some issues as backup from previous HP Laptop, had different drivers but was quickly resolved with installed HP Support program The bloat ware MacAfee that came installed I kept on until I had downloaded windows defender (again from Microsoft Store) and installed it, then deleted it also"
+    },
+    {
+      "feature": "connectivity",
+      "sentiment": "positive",
+      "positive_mentions": 6,
+      "negative_mentions": 1,
+      "neutral_mentions": 2,
+      "mentions_total": 0,
+      "feature_score": 5,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "This should have had WIFI 7 on it, but doesn't, but they do sell WIFI 7 dongles at Amazon and Walmart that may make it a little faster if it's compatible with your machine I will let everyone know that when I upgrade this laptop to a WIFI 7 Dongle"
+    },
+    {
+      "feature": "storage",
+      "sentiment": "positive",
+      "positive_mentions": 4,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 3,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Did have some issues as backup from previous HP Laptop, had different drivers but was quickly resolved with installed HP Support program After running the PC Manager program that you must download from Microsoft store and ran health check and deep cleaning, all excess files and junk files were cleaned off"
+    },
+    {
+      "feature": "port",
+      "sentiment": "positive",
+      "positive_mentions": 4,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 4,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "I also plugged a 7 port USB A 3 Lastly, I plugged a 3 port USB-C to HDMI splitter (from Amazon, StarTech",
+      "value": [
+        "number of usb 3 0 ports: 3"
+      ]
+    },
+    {
+      "feature": "display",
+      "sentiment": "positive",
+      "positive_mentions": 3,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Router confirmed this by showing laptop as wired and so does status bar in bottom right of Windows screen Screen is clear and bright, although light reflection is a bit annoying in the daytime",
+      "value": [
+        "standing screen display size: 17.3 Inches"
+      ]
+    },
+    {
+      "feature": "performance",
+      "sentiment": "positive",
+      "positive_mentions": 3,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 3,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "My throughput speed is 687 MBS via (Okaloosa Speed Test) and since I have Spectrum Ultra internet at 750 MBS Max, I am satisfied with performance It replaced another 17\" laptop that was almost 6 years old and the improved performance is impressive"
+    },
+    {
+      "feature": "keyboard",
+      "sentiment": "mixed",
+      "positive_mentions": 0,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 0,
+      "source": "amazon",
+      "type": "review",
+      "evidence": ""
+    },
+    {
+      "feature": "trackpad",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "I have been trying to convert from my mouse to the touchpad, and it is easier to do with this one"
+    },
+    {
+      "feature": "speaker",
+      "sentiment": "negative",
+      "positive_mentions": 0,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": -1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "On board speakers are weak and tinny sounding, but I use headphones mostly anyway"
+    },
+    {
+      "feature": "battery",
+      "sentiment": "negative",
+      "positive_mentions": 0,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": -1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The docking station is NOT a docking station, it is a multi device connection \"hub\" and cannot charge the PC"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "asin": "B0CSDX93GY",
+  "product": "Redmi Note 13 Pro",
+  "features": [
+    {
+      "feature": "display",
+      "sentiment": "mixed",
+      "positive_mentions": 2,
+      "negative_mentions": 1,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Incredible storage, great battery life, automatic brightness is nice and convenient, only real issue I could even of is that the built-in browser and some of the companies features are mid all the way. Now back to this phone fantastic clarity on the screen I'm still a big fan of curved screens",
+      "value": [
+        "other display features: Wireless",
+        "standing screen display size: 1.4 Inches"
+      ]
+    },
+    {
+      "feature": "battery",
+      "sentiment": "positive",
+      "positive_mentions": 3,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 3,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Incredible storage, great battery life, automatic brightness is nice and convenient, only real issue I could even of is that the built-in browser and some of the companies features are mid all the way. it's really nice how Redmi had a built it cleaner app and battery saver function.",
+      "value": [
+        "battery power rating: 5000 Milliamp Hours",
+        "battery capacity: 4500 Milliamp Hours"
+      ]
+    },
+    {
+      "feature": "performance",
+      "sentiment": "positive",
+      "positive_mentions": 2,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Speed battery life are all great. So far, the processing speed, speaker quality are also impressive."
+    },
+    {
+      "feature": "design",
+      "sentiment": "positive",
+      "positive_mentions": 2,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The clear case shows the great color and design I love the tri color Design of this phone ."
+    },
+    {
+      "feature": "storage",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Incredible storage, great battery life, automatic brightness is nice and convenient, only real issue I could even of is that the built-in browser and some of the companies features are mid all the way. Lo recomiendo ampliamente (el Pro Plus de 512Gb de Memoria y 12 de Ram), es un tel\u00e9fono de mil batallas, que poco tiene que envidiar un gama alta.",
+      "value": [
+        "memory storage capacity: 512 GB"
+      ]
+    },
+    {
+      "feature": "software",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "I have a older Xiaomi phone that's 4years old and it still operates great for Android 11 ."
+    },
+    {
+      "feature": "price",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "This brand is big on quality for a fraction of the price.",
+      "value": [
+        "price usd: 354.0",
+        "price rs: 499"
+      ]
+    },
+    {
+      "feature": "speaker",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "So far, the processing speed, speaker quality are also impressive."
+    }
+  ]
+}

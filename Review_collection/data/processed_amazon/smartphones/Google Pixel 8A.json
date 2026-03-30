@@ -1,0 +1,132 @@
+{
+  "asin": "B0DCGQQ4Z7",
+  "product": "Google Pixel 8A",
+  "features": [
+    {
+      "feature": "display",
+      "sentiment": "positive",
+      "positive_mentions": 4,
+      "negative_mentions": 1,
+      "neutral_mentions": 2,
+      "mentions_total": 0,
+      "feature_score": 3,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "I like the quick flip gesture that switches between rear and front camera and the selfie illumination (screen turns white to shine light on your face) for selfies. I like having the fingerprint reader on the screen.",
+      "value": [
+        "other display features: Wireless",
+        "standing screen display size: 6.1 Inches"
+      ]
+    },
+    {
+      "feature": "battery",
+      "sentiment": "positive",
+      "positive_mentions": 4,
+      "negative_mentions": 1,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 3,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "It came with a screen protector on it already as well as two charging cords and a charging block. I'd say the ability to hold and use a charge is good",
+      "value": [
+        "battery power rating: 4492 Milliamp Hours",
+        "battery capacity: 4492 Milliamp Hours"
+      ]
+    },
+    {
+      "feature": "software",
+      "sentiment": "positive",
+      "positive_mentions": 5,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 5,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Mine's old bay (similar to a periwinkle blue).I'm familiar with the Android UI, The newest model would have a couple more years of guaranteed software support,"
+    },
+    {
+      "feature": "camera",
+      "sentiment": "positive",
+      "positive_mentions": 3,
+      "negative_mentions": 1,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "I watched a video on hidden features and I'm enjoying those features already. The camera bar on the back looks good to me (better than multiple lenses in a square or circle like many other phones).",
+      "value": [
+        "other camera features: Front, Rear"
+      ]
+    },
+    {
+      "feature": "price",
+      "sentiment": "positive",
+      "positive_mentions": 2,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "If you just need a phone that's \"unlocked\" for the purposes of using on the carrier of your choice, this is a great price and comes with a good warranty. The overall value of this phone is great.",
+      "value": [
+        "price usd: 259.99",
+        "price rs: 36999"
+      ]
+    },
+    {
+      "feature": "performance",
+      "sentiment": "negative",
+      "positive_mentions": 0,
+      "negative_mentions": 1,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": -1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "I hear the Tensor processor isn't as fast as Snapdragon 8. You'd have a moderate gain in processor power,"
+    },
+    {
+      "feature": "network",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "it actually came in great condition and everything functional and network unlocked. Worked well for 3 months, then stopped connecting to the network."
+    },
+    {
+      "feature": "fingerprint",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "I like having the fingerprint reader on the screen."
+    },
+    {
+      "feature": "storage",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "After installing everything including my old apps, I have 87 GB free (I have the 128 GB memory version), so there's plenty of space.",
+      "value": [
+        "memory storage capacity: 128 GB"
+      ]
+    }
+  ]
+}

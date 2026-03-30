@@ -1,0 +1,113 @@
+{
+  "asin": "B0D364RMMP",
+  "product": "Samsung Galaxy S24",
+  "features": [
+    {
+      "feature": "battery",
+      "sentiment": "mixed",
+      "positive_mentions": 2,
+      "negative_mentions": 1,
+      "neutral_mentions": 4,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "We have been using it for couple months now and no battery issues or overheating. Don't forget about the battery life and connectivity, as it is unlocked and it lasts a good 9 hours since it's opened, and it comes in a pretty good price deal too!",
+      "value": [
+        "battery capacity: 4000 Milliamp Hours",
+        "battery description: Lithium-Ion",
+        "battery charge time: 59 minutes",
+        "battery power: 4000 Milliamp Hours",
+        "battery average life: 15 Hours",
+        "average battery life talk time: 23 Hours"
+      ]
+    },
+    {
+      "feature": "price",
+      "sentiment": "positive",
+      "positive_mentions": 5,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 5,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "This phone arrived on time, and in perfect condition without the \"new\" price. At a very reasonable price.",
+      "value": [
+        "price usd: 340.62",
+        "price rs: 48999"
+      ]
+    },
+    {
+      "feature": "software",
+      "sentiment": "positive",
+      "positive_mentions": 4,
+      "negative_mentions": 0,
+      "neutral_mentions": 2,
+      "mentions_total": 0,
+      "feature_score": 4,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "When I got the phone, it got to work and automatically updated it's software to the latest versions all the way up to One UI 7 and android 15. I really like the direction samsung is taking their software experience."
+    },
+    {
+      "feature": "display",
+      "sentiment": "mixed",
+      "positive_mentions": 1,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 0,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Phone works perfect very minimal screen scratches. Not even a single blemish or anything printed on the screen.",
+      "value": [
+        "display type: AMOLED",
+        "display resolution maximum: 2340x1080 Pixels",
+        "display pixel density: 416 Pixels Per Inch (PPI)"
+      ]
+    },
+    {
+      "feature": "performance",
+      "sentiment": "mixed",
+      "positive_mentions": 0,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 0,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "and the fact that the battery does take a little longer to charge from whats to be expected of a typical samsung 24 charging speed."
+    },
+    {
+      "feature": "camera",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The camera is great,",
+      "value": [
+        "rear facing camera photo sensor resolution: 50 MP",
+        "camera description: Front, Rear",
+        "number of rear facing cameras: 3",
+        "number of front cameras: 1"
+      ]
+    },
+    {
+      "feature": "speaker",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "7+ years of updates may sound like a lot to some people or even excessive, it is perfect for people like I and many others who rely on used or refurbished phones."
+    }
+  ]
+}

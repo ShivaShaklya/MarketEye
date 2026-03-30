@@ -1,0 +1,145 @@
+{
+  "asin": "B0FJ2TBQ87",
+  "product": "Lenovo Yoga 9I",
+  "features": [
+    {
+      "feature": "software",
+      "sentiment": "positive",
+      "positive_mentions": 4,
+      "negative_mentions": 2,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The only real negatives to me are the power button being too easy to press accidentally and the glare on the glossy screen The laptop is amazing! But the order was incomplete and the product key provided by Amazon to upgrade Windows 11 Home to Pro, provided by Amazon was rejected by Microsoft"
+    },
+    {
+      "feature": "display",
+      "sentiment": "mixed",
+      "positive_mentions": 2,
+      "negative_mentions": 1,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Beautiful screen, excellent keyboard, amazing battery life, and able to do light gaming much better than expected The OLED display is razor sharp, simply magnificent, the facial and fingerprint recognition are welcome additions, the speed is fantastic, the list goes on and on",
+      "value": [
+        "standing screen display size: 14 Inches"
+      ]
+    },
+    {
+      "feature": "battery",
+      "sentiment": "positive",
+      "positive_mentions": 2,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "I already have a gaming system, so I wanted a nice, light, portable, versatile laptop with great battery life Beautiful screen, excellent keyboard, amazing battery life, and able to do light gaming much better than expected"
+    },
+    {
+      "feature": "price",
+      "sentiment": "negative",
+      "positive_mentions": 0,
+      "negative_mentions": 1,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": -1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "That old yoga still works, and if this one lasts as long, then the price will become irevelent and this will be my daily driver whenever I'm not at my desk for the foreseeable future",
+      "value": [
+        "price usd: 1629.99",
+        "price rs: 208990"
+      ]
+    },
+    {
+      "feature": "connectivity",
+      "sentiment": "positive",
+      "positive_mentions": 2,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "- The USBC port is not deep enough, and it makes the power or docking station connection loose and unstable due to the movement of the laptop or the cable- bad location of the pen if you are mobile and use the pen, otherwise, put it aside, and you are good 4 Bluetooth which is supposed to be LE compliant, but I was having trouble getting it to work, so I ended up calling Lenovo customer assistance and \"Jim\" in the Philippines patiently worked with me and (hopefully) resolved the problem"
+    },
+    {
+      "feature": "design",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Its design and build quality are impressive"
+    },
+    {
+      "feature": "keyboard",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Beautiful screen, excellent keyboard, amazing battery life, and able to do light gaming much better than expected"
+    },
+    {
+      "feature": "speaker",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The soundbar is also impressive for a laptop"
+    },
+    {
+      "feature": "port",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "- The USBC port is not deep enough, and it makes the power or docking station connection loose and unstable due to the movement of the laptop or the cable- bad location of the pen if you are mobile and use the pen, otherwise, put it aside, and you are good"
+    },
+    {
+      "feature": "performance",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The OLED display is razor sharp, simply magnificent, the facial and fingerprint recognition are welcome additions, the speed is fantastic, the list goes on and on"
+    },
+    {
+      "feature": "fan_noise",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The OLED display is razor sharp, simply magnificent, the facial and fingerprint recognition are welcome additions, the speed is fantastic, the list goes on and on"
+    }
+  ]
+}

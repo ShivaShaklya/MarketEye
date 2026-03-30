@@ -1,0 +1,105 @@
+{
+  "asin": "B0D2R84QDF",
+  "product": "Oneplus 12",
+  "features": [
+    {
+      "feature": "camera",
+      "sentiment": "positive",
+      "positive_mentions": 2,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The UI is so smooth and responsive, the camera (made by hasselblad) is ridiculously good! Camera is good"
+    },
+    {
+      "feature": "battery",
+      "sentiment": "mixed",
+      "positive_mentions": 1,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 0,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Battery lasts forever too if you update OS to 16 you get many features I don't want (AI everything and it overheats battery) and YOU CANNOT ROLL BACK to Android 15, they have put anti rollback in and you'll brick itAll",
+      "value": [
+        "battery power rating: 5400",
+        "battery capacity: 5400 Milliamp Hours"
+      ]
+    },
+    {
+      "feature": "software",
+      "sentiment": "mixed",
+      "positive_mentions": 1,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 0,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The UI is so smooth and responsive, the camera (made by hasselblad) is ridiculously good! if you update OS to 16 you get many features I don't want (AI everything and it overheats battery) and YOU CANNOT ROLL BACK to Android 15, they have put anti rollback in and you'll brick itAll"
+    },
+    {
+      "feature": "performance",
+      "sentiment": "mixed",
+      "positive_mentions": 0,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 0,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "It's a speed and storage monster."
+    },
+    {
+      "feature": "storage",
+      "sentiment": "mixed",
+      "positive_mentions": 0,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 0,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "It's a speed and storage monster.",
+      "value": [
+        "memory storage capacity: 16 GB"
+      ]
+    },
+    {
+      "feature": "price",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "This is a really neat phone that probably gets looked over a lot due to the brand not being apple or samsung, the specs and customizability is really good for the price to my current knowledge.",
+      "value": [
+        "price usd: 698.95",
+        "price rs: 33999"
+      ]
+    },
+    {
+      "feature": "display",
+      "sentiment": "negative",
+      "positive_mentions": 0,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": -1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Damaged screen, it has deep scratches on it.",
+      "value": [
+        "other display features: Wireless",
+        "standing screen display size: 6.82 Inches"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "asin": "B0FXDBYL38",
+  "product": "Asus Zenbook 14 Oled",
+  "features": [
+    {
+      "feature": "software",
+      "sentiment": "mixed",
+      "positive_mentions": 1,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 0,
+      "source": "amazon",
+      "type": "review",
+      "evidence": ", rather than returning it and possibly get some headache Lo que dice en su descripci\u00f3n nunca es verdad la computadora no tiene la capacidad interna que dice los puertos no funcionan bien"
+    },
+    {
+      "feature": "connectivity",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The USB C port stopped working"
+    },
+    {
+      "feature": "port",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The USB C port stopped working",
+      "value": [
+        "number of usb 2 0 ports: 1",
+        "number of usb 3 0 ports: 3"
+      ]
+    },
+    {
+      "feature": "keyboard",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "This particular Asus model does not have a keyboard backlight"
+    }
+  ]
+}

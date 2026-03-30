@@ -1,0 +1,188 @@
+{
+  "asin": "B0FDLX4F6T",
+  "product": "Gigabyte Aero 16",
+  "features": [
+    {
+      "feature": "performance",
+      "sentiment": "positive",
+      "positive_mentions": 13,
+      "negative_mentions": 2,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 11,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Performance is top-tier \u2014 even during long gaming sessions, both CPU and GPU stay around the mid-60s \u00b0C with a cooling pad underneath No throttling, no lag, and everything runs smooth and quiet for a machine this thin"
+    },
+    {
+      "feature": "software",
+      "sentiment": "mixed",
+      "positive_mentions": 9,
+      "negative_mentions": 5,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 4,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Gigabyte\u2019s GiMate software is easy to use for fan and performance control Battery life is on par from what I expected - can use it for most of the day on power savings mode (no gaming or LLM)"
+    },
+    {
+      "feature": "battery",
+      "sentiment": "mixed",
+      "positive_mentions": 5,
+      "negative_mentions": 3,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "All I use is Gigabyte Products and I highly recommend this one! Great Gaming Performance, Battery life is decent, and it is very quiet The laptop is supposed to disable the main GPU when on battery power which is fine, but the transition between plugging and unplugging the laptop from a power source is horrendous",
+      "value": [
+        "average battery life in hours: 14 Hours"
+      ]
+    },
+    {
+      "feature": "storage",
+      "sentiment": "positive",
+      "positive_mentions": 4,
+      "negative_mentions": 2,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Also upgraded the RAM to 96GB of RAM and replaced the primary M 2 with a Samsung SSD 9100 PRO 4TB to improve OS performance - a massive improvement from the OEM M"
+    },
+    {
+      "feature": "display",
+      "sentiment": "positive",
+      "positive_mentions": 3,
+      "negative_mentions": 1,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The overall build quality feels premium \u2014 solid aluminum chassis, bright and color-accurate display, and a responsive keyboard and trackpad \u200e\u200eThe screen is one of its best features: very sharp, well-lit, and the 165 Hz refresh rate makes everything look incredibly smooth\u2014whether I\u2019m browsing, working, or watching videos",
+      "value": [
+        "standing screen display size: 16 Inches"
+      ]
+    },
+    {
+      "feature": "design",
+      "sentiment": "positive",
+      "positive_mentions": 4,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 4,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The overall build quality feels premium \u2014 solid aluminum chassis, bright and color-accurate display, and a responsive keyboard and trackpad The fan noise ramps up only when gaming hard, but that\u2019s expected with this much power in a slim body"
+    },
+    {
+      "feature": "thermals",
+      "sentiment": "positive",
+      "positive_mentions": 2,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Performance is top-tier \u2014 even during long gaming sessions, both CPU and GPU stay around the mid-60s \u00b0C with a cooling pad underneath Highly recommend for anyone who values performance, cooling efficiency, and build quality in a premium Windows laptop"
+    },
+    {
+      "feature": "fan_noise",
+      "sentiment": "negative",
+      "positive_mentions": 0,
+      "negative_mentions": 2,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": -2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The fan noise ramps up only when gaming hard, but that\u2019s expected with this much power in a slim body Noise level during minimal gaming is also comfortable with all the fans spinning up"
+    },
+    {
+      "feature": "price",
+      "sentiment": "positive",
+      "positive_mentions": 2,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Highly recommend for anyone who values performance, cooling efficiency, and build quality in a premium Windows laptop I strongly recommend it as a rational choice between price and performance",
+      "value": [
+        "price usd: 2059.99",
+        "price rs: 295990"
+      ]
+    },
+    {
+      "feature": "keyboard",
+      "sentiment": "positive",
+      "positive_mentions": 2,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The overall build quality feels premium \u2014 solid aluminum chassis, bright and color-accurate display, and a responsive keyboard and trackpad \u200e\u200eThe keyboard is comfortable, the build quality feels solid, and the sound is better than I expected"
+    },
+    {
+      "feature": "trackpad",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The overall build quality feels premium \u2014 solid aluminum chassis, bright and color-accurate display, and a responsive keyboard and trackpad"
+    },
+    {
+      "feature": "connectivity",
+      "sentiment": "negative",
+      "positive_mentions": 0,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": -1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Removing one star since only 1 USB-C port - although can be resolved with a USB-C hub"
+    },
+    {
+      "feature": "port",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Removing one star since only 1 USB-C port - although can be resolved with a USB-C hub",
+      "value": [
+        "number of usb 2 0 ports: 1",
+        "number of usb 3 0 ports: 3"
+      ]
+    },
+    {
+      "feature": "speaker",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "\u200e\u200eThe keyboard is comfortable, the build quality feels solid, and the sound is better than I expected"
+    }
+  ]
+}

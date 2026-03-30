@@ -1,0 +1,124 @@
+{
+  "asin": "B0D273XDFY",
+  "product": "Dell Inspiron 16 Plus",
+  "features": [
+    {
+      "feature": "display",
+      "sentiment": "positive",
+      "positive_mentions": 7,
+      "negative_mentions": 2,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 5,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Pros:Display: The 16-inch 16:10 2 5K display is stunning, offering sharp, vibrant visuals with excellent color accuracy and ample screen real estate for multitasking or creative work",
+      "value": [
+        "standing screen display size: 16 Inches"
+      ]
+    },
+    {
+      "feature": "performance",
+      "sentiment": "positive",
+      "positive_mentions": 6,
+      "negative_mentions": 2,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 4,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Memory and Storage: With 16GB LPDDR5 RAM and a spacious 1TB SSD, the device ensures fast app performance and plenty of room for storing files, making it ideal for both work and leisure Ideal For:Professionals requiring a reliable, high-performance laptop for productivity tasks"
+    },
+    {
+      "feature": "software",
+      "sentiment": "positive",
+      "positive_mentions": 5,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 4,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Pros:Display: The 16-inch 16:10 2 Windows 11 Home: Pre-installed Windows 11 Home enhances usability with its modern interface and features optimized for productivity"
+    },
+    {
+      "feature": "design",
+      "sentiment": "positive",
+      "positive_mentions": 5,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 5,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Build Quality: The Ice Blue finish looks sleek and professional, while the overall build feels solid and premium Portability: The 16-inch size, while excellent for productivity, may feel bulky for those who frequently travel or prefer a lightweight device"
+    },
+    {
+      "feature": "storage",
+      "sentiment": "positive",
+      "positive_mentions": 3,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Memory and Storage: With 16GB LPDDR5 RAM and a spacious 1TB SSD, the device ensures fast app performance and plenty of room for storing files, making it ideal for both work and leisure General users looking for a premium device with ample storage and excellent build quality"
+    },
+    {
+      "feature": "price",
+      "sentiment": "positive",
+      "positive_mentions": 2,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Despite its minor drawbacks, it provides excellent value for those who need a versatile and reliable laptop Overall, this is a value for your money",
+      "value": [
+        "price usd: 819.0",
+        "price rs: 81389.95"
+      ]
+    },
+    {
+      "feature": "battery",
+      "sentiment": "mixed",
+      "positive_mentions": 1,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 0,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Other than that, if you\u2019re doing business work or schoolwork, the battery lasts for a long time The battery life only drains a bit faster when you\u2019re playing games, which is expected",
+      "value": [
+        "average battery life in hours: 964 minutes"
+      ]
+    },
+    {
+      "feature": "keyboard",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The chassis may be plastic, but the soft-touch and nearly silent, back-lit keyboard gives this piece a nice premium feel"
+    },
+    {
+      "feature": "trackpad",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The trackpad is decent, but not my thing, so I use a mouse"
+    }
+  ]
+}

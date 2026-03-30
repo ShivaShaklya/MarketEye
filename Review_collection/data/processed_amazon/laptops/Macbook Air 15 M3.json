@@ -1,0 +1,179 @@
+{
+  "asin": "B0DZDBDCFH",
+  "product": "Macbook Air 15 M3",
+  "features": [
+    {
+      "feature": "software",
+      "sentiment": "mixed",
+      "positive_mentions": 2,
+      "negative_mentions": 3,
+      "neutral_mentions": 4,
+      "mentions_total": 0,
+      "feature_score": -1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "MacOs is butter and I think Apple deserves greater market share in the computer space I lost $1,000 that day"
+    },
+    {
+      "feature": "battery",
+      "sentiment": "positive",
+      "positive_mentions": 3,
+      "negative_mentions": 1,
+      "neutral_mentions": 2,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "It stays cool no overheating issues hardly ever gets warm and the battery life is phenomenal I am so thankful they brought back the MagSafe charger, I haven\u2019t had anyone kick the cable and disconnect it from my laptop yet, but I have several small grandchildren, and it\u2019s nice to be prepared",
+      "value": [
+        "battery and power: ['Up to 18 hours video streaming', 'Up to 15 hours wireless web', 'Built-in 53.8-watt-hour lithium-polymer battery', '30W USB-C Power Adapter (included with M4 with 8-core GPU)', '35W Dual USB-C Port Compact Power Adapter (included with M4 with 10-core GPU; configurable with M4 with 8-core GPU)', 'USB-C to MagSafe 3 Cable', 'Fast-charge capable with 70W USB-C Power Adapter']"
+      ]
+    },
+    {
+      "feature": "display",
+      "sentiment": "positive",
+      "positive_mentions": 5,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 5,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "I bought this MacBook to replace an aging Windows laptop I had, and I\u2019ve been tickled to death with it\u2014the screen is plenty large, it\u2019s got plenty of RAM for everything I run concurrently (Internet, email, Microsoft Office, RustDesk), it only weighs a couple of pounds, and it seems like the battery just lasts for days (I typically use it for 30 minutes to 3 hours at a time) I bought the model with the 15 inch screen, 24 GB of RAM, and 500 GB SSD",
+      "value": [
+        "display: ['Liquid Retina display', '15.3-inch (diagonal) LED-backlit display with IPS technology; 2880-by-1864 native resolution at 224 pixels per inch', '500 nits brightness', 'Color', 'Support for 1 billion colors', 'Wide color (P3)', 'True Tone technology']",
+        "display support: ['Simultaneously supports full native resolution on the built-in display at 1 billion colors and:', 'Up to two external displays with up to 6K resolution at 60Hz', 'Thunderbolt 4 digital video output', 'Support for native DisplayPort 1.4 output over USB-C']"
+      ]
+    },
+    {
+      "feature": "design",
+      "sentiment": "positive",
+      "positive_mentions": 3,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 3,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The build quality is solid, and the design looks modern and professional The new 12MP Center Stage camera is a big upgrade for video calls, Touch ID works flawlessly, and the Midnight finish looks sleek and premium"
+    },
+    {
+      "feature": "connectivity",
+      "sentiment": "negative",
+      "positive_mentions": 0,
+      "negative_mentions": 2,
+      "neutral_mentions": 2,
+      "mentions_total": 0,
+      "feature_score": -2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The charging brick has two USB-C ports on it, so I can plug in a charging cable for my phone as well The laptop has two USB-C ports as well as a 1/8 inch audio jack"
+    },
+    {
+      "feature": "performance",
+      "sentiment": "positive",
+      "positive_mentions": 3,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 3,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The performance is fast and smooth, and it handles daily tasks and multitasking without any issues Performance is incredibly fast and smooth\u2014everything from multitasking to creative work feels effortless"
+    },
+    {
+      "feature": "storage",
+      "sentiment": "positive",
+      "positive_mentions": 2,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "I bought this MacBook to replace an aging Windows laptop I had, and I\u2019ve been tickled to death with it\u2014the screen is plenty large, it\u2019s got plenty of RAM for everything I run concurrently (Internet, email, Microsoft Office, RustDesk), it only weighs a couple of pounds, and it seems like the battery just lasts for days (I typically use it for 30 minutes to 3 hours at a time) With 16GB of unified memory, the system stays responsive even with multiple apps open, and the 256GB SSD delivers quick boot times and fast file access"
+    },
+    {
+      "feature": "price",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Great value for the price",
+      "value": [
+        "price usd: 999.0",
+        "price rs: 107901"
+      ]
+    },
+    {
+      "feature": "thermals",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "It stays cool no overheating issues hardly ever gets warm and the battery life is phenomenal"
+    },
+    {
+      "feature": "keyboard",
+      "sentiment": "negative",
+      "positive_mentions": 0,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": -1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The screen as I mentioned in my other review on the 13inch version can be damaged by debris if you don't clean your keyboard and screen before closing because it's a tight space between the screen and the keyboard when close",
+      "value": [
+        "keyboard and trackpad: ['Backlit Magic Keyboard with:', '78 (U.S.) or 79 (ISO) keys including 12 full-height function keys and 4 arrow keys in an inverted-T arrangement', 'Touch ID', 'Ambient light sensor', 'Force Touch trackpad for precise cursor control and pressure-sensing capabilities; enables Force clicks, accelerators, pressure-sensitive drawing, and Multi-Touch gestures']"
+      ]
+    },
+    {
+      "feature": "speaker",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The laptop has two USB-C ports as well as a 1/8 inch audio jack"
+    },
+    {
+      "feature": "trackpad",
+      "sentiment": "negative",
+      "positive_mentions": 0,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": -1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "I think the only thing I don\u2019t love about this laptop is the trackpad: it is nice and large, and has left and right click, but I just don\u2019t like the feel of it, though to be honest, I don\u2019t like the feel of trackpads in general \u2013 \u2013 I miss the track stick that was on my work-issued Lenovo laptop",
+      "value": [
+        "keyboard and trackpad: ['Backlit Magic Keyboard with:', '78 (U.S.) or 79 (ISO) keys including 12 full-height function keys and 4 arrow keys in an inverted-T arrangement', 'Touch ID', 'Ambient light sensor', 'Force Touch trackpad for precise cursor control and pressure-sensing capabilities; enables Force clicks, accelerators, pressure-sensitive drawing, and Multi-Touch gestures']"
+      ]
+    },
+    {
+      "feature": "fan_noise",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "It is fast, silent due to not having a fan, and just a joy to use"
+    }
+  ]
+}

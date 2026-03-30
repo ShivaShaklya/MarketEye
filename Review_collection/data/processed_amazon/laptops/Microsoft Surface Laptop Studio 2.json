@@ -1,0 +1,124 @@
+{
+  "asin": "B0DZBMVVLT",
+  "product": "Microsoft Surface Laptop Studio 2",
+  "features": [
+    {
+      "feature": "software",
+      "sentiment": "mixed",
+      "positive_mentions": 4,
+      "negative_mentions": 3,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "But if you're a Windows person this is a solid choice The keyboard and trackpad frequently freeze at the same time, the cursor disappears, Windows Settings hangs while loading, system and firmware updates repeatedly fail, my desktop background resets on its own, and now Microsoft Word files are being automatically sent to the Recycle Bin the moment I open them without me deleting anything"
+    },
+    {
+      "feature": "price",
+      "sentiment": "positive",
+      "positive_mentions": 4,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 4,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "( ignore how dirty it is i have 3 kids ) IT IS The BEST laptop for any college student!!!! I am currently in a healthcare program and the storage has been great so far and love it more than my macbook air!for the price you can\u2019t beat it and is very quick when i\u2019m flipping to different docs or websites! it\u2019s also super sleek and durable After my daughter graduated high school and no longer had her school-issued Chromebook, this laptop was the perfect replacement! With the sale price offered, I was skeptical",
+      "value": [
+        "price usd: 849.99",
+        "price rs: 74000"
+      ]
+    },
+    {
+      "feature": "battery",
+      "sentiment": "positive",
+      "positive_mentions": 3,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "I love how long the battery lasts The screen is bright and clear, the battery lasts for her and there have been no hiccups with the memory capacity while she uses many different functions",
+      "value": [
+        "average battery life in hours: 23 Hours"
+      ]
+    },
+    {
+      "feature": "design",
+      "sentiment": "positive",
+      "positive_mentions": 3,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 3,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "This is a well built computer designed to compete with a MacBook Air and its price category Good product, minimalist and nice design"
+    },
+    {
+      "feature": "storage",
+      "sentiment": "positive",
+      "positive_mentions": 2,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "( ignore how dirty it is i have 3 kids ) IT IS The BEST laptop for any college student!!!! I am currently in a healthcare program and the storage has been great so far and love it more than my macbook air!for the price you can\u2019t beat it and is very quick when i\u2019m flipping to different docs or websites! it\u2019s also super sleek and durable The screen is bright and clear, the battery lasts for her and there have been no hiccups with the memory capacity while she uses many different functions"
+    },
+    {
+      "feature": "display",
+      "sentiment": "positive",
+      "positive_mentions": 2,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The screen is bright and clear, the battery lasts for her and there have been no hiccups with the memory capacity while she uses many different functions I got it for my wife who really depends on the touchscreen so that is the main attraction",
+      "value": [
+        "standing screen display size: 13 Inches"
+      ]
+    },
+    {
+      "feature": "fan_noise",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Battery life is fantastic and it's lightweight"
+    },
+    {
+      "feature": "keyboard",
+      "sentiment": "mixed",
+      "positive_mentions": 0,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 0,
+      "source": "amazon",
+      "type": "review",
+      "evidence": ""
+    },
+    {
+      "feature": "trackpad",
+      "sentiment": "negative",
+      "positive_mentions": 0,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": -1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The keyboard and trackpad frequently freeze at the same time, the cursor disappears, Windows Settings hangs while loading, system and firmware updates repeatedly fail, my desktop background resets on its own, and now Microsoft Word files are being automatically sent to the Recycle Bin the moment I open them without me deleting anything"
+    }
+  ]
+}

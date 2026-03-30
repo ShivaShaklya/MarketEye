@@ -1,0 +1,81 @@
+{
+  "asin": "B0C5B736X3",
+  "product": "Samsung Galaxy S23",
+  "features": [
+    {
+      "feature": "price",
+      "sentiment": "positive",
+      "positive_mentions": 2,
+      "negative_mentions": 0,
+      "neutral_mentions": 4,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The quality is actually impressive for the price. This is the best phone for this price range.",
+      "value": [
+        "price usd: 241.06",
+        "price rs: 63999"
+      ]
+    },
+    {
+      "feature": "battery",
+      "sentiment": "positive",
+      "positive_mentions": 3,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Battery life is solid and everything runs like it should. Battery life is still exceptional, screen has zero scratches and there is minimal scratches on the body of the phone.",
+      "value": [
+        "battery power rating: 3900 Milliamp Hours",
+        "battery capacity: 3900 Milliamp Hours"
+      ]
+    },
+    {
+      "feature": "design",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Battery life is still exceptional, screen has zero scratches and there is minimal scratches on the body of the phone. A couple very minor dings around the rim of the phone body,"
+    },
+    {
+      "feature": "camera",
+      "sentiment": "negative",
+      "positive_mentions": 0,
+      "negative_mentions": 2,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": -2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The only issue I have is that around one of the camera lenses there appears to be a small crack, Then, come to find out, the camera was non-operational.",
+      "value": [
+        "other camera features: Front"
+      ]
+    },
+    {
+      "feature": "display",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Battery life is still exceptional, screen has zero scratches and there is minimal scratches on the body of the phone.",
+      "value": [
+        "other display features: Wireless",
+        "standing screen display size: 6.1 Inches"
+      ]
+    }
+  ]
+}

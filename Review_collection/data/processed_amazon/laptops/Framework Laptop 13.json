@@ -1,0 +1,128 @@
+{
+  "asin": "B0DZD9NV7L",
+  "product": "Framework Laptop 13",
+  "features": [
+    {
+      "feature": "software",
+      "sentiment": "positive",
+      "positive_mentions": 5,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 4,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Excellent choice for a laptop, cost-effective, reliable, well-built, Apple-quality, no brainer I've been around the block with many different portables, including Surface Pros, ThinkPads, and others"
+    },
+    {
+      "feature": "display",
+      "sentiment": "positive",
+      "positive_mentions": 3,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 3,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The processor is lighting fast, the display is gorgeous and the size is perfect for toting around I love this computer, does not have a touch screen",
+      "value": [
+        "display: ['Liquid Retina display', '13.6-inch (diagonal) LED-backlit display with IPS technology; 2560-by-1664 native resolution at 224 pixels per inch', '500 nits brightness', 'Color', 'Support for 1 billion colors', 'Wide color (P3)', 'True Tone technology']",
+        "display support: ['Simultaneously supports full native resolution on the built-in display at 1 billion colors and:', 'Up to two external displays with up to 6K resolution at 60Hz', 'Thunderbolt 4 digital video output', 'Support for native DisplayPort 1.4 output over USB-C']"
+      ]
+    },
+    {
+      "feature": "performance",
+      "sentiment": "positive",
+      "positive_mentions": 3,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 3,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The processor is lighting fast, the display is gorgeous and the size is perfect for toting around The MacBook is a perfect mix of style and performance"
+    },
+    {
+      "feature": "storage",
+      "sentiment": "positive",
+      "positive_mentions": 3,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 3,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "This latest MacBook Air is able to do what I need it to do, and has plenty of storage capacity I haven\u2019t tried the gaming part but runs fast and slim and has plenty of storage"
+    },
+    {
+      "feature": "price",
+      "sentiment": "positive",
+      "positive_mentions": 2,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Excellent choice for a laptop, cost-effective, reliable, well-built, Apple-quality, no brainer For the price, I just don't think you can come close to beating a MacBook",
+      "value": [
+        "price usd: 999.0",
+        "price rs: 279990"
+      ]
+    },
+    {
+      "feature": "battery",
+      "sentiment": "positive",
+      "positive_mentions": 2,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "I have not had to keep this laptop charged up often as the battery seems to last for an extremely long time! Highly recommend Its lightweight design, sharp Retina display, and long battery life make it ideal for work or everyday use",
+      "value": [
+        "battery and power: ['Up to 18 hours video streaming', 'Up to 15 hours wireless web', 'Built-in 53.8-watt-hour lithium-polymer battery', '30W USB-C Power Adapter (included with M4 with 8-core GPU)', '35W Dual USB-C Port Compact Power Adapter (included with M4 with 10-core GPU; configurable with M4 with 8-core GPU)', 'USB-C to MagSafe 3 Cable', 'Fast-charge capable with 70W USB-C Power Adapter']"
+      ]
+    },
+    {
+      "feature": "design",
+      "sentiment": "positive",
+      "positive_mentions": 2,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "It's very light weight, making it super portable Its lightweight design, sharp Retina display, and long battery life make it ideal for work or everyday use"
+    },
+    {
+      "feature": "keyboard",
+      "sentiment": "positive",
+      "positive_mentions": 2,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "But the functionality, keyboard feel and quality was amazing Easy to set up with your iPhone and the backlit keyboard is great",
+      "value": [
+        "keyboard and trackpad: ['Backlit Magic Keyboard with:', '78 (U.S.) or 79 (ISO) keys including 12 full-height function keys and 4 arrow keys in an inverted-T arrangement', 'Touch ID', 'Ambient light sensor', 'Force Touch trackpad for precise cursor control and pressure-sensing capabilities; enables Force clicks, accelerators, pressure-sensitive drawing, and Multi-Touch gestures']"
+      ]
+    },
+    {
+      "feature": "fan_noise",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The M1 is still a fantastic workhorse that can do almost anything most people need to do"
+    }
+  ]
+}
