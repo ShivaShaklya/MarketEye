@@ -3,8 +3,6 @@ import os
 import chromadb
 from sentence_transformers import SentenceTransformer
 
-# Integrate amazon reviews and add weights - amazon reviews pending
-# Put category (laptop, smartphone) as a filter in the retrieval step
 # understand how scoring is being done
 # Rag Validation
 
