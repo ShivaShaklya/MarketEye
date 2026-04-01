@@ -1,0 +1,168 @@
+{
+  "asin": "B0CKLVTDWN",
+  "product": "Oneplus Nord 3",
+  "features": [
+    {
+      "feature": "battery",
+      "sentiment": "positive",
+      "positive_mentions": 8,
+      "negative_mentions": 2,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 6,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "It offers battery saving mode and a super battery saving mode. it really holds a charge well when sitting idle.",
+      "value": [
+        "battery power rating: 5000 Milliamp Hours",
+        "battery capacity: 5000 Milliamp Hours"
+      ]
+    },
+    {
+      "feature": "price",
+      "sentiment": "positive",
+      "positive_mentions": 5,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 5,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "not great price (if you are buying new). I love the price.",
+      "value": [
+        "price usd: 119.99",
+        "price rs: 2299"
+      ]
+    },
+    {
+      "feature": "network",
+      "sentiment": "positive",
+      "positive_mentions": 3,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "I'm using the phone on T-Mobile's network just fine. At home I'm able to connect to a public WiFi hotspot for $10 a month and this phone enables me to tether off of that network and have my own hotspot with great signal."
+    },
+    {
+      "feature": "software",
+      "sentiment": "positive",
+      "positive_mentions": 2,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The OxygenOS is pretty nice; it has some nice features and additions that don't come in a stock Android build. The software reports 100% battery life (basically saying it has the same battery capacity as the listed mAh for a new battery.)The screen was very blue shifted from any of my other devices."
+    },
+    {
+      "feature": "storage",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 2,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "I do like that it offers the ability to allocate 8GB of storage to RAM. Granted using storage as RAM won't be quite as fast as dedicated RAM",
+      "value": [
+        "memory storage capacity: 128 GB"
+      ]
+    },
+    {
+      "feature": "speaker",
+      "sentiment": "mixed",
+      "positive_mentions": 0,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 0,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "that could be what they sound like from stock, hard to tell."
+    },
+    {
+      "feature": "display",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The software reports 100% battery life (basically saying it has the same battery capacity as the listed mAh for a new battery.)The screen was very blue shifted from any of my other devices.",
+      "value": [
+        "other display features: Wireless",
+        "standing screen display size: 6.72 Inches"
+      ]
+    },
+    {
+      "feature": "thermals",
+      "sentiment": "mixed",
+      "positive_mentions": 0,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 0,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The color can be adjusted in the settings to have a higher color temperature anyways, so it is not a big deal."
+    },
+    {
+      "feature": "fingerprint",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The face recognition and fingerprint reader work great."
+    },
+    {
+      "feature": "camera",
+      "sentiment": "negative",
+      "positive_mentions": 0,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": -1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The camera lacks a little bit in darker environments and situations with a lot of movement in the shot.",
+      "value": [
+        "other camera features: Front, Rear"
+      ]
+    },
+    {
+      "feature": "design",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The OxygenOS is pretty nice; it has some nice features and additions that don't come in a stock Android build."
+    },
+    {
+      "feature": "performance",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "I ordered a replacement OnePlus charger from Amazon so I can take advantage of the high-speed charging capabilities of this phone (waiting for it to arrive)."
+    }
+  ]
+}

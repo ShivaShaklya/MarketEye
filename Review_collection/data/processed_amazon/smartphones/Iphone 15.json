@@ -1,0 +1,60 @@
+{
+  "asin": "B0CMPMY9ZZ",
+  "product": "Iphone 15",
+  "features": [
+    {
+      "feature": "battery",
+      "sentiment": "positive",
+      "positive_mentions": 4,
+      "negative_mentions": 1,
+      "neutral_mentions": 2,
+      "mentions_total": 0,
+      "feature_score": 3,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Holds charge well, and runs smoothly too. Battery health is at 100% and super easy to set up and transfer from my iPhone 12.",
+      "value": [
+        "battery capacity: 3349 Milliamp Hours",
+        "battery description: Lithium-Ion",
+        "battery power: 3349 Milliamp Hours",
+        "battery average life: 20 Hours"
+      ]
+    },
+    {
+      "feature": "display",
+      "sentiment": "mixed",
+      "positive_mentions": 2,
+      "negative_mentions": 1,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "This is such an upgrade in camera, look and even size of the screen and for under $400, this was a great deal! So far I give it a 5 stars the battery was at 100% no visible scratches on the screen camera seems perfect everything is as if it\u2019s brand new !",
+      "value": [
+        "display type: OLED",
+        "display resolution maximum: 2556 X 1179 Pixels",
+        "display pixel density: 460 Pixels Per Inch (PPI)"
+      ]
+    },
+    {
+      "feature": "camera",
+      "sentiment": "positive",
+      "positive_mentions": 3,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 3,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "This is such an upgrade in camera, look and even size of the screen and for under $400, this was a great deal! So far I give it a 5 stars the battery was at 100% no visible scratches on the screen camera seems perfect everything is as if it\u2019s brand new !",
+      "value": [
+        "rear facing camera photo sensor resolution: 48 MP",
+        "camera description: Front, Rear",
+        "camera flash: LED",
+        "number of rear facing cameras: 2",
+        "number of front cameras: 1"
+      ]
+    }
+  ]
+}

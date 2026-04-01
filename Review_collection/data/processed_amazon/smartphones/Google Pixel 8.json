@@ -1,0 +1,93 @@
+{
+  "asin": "B0CVYKL34H",
+  "product": "Google Pixel 8",
+  "features": [
+    {
+      "feature": "battery",
+      "sentiment": "positive",
+      "positive_mentions": 4,
+      "negative_mentions": 1,
+      "neutral_mentions": 3,
+      "mentions_total": 0,
+      "feature_score": 3,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "As with every Google phone, the battery life is great, the screen is bright and clear, and it takes great quality photos. If you get lucky with a good unit, the battery is smaller than other phones of the same size",
+      "value": [
+        "battery power rating: 4575 Milliamp Hours",
+        "battery capacity: 4575 Milliamp Hours"
+      ]
+    },
+    {
+      "feature": "camera",
+      "sentiment": "positive",
+      "positive_mentions": 4,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 3,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "One last thing you might want to be informed of is that the camera on the back is very good The Pixel 8 is a decently fast phone with a great camera, and it's one of the few high-end options available in the under 6.5\" range.",
+      "value": [
+        "other camera features: Front, Rear"
+      ]
+    },
+    {
+      "feature": "display",
+      "sentiment": "positive",
+      "positive_mentions": 2,
+      "negative_mentions": 0,
+      "neutral_mentions": 3,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "As with every Google phone, the battery life is great, the screen is bright and clear, and it takes great quality photos. The fingerprint sensor works well, even with a screen protector.",
+      "value": [
+        "other display features: Wireless",
+        "standing screen display size: 6.2 Inches"
+      ]
+    },
+    {
+      "feature": "price",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "All that being said I recommend this phone to any one looking for a flagship level phone for a low price",
+      "value": [
+        "price usd: 269.99",
+        "price rs: 49999"
+      ]
+    },
+    {
+      "feature": "fingerprint",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The fingerprint sensor works well, even with a screen protector."
+    },
+    {
+      "feature": "software",
+      "sentiment": "mixed",
+      "positive_mentions": 0,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 0,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "It'll also get Android updates until 2030.However, I did have some issues with my refurb unit."
+    }
+  ]
+}

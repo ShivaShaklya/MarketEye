@@ -1,0 +1,96 @@
+{
+  "asin": "B0BDY71GRG",
+  "product": "Iphone Se 2022",
+  "features": [
+    {
+      "feature": "battery",
+      "sentiment": "mixed",
+      "positive_mentions": 6,
+      "negative_mentions": 5,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Also received a usb/lightning charging cable that looked like new. I was especially surprised to see the battery health at 92%; it looks brand new with no scratches or damage at all.",
+      "value": [
+        "battery capacity: 2018 Milliamp Hours",
+        "battery description: Lithium-Ion",
+        "battery power: 2018 Milliamp Hours",
+        "battery average life: 15 Hours"
+      ]
+    },
+    {
+      "feature": "display",
+      "sentiment": "negative",
+      "positive_mentions": 0,
+      "negative_mentions": 3,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": -3,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "There are scuffs on three corners, scratches front and back, and little pits on the screen, along with the general wear that happens to a screen. This is my second attempt to purchase a used iphone through amazon - the first time, the device screen display was glitchy, and even with free returns it takes time and resources to print out the shipping labels/repackage the product/find a drop-off point, and sellers do not refund initial product shipping fees.",
+      "value": [
+        "display type: OLED",
+        "display resolution maximum: 750 x 1334 Pixels",
+        "display pixel density: 460 Pixels Per Inch (PPI)"
+      ]
+    },
+    {
+      "feature": "software",
+      "sentiment": "positive",
+      "positive_mentions": 2,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "This phone is well built, fast so it runs IOS 26 well, and is a joy to use. I prefer Android,"
+    },
+    {
+      "feature": "camera",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Bought this phone recently as a spare device for a vacation trip - was able to add an eSim easily, and take lots of beautiful photos with the camera.",
+      "value": [
+        "camera description: Front"
+      ]
+    },
+    {
+      "feature": "performance",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "given the performance so far, and price of this product at time of purchase compared to the next lowest cost option from apple, for about 1/3 the cost I think this was a very solid purchase."
+    },
+    {
+      "feature": "price",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "given the performance so far, and price of this product at time of purchase compared to the next lowest cost option from apple, for about 1/3 the cost I think this was a very solid purchase.",
+      "value": [
+        "price usd: 138.0",
+        "price rs: 14499"
+      ]
+    }
+  ]
+}

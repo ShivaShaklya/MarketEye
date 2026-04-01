@@ -1,0 +1,169 @@
+{
+  "asin": "B0F195W823",
+  "product": "Acer Nitro 5",
+  "features": [
+    {
+      "feature": "battery",
+      "sentiment": "positive",
+      "positive_mentions": 4,
+      "negative_mentions": 1,
+      "neutral_mentions": 2,
+      "mentions_total": 0,
+      "feature_score": 3,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "this laptop has a smaller capacity 75wH battery than my old laptop which had a 96wH battery, I find that this laptop can outlast my old laptop due to its efficiency and with all the power saving settings I enabled. Haven\u2019t experienced the fan noise issue mentioned by some, and am pretty happy with the battery life as well."
+    },
+    {
+      "feature": "performance",
+      "sentiment": "positive",
+      "positive_mentions": 3,
+      "negative_mentions": 0,
+      "neutral_mentions": 4,
+      "mentions_total": 0,
+      "feature_score": 3,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "This Ryzen 7 CPU is very efficient while being powerful and 32GB of DDR5 RAM keeps things running smoothly. When I am plugged into a charger, this laptop gives me an 8GB 5060 RTX GPU to use for smooth 1080p gaming if I ever have a need to, which is awesome."
+    },
+    {
+      "feature": "storage",
+      "sentiment": "positive",
+      "positive_mentions": 3,
+      "negative_mentions": 1,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The 5060, Ryzen 7, and WD SSD drive all work well together.* This Ryzen 7 CPU is very efficient while being powerful and 32GB of DDR5 RAM keeps things running smoothly."
+    },
+    {
+      "feature": "display",
+      "sentiment": "mixed",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 4,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "This is good for my needs to have a larger screen for coding than my old 15.6\" laptop. Has been a good laptop my only real complaint about it is the screen is more square not a true 16:9",
+      "value": [
+        "standing screen display size: 16 Inches"
+      ]
+    },
+    {
+      "feature": "price",
+      "sentiment": "positive",
+      "positive_mentions": 3,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Reasonable price and good component value. the price was good if I did more gaming on it might concern me",
+      "value": [
+        "price usd: 1199.99",
+        "price rs: 68999"
+      ]
+    },
+    {
+      "feature": "design",
+      "sentiment": "positive",
+      "positive_mentions": 3,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 3,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "I think this laptop has a good balance of weight overall. Esthetically pleasing and the build quality is great."
+    },
+    {
+      "feature": "fan_noise",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 2,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Haven\u2019t experienced the fan noise issue mentioned by some, and am pretty happy with the battery life as well. Now I have *ZERO* fan noise or heat even when doing some fairly intensive work with AI LLMs while simultaneously coding with VS Code and using a web browser."
+    },
+    {
+      "feature": "software",
+      "sentiment": "negative",
+      "positive_mentions": 0,
+      "negative_mentions": 1,
+      "neutral_mentions": 2,
+      "mentions_total": 0,
+      "feature_score": -1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Usual annoying bloatware that needs deletion, including world's worst AV software (McFluffy). I did this in Windows Control Panel and set Windows power mode to \"most efficient\" and enabled ECO mode in the pre-installed Acer NitroSense software which I set to be automatically enabled whenever it's on battery and not plugged into a charger."
+    },
+    {
+      "feature": "connectivity",
+      "sentiment": "mixed",
+      "positive_mentions": 0,
+      "negative_mentions": 0,
+      "neutral_mentions": 2,
+      "mentions_total": 0,
+      "feature_score": 0,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "3 3.2 USB As, 1 USB 4.0 C, 1 HDMI, SD card reader, headphone jack. of being universally USB-C charge compatible anyway."
+    },
+    {
+      "feature": "speaker",
+      "sentiment": "negative",
+      "positive_mentions": 0,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": -1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Also of note, at the end of that test, the fans do not sound like Blackhawk helicopters under military power, an annoying characteristic that both my older Asus and older HP Omen had."
+    },
+    {
+      "feature": "keyboard",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "I enjoy the keyboard on this laptop a lot."
+    },
+    {
+      "feature": "trackpad",
+      "sentiment": "negative",
+      "positive_mentions": 0,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": -1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "If you have large arms and hands, I think the placement of the touchpad may be awkward for you because it is offset to the left and your left hand may brush the touchpad while typing."
+    },
+    {
+      "feature": "thermals",
+      "sentiment": "mixed",
+      "positive_mentions": 0,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 0,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Now I have *ZERO* fan noise or heat even when doing some fairly intensive work with AI LLMs while simultaneously coding with VS Code and using a web browser."
+    }
+  ]
+}

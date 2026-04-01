@@ -1,0 +1,121 @@
+{
+  "asin": "B0D1KQTFT4",
+  "product": "Alienware X16",
+  "features": [
+    {
+      "feature": "display",
+      "sentiment": "mixed",
+      "positive_mentions": 3,
+      "negative_mentions": 2,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "And in my home with normal outdoor light coming in, I have no issues with the brightness. Display is nice, all text is clear and colors are good.",
+      "value": [
+        "standing screen display size: 16 Inches"
+      ]
+    },
+    {
+      "feature": "design",
+      "sentiment": "positive",
+      "positive_mentions": 4,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 4,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Now, for value, you can definitely get better values out there, for example HP Omens gaming laptops, BUT, I love the design of this brand for a while and particularly this year. Good design."
+    },
+    {
+      "feature": "software",
+      "sentiment": "negative",
+      "positive_mentions": 0,
+      "negative_mentions": 1,
+      "neutral_mentions": 2,
+      "mentions_total": 0,
+      "feature_score": -1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "It didn't last for 2 weeks before the system stopped charging itself and shut down. Also note it has Windows 11, if you don't want to make an online account just to use your computer, you have to use Terminal to reactivate the Local Account button during the setup stage."
+    },
+    {
+      "feature": "keyboard",
+      "sentiment": "positive",
+      "positive_mentions": 3,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 3,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Keys are clear and not blinding like most RGB backlits. Keys feel great."
+    },
+    {
+      "feature": "battery",
+      "sentiment": "positive",
+      "positive_mentions": 2,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Battery life is quite good. The battery health seems good,"
+    },
+    {
+      "feature": "performance",
+      "sentiment": "negative",
+      "positive_mentions": 0,
+      "negative_mentions": 1,
+      "neutral_mentions": 2,
+      "mentions_total": 0,
+      "feature_score": -1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Ugh.-The hard drive and CPU are fine, so is the RAM because it's soldered to the motherboard. I hooked it up to a 34-inch ultrawide monitor (3440x1440), the RTX 4080, Ultra 9 185H CPU, and 32GB RAM play almost every game at max settings with smooth FPS."
+    },
+    {
+      "feature": "connectivity",
+      "sentiment": "negative",
+      "positive_mentions": 0,
+      "negative_mentions": 1,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": -1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "2 usb 2 usb c, this is the only downside. All ports in back."
+    },
+    {
+      "feature": "price",
+      "sentiment": "mixed",
+      "positive_mentions": 1,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 0,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Now, for value, you can definitely get better values out there, for example HP Omens gaming laptops, BUT, I love the design of this brand for a while and particularly this year. offical Dell support.)So anyway, if you paid almost $2000 for this used laptop, go ahead and be angry, that's a poor value.",
+      "value": [
+        "price usd: 1760.92",
+        "price rs: 214189.24"
+      ]
+    },
+    {
+      "feature": "storage",
+      "sentiment": "negative",
+      "positive_mentions": 0,
+      "negative_mentions": 1,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": -1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Ugh.-The hard drive and CPU are fine, so is the RAM because it's soldered to the motherboard. I hooked it up to a 34-inch ultrawide monitor (3440x1440), the RTX 4080, Ultra 9 185H CPU, and 32GB RAM play almost every game at max settings with smooth FPS."
+    }
+  ]
+}

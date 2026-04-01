@@ -1,0 +1,93 @@
+{
+  "asin": "B0CWHGBWL6",
+  "product": "Alienware M18",
+  "features": [
+    {
+      "feature": "software",
+      "sentiment": "mixed",
+      "positive_mentions": 1,
+      "negative_mentions": 2,
+      "neutral_mentions": 2,
+      "mentions_total": 0,
+      "feature_score": -1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Ive updated game, cleared appdata, updated drivers, and even FACTORY RESET. Ive contacted the game - they cant find an issue on their end - I've contacted Microsoft - they cant find a problem - Ive contacted DELL they tried to help - I even paid the $99 for additional software support and after 3 hours they say I need to send it in bc its still w/in warranty."
+    },
+    {
+      "feature": "display",
+      "sentiment": "negative",
+      "positive_mentions": 1,
+      "negative_mentions": 2,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": -1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "A very fast laptop with a large 18 inch 4k screen, enough power to play any game at max settings. I started it up - the screen flickered a few times - then the ALIENWARE logo wouldn't come on when booted.",
+      "value": [
+        "standing screen display size: 18 Inches"
+      ]
+    },
+    {
+      "feature": "performance",
+      "sentiment": "negative",
+      "positive_mentions": 0,
+      "negative_mentions": 1,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": -1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "This labtop is better off on \u201cHIGH\u201d don\u2019t use ultra performance mode unless you want to melt your labtop and overheat yourself with the hot ass air. When playing graphic heavy games the laptop switches to performance mode and turns on extra fans that really move the air and keeps it from getting too hot."
+    },
+    {
+      "feature": "connectivity",
+      "sentiment": "negative",
+      "positive_mentions": 0,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": -1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Ran into some issues with Bluetooth error and alt+tab disabling itself after setup"
+    },
+    {
+      "feature": "speaker",
+      "sentiment": "negative",
+      "positive_mentions": 0,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": -1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The kind tech came to my house did his job - left my house - and guess what now NVIDIA driver doesnt work at all - no video card works no sound card - its a gaming pc"
+    },
+    {
+      "feature": "thermals",
+      "sentiment": "negative",
+      "positive_mentions": 0,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": -1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "This labtop is better off on \u201cHIGH\u201d don\u2019t use ultra performance mode unless you want to melt your labtop and overheat yourself with the hot ass air."
+    },
+    {
+      "feature": "fan_noise",
+      "sentiment": "mixed",
+      "positive_mentions": 0,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 0,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "This laptop might get a little 'loud'"
+    }
+  ]
+}

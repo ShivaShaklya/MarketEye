@@ -1,0 +1,112 @@
+{
+  "asin": "B0F1Z394D9",
+  "product": "Lg Gram Pro 16",
+  "features": [
+    {
+      "feature": "display",
+      "sentiment": "positive",
+      "positive_mentions": 5,
+      "negative_mentions": 1,
+      "neutral_mentions": 4,
+      "mentions_total": 0,
+      "feature_score": 4,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Very fast, lightweight and screen viewing quality is very good. The OLED screen is great.",
+      "value": [
+        "standing screen display size: 16 Inches"
+      ]
+    },
+    {
+      "feature": "keyboard",
+      "sentiment": "negative",
+      "positive_mentions": 1,
+      "negative_mentions": 3,
+      "neutral_mentions": 3,
+      "mentions_total": 0,
+      "feature_score": -2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The keys backlight is easy enough to toggle on/off. the keys are hard to see if the room gets even low light (white on white)."
+    },
+    {
+      "feature": "design",
+      "sentiment": "positive",
+      "positive_mentions": 4,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 4,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "It's impossibly light weight, the screen is super sharp, and the battery lasts a full workday. light weight, long battery life and fast"
+    },
+    {
+      "feature": "battery",
+      "sentiment": "positive",
+      "positive_mentions": 4,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 4,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Battery life is excellent, light weight, long battery life and fast",
+      "value": [
+        "average battery life in hours: 19.5 Hours"
+      ]
+    },
+    {
+      "feature": "performance",
+      "sentiment": "positive",
+      "positive_mentions": 3,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 3,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "I'm happy with the performance. The speed is as good or better than my current desktop 'workhorse'."
+    },
+    {
+      "feature": "price",
+      "sentiment": "positive",
+      "positive_mentions": 3,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 3,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "I got this machine in white as it was offered at a great price. I shopped around and found a relatively good price on Amazon that turned out to be $100 less than later \"black Friday\" prices on it,",
+      "value": [
+        "price usd: 1494.99",
+        "price rs: 154990"
+      ]
+    },
+    {
+      "feature": "storage",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 2,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "In my old HP laptop, I could open the cover (without tools!) and change the battery, drive, memory, plus clean out dust. I don't run games or memory hog apps, mainly just a browser with several open tabs."
+    },
+    {
+      "feature": "speaker",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Sound is also very adequate,"
+    }
+  ]
+}

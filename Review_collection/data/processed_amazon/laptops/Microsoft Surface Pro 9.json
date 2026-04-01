@@ -1,0 +1,48 @@
+{
+  "asin": "B0CXN7JB7G",
+  "product": "Microsoft Surface Pro 9",
+  "features": [
+    {
+      "feature": "software",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Best service, Brought this with Windows home edition. mine came as a simple home system."
+    },
+    {
+      "feature": "display",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The touch screen and size works almost like an Ipad. Screen just went black, not a tech so don\u2019t know.",
+      "value": [
+        "standing screen display size: 13.3 Inches"
+      ]
+    },
+    {
+      "feature": "battery",
+      "sentiment": "mixed",
+      "positive_mentions": 0,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 0,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "does sometimes doesn\u2019t charge despite being lit up.",
+      "value": [
+        "average battery life in hours: 15.5 Hours"
+      ]
+    }
+  ]
+}

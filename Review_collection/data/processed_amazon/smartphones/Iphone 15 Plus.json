@@ -1,0 +1,89 @@
+{
+  "asin": "B0CMT4XDSC",
+  "product": "Iphone 15 Plus",
+  "features": [
+    {
+      "feature": "battery",
+      "sentiment": "positive",
+      "positive_mentions": 8,
+      "negative_mentions": 2,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 6,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Battery life was good and very easy to setup with my carrier. Battery lasts longer.the camera works well",
+      "value": [
+        "battery power rating: 16.95 Watt Hours",
+        "battery capacity: 4383 Milliamp Hours"
+      ]
+    },
+    {
+      "feature": "camera",
+      "sentiment": "positive",
+      "positive_mentions": 3,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 3,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The camera is definitely an improvement from my XS and I\u2019m very happy with the investment I made to get this phone. Battery lasts longer.the camera works well",
+      "value": [
+        "other camera features: Front, Rear"
+      ]
+    },
+    {
+      "feature": "performance",
+      "sentiment": "positive",
+      "positive_mentions": 2,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "i\u2019m currently typing this review on it, and so far there\u2019s no performance issues at all. The processing speed is great ."
+    },
+    {
+      "feature": "software",
+      "sentiment": "mixed",
+      "positive_mentions": 0,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 0,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "it did not come updated to the latest iOS, it\u2019s on 18 point something,"
+    },
+    {
+      "feature": "speaker",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "it does not have a sim card slot.the color is perfect, sound quality is night and day compared to my old phone (iphone 12) and everything works super well!"
+    },
+    {
+      "feature": "display",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "It came with a screen protector and got here in 4 days!",
+      "value": [
+        "other display features: Wireless",
+        "standing screen display size: 6.7 Inches"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "asin": "B0CMZDBVWT",
+  "product": "Iphone 15 Pro Max",
+  "features": [
+    {
+      "feature": "battery",
+      "sentiment": "positive",
+      "positive_mentions": 7,
+      "negative_mentions": 0,
+      "neutral_mentions": 3,
+      "mentions_total": 0,
+      "feature_score": 7,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Battery health is at 86% with a relatively high cycle count, which is still within Amazon Renewed standards. The performance is super fast, the camera quality is amazing as expected and the battery life has been great for daily use.",
+      "value": [
+        "battery capacity: 4422 Milliamp Hours",
+        "battery description: Lithium-Ion",
+        "battery power: 3600 Amp Hours",
+        "battery average life: 20 Hours"
+      ]
+    },
+    {
+      "feature": "display",
+      "sentiment": "positive",
+      "positive_mentions": 3,
+      "negative_mentions": 0,
+      "neutral_mentions": 4,
+      "mentions_total": 0,
+      "feature_score": 3,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The screen, frame, and camera lenses are in great shape, with only a very slight cosmetic mark that\u2019s barely noticeable, especially once a case is on. It arrived in excellent condition, no noticeable scratches on the screen or body, and it honestly looks almost brand new.setup was quick and everything works perfectly.",
+      "value": [
+        "display type: OLED",
+        "display resolution maximum: 2796 x 1290 Pixels",
+        "display pixel density: 460 Pixels Per Inch (PPI)"
+      ]
+    },
+    {
+      "feature": "camera",
+      "sentiment": "positive",
+      "positive_mentions": 4,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 4,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The screen, frame, and camera lenses are in great shape, with only a very slight cosmetic mark that\u2019s barely noticeable, especially once a case is on. Performance looks smooth so far, and I haven\u2019t fully tested the camera and video performance yet.",
+      "value": [
+        "camera description: Front, Rear",
+        "camera flash: LED"
+      ]
+    },
+    {
+      "feature": "performance",
+      "sentiment": "positive",
+      "positive_mentions": 3,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 3,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Performance looks smooth so far, and I haven\u2019t fully tested the camera and video performance yet. The performance is flawless: fast, smooth, and with outstanding camera quality."
+    },
+    {
+      "feature": "design",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "It arrived in excellent condition, no noticeable scratches on the screen or body, and it honestly looks almost brand new.setup was quick and everything works perfectly."
+    },
+    {
+      "feature": "software",
+      "sentiment": "negative",
+      "positive_mentions": 0,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": -1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "my old Android phone I transferred from was actually very bad, so it was hard to transfer over my data from the Android to the iPhone with stuff failing multiple times."
+    },
+    {
+      "feature": "price",
+      "sentiment": "mixed",
+      "positive_mentions": 0,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 0,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "of course, considering the price, that's to be expected.",
+      "value": [
+        "price usd: 599.95",
+        "price rs: 70900"
+      ]
+    }
+  ]
+}

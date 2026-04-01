@@ -1,0 +1,112 @@
+{
+  "asin": "B0BHC15G32",
+  "product": "Macbook Air M2",
+  "features": [
+    {
+      "feature": "connectivity",
+      "sentiment": "positive",
+      "positive_mentions": 2,
+      "negative_mentions": 0,
+      "neutral_mentions": 3,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "I bought this laptop in order to use for music production, and I opted for the M2 version over the M1 despite performance being almost identical simply because I wanted the extra USB-C slot so I can use it to plug in my audio interface and midi controller at the same time as charging the computer. This way you can still charge your device while having both USB-C slots occupied."
+    },
+    {
+      "feature": "battery",
+      "sentiment": "positive",
+      "positive_mentions": 3,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 3,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "It\u2019s pretty much in perfect condition, pristine, full battery, I bought this laptop in order to use for music production, and I opted for the M2 version over the M1 despite performance being almost identical simply because I wanted the extra USB-C slot so I can use it to plug in my audio interface and midi controller at the same time as charging the computer.",
+      "value": [
+        "average battery life in hours: 12 Hours"
+      ]
+    },
+    {
+      "feature": "price",
+      "sentiment": "positive",
+      "positive_mentions": 2,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "This Macbook Is wonderful, excellent value for money!, It\u2019s well worth the price!",
+      "value": [
+        "price usd: 684.85",
+        "price rs: 69990"
+      ]
+    },
+    {
+      "feature": "speaker",
+      "sentiment": "positive",
+      "positive_mentions": 2,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The sound quality is amazing, the touch id works I bought this laptop in order to use for music production, and I opted for the M2 version over the M1 despite performance being almost identical simply because I wanted the extra USB-C slot so I can use it to plug in my audio interface and midi controller at the same time as charging the computer."
+    },
+    {
+      "feature": "display",
+      "sentiment": "mixed",
+      "positive_mentions": 1,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 0,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "and I think that it is light weight, is easy to use and touch screen is also great. i mainly use a 32\" monitor so the smaller screen hurts my eyes a bit-",
+      "value": [
+        "standing screen display size: 13.6 Inches"
+      ]
+    },
+    {
+      "feature": "thermals",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "doesnt overheat, super lightweight and fast!"
+    },
+    {
+      "feature": "performance",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "I bought this laptop in order to use for music production, and I opted for the M2 version over the M1 despite performance being almost identical simply because I wanted the extra USB-C slot so I can use it to plug in my audio interface and midi controller at the same time as charging the computer."
+    },
+    {
+      "feature": "design",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "and I think that it is light weight, is easy to use and touch screen is also great."
+    }
+  ]
+}

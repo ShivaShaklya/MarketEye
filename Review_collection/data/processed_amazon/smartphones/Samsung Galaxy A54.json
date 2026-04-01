@@ -1,0 +1,81 @@
+{
+  "asin": "B0C4BFVH4W",
+  "product": "Samsung Galaxy A54",
+  "features": [
+    {
+      "feature": "display",
+      "sentiment": "negative",
+      "positive_mentions": 1,
+      "negative_mentions": 3,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": -2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Good phone good camera good screen size battery life is okay, sound is very loud value for money is great, compatible with samsung watches and any other Bluetooth item functions well, size is great for people who dont like small phones. The final straw, and the reason I have just initiated a return on this thing is because today, after I left the house for work I noticed the display was very dark - - I know it was dark, because I had said the display that way,",
+      "value": [
+        "other display features: Wireless",
+        "standing screen display size: 6.4 Inches"
+      ]
+    },
+    {
+      "feature": "battery",
+      "sentiment": "mixed",
+      "positive_mentions": 2,
+      "negative_mentions": 2,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 0,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Sometimes the phone will just randomly restart on its own, out of nowhere, with decent battery life. Good phone good camera good screen size battery life is okay, sound is very loud value for money is great, compatible with samsung watches and any other Bluetooth item functions well, size is great for people who dont like small phones.",
+      "value": [
+        "battery power rating: 5100 Milliamp Hours",
+        "battery capacity: 5100 Milliamp Hours"
+      ]
+    },
+    {
+      "feature": "price",
+      "sentiment": "positive",
+      "positive_mentions": 2,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Good phone good camera good screen size battery life is okay, sound is very loud value for money is great, compatible with samsung watches and any other Bluetooth item functions well, size is great for people who dont like small phones. This particular phone from this seller was one of the lower-priced refurbs -- about half the cost of a new Samsung A54, and the seller had good customer reviews, so I decided to take a chance and order it.",
+      "value": [
+        "price usd: 180.95",
+        "price rs: 40999"
+      ]
+    },
+    {
+      "feature": "camera",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Good phone good camera good screen size battery life is okay, sound is very loud value for money is great, compatible with samsung watches and any other Bluetooth item functions well, size is great for people who dont like small phones.",
+      "value": [
+        "other camera features: Front, Rear"
+      ]
+    },
+    {
+      "feature": "speaker",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Good phone good camera good screen size battery life is okay, sound is very loud value for money is great, compatible with samsung watches and any other Bluetooth item functions well, size is great for people who dont like small phones."
+    }
+  ]
+}

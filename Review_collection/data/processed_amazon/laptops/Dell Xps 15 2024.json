@@ -1,0 +1,109 @@
+{
+  "asin": "B0DCZGB3MK",
+  "product": "Dell Xps 15 2024",
+  "features": [
+    {
+      "feature": "connectivity",
+      "sentiment": "positive",
+      "positive_mentions": 2,
+      "negative_mentions": 0,
+      "neutral_mentions": 3,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Everything is great speed was my main concern lovebthebfeariews except one where I had to get an extension to hook up the ethernet cable .My previous Dell laptop also had more USB ports. I should note that the USB-C port can handle both video and power delivery."
+    },
+    {
+      "feature": "display",
+      "sentiment": "positive",
+      "positive_mentions": 2,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "It has a beautiful high-resolution display and very strong performance, so it handles school work, creative projects, and multitasking easily. Apart from that great product thought the screen would have been a little wider as well I love the touch screen component.",
+      "value": [
+        "standing screen display size: 15.6 Inches"
+      ]
+    },
+    {
+      "feature": "performance",
+      "sentiment": "positive",
+      "positive_mentions": 2,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Everything is great speed was my main concern lovebthebfeariews except one where I had to get an extension to hook up the ethernet cable .My previous Dell laptop also had more USB ports. It has a beautiful high-resolution display and very strong performance, so it handles school work, creative projects, and multitasking easily."
+    },
+    {
+      "feature": "design",
+      "sentiment": "positive",
+      "positive_mentions": 2,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Weight is great not as heavy very light functions at the top of its class need it for my work which requires alotof Apps open . I also like that the build quality feels premium and the battery can last many hours for normal use."
+    },
+    {
+      "feature": "keyboard",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "I like the numeric keyboard and the fact that it's back-lit."
+    },
+    {
+      "feature": "software",
+      "sentiment": "mixed",
+      "positive_mentions": 0,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 0,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "It came with Windows 11 Pro."
+    },
+    {
+      "feature": "price",
+      "sentiment": "negative",
+      "positive_mentions": 0,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": -1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "it cost the same as some lesser machines I looked at.",
+      "value": [
+        "price usd: 1599.0",
+        "price rs: 59999"
+      ]
+    },
+    {
+      "feature": "battery",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "I also like that the build quality feels premium and the battery can last many hours for normal use."
+    }
+  ]
+}
