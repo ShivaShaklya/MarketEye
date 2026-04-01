@@ -3,43 +3,31 @@
   "product": "Lenovo Yoga 7I",
   "features": [
     {
-      "feature": "display",
+      "feature": "battery",
       "sentiment": "positive",
       "positive_mentions": 6,
-      "negative_mentions": 1,
-      "neutral_mentions": 0,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 6,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The battery life is awesome; the touch screen works well. The battery lasts a long time and the overall quality is amazing."
+    },
+    {
+      "feature": "display",
+      "sentiment": "positive",
+      "positive_mentions": 5,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
       "mentions_total": 0,
       "feature_score": 5,
       "source": "amazon",
       "type": "review",
-      "evidence": "The touchscreen is great, I love the 2-in-1 feature and the 1TB SSD capacity is out of this world Its easy to carry and a great screen size",
+      "evidence": "The battery life is awesome; the touch screen works well. I tried it as a tablet, the screen is HUGE for that",
       "value": [
         "standing screen display size: 16 Inches"
       ]
-    },
-    {
-      "feature": "battery",
-      "sentiment": "positive",
-      "positive_mentions": 5,
-      "negative_mentions": 2,
-      "neutral_mentions": 0,
-      "mentions_total": 0,
-      "feature_score": 3,
-      "source": "amazon",
-      "type": "review",
-      "evidence": "The battery lasts a long time and the overall quality is amazing Great value for money, excellent battery life, lovely speed, I like the backlight of the keys with also feels nice to the touch and it looks very smooth and professional"
-    },
-    {
-      "feature": "software",
-      "sentiment": "mixed",
-      "positive_mentions": 2,
-      "negative_mentions": 1,
-      "neutral_mentions": 2,
-      "mentions_total": 0,
-      "feature_score": 1,
-      "source": "amazon",
-      "type": "review",
-      "evidence": "It's easy to set up like most laptops and fast in getting that done My only criticisms are the speakers don't sound that great, but it says Dolby Atmos so I'm guessing if you hook it up to some better speakers it would be really good"
     },
     {
       "feature": "price",
@@ -51,7 +39,7 @@
       "feature_score": 3,
       "source": "amazon",
       "type": "review",
-      "evidence": "The price is better than anywhere else I could find Great value for money, excellent battery life, lovely speed, I like the backlight of the keys with also feels nice to the touch and it looks very smooth and professional",
+      "evidence": "from the camera quality and price for what you get its really great. Great value for money, excellent battery life, lovely speed, I like the backlight of the keys with also feels nice to the touch and it looks very smooth and professional.",
       "value": [
         "price usd: 779.99",
         "price rs: 105990"
@@ -67,7 +55,7 @@
       "feature_score": 2,
       "source": "amazon",
       "type": "review",
-      "evidence": "Great value for money, excellent battery life, lovely speed, I like the backlight of the keys with also feels nice to the touch and it looks very smooth and professional Good performance and structurally sound"
+      "evidence": "Good performance and structurally sound. Great value for money, excellent battery life, lovely speed, I like the backlight of the keys with also feels nice to the touch and it looks very smooth and professional."
     },
     {
       "feature": "speaker",
@@ -79,7 +67,7 @@
       "feature_score": 0,
       "source": "amazon",
       "type": "review",
-      "evidence": "Good performance and structurally sound My only criticisms are the speakers don't sound that great, but it says Dolby Atmos so I'm guessing if you hook it up to some better speakers it would be really good"
+      "evidence": "Good performance and structurally sound. My only criticisms are the speakers don't sound that great,"
     },
     {
       "feature": "storage",
@@ -91,7 +79,7 @@
       "feature_score": 1,
       "source": "amazon",
       "type": "review",
-      "evidence": "The touchscreen is great, I love the 2-in-1 feature and the 1TB SSD capacity is out of this world"
+      "evidence": "The touchscreen is great, I love the 2-in-1 feature and the 1TB SSD capacity is out of this world."
     },
     {
       "feature": "keyboard",
@@ -103,31 +91,43 @@
       "feature_score": 1,
       "source": "amazon",
       "type": "review",
-      "evidence": "Great value for money, excellent battery life, lovely speed, I like the backlight of the keys with also feels nice to the touch and it looks very smooth and professional"
+      "evidence": "Great value for money, excellent battery life, lovely speed, I like the backlight of the keys with also feels nice to the touch and it looks very smooth and professional."
     },
     {
-      "feature": "fan_noise",
-      "sentiment": "negative",
-      "positive_mentions": 0,
-      "negative_mentions": 1,
+      "feature": "camera",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
       "neutral_mentions": 0,
       "mentions_total": 0,
-      "feature_score": -1,
+      "feature_score": 1,
       "source": "amazon",
       "type": "review",
-      "evidence": "The battery life is quite good as well and its very easy to set up from my old laptop since I had connected my files to the cloud"
+      "evidence": "from the camera quality and price for what you get its really great."
     },
     {
       "feature": "trackpad",
-      "sentiment": "negative",
+      "sentiment": "mixed",
       "positive_mentions": 0,
-      "negative_mentions": 1,
-      "neutral_mentions": 0,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
       "mentions_total": 0,
-      "feature_score": -1,
+      "feature_score": 0,
       "source": "amazon",
       "type": "review",
-      "evidence": "Lenovo support is the worst I have ever experienced! My left and right click on my touchpad reversed and the pointer started highlighting and deleting things at random"
+      "evidence": "My left and right click on my touchpad reversed and the pointer started highlighting and deleting things at random."
+    },
+    {
+      "feature": "software",
+      "sentiment": "mixed",
+      "positive_mentions": 0,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 0,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "I needed a laptop for some shows I run software for."
     }
   ]
 }

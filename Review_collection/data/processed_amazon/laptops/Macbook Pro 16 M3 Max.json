@@ -5,41 +5,29 @@
     {
       "feature": "display",
       "sentiment": "positive",
-      "positive_mentions": 1,
+      "positive_mentions": 2,
       "negative_mentions": 0,
       "neutral_mentions": 1,
       "mentions_total": 0,
-      "feature_score": 1,
+      "feature_score": 2,
       "source": "amazon",
       "type": "review",
-      "evidence": "I'm a photographer and needed a big screen to do my editing",
+      "evidence": "it's very minor and only seeiable when ur on a complete black screen with ur mouse in the corner, everything else seems great, packahing wasnt the best laptop was with barely any protection in the box nothing too crazy, battery cycle is only at 11 and everything else seems amazingly clean, there is a little glow effect happening in the upper left corner of my screen",
       "value": [
         "standing screen display size: 16.2 Inches"
       ]
     },
     {
-      "feature": "software",
-      "sentiment": "mixed",
-      "positive_mentions": 1,
-      "negative_mentions": 1,
-      "neutral_mentions": 0,
-      "mentions_total": 0,
-      "feature_score": 0,
-      "source": "amazon",
-      "type": "review",
-      "evidence": "Estoy probandolo, pero no es un Producto Renovado Excelente, los ciclos de bater\u00eda estaban a 489, es decir es una computadora muy muy usada, muestra mucho desgaste en las teclas, incluso hasta se observa la pintura negra, ya desgastada, como plata Es verdad que llego de una buena capacidad de almacenamiento y de memoria, pero los desgastes son muy evidente, y estoy pensando en regresarla porque no es lo que dec\u00eda"
-    },
-    {
       "feature": "battery",
-      "sentiment": "negative",
-      "positive_mentions": 0,
-      "negative_mentions": 1,
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
       "neutral_mentions": 0,
       "mentions_total": 0,
-      "feature_score": -1,
+      "feature_score": 1,
       "source": "amazon",
       "type": "review",
-      "evidence": "I'm one of the view who actually had a good experience from what I am seeing in the reviews but here is basically my run down, package came on time it did need a signature to receive but after contacting fedex they didnt mind if i came by the office to pick it up, I did a thorough check and there is 4 minor dents but nothing too crazy, battery cycle is only at 11 and everything else seems amazingly clean, there is a little glow effect happening in the upper left corner of my screen but it's very minor and only seeiable when ur on a complete black screen with ur mouse in the corner, everything else seems great, packahing wasnt the best laptop was with barely any protection in the box but thank god no damge or nothing so i got pretty lucky with that",
+      "evidence": "nothing too crazy, battery cycle is only at 11 and everything else seems amazingly clean, there is a little glow effect happening in the upper left corner of my screen",
       "value": [
         "average battery life in hours: 22 Hours"
       ]

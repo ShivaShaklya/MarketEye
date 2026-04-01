@@ -5,14 +5,14 @@
     {
       "feature": "software",
       "sentiment": "mixed",
-      "positive_mentions": 3,
-      "negative_mentions": 5,
-      "neutral_mentions": 1,
+      "positive_mentions": 2,
+      "negative_mentions": 2,
+      "neutral_mentions": 2,
       "mentions_total": 0,
-      "feature_score": -2,
+      "feature_score": 0,
       "source": "amazon",
       "type": "review",
-      "evidence": "This happened before installing any software I have to mention that, setup for this particular machine took more than half an hour due to windows update, which never happened to my other blades but they came with win10 anyway, if the loading circle/animation isn\u2019t stuck, you\u2019d better leave it there until everything is settled"
+      "evidence": "The cooling system works really well: even when playing heavy titles like Battlefield V or Cyberpunk, it doesn\u2019t get excessively hot. Compact and the OLED screen is impressive, windows hello is a plusInstability resolves after reinstalling windows, as always windows 11 sucksOne of the best thing is that without using the 5070 I can charge the laptop with a 65w charger, and the battery life unexpectedly good when compared to my old laptop MSI Cyborg 14 A13UDX"
     },
     {
       "feature": "display",
@@ -24,7 +24,7 @@
       "feature_score": 1,
       "source": "amazon",
       "type": "review",
-      "evidence": "This is the 3rd blade laptop I bought since 2021, build quality is very solid, the screen is beautiful, keyboard/trackpad feel great Compact and the OLED screen is impressive, windows hello is a plusInstability resolves after reinstalling windows, as always windows 11 sucksOne of the best thing is that without using the 5070 I can charge the laptop with a 65w charger, and the battery life unexpectedly good when compared to my old laptop MSI Cyborg 14 A13UDX",
+      "evidence": "Compact and the OLED screen is impressive, windows hello is a plusInstability resolves after reinstalling windows, as always windows 11 sucksOne of the best thing is that without using the 5070 I can charge the laptop with a 65w charger, and the battery life unexpectedly good when compared to my old laptop MSI Cyborg 14 A13UDX This is the 3rd blade laptop I bought since 2021, build quality is very solid, the screen is beautiful, keyboard/trackpad feel great.",
       "value": [
         "standing screen display size: 14 Inches"
       ]
@@ -32,26 +32,14 @@
     {
       "feature": "design",
       "sentiment": "positive",
-      "positive_mentions": 2,
-      "negative_mentions": 0,
-      "neutral_mentions": 0,
-      "mentions_total": 0,
-      "feature_score": 2,
-      "source": "amazon",
-      "type": "review",
-      "evidence": "This is the 3rd blade laptop I bought since 2021, build quality is very solid, the screen is beautiful, keyboard/trackpad feel great Very rarely do you find a Windows laptop with the same level of build quality and materials as a MacBook"
-    },
-    {
-      "feature": "performance",
-      "sentiment": "mixed",
       "positive_mentions": 1,
-      "negative_mentions": 1,
-      "neutral_mentions": 0,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
       "mentions_total": 0,
-      "feature_score": 0,
+      "feature_score": 1,
       "source": "amazon",
       "type": "review",
-      "evidence": "No lags on maxed graphics Constant black screen/login loops, system instability during Windows setup, random lockups, and extremely poor Wi-Fi performance compared to other devices on the same network"
+      "evidence": "This is the 3rd blade laptop I bought since 2021, build quality is very solid, the screen is beautiful, keyboard/trackpad feel great. Very rarely do you find a Windows laptop with the same level of build quality and materials as a MacBook."
     },
     {
       "feature": "keyboard",
@@ -63,7 +51,7 @@
       "feature_score": 1,
       "source": "amazon",
       "type": "review",
-      "evidence": "This is the 3rd blade laptop I bought since 2021, build quality is very solid, the screen is beautiful, keyboard/trackpad feel great"
+      "evidence": "This is the 3rd blade laptop I bought since 2021, build quality is very solid, the screen is beautiful, keyboard/trackpad feel great."
     },
     {
       "feature": "trackpad",
@@ -75,7 +63,7 @@
       "feature_score": 1,
       "source": "amazon",
       "type": "review",
-      "evidence": "This is the 3rd blade laptop I bought since 2021, build quality is very solid, the screen is beautiful, keyboard/trackpad feel great"
+      "evidence": "This is the 3rd blade laptop I bought since 2021, build quality is very solid, the screen is beautiful, keyboard/trackpad feel great."
     },
     {
       "feature": "storage",
@@ -87,31 +75,31 @@
       "feature_score": -1,
       "source": "amazon",
       "type": "review",
-      "evidence": "Another advice is to uninstall most of the AI components come with win11\u2019s updates, otherwise they\u2019ll eat up most of the ram and drain more power"
+      "evidence": "Another advice is to uninstall most of the AI components come with win11\u2019s updates, otherwise they\u2019ll eat up most of the ram and drain more power."
     },
     {
-      "feature": "thermals",
-      "sentiment": "positive",
-      "positive_mentions": 1,
-      "negative_mentions": 0,
+      "feature": "performance",
+      "sentiment": "negative",
+      "positive_mentions": 0,
+      "negative_mentions": 1,
       "neutral_mentions": 0,
       "mentions_total": 0,
-      "feature_score": 1,
+      "feature_score": -1,
       "source": "amazon",
       "type": "review",
-      "evidence": "The cooling system works really well: even when playing heavy titles like Battlefield V or Cyberpunk, it doesn\u2019t get excessively hot"
+      "evidence": "Constant black screen/login loops, system instability during Windows setup, random lockups, and extremely poor Wi-Fi performance compared to other devices on the same network."
     },
     {
       "feature": "speaker",
-      "sentiment": "mixed",
+      "sentiment": "negative",
       "positive_mentions": 0,
-      "negative_mentions": 0,
-      "neutral_mentions": 1,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
       "mentions_total": 0,
-      "feature_score": 0,
+      "feature_score": -1,
       "source": "amazon",
       "type": "review",
-      "evidence": ""
+      "evidence": "has an odd issue when watching Youtube videos where the audio does not sync with the video, and overall does not perform well when streaming video."
     },
     {
       "feature": "battery",

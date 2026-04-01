@@ -3,46 +3,22 @@
   "product": "Asus Rog Zephyrus G14 2024",
   "features": [
     {
-      "feature": "fan_noise",
-      "sentiment": "positive",
-      "positive_mentions": 1,
-      "negative_mentions": 0,
-      "neutral_mentions": 1,
-      "mentions_total": 0,
-      "feature_score": 1,
-      "source": "amazon",
-      "type": "review",
-      "evidence": "When you activate turbo mode, it is turning a game monster and become louder"
-    },
-    {
       "feature": "display",
-      "sentiment": "mixed",
-      "positive_mentions": 1,
-      "negative_mentions": 1,
+      "sentiment": "positive",
+      "positive_mentions": 2,
+      "negative_mentions": 0,
       "neutral_mentions": 0,
       "mentions_total": 0,
-      "feature_score": 0,
+      "feature_score": 2,
       "source": "amazon",
       "type": "review",
-      "evidence": "Screen is great I can feel the difference by seeing real colors with OLED screen",
+      "evidence": "Screen is great. I can feel the difference by seeing real colors with OLED screen.",
       "value": [
         "standing screen display size: 14 Inches"
       ]
     },
     {
-      "feature": "design",
-      "sentiment": "positive",
-      "positive_mentions": 1,
-      "negative_mentions": 0,
-      "neutral_mentions": 0,
-      "mentions_total": 0,
-      "feature_score": 1,
-      "source": "amazon",
-      "type": "review",
-      "evidence": "Amazing laptop! It has been six months, it is running great! It is designed as mix of macbook and game laptops, so it is very light"
-    },
-    {
-      "feature": "software",
+      "feature": "fan_noise",
       "sentiment": "mixed",
       "positive_mentions": 0,
       "negative_mentions": 0,
@@ -51,7 +27,7 @@
       "feature_score": 0,
       "source": "amazon",
       "type": "review",
-      "evidence": ""
+      "evidence": "When you choose slient mode you do not hear any noise."
     },
     {
       "feature": "price",
@@ -63,7 +39,7 @@
       "feature_score": 1,
       "source": "amazon",
       "type": "review",
-      "evidence": "bummer, otherwise sleek and good value",
+      "evidence": "bummer, otherwise sleek and good value.",
       "value": [
         "price usd: 1499.0",
         "price rs: 160500"

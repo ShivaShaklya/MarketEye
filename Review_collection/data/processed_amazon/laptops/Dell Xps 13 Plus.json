@@ -3,18 +3,6 @@
   "product": "Dell Xps 13 Plus",
   "features": [
     {
-      "feature": "software",
-      "sentiment": "positive",
-      "positive_mentions": 2,
-      "negative_mentions": 1,
-      "neutral_mentions": 0,
-      "mentions_total": 0,
-      "feature_score": 1,
-      "source": "amazon",
-      "type": "review",
-      "evidence": "From the moment I powered it on, the speed and responsiveness were incredible \u2014 everything loads almost instantly and multitasking is effortless If you\u2019re looking for a powerful, future-ready laptop that will handle upcoming Windows upgrades with ease, the Dell XPS 13 is absolutely worth it"
-    },
-    {
       "feature": "price",
       "sentiment": "positive",
       "positive_mentions": 2,
@@ -24,7 +12,7 @@
       "feature_score": 2,
       "source": "amazon",
       "type": "review",
-      "evidence": "This is a great computer at a very fair price I have not run into any issues and after using this machine I think the price is well worth it",
+      "evidence": "I have not run into any issues and after using this machine I think the price is well worth it. This is a great computer at a very fair price.",
       "value": [
         "price usd: 1169.99",
         "price rs: 183490"
@@ -40,22 +28,10 @@
       "feature_score": 2,
       "source": "amazon",
       "type": "review",
-      "evidence": "Powerful computer with a long long, long battery life and size and weight that's perfect for traveling I also love how lightweight and premium it feels, yet the battery easily lasts through a full day",
+      "evidence": "Powerful computer with a long long, long battery life and size and weight that's perfect for traveling. the battery easily lasts through a full day.",
       "value": [
         "average battery life in hours: 18 Hours"
       ]
-    },
-    {
-      "feature": "design",
-      "sentiment": "mixed",
-      "positive_mentions": 1,
-      "negative_mentions": 1,
-      "neutral_mentions": 0,
-      "mentions_total": 0,
-      "feature_score": 0,
-      "source": "amazon",
-      "type": "review",
-      "evidence": "I also love how lightweight and premium it feels, yet the battery easily lasts through a full day Powerful computer with a long long, long battery life and size and weight that's perfect for traveling"
     },
     {
       "feature": "display",
@@ -67,10 +43,46 @@
       "feature_score": 2,
       "source": "amazon",
       "type": "review",
-      "evidence": "On top of that, the display is absolutely stunning The display is stunningly clear and bright, making it perfect for work, streaming, or browsing",
+      "evidence": "The display is stunningly clear and bright, making it perfect for work, streaming, or browsing. On top of that, the display is absolutely stunning.",
       "value": [
         "standing screen display size: 13.4 Inches"
       ]
+    },
+    {
+      "feature": "software",
+      "sentiment": "positive",
+      "positive_mentions": 2,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Windows runs extremely fast and wakes up from sleep in only 1 second. If you\u2019re looking for a powerful, future-ready laptop that will handle upcoming Windows upgrades with ease, the Dell XPS 13 is absolutely worth it."
+    },
+    {
+      "feature": "design",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Powerful computer with a long long, long battery life and size and weight that's perfect for traveling."
+    },
+    {
+      "feature": "trackpad",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The trackpad and keyboard are amazing and blow the competition out of the water."
     },
     {
       "feature": "keyboard",
@@ -82,19 +94,7 @@
       "feature_score": 1,
       "source": "amazon",
       "type": "review",
-      "evidence": "The trackpad and keyboard are amazing and blow the competition out of the water"
-    },
-    {
-      "feature": "trackpad",
-      "sentiment": "mixed",
-      "positive_mentions": 0,
-      "negative_mentions": 0,
-      "neutral_mentions": 1,
-      "mentions_total": 0,
-      "feature_score": 0,
-      "source": "amazon",
-      "type": "review",
-      "evidence": ""
+      "evidence": "The trackpad and keyboard are amazing and blow the competition out of the water."
     },
     {
       "feature": "performance",
@@ -106,7 +106,7 @@
       "feature_score": 1,
       "source": "amazon",
       "type": "review",
-      "evidence": "From the moment I powered it on, the speed and responsiveness were incredible \u2014 everything loads almost instantly and multitasking is effortless"
+      "evidence": "From the moment I powered it on, the speed and responsiveness were incredible \u2014 everything loads almost instantly and multitasking is effortless."
     }
   ]
 }

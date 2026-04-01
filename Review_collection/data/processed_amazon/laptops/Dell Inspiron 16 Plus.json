@@ -3,67 +3,67 @@
   "product": "Dell Inspiron 16 Plus",
   "features": [
     {
-      "feature": "display",
+      "feature": "performance",
       "sentiment": "positive",
       "positive_mentions": 7,
-      "negative_mentions": 2,
-      "neutral_mentions": 0,
+      "negative_mentions": 0,
+      "neutral_mentions": 2,
+      "mentions_total": 0,
+      "feature_score": 7,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Performance: Powered by the Intel Core i7-13620H processor, the laptop delivers snappy performance suitable for demanding workloads, including multitasking and content creation. It also has astonishing speed."
+    },
+    {
+      "feature": "display",
+      "sentiment": "positive",
+      "positive_mentions": 6,
+      "negative_mentions": 1,
+      "neutral_mentions": 1,
       "mentions_total": 0,
       "feature_score": 5,
       "source": "amazon",
       "type": "review",
-      "evidence": "Pros:Display: The 16-inch 16:10 2 5K display is stunning, offering sharp, vibrant visuals with excellent color accuracy and ample screen real estate for multitasking or creative work",
+      "evidence": "Pros:Display: The 16-inch 16:10 2.5K display is stunning, offering sharp, vibrant visuals with excellent color accuracy and ample screen real estate for multitasking or creative work. The screen is plenty bright and very vibrant, with bright, sharp colors, and the 16\" screen is a noticeable upgrade from the basic 15.6\", without feeling overly huge, like a 17\" does to me.",
       "value": [
         "standing screen display size: 16 Inches"
       ]
     },
     {
-      "feature": "performance",
+      "feature": "storage",
       "sentiment": "positive",
-      "positive_mentions": 6,
-      "negative_mentions": 2,
-      "neutral_mentions": 1,
-      "mentions_total": 0,
-      "feature_score": 4,
-      "source": "amazon",
-      "type": "review",
-      "evidence": "Memory and Storage: With 16GB LPDDR5 RAM and a spacious 1TB SSD, the device ensures fast app performance and plenty of room for storing files, making it ideal for both work and leisure Ideal For:Professionals requiring a reliable, high-performance laptop for productivity tasks"
-    },
-    {
-      "feature": "software",
-      "sentiment": "positive",
-      "positive_mentions": 5,
-      "negative_mentions": 1,
+      "positive_mentions": 4,
+      "negative_mentions": 0,
       "neutral_mentions": 0,
       "mentions_total": 0,
       "feature_score": 4,
       "source": "amazon",
       "type": "review",
-      "evidence": "Pros:Display: The 16-inch 16:10 2 Windows 11 Home: Pre-installed Windows 11 Home enhances usability with its modern interface and features optimized for productivity"
+      "evidence": "General users looking for a premium device with ample storage and excellent build quality. Memory and Storage: With 16GB LPDDR5 RAM and a spacious 1TB SSD, the device ensures fast app performance and plenty of room for storing files, making it ideal for both work and leisure."
     },
     {
       "feature": "design",
       "sentiment": "positive",
-      "positive_mentions": 5,
+      "positive_mentions": 4,
       "negative_mentions": 0,
       "neutral_mentions": 0,
       "mentions_total": 0,
-      "feature_score": 5,
+      "feature_score": 4,
       "source": "amazon",
       "type": "review",
-      "evidence": "Build Quality: The Ice Blue finish looks sleek and professional, while the overall build feels solid and premium Portability: The 16-inch size, while excellent for productivity, may feel bulky for those who frequently travel or prefer a lightweight device"
+      "evidence": "General users looking for a premium device with ample storage and excellent build quality. The laptop isn\u2019t too heavy, it\u2019s the perfect weight."
     },
     {
-      "feature": "storage",
+      "feature": "software",
       "sentiment": "positive",
-      "positive_mentions": 3,
-      "negative_mentions": 1,
-      "neutral_mentions": 0,
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
       "mentions_total": 0,
-      "feature_score": 2,
+      "feature_score": 1,
       "source": "amazon",
       "type": "review",
-      "evidence": "Memory and Storage: With 16GB LPDDR5 RAM and a spacious 1TB SSD, the device ensures fast app performance and plenty of room for storing files, making it ideal for both work and leisure General users looking for a premium device with ample storage and excellent build quality"
+      "evidence": "Windows 11 Home: Pre-installed Windows 11 Home enhances usability with its modern interface and features optimized for productivity. TLDR; it's a business laptop, not a gaming rig...it's a web-surfing, spreadsheet, business software solution kind of piece..."
     },
     {
       "feature": "price",
@@ -75,7 +75,7 @@
       "feature_score": 2,
       "source": "amazon",
       "type": "review",
-      "evidence": "Despite its minor drawbacks, it provides excellent value for those who need a versatile and reliable laptop Overall, this is a value for your money",
+      "evidence": "Overall, this is a value for your money. Despite its minor drawbacks, it provides excellent value for those who need a versatile and reliable laptop.",
       "value": [
         "price usd: 819.0",
         "price rs: 81389.95"
@@ -83,18 +83,30 @@
     },
     {
       "feature": "battery",
-      "sentiment": "mixed",
+      "sentiment": "positive",
       "positive_mentions": 1,
-      "negative_mentions": 1,
-      "neutral_mentions": 0,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
       "mentions_total": 0,
-      "feature_score": 0,
+      "feature_score": 1,
       "source": "amazon",
       "type": "review",
-      "evidence": "Other than that, if you\u2019re doing business work or schoolwork, the battery lasts for a long time The battery life only drains a bit faster when you\u2019re playing games, which is expected",
+      "evidence": "Other than that, if you\u2019re doing business work or schoolwork, the battery lasts for a long time. The battery life only drains a bit faster when you\u2019re playing games, which is expected.",
       "value": [
         "average battery life in hours: 964 minutes"
       ]
+    },
+    {
+      "feature": "camera",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The camera quality also looks nice."
     },
     {
       "feature": "keyboard",
@@ -106,7 +118,7 @@
       "feature_score": 1,
       "source": "amazon",
       "type": "review",
-      "evidence": "The chassis may be plastic, but the soft-touch and nearly silent, back-lit keyboard gives this piece a nice premium feel"
+      "evidence": "the soft-touch and nearly silent, back-lit keyboard gives this piece a nice premium feel."
     },
     {
       "feature": "trackpad",
@@ -118,7 +130,7 @@
       "feature_score": 1,
       "source": "amazon",
       "type": "review",
-      "evidence": "The trackpad is decent, but not my thing, so I use a mouse"
+      "evidence": "The trackpad is decent,"
     }
   ]
 }

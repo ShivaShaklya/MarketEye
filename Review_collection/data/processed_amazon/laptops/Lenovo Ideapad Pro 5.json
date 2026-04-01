@@ -3,67 +3,43 @@
   "product": "Lenovo Ideapad Pro 5",
   "features": [
     {
-      "feature": "storage",
+      "feature": "display",
       "sentiment": "positive",
       "positive_mentions": 3,
-      "negative_mentions": 1,
+      "negative_mentions": 0,
       "neutral_mentions": 2,
       "mentions_total": 0,
-      "feature_score": 2,
+      "feature_score": 3,
       "source": "amazon",
       "type": "review",
-      "evidence": "My main wish is for more onboard memory at this price,16GB works, but headroom would help for heavier multitasking and creator workflows If you can live with the slightly off-center keyboard and wish for a bit more RAM, it\u2019s a compelling pick for a bright, color-rich portable that pulls double duty for work and play"
-    },
-    {
-      "feature": "software",
-      "sentiment": "mixed",
-      "positive_mentions": 2,
-      "negative_mentions": 3,
-      "neutral_mentions": 0,
-      "mentions_total": 0,
-      "feature_score": -1,
-      "source": "amazon",
-      "type": "review",
-      "evidence": "Setup was quick (about 30 minutes), Windows Hello face sign-in worked right away, and overall responsiveness has been snappy I don't often play AAA games upon release, most of what I play is a year or more old"
-    },
-    {
-      "feature": "display",
-      "sentiment": "mixed",
-      "positive_mentions": 2,
-      "negative_mentions": 1,
-      "neutral_mentions": 1,
-      "mentions_total": 0,
-      "feature_score": 1,
-      "source": "amazon",
-      "type": "review",
-      "evidence": "OLED brightness is great, but you may want to set up battery and display profiles to balance battery life vs Screen - 5 starsKeyboard - 4 starsTrackpad - 3 starsAI deployment - 1 starThis is sold as an AI laptop but Microsoft\u2019s AI features in windows consume so much RAM that 16 gigs are running at 80-90% most of the time",
+      "evidence": "The 16\" OLED display is the star, exceptionally vivid and noticeably brighter than other laptops I\u2019ve used, which makes both creative work and games pop. ConclusionOverall, this is a balanced, premium-feeling laptop with a phenomenal OLED screen, straightforward setup, and solid performance for creators and casual gaming.",
       "value": [
         "standing screen display size: 16 Inches"
       ]
     },
     {
-      "feature": "keyboard",
+      "feature": "storage",
+      "sentiment": "positive",
+      "positive_mentions": 3,
+      "negative_mentions": 0,
+      "neutral_mentions": 2,
+      "mentions_total": 0,
+      "feature_score": 3,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "ProsStunning, very bright 16\" OLED, fantastic for games and creative workQuick, easy setup; Windows Hello face unlock works smoothlyResponsive performance; plays Helldivers at low\u2013medium settings without issuesHandles 3D scanning/processing well for project workPremium build and feelConsKeyboard feels slightly off-center (minor adjustment period)Would benefit from more RAM for the priceFans can ramp under load (expected with gaming/creator tasks)Potential drawbacks/concernsIf you plan to run heavy creative suites plus many browser tabs, consider a higher-RAM configuration or be mindful of memory use. My main wish is for more onboard memory at this price,16GB works,"
+    },
+    {
+      "feature": "software",
       "sentiment": "positive",
       "positive_mentions": 2,
       "negative_mentions": 0,
-      "neutral_mentions": 2,
+      "neutral_mentions": 1,
       "mentions_total": 0,
       "feature_score": 2,
       "source": "amazon",
       "type": "review",
-      "evidence": "If you can live with the slightly off-center keyboard and wish for a bit more RAM, it\u2019s a compelling pick for a bright, color-rich portable that pulls double duty for work and play Screen - 5 starsKeyboard - 4 starsTrackpad - 3 starsAI deployment - 1 starThis is sold as an AI laptop but Microsoft\u2019s AI features in windows consume so much RAM that 16 gigs are running at 80-90% most of the time"
-    },
-    {
-      "feature": "battery",
-      "sentiment": "positive",
-      "positive_mentions": 2,
-      "negative_mentions": 1,
-      "neutral_mentions": 0,
-      "mentions_total": 0,
-      "feature_score": 1,
-      "source": "amazon",
-      "type": "review",
-      "evidence": "Laptop shuts itself off even when fully charged OLED brightness is great, but you may want to set up battery and display profiles to balance battery life vs"
+      "evidence": "ProsStunning, very bright 16\" OLED, fantastic for games and creative workQuick, easy setup; Windows Hello face unlock works smoothlyResponsive performance; plays Helldivers at low\u2013medium settings without issuesHandles 3D scanning/processing well for project workPremium build and feelConsKeyboard feels slightly off-center (minor adjustment period)Would benefit from more RAM for the priceFans can ramp under load (expected with gaming/creator tasks)Potential drawbacks/concernsIf you plan to run heavy creative suites plus many browser tabs, consider a higher-RAM configuration or be mindful of memory use. Setup was quick (about 30 minutes), Windows Hello face sign-in worked right away, and overall responsiveness has been snappy."
     },
     {
       "feature": "performance",
@@ -75,10 +51,22 @@
       "feature_score": 3,
       "source": "amazon",
       "type": "review",
-      "evidence": "For gaming, I saw smooth performance in Helldivers on low\u2013medium settings ProsStunning, very bright 16\" OLED, fantastic for games and creative workQuick, easy setup; Windows Hello face unlock works smoothlyResponsive performance; plays Helldivers at low\u2013medium settings without issuesHandles 3D scanning/processing well for project workPremium build and feelConsKeyboard feels slightly off-center (minor adjustment period)Would benefit from more RAM for the priceFans can ramp under load (expected with gaming/creator tasks)Potential drawbacks/concernsIf you plan to run heavy creative suites plus many browser tabs, consider a higher-RAM configuration or be mindful of memory use"
+      "evidence": "For gaming, I saw smooth performance in Helldivers on low\u2013medium settings. ConclusionOverall, this is a balanced, premium-feeling laptop with a phenomenal OLED screen, straightforward setup, and solid performance for creators and casual gaming."
     },
     {
-      "feature": "speaker",
+      "feature": "battery",
+      "sentiment": "mixed",
+      "positive_mentions": 0,
+      "negative_mentions": 0,
+      "neutral_mentions": 2,
+      "mentions_total": 0,
+      "feature_score": 0,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "I cannot restart unless I hold the power button down for a few minutes to discharge the battery then recharge again. you may want to set up battery and display profiles to balance battery life vs. visual punch."
+    },
+    {
+      "feature": "keyboard",
       "sentiment": "mixed",
       "positive_mentions": 1,
       "negative_mentions": 1,
@@ -87,35 +75,43 @@
       "feature_score": 0,
       "source": "amazon",
       "type": "review",
-      "evidence": "I've tried out a few streaming programs and web-based ones and everything plays well and sounds acceptable All the other basic tasks work as expected - Meet/Teams/Zoom work - the camera resolution is fine and no one has complained about the audio yet"
+      "evidence": "If you can live with the slightly off-center keyboard and wish for a bit more RAM, it\u2019s a compelling pick for a bright, color-rich portable that pulls double duty for work and play. The keyboard layout feels slightly off-center; it threw me for a bit at first"
+    },
+    {
+      "feature": "camera",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "All the other basic tasks work as expected - Meet/Teams/Zoom work - the camera resolution is fine and no one has complained about the audio yet."
+    },
+    {
+      "feature": "speaker",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "All the other basic tasks work as expected - Meet/Teams/Zoom work - the camera resolution is fine and no one has complained about the audio yet."
     },
     {
       "feature": "fan_noise",
-      "sentiment": "positive",
-      "positive_mentions": 2,
+      "sentiment": "mixed",
+      "positive_mentions": 0,
       "negative_mentions": 0,
-      "neutral_mentions": 0,
+      "neutral_mentions": 1,
       "mentions_total": 0,
-      "feature_score": 2,
+      "feature_score": 0,
       "source": "amazon",
       "type": "review",
-      "evidence": "No stuttering or slowdown, but the fan kicked on pretty much immediately ProsStunning, very bright 16\" OLED, fantastic for games and creative workQuick, easy setup; Windows Hello face unlock works smoothlyResponsive performance; plays Helldivers at low\u2013medium settings without issuesHandles 3D scanning/processing well for project workPremium build and feelConsKeyboard feels slightly off-center (minor adjustment period)Would benefit from more RAM for the priceFans can ramp under load (expected with gaming/creator tasks)Potential drawbacks/concernsIf you plan to run heavy creative suites plus many browser tabs, consider a higher-RAM configuration or be mindful of memory use"
-    },
-    {
-      "feature": "price",
-      "sentiment": "positive",
-      "positive_mentions": 2,
-      "negative_mentions": 0,
-      "neutral_mentions": 0,
-      "mentions_total": 0,
-      "feature_score": 2,
-      "source": "amazon",
-      "type": "review",
-      "evidence": "My main wish is for more onboard memory at this price,16GB works, but headroom would help for heavier multitasking and creator workflows ProsStunning, very bright 16\" OLED, fantastic for games and creative workQuick, easy setup; Windows Hello face unlock works smoothlyResponsive performance; plays Helldivers at low\u2013medium settings without issuesHandles 3D scanning/processing well for project workPremium build and feelConsKeyboard feels slightly off-center (minor adjustment period)Would benefit from more RAM for the priceFans can ramp under load (expected with gaming/creator tasks)Potential drawbacks/concernsIf you plan to run heavy creative suites plus many browser tabs, consider a higher-RAM configuration or be mindful of memory use",
-      "value": [
-        "price usd: 1383.92",
-        "price rs: 129490"
-      ]
+      "evidence": "the fan kicked on pretty much immediately."
     },
     {
       "feature": "design",
@@ -127,19 +123,7 @@
       "feature_score": 1,
       "source": "amazon",
       "type": "review",
-      "evidence": "ProsStunning, very bright 16\" OLED, fantastic for games and creative workQuick, easy setup; Windows Hello face unlock works smoothlyResponsive performance; plays Helldivers at low\u2013medium settings without issuesHandles 3D scanning/processing well for project workPremium build and feelConsKeyboard feels slightly off-center (minor adjustment period)Would benefit from more RAM for the priceFans can ramp under load (expected with gaming/creator tasks)Potential drawbacks/concernsIf you plan to run heavy creative suites plus many browser tabs, consider a higher-RAM configuration or be mindful of memory use"
-    },
-    {
-      "feature": "trackpad",
-      "sentiment": "negative",
-      "positive_mentions": 0,
-      "negative_mentions": 1,
-      "neutral_mentions": 0,
-      "mentions_total": 0,
-      "feature_score": -1,
-      "source": "amazon",
-      "type": "review",
-      "evidence": "Screen - 5 starsKeyboard - 4 starsTrackpad - 3 starsAI deployment - 1 starThis is sold as an AI laptop but Microsoft\u2019s AI features in windows consume so much RAM that 16 gigs are running at 80-90% most of the time"
+      "evidence": "ProsStunning, very bright 16\" OLED, fantastic for games and creative workQuick, easy setup; Windows Hello face unlock works smoothlyResponsive performance; plays Helldivers at low\u2013medium settings without issuesHandles 3D scanning/processing well for project workPremium build and feelConsKeyboard feels slightly off-center (minor adjustment period)Would benefit from more RAM for the priceFans can ramp under load (expected with gaming/creator tasks)Potential drawbacks/concernsIf you plan to run heavy creative suites plus many browser tabs, consider a higher-RAM configuration or be mindful of memory use."
     }
   ]
 }

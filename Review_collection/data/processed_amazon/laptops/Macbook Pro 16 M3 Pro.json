@@ -5,38 +5,26 @@
     {
       "feature": "software",
       "sentiment": "positive",
-      "positive_mentions": 7,
-      "negative_mentions": 2,
-      "neutral_mentions": 2,
-      "mentions_total": 0,
-      "feature_score": 5,
-      "source": "amazon",
-      "type": "review",
-      "evidence": "I haven't owned my own since giving my wife my m1 air almost 5 years ago to buy a windows gaming laptop The software-Mac Os is pretty nice"
-    },
-    {
-      "feature": "design",
-      "sentiment": "positive",
       "positive_mentions": 4,
-      "negative_mentions": 1,
-      "neutral_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 4,
       "mentions_total": 0,
-      "feature_score": 3,
+      "feature_score": 4,
       "source": "amazon",
       "type": "review",
-      "evidence": "The Build:-Build quality feels solid I'm an Instructional Designer/ Corporate Trainer and needed a serious laptop to do some serious computing"
+      "evidence": "If you want to fully customize your OS and have complete control, Linux is where it is at. Out of all 3, if someone asked me for what OS their first every computer should be to just surf the web and watch movies and videos, I'd say Mac is most likely the best fit especially if you already have mac hardware."
     },
     {
       "feature": "display",
       "sentiment": "positive",
-      "positive_mentions": 5,
+      "positive_mentions": 3,
       "negative_mentions": 0,
-      "neutral_mentions": 0,
+      "neutral_mentions": 2,
       "mentions_total": 0,
-      "feature_score": 5,
+      "feature_score": 3,
       "source": "amazon",
       "type": "review",
-      "evidence": "I can type pretty quickly on it, and overall provides decent tactile feedback for a small / thin laptop-Screen is beautiful Should you buy a Macbook Air instead?-If you can get a macbook pro for <= 200 dollars more, get it, because of the screen and speakers alone",
+      "evidence": "Screen resolution is phenomenal and the speakers are excellent. I'm telling you, even if you are just a normal casual user, the screen will make a HUGE difference in your enjoyment.",
       "value": [
         "display: ['Liquid Retina XDR display', '14.2-inch (diagonal) Liquid Retina XDR display;2 3024-by-1964 native resolution at 254 pixels per inch', 'XDR (Extreme Dynamic Range)', '1,000,000:1 contrast ratio', 'XDR brightness: 1000 nits sustained full-screen, 1600 nits peak3 (HDR content only)', 'SDR brightness: up to 1000 nits (outdoor)', 'Color', 'Support for 1 billion colors', 'Wide color (P3)', 'True Tone technology', 'Refresh rates', 'ProMotion technology for adaptive refresh rates up to 120Hz']",
         "display support: ['Simultaneously supports full native resolution on the built-in display at 1 billion colors and:', 'Up to two external displays with up to 6K resolution at 60Hz over Thunderbolt, or one external display with up to 6K resolution at 60Hz over Thunderbolt and one external display with up to 4K resolution at 144Hz over HDMI', 'One external display supported at 8K resolution at 60Hz or one external display at 4K resolution at 240Hz over HDMI']"
@@ -46,25 +34,25 @@
       "feature": "storage",
       "sentiment": "mixed",
       "positive_mentions": 2,
-      "negative_mentions": 2,
+      "negative_mentions": 1,
       "neutral_mentions": 1,
       "mentions_total": 0,
-      "feature_score": 0,
+      "feature_score": 1,
       "source": "amazon",
       "type": "review",
-      "evidence": "I gave my gaming laptop (Alienware 15 inch, 32 Gig of RAM, and two Samsung SSD with 1 TB each) to my wife With 24gb my RAM pressure stays low and keeps things fast"
+      "evidence": "I gave my gaming laptop (Alienware 15 inch, 32 Gig of RAM, and two Samsung SSD with 1 TB each) to my wife. With 24gb my RAM pressure stays low and keeps things fast."
     },
     {
-      "feature": "speaker",
+      "feature": "design",
       "sentiment": "positive",
-      "positive_mentions": 2,
+      "positive_mentions": 3,
       "negative_mentions": 0,
       "neutral_mentions": 1,
       "mentions_total": 0,
-      "feature_score": 2,
+      "feature_score": 3,
       "source": "amazon",
       "type": "review",
-      "evidence": "-I've only felt it warm one time when i was installing 80GB of Logic Pro sounds and downloading some other stuff at the same time, with browser open with 10 tabs, etc Screen resolution is phenomenal and the speakers are excellent"
+      "evidence": "I was pleasantly surprised at the build and the weight. Very nice design with absolutely stunning color - they call Space Black."
     },
     {
       "feature": "price",
@@ -76,38 +64,11 @@
       "feature_score": 0,
       "source": "amazon",
       "type": "review",
-      "evidence": "Also keep in mind, the Air starts at 256GB vs 512GB for the pro, so when do your price comparisons, use that as the baseline (512GB AIR) Price-Mac RAM prices used to seem unreasonable, until this whole RAM shortage thing happened",
+      "evidence": "I plan to keep this laptop for 5+ years so the price is justified for me. Price-Mac RAM prices used to seem unreasonable, until this whole RAM shortage thing happened.",
       "value": [
         "price usd: 1799.0",
         "price rs: 417000"
       ]
-    },
-    {
-      "feature": "keyboard",
-      "sentiment": "positive",
-      "positive_mentions": 2,
-      "negative_mentions": 0,
-      "neutral_mentions": 0,
-      "mentions_total": 0,
-      "feature_score": 2,
-      "source": "amazon",
-      "type": "review",
-      "evidence": "-Keyboard feels nice The keyboard was smooth and responsive",
-      "value": [
-        "keyboard and trackpad: ['Backlit Magic Keyboard with:', '78 (U.S.) or 79 (ISO) keys including 12 full\u2011height function keys and 4 arrow keys in an inverted\u2011T arrangement', 'Touch ID', 'Ambient light sensor', 'Force Touch trackpad for precise cursor control and pressure\u2011sensing capabilities; enables Force clicks, accelerators, pressure\u2011sensitive drawing, and Multi\u2011Touch gestures']"
-      ]
-    },
-    {
-      "feature": "fan_noise",
-      "sentiment": "positive",
-      "positive_mentions": 2,
-      "negative_mentions": 0,
-      "neutral_mentions": 0,
-      "mentions_total": 0,
-      "feature_score": 2,
-      "source": "amazon",
-      "type": "review",
-      "evidence": "Blacks are inky black, HDR is fantastic ) They did fantastic job with the aluminum body of this laptop that feels really good in your hands"
     },
     {
       "feature": "performance",
@@ -119,19 +80,34 @@
       "feature_score": 1,
       "source": "amazon",
       "type": "review",
-      "evidence": "Performance-we already know Apple silicon performs very well"
+      "evidence": "Performance-we already know Apple silicon performs very well."
+    },
+    {
+      "feature": "keyboard",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The keyboard was smooth and responsive.",
+      "value": [
+        "keyboard and trackpad: ['Backlit Magic Keyboard with:', '78 (U.S.) or 79 (ISO) keys including 12 full\u2011height function keys and 4 arrow keys in an inverted\u2011T arrangement', 'Touch ID', 'Ambient light sensor', 'Force Touch trackpad for precise cursor control and pressure\u2011sensing capabilities; enables Force clicks, accelerators, pressure\u2011sensitive drawing, and Multi\u2011Touch gestures']"
+      ]
     },
     {
       "feature": "connectivity",
-      "sentiment": "mixed",
+      "sentiment": "negative",
       "positive_mentions": 0,
-      "negative_mentions": 0,
-      "neutral_mentions": 1,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
       "mentions_total": 0,
-      "feature_score": 0,
+      "feature_score": -1,
       "source": "amazon",
       "type": "review",
-      "evidence": ""
+      "evidence": "Make sure you get Bluetooth mouse for it, so you don't have to plug in the stupid dongle."
     }
   ]
 }

@@ -3,30 +3,6 @@
   "product": "Hp Spectre X360 16",
   "features": [
     {
-      "feature": "software",
-      "sentiment": "mixed",
-      "positive_mentions": 0,
-      "negative_mentions": 0,
-      "neutral_mentions": 3,
-      "mentions_total": 0,
-      "feature_score": 0,
-      "source": "amazon",
-      "type": "review",
-      "evidence": ""
-    },
-    {
-      "feature": "design",
-      "sentiment": "positive",
-      "positive_mentions": 2,
-      "negative_mentions": 0,
-      "neutral_mentions": 0,
-      "mentions_total": 0,
-      "feature_score": 2,
-      "source": "amazon",
-      "type": "review",
-      "evidence": "It seems that the computer was originally designed to meet specific hardware requirements It seems that the computer was originally designed to meet specific hardware requirements"
-    },
-    {
       "feature": "price",
       "sentiment": "positive",
       "positive_mentions": 1,
@@ -36,11 +12,23 @@
       "feature_score": 1,
       "source": "amazon",
       "type": "review",
-      "evidence": "Extremely worth the price",
+      "evidence": "Extremely worth the price.",
       "value": [
         "price usd: 1599.99",
         "price rs: 195490"
       ]
+    },
+    {
+      "feature": "camera",
+      "sentiment": "negative",
+      "positive_mentions": 0,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": -1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Camera stopped working."
     }
   ]
 }

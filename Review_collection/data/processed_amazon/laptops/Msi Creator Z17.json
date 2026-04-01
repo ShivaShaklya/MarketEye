@@ -3,59 +3,31 @@
   "product": "Msi Creator Z17",
   "features": [
     {
-      "feature": "software",
-      "sentiment": "mixed",
-      "positive_mentions": 5,
-      "negative_mentions": 3,
-      "neutral_mentions": 3,
-      "mentions_total": 0,
-      "feature_score": 2,
-      "source": "amazon",
-      "type": "review",
-      "evidence": "The laptop is a little on the heavy and slightly bulky side for casual use, but I wouldn\u2019t have minded if it was even bigger than it is if that meant better cooling, less cost, etc I haven\u2019t run into any major issues with other programs or OS yet"
-    },
-    {
       "feature": "performance",
       "sentiment": "positive",
-      "positive_mentions": 7,
-      "negative_mentions": 1,
-      "neutral_mentions": 1,
+      "positive_mentions": 6,
+      "negative_mentions": 0,
+      "neutral_mentions": 2,
       "mentions_total": 0,
       "feature_score": 6,
       "source": "amazon",
       "type": "review",
-      "evidence": "The laptop also runs hot when in performance power mode or when gaming The laptop seems to manage its built in fans well (and there\u2019s a keyboard function key to let you immediately turn all the fans on to max speed), but again, I advise a cooling pad with fans to ensure you don\u2019t overheat it during any use more intensive than watching videos"
-    },
-    {
-      "feature": "price",
-      "sentiment": "positive",
-      "positive_mentions": 5,
-      "negative_mentions": 0,
-      "neutral_mentions": 1,
-      "mentions_total": 0,
-      "feature_score": 5,
-      "source": "amazon",
-      "type": "review",
-      "evidence": "The laptop is a little on the heavy and slightly bulky side for casual use, but I wouldn\u2019t have minded if it was even bigger than it is if that meant better cooling, less cost, etc All around, a great gaming laptop for a reasonable price",
-      "value": [
-        "price usd: 1599.0",
-        "price rs: 304990"
-      ]
+      "evidence": "It's not a luxury laptop\u2014it\u2019s a focused, performance-driven tool for gaming and heavy workloads. Bottom line: if you\u2019re a gamer who prioritizes performance and value, this is a fantastic machine for the price."
     },
     {
       "feature": "keyboard",
       "sentiment": "positive",
-      "positive_mentions": 4,
+      "positive_mentions": 5,
       "negative_mentions": 1,
-      "neutral_mentions": 1,
+      "neutral_mentions": 0,
       "mentions_total": 0,
-      "feature_score": 3,
+      "feature_score": 4,
       "source": "amazon",
       "type": "review",
-      "evidence": "Stylish and sleek, and the customizable and dimmable keyboard backlighting is a nice touch I like the keyboard layout for typing as well as gaming, I find it to be very functional"
+      "evidence": "The RGB keyboard looks great, The function keys are well thought out (function keys for screen brightness, keyboard backlighting brightness, enable/disable touchpad, mute mic, etc.), which I find to be rare with laptops."
     },
     {
-      "feature": "design",
+      "feature": "software",
       "sentiment": "positive",
       "positive_mentions": 3,
       "negative_mentions": 1,
@@ -64,61 +36,89 @@
       "feature_score": 2,
       "source": "amazon",
       "type": "review",
-      "evidence": "The MSI app with designated function key lets you quickly change the power mode for your purposes, although my limited experience with the AI mode has not been great so far (it throttled the power down when I needed it, reasons unknown, and it turned off the keyboard backlighting at night) I\u2019ve used their graphics cards and motherboards in my builds for years, and they\u2019ve always delivered"
+      "evidence": "As someone who\u2019s been building and using gaming PCs for years, I picked up the MSI Katana 15 HX B14WGK-016US primarily for portability without compromising performance\u2014and I\u2019m impressed with what this system delivers. The laptop runs Windows 11 well and seems very fast and powerful (although I haven\u2019t done anything"
     },
     {
-      "feature": "thermals",
-      "sentiment": "mixed",
-      "positive_mentions": 3,
-      "negative_mentions": 2,
-      "neutral_mentions": 0,
-      "mentions_total": 0,
-      "feature_score": 1,
-      "source": "amazon",
-      "type": "review",
-      "evidence": "The laptop is a little on the heavy and slightly bulky side for casual use, but I wouldn\u2019t have minded if it was even bigger than it is if that meant better cooling, less cost, etc I would never use a gaming laptop without a cooling pad, but if you\u2019re new to gaming laptops, take note"
-    },
-    {
-      "feature": "storage",
-      "sentiment": "mixed",
-      "positive_mentions": 1,
-      "negative_mentions": 2,
+      "feature": "price",
+      "sentiment": "positive",
+      "positive_mentions": 4,
+      "negative_mentions": 0,
       "neutral_mentions": 1,
       "mentions_total": 0,
-      "feature_score": -1,
+      "feature_score": 4,
       "source": "amazon",
       "type": "review",
-      "evidence": "I haven\u2019t run into any major issues with other programs or OS yet I wanted a new laptop for personal use as well as mostly moderate gaming, and this laptop is great for all my purposes (i9, 32GB RAM, 1TB storage)"
+      "evidence": "Bottom line: if you\u2019re a gamer who prioritizes performance and value, this is a fantastic machine for the price. I consider the price I paid ($1746) reasonable compared with similar laptops,",
+      "value": [
+        "price usd: 1599.0",
+        "price rs: 304990"
+      ]
     },
     {
       "feature": "display",
       "sentiment": "positive",
       "positive_mentions": 2,
-      "negative_mentions": 1,
+      "negative_mentions": 0,
       "neutral_mentions": 0,
       "mentions_total": 0,
-      "feature_score": 1,
+      "feature_score": 2,
       "source": "amazon",
       "type": "review",
-      "evidence": "The function keys are well thought out (function keys for screen brightness, keyboard backlighting brightness, enable/disable touchpad, mute mic, etc The 165Hz display really helps the experience feel fluid in competitive titles",
+      "evidence": "The function keys are well thought out (function keys for screen brightness, keyboard backlighting brightness, enable/disable touchpad, mute mic, etc.), which I find to be rare with laptops. The 165Hz display really helps the experience feel fluid in competitive titles.",
       "value": [
         "standing screen display size: 15.6 Inches"
       ]
     },
     {
-      "feature": "fan_noise",
+      "feature": "thermals",
       "sentiment": "positive",
-      "positive_mentions": 3,
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "MSI did a solid job with thermals\u2014kick on Cooler Boost and it stays cool enough without thermal throttling. again, I advise a cooling pad with fans to ensure you don\u2019t overheat it during any use more intensive than watching videos."
+    },
+    {
+      "feature": "design",
+      "sentiment": "negative",
+      "positive_mentions": 0,
+      "negative_mentions": 1,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": -1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "I didn\u2019t pick this laptop for its light weight design. metal feel and pretty basic clean design,"
+    },
+    {
+      "feature": "storage",
+      "sentiment": "positive",
+      "positive_mentions": 1,
       "negative_mentions": 0,
       "neutral_mentions": 0,
       "mentions_total": 0,
-      "feature_score": 3,
+      "feature_score": 1,
       "source": "amazon",
       "type": "review",
-      "evidence": "Sometimes the laptop does not shut down completely at all, and the Embedded Controller keeps the fans running indefinitely, until I hold down the power button to manually power it off The laptop seems to manage its built in fans well (and there\u2019s a keyboard function key to let you immediately turn all the fans on to max speed), but again, I advise a cooling pad with fans to ensure you don\u2019t overheat it during any use more intensive than watching videos"
+      "evidence": "I wanted a new laptop for personal use as well as mostly moderate gaming, and this laptop is great for all my purposes (i9, 32GB RAM, 1TB storage)."
     },
     {
       "feature": "trackpad",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The function keys are well thought out (function keys for screen brightness, keyboard backlighting brightness, enable/disable touchpad, mute mic, etc.), which I find to be rare with laptops."
+    },
+    {
+      "feature": "battery",
       "sentiment": "negative",
       "positive_mentions": 0,
       "negative_mentions": 1,
@@ -127,19 +127,7 @@
       "feature_score": -1,
       "source": "amazon",
       "type": "review",
-      "evidence": "The function keys are well thought out (function keys for screen brightness, keyboard backlighting brightness, enable/disable touchpad, mute mic, etc"
-    },
-    {
-      "feature": "battery",
-      "sentiment": "positive",
-      "positive_mentions": 1,
-      "negative_mentions": 0,
-      "neutral_mentions": 0,
-      "mentions_total": 0,
-      "feature_score": 1,
-      "source": "amazon",
-      "type": "review",
-      "evidence": "Battery life isn\u2019t great\u2014maybe 4 hours max under light use, and much less if you\u2019re doing anything demanding",
+      "evidence": "Battery life isn\u2019t great\u2014maybe 4 hours max under light use, and much less if you\u2019re doing anything demanding.",
       "value": [
         "average battery life in hours: 2 Hours"
       ]

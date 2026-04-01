@@ -3,67 +3,40 @@
   "product": "Hp Pavilion Plus 14",
   "features": [
     {
-      "feature": "software",
-      "sentiment": "mixed",
-      "positive_mentions": 7,
-      "negative_mentions": 5,
-      "neutral_mentions": 4,
-      "mentions_total": 0,
-      "feature_score": 2,
-      "source": "amazon",
-      "type": "review",
-      "evidence": "Did have some issues as backup from previous HP Laptop, had different drivers but was quickly resolved with installed HP Support program The bloat ware MacAfee that came installed I kept on until I had downloaded windows defender (again from Microsoft Store) and installed it, then deleted it also"
-    },
-    {
       "feature": "connectivity",
       "sentiment": "positive",
-      "positive_mentions": 6,
+      "positive_mentions": 7,
       "negative_mentions": 1,
-      "neutral_mentions": 2,
+      "neutral_mentions": 1,
       "mentions_total": 0,
-      "feature_score": 5,
+      "feature_score": 6,
       "source": "amazon",
       "type": "review",
-      "evidence": "This should have had WIFI 7 on it, but doesn't, but they do sell WIFI 7 dongles at Amazon and Walmart that may make it a little faster if it's compatible with your machine I will let everyone know that when I upgrade this laptop to a WIFI 7 Dongle"
+      "evidence": "Wifi performance is better than my old computer's ethernet. Today 01/12/2026 I added an Amazon (USBGREEN) USB-C to Lan ethernet dongle and Laptop caught it and instantly changed from Wi-Fi to wired ethernet connection."
     },
     {
-      "feature": "storage",
-      "sentiment": "positive",
-      "positive_mentions": 4,
+      "feature": "software",
+      "sentiment": "mixed",
+      "positive_mentions": 0,
       "negative_mentions": 1,
-      "neutral_mentions": 0,
+      "neutral_mentions": 3,
       "mentions_total": 0,
-      "feature_score": 3,
+      "feature_score": -1,
       "source": "amazon",
       "type": "review",
-      "evidence": "Did have some issues as backup from previous HP Laptop, had different drivers but was quickly resolved with installed HP Support program After running the PC Manager program that you must download from Microsoft store and ran health check and deep cleaning, all excess files and junk files were cleaned off"
-    },
-    {
-      "feature": "port",
-      "sentiment": "positive",
-      "positive_mentions": 4,
-      "negative_mentions": 0,
-      "neutral_mentions": 0,
-      "mentions_total": 0,
-      "feature_score": 4,
-      "source": "amazon",
-      "type": "review",
-      "evidence": "I also plugged a 7 port USB A 3 Lastly, I plugged a 3 port USB-C to HDMI splitter (from Amazon, StarTech",
-      "value": [
-        "number of usb 3 0 ports: 3"
-      ]
+      "evidence": "Did have some issues as backup from previous HP Laptop, had different drivers The bloat ware MacAfee that came installed I kept on until I had downloaded windows defender (again from Microsoft Store) and installed it, then deleted it also."
     },
     {
       "feature": "display",
-      "sentiment": "positive",
-      "positive_mentions": 3,
+      "sentiment": "mixed",
+      "positive_mentions": 1,
       "negative_mentions": 1,
-      "neutral_mentions": 0,
+      "neutral_mentions": 1,
       "mentions_total": 0,
-      "feature_score": 2,
+      "feature_score": 0,
       "source": "amazon",
       "type": "review",
-      "evidence": "Router confirmed this by showing laptop as wired and so does status bar in bottom right of Windows screen Screen is clear and bright, although light reflection is a bit annoying in the daytime",
+      "evidence": "Screen is clear and bright, I received this laptop and two weeks later the screen stopped working, there was no damage to it other than the screen stopped functioning, so I returned it, and the seller refuses to give a refund because the laptop was defective, which is not my fault at all!",
       "value": [
         "standing screen display size: 17.3 Inches"
       ]
@@ -78,7 +51,19 @@
       "feature_score": 3,
       "source": "amazon",
       "type": "review",
-      "evidence": "My throughput speed is 687 MBS via (Okaloosa Speed Test) and since I have Spectrum Ultra internet at 750 MBS Max, I am satisfied with performance It replaced another 17\" laptop that was almost 6 years old and the improved performance is impressive"
+      "evidence": "My throughput speed is 687 MBS via (Okaloosa Speed Test) and since I have Spectrum Ultra internet at 750 MBS Max, I am satisfied with performance. Wifi performance is better than my old computer's ethernet."
+    },
+    {
+      "feature": "storage",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Unit is currently running better than expected, much faster due to the 64GB of ram that came already installed. This was for the 512 GB storage to make it a 2.5 Terabyte of storage."
     },
     {
       "feature": "keyboard",
@@ -90,7 +75,7 @@
       "feature_score": 0,
       "source": "amazon",
       "type": "review",
-      "evidence": ""
+      "evidence": "No light behind the keyboard"
     },
     {
       "feature": "trackpad",
@@ -102,19 +87,7 @@
       "feature_score": 1,
       "source": "amazon",
       "type": "review",
-      "evidence": "I have been trying to convert from my mouse to the touchpad, and it is easier to do with this one"
-    },
-    {
-      "feature": "speaker",
-      "sentiment": "negative",
-      "positive_mentions": 0,
-      "negative_mentions": 1,
-      "neutral_mentions": 0,
-      "mentions_total": 0,
-      "feature_score": -1,
-      "source": "amazon",
-      "type": "review",
-      "evidence": "On board speakers are weak and tinny sounding, but I use headphones mostly anyway"
+      "evidence": "I have been trying to convert from my mouse to the touchpad, and it is easier to do with this one."
     },
     {
       "feature": "battery",
@@ -126,7 +99,7 @@
       "feature_score": -1,
       "source": "amazon",
       "type": "review",
-      "evidence": "The docking station is NOT a docking station, it is a multi device connection \"hub\" and cannot charge the PC"
+      "evidence": "The docking station is NOT a docking station, it is a multi device connection \"hub\" and cannot charge the PC."
     }
   ]
 }

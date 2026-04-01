@@ -4,42 +4,42 @@
   "features": [
     {
       "feature": "software",
-      "sentiment": "positive",
-      "positive_mentions": 9,
-      "negative_mentions": 4,
-      "neutral_mentions": 1,
-      "mentions_total": 0,
-      "feature_score": 5,
-      "source": "amazon",
-      "type": "review",
-      "evidence": "Be sure to update drivers after purchase It also now will not turn on unless it's plugged in, regardless of the battery charge, which remains at 81% and healthy according to the BIOS"
-    },
-    {
-      "feature": "thermals",
       "sentiment": "negative",
-      "positive_mentions": 1,
-      "negative_mentions": 7,
-      "neutral_mentions": 0,
+      "positive_mentions": 0,
+      "negative_mentions": 4,
+      "neutral_mentions": 5,
       "mentions_total": 0,
-      "feature_score": -6,
+      "feature_score": -4,
       "source": "amazon",
       "type": "review",
-      "evidence": "The PC overheats without the turbo mode on because the fans hardly work in normal performance mode I first thought it was overheating but it does it sometimes within minutes of being turned on for the first time in a day"
+      "evidence": "alt+tab tooks a while to work and so did the windows button. Every windows update breaks something else in the software."
     },
     {
       "feature": "speaker",
-      "sentiment": "positive",
-      "positive_mentions": 4,
-      "negative_mentions": 2,
-      "neutral_mentions": 0,
+      "sentiment": "mixed",
+      "positive_mentions": 2,
+      "negative_mentions": 1,
+      "neutral_mentions": 3,
       "mentions_total": 0,
-      "feature_score": 2,
+      "feature_score": 1,
       "source": "amazon",
       "type": "review",
-      "evidence": "Its only weakness is that the audio port seems to be a dust magnet and has to be blown out regularly to maintain a connection to an external speaker or headphone I got tired of blasting it with a can of compressed air so I just use Bluetooth for external sound with it now"
+      "evidence": "Excellent sound, graphics and gameplay. The speakers are ok, and the mic quality according to my friends sound like an Xbox 360 mic so you may want to invest in a decent headset."
     },
     {
-      "feature": "performance",
+      "feature": "battery",
+      "sentiment": "negative",
+      "positive_mentions": 0,
+      "negative_mentions": 3,
+      "neutral_mentions": 2,
+      "mentions_total": 0,
+      "feature_score": -3,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "never got any notifications about the computer over heating though.poor quality control and weirdness on battery. After unplugging the battery and plugging it back in, the PC would not turn on for about 30 minutes at all."
+    },
+    {
+      "feature": "display",
       "sentiment": "mixed",
       "positive_mentions": 2,
       "negative_mentions": 2,
@@ -48,43 +48,7 @@
       "feature_score": 0,
       "source": "amazon",
       "type": "review",
-      "evidence": "Keynote: the Dell software will tell the fans to start revving up when its already too late and your GPU is cooking The \"Gaming mode\" button that turns on turbo performance is also reportedly responsible for frying people's CPUs"
-    },
-    {
-      "feature": "fan_noise",
-      "sentiment": "mixed",
-      "positive_mentions": 1,
-      "negative_mentions": 2,
-      "neutral_mentions": 2,
-      "mentions_total": 0,
-      "feature_score": -1,
-      "source": "amazon",
-      "type": "review",
-      "evidence": "Keynote: the Dell software will tell the fans to start revving up when its already too late and your GPU is cooking These problems can be circumvented if you do a fresh windows install and install a 3rd party app yo control the fans as the dell software is horrible for fan control"
-    },
-    {
-      "feature": "battery",
-      "sentiment": "negative",
-      "positive_mentions": 1,
-      "negative_mentions": 3,
-      "neutral_mentions": 1,
-      "mentions_total": 0,
-      "feature_score": -2,
-      "source": "amazon",
-      "type": "review",
-      "evidence": "After unplugging the battery and plugging it back in, the PC would not turn on for about 30 minutes at all only issue is that the laptop acts weird on battery"
-    },
-    {
-      "feature": "display",
-      "sentiment": "positive",
-      "positive_mentions": 3,
-      "negative_mentions": 1,
-      "neutral_mentions": 1,
-      "mentions_total": 0,
-      "feature_score": 2,
-      "source": "amazon",
-      "type": "review",
-      "evidence": "Update: i go the replacement and it does NOT have the line on the screen It'll run things fine on power and if you can get one without the line on the screen",
+      "evidence": "It'll run things fine on power and if you can get one without the line on the screen. The IPS screen looks very nice, and mine came with very minimal IPS bleed.",
       "value": [
         "standing screen display size: 16 Inches"
       ]
@@ -92,42 +56,66 @@
     {
       "feature": "storage",
       "sentiment": "negative",
+      "positive_mentions": 0,
+      "negative_mentions": 3,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": -3,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The Alienware command center app is a RAM hog. we are heading into a world where RAM is being logged by all types of bloatware so 64g is becoming the go-to."
+    },
+    {
+      "feature": "performance",
+      "sentiment": "mixed",
       "positive_mentions": 1,
+      "negative_mentions": 2,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": -1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Very nice performance. The \"Gaming mode\" button that turns on turbo performance is also reportedly responsible for frying people's CPUs."
+    },
+    {
+      "feature": "thermals",
+      "sentiment": "negative",
+      "positive_mentions": 0,
       "negative_mentions": 3,
       "neutral_mentions": 0,
       "mentions_total": 0,
-      "feature_score": -2,
+      "feature_score": -3,
       "source": "amazon",
       "type": "review",
-      "evidence": "The Alienware command center app is a RAM hog Playing WoW with discord open and the Alienware system monitor overlay was using 15 GB of RAM"
+      "evidence": "may have been over heating or something. never got any notifications about the computer over heating though.poor quality control and weirdness on battery."
+    },
+    {
+      "feature": "fan_noise",
+      "sentiment": "negative",
+      "positive_mentions": 0,
+      "negative_mentions": 1,
+      "neutral_mentions": 2,
+      "mentions_total": 0,
+      "feature_score": -1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "These problems can be circumvented if you do a fresh windows install and install a 3rd party app yo control the fans as the dell software is horrible for fan control. Don't complain that it'll be too loud because you'll most likely be wearing headphones."
     },
     {
       "feature": "price",
       "sentiment": "positive",
-      "positive_mentions": 3,
+      "positive_mentions": 2,
       "negative_mentions": 0,
       "neutral_mentions": 0,
       "mentions_total": 0,
-      "feature_score": 3,
+      "feature_score": 2,
       "source": "amazon",
       "type": "review",
-      "evidence": "Its a great laptop for the price All of this being said, you get a solid piece of machinery and graphic power for the price and if taken care of, can last quite a while before needing to upgrade to the next best thing",
+      "evidence": "Its a great laptop for the price. All of this being said, you get a solid piece of machinery and graphic power for the price and if taken care of, can last quite a while before needing to upgrade to the next best thing.",
       "value": [
         "price usd: 1449.22",
         "price rs: 180990"
       ]
-    },
-    {
-      "feature": "port",
-      "sentiment": "positive",
-      "positive_mentions": 1,
-      "negative_mentions": 0,
-      "neutral_mentions": 0,
-      "mentions_total": 0,
-      "feature_score": 1,
-      "source": "amazon",
-      "type": "review",
-      "evidence": "Its only weakness is that the audio port seems to be a dust magnet and has to be blown out regularly to maintain a connection to an external speaker or headphone"
     },
     {
       "feature": "connectivity",
@@ -139,7 +127,7 @@
       "feature_score": 0,
       "source": "amazon",
       "type": "review",
-      "evidence": ""
+      "evidence": "so I just use Bluetooth for external sound with it now."
     }
   ]
 }

@@ -3,52 +3,40 @@
   "product": "Asus Tuf Gaming A15",
   "features": [
     {
-      "feature": "software",
-      "sentiment": "positive",
-      "positive_mentions": 7,
-      "negative_mentions": 2,
-      "neutral_mentions": 2,
-      "mentions_total": 0,
-      "feature_score": 5,
-      "source": "amazon",
-      "type": "review",
-      "evidence": "-Laptop is great product and good enough to play most new titles @ high settings -GPU and CPU do get really hot under full load on Turbo mode (GPU=87C and CPU=94C) but custom fan curves using armory crate software will help with that"
-    },
-    {
       "feature": "performance",
       "sentiment": "positive",
-      "positive_mentions": 8,
+      "positive_mentions": 3,
       "negative_mentions": 1,
-      "neutral_mentions": 2,
+      "neutral_mentions": 3,
       "mentions_total": 0,
-      "feature_score": 7,
+      "feature_score": 2,
       "source": "amazon",
       "type": "review",
-      "evidence": "-GTAV very high settings over 100 FPS in 1080p and 70 to 110 FPS @ 1440p on external monitor through HDMI -Furmark =133 FPS @1080p (8000 score in Furmark gpu stress test) almost on par with the 3060 desktop GPU"
+      "evidence": "The CPU uses 20 to 40 watts when gaming in turbo mode.-300HZ Screen is SUPER smooth on high fps games, and the colors are also more accurate than lower SRGB screens-Battery last a long time (5hours+) if in ECO mode and just browsing and watching movies/music. Says the graphics are great, no lag and can smoothly play her games which her previous laptop could not handle."
     },
     {
       "feature": "battery",
       "sentiment": "mixed",
-      "positive_mentions": 4,
+      "positive_mentions": 2,
       "negative_mentions": 3,
       "neutral_mentions": 1,
       "mentions_total": 0,
-      "feature_score": 1,
+      "feature_score": -1,
       "source": "amazon",
       "type": "review",
-      "evidence": "Battery life could be better? But it does recharge quickly DO NOT leave it on sleep mode when traveling, turn it all the way off or the battery will dump"
+      "evidence": "The CPU uses 20 to 40 watts when gaming in turbo mode.-300HZ Screen is SUPER smooth on high fps games, and the colors are also more accurate than lower SRGB screens-Battery last a long time (5hours+) if in ECO mode and just browsing and watching movies/music. My Pros: I have had no issues with overheating thus far, I'll run further battery tests and provide an update needs be."
     },
     {
       "feature": "price",
       "sentiment": "positive",
-      "positive_mentions": 5,
-      "negative_mentions": 1,
-      "neutral_mentions": 0,
+      "positive_mentions": 4,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
       "mentions_total": 0,
       "feature_score": 4,
       "source": "amazon",
       "type": "review",
-      "evidence": "It was a great value (I got it on sale?) For the price the specs are great",
+      "evidence": "For the price the specs are great. It was a great value (I got it on sale?).",
       "value": [
         "price usd: 939.95",
         "price rs: 55990"
@@ -56,42 +44,30 @@
     },
     {
       "feature": "display",
-      "sentiment": "positive",
-      "positive_mentions": 4,
-      "negative_mentions": 0,
-      "neutral_mentions": 0,
-      "mentions_total": 0,
-      "feature_score": 4,
-      "source": "amazon",
-      "type": "review",
-      "evidence": "-300HZ Screen is SUPER smooth on high fps games, and the colors are also more accurate than lower SRGB screens-Battery last a long time (5hours+) if in ECO mode and just browsing and watching movies/music -Backlit RGB keyboard is nice, can switch between many lighting setting and colors, and 3 brightness levels",
-      "value": [
-        "standing screen display size: 15.6 Inches"
-      ]
-    },
-    {
-      "feature": "storage",
-      "sentiment": "positive",
-      "positive_mentions": 3,
-      "negative_mentions": 0,
-      "neutral_mentions": 0,
-      "mentions_total": 0,
-      "feature_score": 3,
-      "source": "amazon",
-      "type": "review",
-      "evidence": "-RAM 2x 8Gig 4800Mhz ram, so its dual channel which really gives a boost in gaming performance I use this device for light gaming, programming and Work"
-    },
-    {
-      "feature": "fan_noise",
-      "sentiment": "positive",
-      "positive_mentions": 1,
-      "negative_mentions": 0,
+      "sentiment": "mixed",
+      "positive_mentions": 2,
+      "negative_mentions": 1,
       "neutral_mentions": 1,
       "mentions_total": 0,
       "feature_score": 1,
       "source": "amazon",
       "type": "review",
-      "evidence": "-1 Year ASUS accidental damage Warranty,-240 Watt Charger gets super hot when gaming, maybe consider some cooling fan blow on charger for charger longevity"
+      "evidence": "The display is smooth, 300 HZ so that's to be expected. The CPU uses 20 to 40 watts when gaming in turbo mode.-300HZ Screen is SUPER smooth on high fps games, and the colors are also more accurate than lower SRGB screens-Battery last a long time (5hours+) if in ECO mode and just browsing and watching movies/music.",
+      "value": [
+        "standing screen display size: 15.6 Inches"
+      ]
+    },
+    {
+      "feature": "fan_noise",
+      "sentiment": "positive",
+      "positive_mentions": 2,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "custom fan curves using armory crate software will help with that. clicks are soft and acceptable.-1 Year ASUS accidental damage Warranty,-240 Watt Charger gets super hot when gaming, maybe consider some cooling fan blow on charger for charger longevity.-All in all it is a great gaming laptop as it plays all the games I like high settings both 1080p and 1440p."
     },
     {
       "feature": "keyboard",
@@ -103,46 +79,10 @@
       "feature_score": 0,
       "source": "amazon",
       "type": "review",
-      "evidence": "-Backlit RGB keyboard is nice, can switch between many lighting setting and colors, and 3 brightness levels The keyboard backlight is a little weak even at maximum , the FKEYS especially, that aside for the cost I believe it to be a good acquisition for school/Work and light gaming"
+      "evidence": "The keyboard backlight is a little weak even at maximum , the FKEYS especially, that aside for the cost I believe it to be a good acquisition for school/Work and light gaming. When gaming and in turbo mode (Mux switch on) the GPU/CPU will chow full battery within 2 hours.-Backlit RGB keyboard is nice, can switch between many lighting setting and colors, and 3 brightness levels.-Wifi surprisingly sucks when connecting to access points far away(10metes +) compared to my office Dell laptop."
     },
     {
-      "feature": "trackpad",
-      "sentiment": "positive",
-      "positive_mentions": 2,
-      "negative_mentions": 0,
-      "neutral_mentions": 0,
-      "mentions_total": 0,
-      "feature_score": 2,
-      "source": "amazon",
-      "type": "review",
-      "evidence": "-Touchpad is smooth/accurate and does exactly what it should Num pad included and the trackpad is responsive"
-    },
-    {
-      "feature": "thermals",
-      "sentiment": "mixed",
-      "positive_mentions": 1,
-      "negative_mentions": 1,
-      "neutral_mentions": 0,
-      "mentions_total": 0,
-      "feature_score": 0,
-      "source": "amazon",
-      "type": "review",
-      "evidence": "-1 Year ASUS accidental damage Warranty,-240 Watt Charger gets super hot when gaming, maybe consider some cooling fan blow on charger for charger longevity My Pros: I have had no issues with overheating thus far, I'll run further battery tests and provide an update needs be"
-    },
-    {
-      "feature": "connectivity",
-      "sentiment": "negative",
-      "positive_mentions": 0,
-      "negative_mentions": 1,
-      "neutral_mentions": 0,
-      "mentions_total": 0,
-      "feature_score": -1,
-      "source": "amazon",
-      "type": "review",
-      "evidence": "-Wifi surprisingly sucks when connecting to access points far away(10metes +) compared to my office Dell laptop"
-    },
-    {
-      "feature": "webcam",
+      "feature": "software",
       "sentiment": "mixed",
       "positive_mentions": 0,
       "negative_mentions": 0,
@@ -151,7 +91,43 @@
       "feature_score": 0,
       "source": "amazon",
       "type": "review",
-      "evidence": ""
+      "evidence": "custom fan curves using armory crate software will help with that."
+    },
+    {
+      "feature": "storage",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "100+mbs.-RAM 2x 8Gig 4800Mhz ram, so its dual channel which really gives a boost in gaming performance.-Touchpad is smooth/accurate and does exactly what it should."
+    },
+    {
+      "feature": "camera",
+      "sentiment": "mixed",
+      "positive_mentions": 0,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 0,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The machine is sturdy , the webcam is average."
+    },
+    {
+      "feature": "trackpad",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Num pad included and the trackpad is responsive."
     }
   ]
 }

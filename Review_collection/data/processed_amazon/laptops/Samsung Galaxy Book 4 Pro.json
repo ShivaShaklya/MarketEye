@@ -3,119 +3,119 @@
   "product": "Samsung Galaxy Book 4 Pro",
   "features": [
     {
-      "feature": "software",
-      "sentiment": "positive",
-      "positive_mentions": 16,
-      "negative_mentions": 2,
-      "neutral_mentions": 2,
-      "mentions_total": 0,
-      "feature_score": 14,
-      "source": "amazon",
-      "type": "review",
-      "evidence": "Overall, the Galaxy Book4 Pro is a great choice for those seeking a high-quality, portable laptop The 2024 Samsung Galaxy Book4 Pro 14 inch has one of the most premium builds for a Windows Laptop in its class in my opinion"
-    },
-    {
       "feature": "storage",
-      "sentiment": "mixed",
-      "positive_mentions": 11,
-      "negative_mentions": 6,
-      "neutral_mentions": 0,
+      "sentiment": "positive",
+      "positive_mentions": 6,
+      "negative_mentions": 1,
+      "neutral_mentions": 6,
       "mentions_total": 0,
       "feature_score": 5,
       "source": "amazon",
       "type": "review",
-      "evidence": "I was able to attain the 1 TB SSD, 16 GB RAM, Windows 11 Pro, Core Ultra 7 Version (NP944XGK-KG1US) for $999 due to a pricing error on Amazon 2 ssd's)"
+      "evidence": "Theoretically, you could DIY upgrade this to having potentially 16 TB (yes TB!) of storage space in your laptop if you can run two m.2 8 TB drives. - Getting access to the motherboard to replace the OEM m.2 ssd and add my own took me literally less than 20 minutes with the help of YouTube tutorials + a Cheap $10 PC Tool Kit.3) 2"
     },
     {
       "feature": "design",
       "sentiment": "positive",
-      "positive_mentions": 8,
-      "negative_mentions": 2,
+      "positive_mentions": 9,
+      "negative_mentions": 0,
       "neutral_mentions": 2,
       "mentions_total": 0,
-      "feature_score": 6,
+      "feature_score": 9,
       "source": "amazon",
       "type": "review",
-      "evidence": "Its compact size and lightweight design make it highly portable, perfect for on-the-go use Additionally, the build quality is solid, and the keyboard provides a comfortable typing experience"
+      "evidence": "Its compact size and lightweight design make it highly portable, perfect for on-the-go use. Additionally, the build quality is solid, and the keyboard provides a comfortable typing experience."
     },
     {
-      "feature": "battery",
-      "sentiment": "mixed",
-      "positive_mentions": 6,
-      "negative_mentions": 4,
-      "neutral_mentions": 0,
-      "mentions_total": 0,
-      "feature_score": 2,
-      "source": "amazon",
-      "type": "review",
-      "evidence": "Battery life is great and the charger works so well 11) Battery Life runs at 8 hours (with full brightness and performance set to maximum with constant load with two m"
-    },
-    {
-      "feature": "performance",
+      "feature": "software",
       "sentiment": "positive",
-      "positive_mentions": 9,
-      "negative_mentions": 1,
-      "neutral_mentions": 0,
+      "positive_mentions": 10,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
       "mentions_total": 0,
-      "feature_score": 8,
+      "feature_score": 10,
       "source": "amazon",
       "type": "review",
-      "evidence": "The SAMSUNG 14\u201d Galaxy Book4 Pro Laptop is a sleek and powerful device that delivers excellent performance for both work and play Under the hood, the laptop is equipped with robust hardware, ensuring smooth multitasking and fast processing speeds"
+      "evidence": "Intel Evo Certified.10) Comes w/ Windows 11 Pro (on the NP944XGK version) \u2013 which is handy for integration with my company\u2019s data servers & Microsoft Azure AD network.11) Finally, for professional and business network/software reasons, I'm forced to be a Windows User and this is a good option for that."
     },
     {
       "feature": "display",
-      "sentiment": "mixed",
-      "positive_mentions": 5,
-      "negative_mentions": 4,
-      "neutral_mentions": 0,
+      "sentiment": "positive",
+      "positive_mentions": 7,
+      "negative_mentions": 0,
+      "neutral_mentions": 2,
       "mentions_total": 0,
-      "feature_score": 1,
+      "feature_score": 7,
       "source": "amazon",
       "type": "review",
-      "evidence": "The vibrant display offers crisp and clear visuals, ideal for multimedia consumption and productivity tasks Beautiful display OLED screen and the sound quality is awesome",
+      "evidence": "The vibrant display offers crisp and clear visuals, ideal for multimedia consumption and productivity tasks. The screen is really good.",
       "value": [
         "standing screen display size: 16 Inches"
       ]
     },
     {
-      "feature": "price",
+      "feature": "battery",
       "sentiment": "mixed",
       "positive_mentions": 4,
       "negative_mentions": 2,
-      "neutral_mentions": 2,
+      "neutral_mentions": 3,
       "mentions_total": 0,
       "feature_score": 2,
       "source": "amazon",
       "type": "review",
-      "evidence": "This was my first ever laptop I bought and I am truly in love with it!!! It's so smooth and the graphics are so amazing and the colors pop out so clear and bright!!! I am absolutely happy with my purchase and definitely worth price I paid for, wow!! The upcharge from 512 GB version to the 1 TB version of this laptop is $300 (Samsung is conducting Apple-Level price gouging but unlike Apple it\u2019s not even using their own top tier in-house parts)",
+      "evidence": "The battery life is commendable, lasting through a full day of moderate use. unfortunately they weight are more heavier!But I will only choose Korean brand for the durability and great sturaction and best performanceCompare with the battery, the galaxy still well manage~"
+    },
+    {
+      "feature": "performance",
+      "sentiment": "mixed",
+      "positive_mentions": 2,
+      "negative_mentions": 3,
+      "neutral_mentions": 3,
+      "mentions_total": 0,
+      "feature_score": -1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "it still delivers strong performance for daily tasks. The SAMSUNG 14\u201d Galaxy Book4 Pro Laptop is a sleek and powerful device that delivers excellent performance for both work and play."
+    },
+    {
+      "feature": "price",
+      "sentiment": "positive",
+      "positive_mentions": 4,
+      "negative_mentions": 1,
+      "neutral_mentions": 2,
+      "mentions_total": 0,
+      "feature_score": 3,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "My only hesitation is that for its current market price, I think there are frankly better Windows options that offer more for less pricing wise (Lenovo Slim 7i Gen 9, Asus Zenbook UX3405) and the same pricing bracket for more (Dell XPS 14, Lenovo Thinkbook Gen13x Gen 4).If I paid the normal price, I\u2019d be giving this review 3.5 stars. I am absolutely happy with my purchase and definitely worth price I paid for, wow!!",
       "value": [
         "price usd: 1199.0",
         "price rs: 110990"
       ]
     },
     {
+      "feature": "keyboard",
+      "sentiment": "positive",
+      "positive_mentions": 2,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Additionally, the build quality is solid, and the keyboard provides a comfortable typing experience. Some special integrated \"Samsung Only\" features if you're especially invested in the Samsung Eco-System (w/ Galaxy Smart Phone, Quickshare, Smartthings, etc).6) Intel Unison Software allows call, text message, and image retrieval compatibility with iPhones & iPads.7) Keyboard comes with the new Microsoft Copilot Key integrated & a dedicated ai NPU chip.8)"
+    },
+    {
       "feature": "thermals",
       "sentiment": "negative",
       "positive_mentions": 0,
-      "negative_mentions": 5,
-      "neutral_mentions": 0,
-      "mentions_total": 0,
-      "feature_score": -5,
-      "source": "amazon",
-      "type": "review",
-      "evidence": "Constantly overheats, awful battery, incredibly slow The ultra core 7 155h would thermal throttle all day long"
-    },
-    {
-      "feature": "keyboard",
-      "sentiment": "mixed",
-      "positive_mentions": 1,
       "negative_mentions": 1,
-      "neutral_mentions": 1,
+      "neutral_mentions": 2,
       "mentions_total": 0,
-      "feature_score": 0,
+      "feature_score": -1,
       "source": "amazon",
       "type": "review",
-      "evidence": "Additionally, the build quality is solid, and the keyboard provides a comfortable typing experience 7) Keyboard comes with the new Microsoft Copilot Key integrated & a dedicated ai NPU chip"
+      "evidence": "With in 5 mins it would thermal throttle down really bad and performance would tank. It would go from an higher clock at first, thermal throttle to like 0.5Ghz then back up and down again."
     },
     {
       "feature": "speaker",
@@ -127,22 +127,10 @@
       "feature_score": 2,
       "source": "amazon",
       "type": "review",
-      "evidence": "Beautiful display OLED screen and the sound quality is awesome Product's quality are well build and the sound system are incredible great!compare with GRAM, the Galaxy is more solid but unfortunately they weight are more heavier!But I will only choose Korean brand for the durability and great sturaction and best performanceCompare with the battery, the galaxy still well manage~"
+      "evidence": "Beautiful display OLED screen and the sound quality is awesome. Product's quality are well build and the sound system are incredible great!compare with GRAM, the Galaxy is more solid"
     },
     {
       "feature": "connectivity",
-      "sentiment": "negative",
-      "positive_mentions": 0,
-      "negative_mentions": 2,
-      "neutral_mentions": 0,
-      "mentions_total": 0,
-      "feature_score": -2,
-      "source": "amazon",
-      "type": "review",
-      "evidence": "3) 2 Thunderbolt 4 Ports, 1 HDMI 2 1 Port (that can run 8k), 1 USB-A Legacy Port, and 1 MicroSD slot"
-    },
-    {
-      "feature": "fan_noise",
       "sentiment": "positive",
       "positive_mentions": 1,
       "negative_mentions": 0,
@@ -151,7 +139,7 @@
       "feature_score": 1,
       "source": "amazon",
       "type": "review",
-      "evidence": "4) Fantastic Build Quality & Ultraportable - a true Windows Built Design rival to an Apple Designed Product"
+      "evidence": "Thunderbolt 4 Ports, 1 HDMI 2.1 Port (that can run 8k), 1 USB-A Legacy Port, and 1 MicroSD slot.4) Fantastic Build Quality & Ultraportable - a true Windows Built Design rival to an Apple Designed Product.5)"
     }
   ]
 }

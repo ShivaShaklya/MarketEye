@@ -3,67 +3,43 @@
   "product": "Framework Laptop 16",
   "features": [
     {
-      "feature": "software",
-      "sentiment": "mixed",
-      "positive_mentions": 3,
-      "negative_mentions": 5,
-      "neutral_mentions": 1,
-      "mentions_total": 0,
-      "feature_score": -2,
-      "source": "amazon",
-      "type": "review",
-      "evidence": "20 GHz boost, which delivers snappy responsiveness across games and productivity tasks It\u2019s paired with an NVIDIA\u00ae GeForce RTX\u2122 50\u2011series GPU (configurations vary between RTX 5050 and RTX 5060 options) that provides smooth frame rates and solid ray\u2011tracing support in today\u2019s most demanding titles"
-    },
-    {
       "feature": "display",
       "sentiment": "positive",
-      "positive_mentions": 7,
+      "positive_mentions": 5,
       "negative_mentions": 0,
-      "neutral_mentions": 0,
+      "neutral_mentions": 1,
       "mentions_total": 0,
-      "feature_score": 7,
+      "feature_score": 5,
       "source": "amazon",
       "type": "review",
-      "evidence": "Exceptional Power, Stunning Display & True Gamer PerformanceI\u2019ve been absolutely blown away by the Alienware 16 Aurora Gaming Laptop AC16250 \u2014 it\u2019s a true gaming powerhouse that delivers top\u2011tier performance alongside everyday usability, making it one of the best gaming laptops I\u2019ve used Beautiful, Immersive DisplayThe 16\u2011inch WQXGA (2560 \u00d7 1600) 120 Hz IPS display is gorgeous for gaming, streaming, and creative work alike",
+      "evidence": "120 Hz IPS display is gorgeous for gaming, streaming, and creative work alike. Colors are rich and vibrant, motion is smooth thanks to the high refresh rate, and the pixel density makes everything look crisp and detailed \u2014 a joy to use whether you\u2019re in battle or browsing.",
       "value": [
         "standing screen display size: 16 Inches"
       ]
     },
     {
-      "feature": "performance",
-      "sentiment": "positive",
-      "positive_mentions": 6,
-      "negative_mentions": 0,
-      "neutral_mentions": 0,
-      "mentions_total": 0,
-      "feature_score": 6,
-      "source": "amazon",
-      "type": "review",
-      "evidence": "Exceptional Power, Stunning Display & True Gamer PerformanceI\u2019ve been absolutely blown away by the Alienware 16 Aurora Gaming Laptop AC16250 \u2014 it\u2019s a true gaming powerhouse that delivers top\u2011tier performance alongside everyday usability, making it one of the best gaming laptops I\u2019ve used Performance That Truly ExcelsAt the heart of this laptop is a Intel\u00ae Core\u2122 7 Processor (Series 2) 240H with up to 5"
-    },
-    {
       "feature": "storage",
       "sentiment": "positive",
-      "positive_mentions": 4,
-      "negative_mentions": 2,
-      "neutral_mentions": 0,
+      "positive_mentions": 3,
+      "negative_mentions": 0,
+      "neutral_mentions": 2,
       "mentions_total": 0,
-      "feature_score": 2,
+      "feature_score": 3,
       "source": "amazon",
       "type": "review",
-      "evidence": "It\u2019s paired with an NVIDIA\u00ae GeForce RTX\u2122 50\u2011series GPU (configurations vary between RTX 5050 and RTX 5060 options) that provides smooth frame rates and solid ray\u2011tracing support in today\u2019s most demanding titles Depending on your model\u2019s RAM and storage, it can handle multitasking and large file workflows effortlessly"
+      "evidence": "Awsome laptop runs so smooth compared to others with 16gb memory, takes a little time booting on 1st boot Storage & ExpandabilityConfigurations with SSD capacities ranging from 512 GB up to multiple terabytes mean lightning\u2011fast load times and plenty of space for games, projects, and media."
     },
     {
-      "feature": "connectivity",
-      "sentiment": "mixed",
-      "positive_mentions": 1,
+      "feature": "performance",
+      "sentiment": "positive",
+      "positive_mentions": 4,
       "negative_mentions": 0,
-      "neutral_mentions": 3,
+      "neutral_mentions": 0,
       "mentions_total": 0,
-      "feature_score": 1,
+      "feature_score": 4,
       "source": "amazon",
       "type": "review",
-      "evidence": "Connectivity & Everyday UseThere\u2019s a great selection of ports for modern peripherals, including USB\u2011A, multiple USB\u2011C with DisplayPort support, HDMI 2"
+      "evidence": "The performance is blazing fast and I\u2019m always hitting above 80-120 FPS. It\u2019s paired with an NVIDIA\u00ae GeForce RTX\u2122 50\u2011series GPU (configurations vary between RTX 5050 and RTX 5060 options) that provides smooth frame rates and solid ray\u2011tracing support in today\u2019s most demanding titles."
     },
     {
       "feature": "design",
@@ -75,58 +51,55 @@
       "feature_score": 2,
       "source": "amazon",
       "type": "review",
-      "evidence": "Design & Build QualityAlienware\u2019s design is unmistakably premium The build feels solid without being overly heavy, and the backlit keyboard not only looks great but offers satisfying feedback during long play sessions"
+      "evidence": "The build feels solid without being overly heavy, and the backlit keyboard not only looks great Design & Build QualityAlienware\u2019s design is unmistakably premium."
     },
     {
       "feature": "battery",
-      "sentiment": "positive",
-      "positive_mentions": 2,
-      "negative_mentions": 0,
-      "neutral_mentions": 1,
-      "mentions_total": 0,
-      "feature_score": 2,
-      "source": "amazon",
-      "type": "review",
-      "evidence": "The battery life lasts me all day without doing gaming, but all day when plugged in Ram problems , turn off i say the problem cant be resolve it , for me motherboard problems not memory RamBut when is work fast , good screen , battery good durations"
-    },
-    {
-      "feature": "port",
-      "sentiment": "positive",
-      "positive_mentions": 3,
-      "negative_mentions": 0,
-      "neutral_mentions": 0,
-      "mentions_total": 0,
-      "feature_score": 3,
-      "source": "amazon",
-      "type": "review",
-      "evidence": "Item arrived with a non functional Ethernet port and a semi functional USB A port Item arrived with a non functional Ethernet port and a semi functional USB A port",
-      "value": [
-        "number of usb 3 0 ports: 4"
-      ]
-    },
-    {
-      "feature": "fan_noise",
-      "sentiment": "positive",
-      "positive_mentions": 2,
-      "negative_mentions": 1,
-      "neutral_mentions": 0,
-      "mentions_total": 0,
-      "feature_score": 1,
-      "source": "amazon",
-      "type": "review",
-      "evidence": "The picture quality is fantastic It's awesome! I wanted an Alienware for years and I finally hot one and it has been fantastic"
-    },
-    {
-      "feature": "keyboard",
       "sentiment": "mixed",
-      "positive_mentions": 0,
-      "negative_mentions": 0,
-      "neutral_mentions": 2,
+      "positive_mentions": 1,
+      "negative_mentions": 1,
+      "neutral_mentions": 1,
       "mentions_total": 0,
       "feature_score": 0,
       "source": "amazon",
       "type": "review",
-      "evidence": ""
+      "evidence": "The battery life lasts me all day without doing gaming, It does die pretty quickly if you use it on battery mode only."
+    },
+    {
+      "feature": "keyboard",
+      "sentiment": "positive",
+      "positive_mentions": 2,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The build feels solid without being overly heavy, and the backlit keyboard not only looks great The keyboard and touchpad are responsive and comfortable for day\u2011to\u2011day tasks as well as gaming marathons."
+    },
+    {
+      "feature": "connectivity",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Connectivity & Everyday UseThere\u2019s a great selection of ports for modern peripherals, including USB\u2011A, multiple USB\u2011C with DisplayPort support, HDMI 2.1, and Ethernet \u2014 perfect for plugging into monitors, hubs, or high\u2011speed networks. Item arrived with a non functional Ethernet port and a semi functional USB A port."
+    },
+    {
+      "feature": "software",
+      "sentiment": "mixed",
+      "positive_mentions": 1,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 0,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The initial setup took me practically minutes and Windows 11 HOME immediately updated over internet. As well as several software issues."
     },
     {
       "feature": "trackpad",
@@ -138,19 +111,7 @@
       "feature_score": 1,
       "source": "amazon",
       "type": "review",
-      "evidence": "The keyboard and touchpad are responsive and comfortable for day\u2011to\u2011day tasks as well as gaming marathons"
-    },
-    {
-      "feature": "thermals",
-      "sentiment": "positive",
-      "positive_mentions": 1,
-      "negative_mentions": 0,
-      "neutral_mentions": 0,
-      "mentions_total": 0,
-      "feature_score": 1,
-      "source": "amazon",
-      "type": "review",
-      "evidence": "With great cooling, remarkable power, a vibrant display, and a premium feel, it\u2019s an easy five\u2011star pick for gamers and creators alike"
+      "evidence": "The keyboard and touchpad are responsive and comfortable for day\u2011to\u2011day tasks as well as gaming marathons."
     }
   ]
 }

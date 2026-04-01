@@ -3,28 +3,19 @@
   "product": "Asus Rog Strix G16",
   "features": [
     {
-      "feature": "software",
-      "sentiment": "positive",
-      "positive_mentions": 5,
-      "negative_mentions": 0,
-      "neutral_mentions": 0,
-      "mentions_total": 0,
-      "feature_score": 5,
-      "source": "amazon",
-      "type": "review",
-      "evidence": "Second, unlike other laptops of this price range, it only came with Windows 11 Home edition instead of Pro edition So I had to pay to upgrade it as I prefer the Pro version as I have more control over the configuration of Windows itself"
-    },
-    {
-      "feature": "thermals",
+      "feature": "display",
       "sentiment": "positive",
       "positive_mentions": 4,
-      "negative_mentions": 1,
-      "neutral_mentions": 0,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
       "mentions_total": 0,
-      "feature_score": 3,
+      "feature_score": 4,
       "source": "amazon",
       "type": "review",
-      "evidence": "It does get hot a bit quick even with its cooling system, I purchased a nice laptop cooler that helps it stay within safe operating temperatures Wifi works great, and so far no heating issues"
+      "evidence": "The screen is beautiful! The screen is beautiful I was initially a little disappointed I didn\u2019t get the 4k version due to the price difference",
+      "value": [
+        "standing screen display size: 16 Inches"
+      ]
     },
     {
       "feature": "storage",
@@ -36,65 +27,50 @@
       "feature_score": 4,
       "source": "amazon",
       "type": "review",
-      "evidence": "Blazing fast, powerful CPU and graphics card, plenty of RAM and disk space, and so much more! I absolutely love my new laptop! It is fast, easy to setup and get fully updated, and runs games better than my desktop does!I purchased the laptop during Amazon's Prime day as a little bit of a splurge Been using this for a little over a week now, the RTX 5060 performs superb! The screen is beautiful! Especially for being a laptop screen compared to an OLED display or monitor, it looks GREAT, the colors and overall image are very sharp lookingAll of my games( AAA titles or otherwise) run at high or ultra settings with high frame rates and no stutter! Going to be upgrading ram and storage down the lineRuns GTA V Enhanced on High RT over 100fps in most scenariosI\u2019ve also run Warframe with the \u201chigh preset\u201d and runs over 120fpsit looks beautiful and performs beautiful! I\u2019m very picky when it comes to frame rate/graphics(coming from an avid desktop user\u2026I have high expectations)and this laptop performs as good or better than it looks! I\u2019m impressedThe speakers aren\u2019t super impressive, and aren\u2019t super loud or anything I wish they were a little better, but they\u2019re not terrible by any means, just not super LOUD, most gamers would probably be using a headset anyway for voice chat/streaming/gameplay anyway\u2026don\u2019t let this steer you away, this is a great laptop despite not having \u201cthe best sound system in the world\u201dI Don\u2019t notice any excessive fan noise or overheating issues of any kindI\u2019m using it everyday for gaming and I can\u2019t leave it alone! When I have lan parties at friends houses, my trusty machine comes with me!I\u2019m always excited to open the lid, plug it in and start gaming! The RGB lighting is gorgeous! It\u2019s also fun to show off to friends and family ;)I\u2019ve owned many gaming laptops over the last 12 years or so, this is my second machine with an 5060 in it, and this one has been my favorite! Better than any of the rest!"
+      "evidence": "Blazing fast, powerful CPU and graphics card, plenty of RAM and disk space, and so much more! Going to be upgrading ram and storage down the lineRuns GTA V Enhanced on High RT over 100fps in most scenariosI\u2019ve also run Warframe with the \u201chigh preset\u201d and runs over 120fpsit looks beautiful and performs beautiful!"
     },
     {
       "feature": "price",
-      "sentiment": "mixed",
+      "sentiment": "positive",
       "positive_mentions": 2,
-      "negative_mentions": 1,
-      "neutral_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 2,
       "mentions_total": 0,
-      "feature_score": 1,
+      "feature_score": 2,
       "source": "amazon",
       "type": "review",
-      "evidence": "Could be a bit cheaper but for the price and what it can do this is a fabulous piece of tech The screen is beautiful I was initially a little disappointed I didn\u2019t get the 4k version due to the price difference but the quality of the screen is incredible, very bright and colorful",
+      "evidence": "It has a quality feel, it's fast, the price was right. for the price and what it can do this is a fabulous piece of tech.",
       "value": [
         "price usd: 1399.99",
         "price rs: 149990"
       ]
     },
     {
-      "feature": "performance",
+      "feature": "software",
       "sentiment": "positive",
       "positive_mentions": 3,
       "negative_mentions": 0,
-      "neutral_mentions": 0,
+      "neutral_mentions": 1,
       "mentions_total": 0,
       "feature_score": 3,
       "source": "amazon",
       "type": "review",
-      "evidence": "Blazing fast, powerful CPU and graphics card, plenty of RAM and disk space, and so much more! I absolutely love my new laptop! It is fast, easy to setup and get fully updated, and runs games better than my desktop does!I purchased the laptop during Amazon's Prime day as a little bit of a splurge But, all-in-all, I am pleased with the performance, quality, and appearance of this laptop"
+      "evidence": "So I had to pay to upgrade it as I prefer the Pro version as I have more control over the configuration of Windows itself. they\u2019re not terrible by any means, just not super LOUD, most gamers would probably be using a headset anyway for voice chat/streaming/gameplay anyway\u2026don\u2019t let this steer you away, this is a great laptop despite not having \u201cthe best sound system in the world\u201dI Don\u2019t notice any excessive fan noise or overheating issues of any kindI\u2019m using it everyday for gaming and I can\u2019t leave it alone!"
     },
     {
-      "feature": "display",
-      "sentiment": "positive",
-      "positive_mentions": 3,
-      "negative_mentions": 0,
-      "neutral_mentions": 0,
-      "mentions_total": 0,
-      "feature_score": 3,
-      "source": "amazon",
-      "type": "review",
-      "evidence": "Last, I wish the display was a touchscreen display Been using this for a little over a week now, the RTX 5060 performs superb! The screen is beautiful! Especially for being a laptop screen compared to an OLED display or monitor, it looks GREAT, the colors and overall image are very sharp lookingAll of my games( AAA titles or otherwise) run at high or ultra settings with high frame rates and no stutter! Going to be upgrading ram and storage down the lineRuns GTA V Enhanced on High RT over 100fps in most scenariosI\u2019ve also run Warframe with the \u201chigh preset\u201d and runs over 120fpsit looks beautiful and performs beautiful! I\u2019m very picky when it comes to frame rate/graphics(coming from an avid desktop user\u2026I have high expectations)and this laptop performs as good or better than it looks! I\u2019m impressedThe speakers aren\u2019t super impressive, and aren\u2019t super loud or anything I wish they were a little better, but they\u2019re not terrible by any means, just not super LOUD, most gamers would probably be using a headset anyway for voice chat/streaming/gameplay anyway\u2026don\u2019t let this steer you away, this is a great laptop despite not having \u201cthe best sound system in the world\u201dI Don\u2019t notice any excessive fan noise or overheating issues of any kindI\u2019m using it everyday for gaming and I can\u2019t leave it alone! When I have lan parties at friends houses, my trusty machine comes with me!I\u2019m always excited to open the lid, plug it in and start gaming! The RGB lighting is gorgeous! It\u2019s also fun to show off to friends and family ;)I\u2019ve owned many gaming laptops over the last 12 years or so, this is my second machine with an 5060 in it, and this one has been my favorite! Better than any of the rest!",
-      "value": [
-        "standing screen display size: 16 Inches"
-      ]
-    },
-    {
-      "feature": "keyboard",
+      "feature": "fan_noise",
       "sentiment": "mixed",
-      "positive_mentions": 1,
-      "negative_mentions": 1,
-      "neutral_mentions": 0,
+      "positive_mentions": 0,
+      "negative_mentions": 0,
+      "neutral_mentions": 3,
       "mentions_total": 0,
       "feature_score": 0,
       "source": "amazon",
       "type": "review",
-      "evidence": "Plus, when I have a Bluetooth keyboard attached and activate the Num Lock, it actives the one on the mouse pad as well I do like the RGB, though the keyboard isn't the easiest to ready(prefer the keyboard on my MSI thin 15, much easier to see for these old eyes)"
+      "evidence": "Fan stays quiet can\u2019t ever hear it over my headphones. they\u2019re not terrible by any means, just not super LOUD, most gamers would probably be using a headset anyway for voice chat/streaming/gameplay anyway\u2026don\u2019t let this steer you away, this is a great laptop despite not having \u201cthe best sound system in the world\u201dI Don\u2019t notice any excessive fan noise or overheating issues of any kindI\u2019m using it everyday for gaming and I can\u2019t leave it alone!"
     },
     {
-      "feature": "connectivity",
+      "feature": "performance",
       "sentiment": "positive",
       "positive_mentions": 2,
       "negative_mentions": 0,
@@ -103,10 +79,22 @@
       "feature_score": 2,
       "source": "amazon",
       "type": "review",
-      "evidence": "Plus, when I have a Bluetooth keyboard attached and activate the Num Lock, it actives the one on the mouse pad as well Wifi works great, and so far no heating issues"
+      "evidence": "Blazing fast, powerful CPU and graphics card, plenty of RAM and disk space, and so much more! But, all-in-all, I am pleased with the performance, quality, and appearance of this laptop."
     },
     {
-      "feature": "fan_noise",
+      "feature": "connectivity",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Wifi works great, and so far no heating issues. Plus, when I have a Bluetooth keyboard attached and activate the Num Lock, it actives the one on the mouse pad as well."
+    },
+    {
+      "feature": "keyboard",
       "sentiment": "mixed",
       "positive_mentions": 0,
       "negative_mentions": 0,
@@ -115,7 +103,7 @@
       "feature_score": 0,
       "source": "amazon",
       "type": "review",
-      "evidence": ""
+      "evidence": "Plus, when I have a Bluetooth keyboard attached and activate the Num Lock, it actives the one on the mouse pad as well. the keyboard isn't the easiest to ready(prefer the keyboard on my MSI thin 15, much easier to see for these old eyes)."
     },
     {
       "feature": "speaker",
@@ -127,10 +115,25 @@
       "feature_score": 1,
       "source": "amazon",
       "type": "review",
-      "evidence": "Been using this for a little over a week now, the RTX 5060 performs superb! The screen is beautiful! Especially for being a laptop screen compared to an OLED display or monitor, it looks GREAT, the colors and overall image are very sharp lookingAll of my games( AAA titles or otherwise) run at high or ultra settings with high frame rates and no stutter! Going to be upgrading ram and storage down the lineRuns GTA V Enhanced on High RT over 100fps in most scenariosI\u2019ve also run Warframe with the \u201chigh preset\u201d and runs over 120fpsit looks beautiful and performs beautiful! I\u2019m very picky when it comes to frame rate/graphics(coming from an avid desktop user\u2026I have high expectations)and this laptop performs as good or better than it looks! I\u2019m impressedThe speakers aren\u2019t super impressive, and aren\u2019t super loud or anything I wish they were a little better, but they\u2019re not terrible by any means, just not super LOUD, most gamers would probably be using a headset anyway for voice chat/streaming/gameplay anyway\u2026don\u2019t let this steer you away, this is a great laptop despite not having \u201cthe best sound system in the world\u201dI Don\u2019t notice any excessive fan noise or overheating issues of any kindI\u2019m using it everyday for gaming and I can\u2019t leave it alone! When I have lan parties at friends houses, my trusty machine comes with me!I\u2019m always excited to open the lid, plug it in and start gaming! The RGB lighting is gorgeous! It\u2019s also fun to show off to friends and family ;)I\u2019ve owned many gaming laptops over the last 12 years or so, this is my second machine with an 5060 in it, and this one has been my favorite! Better than any of the rest!"
+      "evidence": "they\u2019re not terrible by any means, just not super LOUD, most gamers would probably be using a headset anyway for voice chat/streaming/gameplay anyway\u2026don\u2019t let this steer you away, this is a great laptop despite not having \u201cthe best sound system in the world\u201dI Don\u2019t notice any excessive fan noise or overheating issues of any kindI\u2019m using it everyday for gaming and I can\u2019t leave it alone!"
     },
     {
       "feature": "battery",
+      "sentiment": "mixed",
+      "positive_mentions": 0,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 0,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Battery lasts about as long as you would expect,",
+      "value": [
+        "average battery life in hours: 2 Hours"
+      ]
+    },
+    {
+      "feature": "thermals",
       "sentiment": "positive",
       "positive_mentions": 1,
       "negative_mentions": 0,
@@ -139,10 +142,7 @@
       "feature_score": 1,
       "source": "amazon",
       "type": "review",
-      "evidence": "Battery lasts about as long as you would expect, but whenever I do take it over the charger it lasts a solid 2-3 hours before needing to be plugged in and that\u2019s with high intensity gaming",
-      "value": [
-        "average battery life in hours: 2 Hours"
-      ]
+      "evidence": "Wifi works great, and so far no heating issues."
     }
   ]
 }

@@ -7,12 +7,12 @@
       "sentiment": "mixed",
       "positive_mentions": 1,
       "negative_mentions": 1,
-      "neutral_mentions": 0,
+      "neutral_mentions": 1,
       "mentions_total": 0,
       "feature_score": 0,
       "source": "amazon",
       "type": "review",
-      "evidence": "I was looking for a 1080p 16gbRAM laptop, and this laptop exceeded my expectations, especially with the Black Friday deal!Good battery life, really fast, great features all around, I would recommend this laptop for casual/mid range productive work (photo editing, coding, board development\u2026) Both charge to to 100%, but if I store them for a week or so, the battery is completely dead in each one and will not boot without being plugged in; that is, the keyboard lights will not even turn on when I press the power button",
+      "evidence": "I was looking for a 1080p 16gbRAM laptop, and this laptop exceeded my expectations, especially with the Black Friday deal!Good battery life, really fast, great features all around, I would recommend this laptop for casual/mid range productive work (photo editing, coding, board development\u2026) if I store them for a week or so, the battery is completely dead in each one and will not boot without being plugged in; that is, the keyboard lights will not even turn on when I press the power button.",
       "value": [
         "average battery life in hours: 9.5 Hours"
       ]
@@ -21,13 +21,13 @@
       "feature": "fan_noise",
       "sentiment": "negative",
       "positive_mentions": 0,
-      "negative_mentions": 2,
-      "neutral_mentions": 0,
+      "negative_mentions": 1,
+      "neutral_mentions": 1,
       "mentions_total": 0,
-      "feature_score": -2,
+      "feature_score": -1,
       "source": "amazon",
       "type": "review",
-      "evidence": "Functions well, the only issue I can convey is that the fans WILL make a considerable amount of noise Laptop sounds like it\u2019s ready to explode the fan on this sounds like an airplane getting ready to take off it\u2019s constant"
+      "evidence": "Laptop sounds like it\u2019s ready to explode the fan on this sounds like an airplane getting ready to take off it\u2019s constant. Functions well, the only issue I can convey is that the fans WILL make a considerable amount of noise."
     },
     {
       "feature": "performance",
@@ -39,19 +39,19 @@
       "feature_score": 1,
       "source": "amazon",
       "type": "review",
-      "evidence": "Speed is good! Very easy to set up!"
+      "evidence": "Speed is good!"
     },
     {
       "feature": "keyboard",
-      "sentiment": "positive",
-      "positive_mentions": 1,
-      "negative_mentions": 0,
+      "sentiment": "negative",
+      "positive_mentions": 0,
+      "negative_mentions": 1,
       "neutral_mentions": 0,
       "mentions_total": 0,
-      "feature_score": 1,
+      "feature_score": -1,
       "source": "amazon",
       "type": "review",
-      "evidence": "Both charge to to 100%, but if I store them for a week or so, the battery is completely dead in each one and will not boot without being plugged in; that is, the keyboard lights will not even turn on when I press the power button"
+      "evidence": "if I store them for a week or so, the battery is completely dead in each one and will not boot without being plugged in; that is, the keyboard lights will not even turn on when I press the power button."
     },
     {
       "feature": "price",
@@ -63,47 +63,11 @@
       "feature_score": 1,
       "source": "amazon",
       "type": "review",
-      "evidence": "This laptop is the best value for money you could get",
+      "evidence": "This laptop is the best value for money you could get.",
       "value": [
         "price usd: 689.99",
         "price rs: 91990"
       ]
-    },
-    {
-      "feature": "storage",
-      "sentiment": "positive",
-      "positive_mentions": 1,
-      "negative_mentions": 0,
-      "neutral_mentions": 0,
-      "mentions_total": 0,
-      "feature_score": 1,
-      "source": "amazon",
-      "type": "review",
-      "evidence": "I was looking for a 1080p 16gbRAM laptop, and this laptop exceeded my expectations, especially with the Black Friday deal!Good battery life, really fast, great features all around, I would recommend this laptop for casual/mid range productive work (photo editing, coding, board development\u2026)"
-    },
-    {
-      "feature": "thermals",
-      "sentiment": "positive",
-      "positive_mentions": 1,
-      "negative_mentions": 0,
-      "neutral_mentions": 0,
-      "mentions_total": 0,
-      "feature_score": 1,
-      "source": "amazon",
-      "type": "review",
-      "evidence": "I suggest finding a laptop cooling stand to help ensure no overheating occurs from having the laptop lie flat on a surface"
-    },
-    {
-      "feature": "speaker",
-      "sentiment": "positive",
-      "positive_mentions": 1,
-      "negative_mentions": 0,
-      "neutral_mentions": 0,
-      "mentions_total": 0,
-      "feature_score": 1,
-      "source": "amazon",
-      "type": "review",
-      "evidence": "Laptop sounds like it\u2019s ready to explode the fan on this sounds like an airplane getting ready to take off it\u2019s constant"
     }
   ]
 }

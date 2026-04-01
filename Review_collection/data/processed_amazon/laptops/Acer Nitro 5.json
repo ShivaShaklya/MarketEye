@@ -3,94 +3,70 @@
   "product": "Acer Nitro 5",
   "features": [
     {
-      "feature": "software",
-      "sentiment": "mixed",
-      "positive_mentions": 4,
-      "negative_mentions": 6,
-      "neutral_mentions": 0,
-      "mentions_total": 0,
-      "feature_score": -2,
-      "source": "amazon",
-      "type": "review",
-      "evidence": "Pros:* Fast, cool, and quiet Costs $100 more than similarly configured laptops selling with 4050 GPUs, 16 GB RAM, and 512 GB HDs, machines much worse in all ways"
-    },
-    {
       "feature": "battery",
       "sentiment": "positive",
-      "positive_mentions": 6,
-      "negative_mentions": 3,
-      "neutral_mentions": 0,
-      "mentions_total": 0,
-      "feature_score": 3,
-      "source": "amazon",
-      "type": "review",
-      "evidence": "Haven\u2019t experienced the fan noise issue mentioned by some, and am pretty happy with the battery life as well Proprietary charger is a little bit of a nuisance but all gaming laptops in general just haven't gotten to a reliable point yet of being universally USB-C charge compatible anyway"
-    },
-    {
-      "feature": "performance",
-      "sentiment": "positive",
-      "positive_mentions": 5,
-      "negative_mentions": 2,
+      "positive_mentions": 4,
+      "negative_mentions": 1,
       "neutral_mentions": 2,
       "mentions_total": 0,
       "feature_score": 3,
       "source": "amazon",
       "type": "review",
-      "evidence": "* Good gaming performance Cyberpunk 2077 at 2K / high detail can hit 65 fps with ray tracing on and can reach well over 100 FPS with ray tracing off"
+      "evidence": "this laptop has a smaller capacity 75wH battery than my old laptop which had a 96wH battery, I find that this laptop can outlast my old laptop due to its efficiency and with all the power saving settings I enabled. Haven\u2019t experienced the fan noise issue mentioned by some, and am pretty happy with the battery life as well."
     },
     {
-      "feature": "price",
-      "sentiment": "mixed",
+      "feature": "performance",
+      "sentiment": "positive",
       "positive_mentions": 3,
-      "negative_mentions": 2,
-      "neutral_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 4,
       "mentions_total": 0,
-      "feature_score": 1,
+      "feature_score": 3,
       "source": "amazon",
       "type": "review",
-      "evidence": "* Reasonable price and good component value Costs $100 more than similarly configured laptops selling with 4050 GPUs, 16 GB RAM, and 512 GB HDs, machines much worse in all ways",
-      "value": [
-        "price usd: 1199.99",
-        "price rs: 68999"
-      ]
+      "evidence": "This Ryzen 7 CPU is very efficient while being powerful and 32GB of DDR5 RAM keeps things running smoothly. When I am plugged into a charger, this laptop gives me an 8GB 5060 RTX GPU to use for smooth 1080p gaming if I ever have a need to, which is awesome."
     },
     {
       "feature": "storage",
-      "sentiment": "mixed",
+      "sentiment": "positive",
       "positive_mentions": 3,
-      "negative_mentions": 2,
-      "neutral_mentions": 0,
+      "negative_mentions": 1,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The 5060, Ryzen 7, and WD SSD drive all work well together.* This Ryzen 7 CPU is very efficient while being powerful and 32GB of DDR5 RAM keeps things running smoothly."
+    },
+    {
+      "feature": "display",
+      "sentiment": "mixed",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 4,
       "mentions_total": 0,
       "feature_score": 1,
       "source": "amazon",
       "type": "review",
-      "evidence": "Costs $100 more than similarly configured laptops selling with 4050 GPUs, 16 GB RAM, and 512 GB HDs, machines much worse in all ways Added a 4tb ssd in the 2nd slot, no issues at all"
-    },
-    {
-      "feature": "fan_noise",
-      "sentiment": "negative",
-      "positive_mentions": 1,
-      "negative_mentions": 4,
-      "neutral_mentions": 0,
-      "mentions_total": 0,
-      "feature_score": -3,
-      "source": "amazon",
-      "type": "review",
-      "evidence": "Haven\u2019t experienced the fan noise issue mentioned by some, and am pretty happy with the battery life as well Also of note, at the end of that test, the fans do not sound like Blackhawk helicopters under military power, an annoying characteristic that both my older Asus and older HP Omen had"
-    },
-    {
-      "feature": "display",
-      "sentiment": "positive",
-      "positive_mentions": 5,
-      "negative_mentions": 0,
-      "neutral_mentions": 0,
-      "mentions_total": 0,
-      "feature_score": 5,
-      "source": "amazon",
-      "type": "review",
-      "evidence": "Neutral:* FHD screen, fast but dim I suggest using an external monitor anyway, but if you plan on playing all the time off the laptop, you may want a better screen option, which will likely cost a lot more",
+      "evidence": "This is good for my needs to have a larger screen for coding than my old 15.6\" laptop. Has been a good laptop my only real complaint about it is the screen is more square not a true 16:9",
       "value": [
         "standing screen display size: 16 Inches"
+      ]
+    },
+    {
+      "feature": "price",
+      "sentiment": "positive",
+      "positive_mentions": 3,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Reasonable price and good component value. the price was good if I did more gaming on it might concern me",
+      "value": [
+        "price usd: 1199.99",
+        "price rs: 68999"
       ]
     },
     {
@@ -98,51 +74,48 @@
       "sentiment": "positive",
       "positive_mentions": 3,
       "negative_mentions": 0,
-      "neutral_mentions": 1,
+      "neutral_mentions": 0,
       "mentions_total": 0,
       "feature_score": 3,
       "source": "amazon",
       "type": "review",
-      "evidence": "Esthetically pleasing and the build quality is great * Good build quality"
+      "evidence": "I think this laptop has a good balance of weight overall. Esthetically pleasing and the build quality is great."
     },
     {
-      "feature": "port",
+      "feature": "fan_noise",
       "sentiment": "positive",
-      "positive_mentions": 2,
+      "positive_mentions": 1,
       "negative_mentions": 0,
-      "neutral_mentions": 0,
+      "neutral_mentions": 2,
       "mentions_total": 0,
-      "feature_score": 2,
+      "feature_score": 1,
       "source": "amazon",
       "type": "review",
-      "evidence": "* Port selection is adequate Decent, but a Thunderbolt port and / or additional C port would be welcome",
-      "value": [
-        "number of usb 3 0 ports: 3"
-      ]
+      "evidence": "Haven\u2019t experienced the fan noise issue mentioned by some, and am pretty happy with the battery life as well. Now I have *ZERO* fan noise or heat even when doing some fairly intensive work with AI LLMs while simultaneously coding with VS Code and using a web browser."
     },
     {
-      "feature": "connectivity",
+      "feature": "software",
       "sentiment": "negative",
       "positive_mentions": 0,
       "negative_mentions": 1,
-      "neutral_mentions": 1,
+      "neutral_mentions": 2,
       "mentions_total": 0,
       "feature_score": -1,
       "source": "amazon",
       "type": "review",
-      "evidence": "2 USB As, 1 USB 4"
+      "evidence": "Usual annoying bloatware that needs deletion, including world's worst AV software (McFluffy). I did this in Windows Control Panel and set Windows power mode to \"most efficient\" and enabled ECO mode in the pre-installed Acer NitroSense software which I set to be automatically enabled whenever it's on battery and not plugged into a charger."
     },
     {
-      "feature": "thermals",
+      "feature": "connectivity",
       "sentiment": "mixed",
-      "positive_mentions": 1,
-      "negative_mentions": 1,
-      "neutral_mentions": 0,
+      "positive_mentions": 0,
+      "negative_mentions": 0,
+      "neutral_mentions": 2,
       "mentions_total": 0,
       "feature_score": 0,
       "source": "amazon",
       "type": "review",
-      "evidence": "Your needs would be best served by an older-gen less powerful laptop like an RTX 2000 or 3000 series which will have much better cooling that you could potentially run games while it rests on your legs, but for this 16S AI laptop you want to be gaming on a solid surface instead of on your person Now I have *ZERO* fan noise or heat even when doing some fairly intensive work with AI LLMs while simultaneously coding with VS Code and using a web browser"
+      "evidence": "3 3.2 USB As, 1 USB 4.0 C, 1 HDMI, SD card reader, headphone jack. of being universally USB-C charge compatible anyway."
     },
     {
       "feature": "speaker",
@@ -154,7 +127,7 @@
       "feature_score": -1,
       "source": "amazon",
       "type": "review",
-      "evidence": "Also of note, at the end of that test, the fans do not sound like Blackhawk helicopters under military power, an annoying characteristic that both my older Asus and older HP Omen had"
+      "evidence": "Also of note, at the end of that test, the fans do not sound like Blackhawk helicopters under military power, an annoying characteristic that both my older Asus and older HP Omen had."
     },
     {
       "feature": "keyboard",
@@ -166,19 +139,31 @@
       "feature_score": 1,
       "source": "amazon",
       "type": "review",
-      "evidence": "I enjoy the keyboard on this laptop a lot"
+      "evidence": "I enjoy the keyboard on this laptop a lot."
     },
     {
       "feature": "trackpad",
-      "sentiment": "positive",
-      "positive_mentions": 1,
-      "negative_mentions": 0,
+      "sentiment": "negative",
+      "positive_mentions": 0,
+      "negative_mentions": 1,
       "neutral_mentions": 0,
       "mentions_total": 0,
-      "feature_score": 1,
+      "feature_score": -1,
       "source": "amazon",
       "type": "review",
-      "evidence": "If you have large arms and hands, I think the placement of the touchpad may be awkward for you because it is offset to the left and your left hand may brush the touchpad while typing"
+      "evidence": "If you have large arms and hands, I think the placement of the touchpad may be awkward for you because it is offset to the left and your left hand may brush the touchpad while typing."
+    },
+    {
+      "feature": "thermals",
+      "sentiment": "mixed",
+      "positive_mentions": 0,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 0,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Now I have *ZERO* fan noise or heat even when doing some fairly intensive work with AI LLMs while simultaneously coding with VS Code and using a web browser."
     }
   ]
 }
