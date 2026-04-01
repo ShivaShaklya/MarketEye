@@ -117,18 +117,29 @@ def extract_features(doc):
 # SENTIMENT
 # -------------------------------
 def analyze_sentiments(contexts):
-    results = sentiment_model(contexts)
+    if not contexts:
+        return []
+
+    results = sentiment_model(contexts, truncation=True)
+
+    # FIX: normalize output to list
+    if isinstance(results, dict):
+        results = [results]
 
     sentiments = []
-    for r in results:
-        label = r["label"]
-        score = r["score"]
 
-        if score < 0.45:
+    for r in results:
+        # safety check
+        if not isinstance(r, dict):
             sentiments.append("neutral")
             continue
 
-        if label == "LABEL_2":
+        label = r.get("label", "")
+        score = r.get("score", 0)
+
+        if score < 0.45:
+            sentiments.append("neutral")
+        elif label == "LABEL_2":
             sentiments.append("positive")
         elif label == "LABEL_0":
             sentiments.append("negative")
@@ -168,8 +179,7 @@ def process_reviews(reviews):
 
     sentiments = analyze_sentiments(contexts)
 
-    for i, sentiment in enumerate(sentiments):
-        feature, clause = metadata[i]
+    for (feature, clause), sentiment in zip(metadata, sentiments):
         feature_data[feature][sentiment].add(clause)
 
     return feature_data
@@ -246,7 +256,7 @@ def process_folder(input_folder, output_folder):
             try:
                 with open(input_path, "r", encoding="utf-8") as f:
                     data = json.load(f)
-
+                
                 asin = data.get("product_results", {}).get("asin", "unknown")
                 title = data.get("product_results", {}).get("title", "unknown_product")
                 product_name = clean_product_name(title)
@@ -286,4 +296,4 @@ def process_folder(input_folder, output_folder):
 # RUN
 # -------------------------------
 if __name__ == "__main__":
-    process_folder("output/laptops", "output/laptops_insights_finalized")
+    process_folder("./data/products/missing_data", "./data/laptops_insights_finalized")  
