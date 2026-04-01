@@ -17,8 +17,9 @@ def normalize_specs(data):
     return {k.lower().replace("_", " "): v for k, v in specs.items()}
 
 #Driver Code
-INPUT_DIR = r".\data\smartphones_insights_2"
-OUTPUT_DIR = "./data/processed_amazon/smartphones"
+INPUT_DIR = r".\data\laptops_insights_finalized"
+OUTPUT_DIR = "./data/processed_amazon/laptops"
+ctr=0
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 for file in os.listdir(INPUT_DIR):
@@ -35,7 +36,7 @@ for file in os.listdir(INPUT_DIR):
 
     #Specs mapping
     fname=str(file.removesuffix("_insights.json"))
-    with open(f"./data/product_specifications/smartphones/{fname}.json","r", encoding="utf-8") as f1:
+    with open(f"./data/product_specifications/laptops/{fname}.json","r", encoding="utf-8") as f1:
         specs_data=json.load(f1)
     
     normalized_specs=normalize_specs(specs_data)
@@ -79,7 +80,9 @@ for file in os.listdir(INPUT_DIR):
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(result, f, indent=2)
 
-    print("Saved:", output_file)'''
+    print("Saved:", output_file)
+    ctr+=1
+    print(ctr)'''
 
 ##Embeddings generation
 DATA_PATH="data/processed_amazon"
