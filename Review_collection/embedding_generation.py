@@ -3,8 +3,6 @@ import os
 import chromadb
 from sentence_transformers import SentenceTransformer
 
-# Integrate amazon reviews and add weights - amazon reviews pending
-# Put category (laptop, smartphone) as a filter in the retrieval step
 # understand how scoring is being done
 # Rag Validation
 
@@ -32,7 +30,7 @@ def build_feature_text(product,feature_data):
     Feature: {feature_data['feature']}
 
     Summary:
-    The {feature_data['feature']} of {product} is {feature_data['sentiment']} based on user reviews."""
+    The {feature_data['feature']} of {product} is {feature_data['sentiment']} based on user reviews. """
 
     if value:
         emb+=f"""Specifications: {value}"""

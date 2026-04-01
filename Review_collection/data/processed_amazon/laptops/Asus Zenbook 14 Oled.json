@@ -1,0 +1,30 @@
+{
+  "asin": "B0FXDBYL38",
+  "product": "Asus Zenbook 14 Oled",
+  "features": [
+    {
+      "feature": "connectivity",
+      "sentiment": "negative",
+      "positive_mentions": 0,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": -1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The USB C port stopped working."
+    },
+    {
+      "feature": "keyboard",
+      "sentiment": "mixed",
+      "positive_mentions": 0,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 0,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "This particular Asus model does not have a keyboard backlight."
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "asin": "B0F22QRCMS",
+  "product": "Hp Pavilion Plus 14",
+  "features": [
+    {
+      "feature": "connectivity",
+      "sentiment": "positive",
+      "positive_mentions": 7,
+      "negative_mentions": 1,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 6,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Wifi performance is better than my old computer's ethernet. Today 01/12/2026 I added an Amazon (USBGREEN) USB-C to Lan ethernet dongle and Laptop caught it and instantly changed from Wi-Fi to wired ethernet connection."
+    },
+    {
+      "feature": "software",
+      "sentiment": "mixed",
+      "positive_mentions": 0,
+      "negative_mentions": 1,
+      "neutral_mentions": 3,
+      "mentions_total": 0,
+      "feature_score": -1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Did have some issues as backup from previous HP Laptop, had different drivers The bloat ware MacAfee that came installed I kept on until I had downloaded windows defender (again from Microsoft Store) and installed it, then deleted it also."
+    },
+    {
+      "feature": "display",
+      "sentiment": "mixed",
+      "positive_mentions": 1,
+      "negative_mentions": 1,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 0,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Screen is clear and bright, I received this laptop and two weeks later the screen stopped working, there was no damage to it other than the screen stopped functioning, so I returned it, and the seller refuses to give a refund because the laptop was defective, which is not my fault at all!",
+      "value": [
+        "standing screen display size: 17.3 Inches"
+      ]
+    },
+    {
+      "feature": "performance",
+      "sentiment": "positive",
+      "positive_mentions": 3,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 3,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "My throughput speed is 687 MBS via (Okaloosa Speed Test) and since I have Spectrum Ultra internet at 750 MBS Max, I am satisfied with performance. Wifi performance is better than my old computer's ethernet."
+    },
+    {
+      "feature": "storage",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Unit is currently running better than expected, much faster due to the 64GB of ram that came already installed. This was for the 512 GB storage to make it a 2.5 Terabyte of storage."
+    },
+    {
+      "feature": "keyboard",
+      "sentiment": "mixed",
+      "positive_mentions": 0,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 0,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "No light behind the keyboard"
+    },
+    {
+      "feature": "trackpad",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "I have been trying to convert from my mouse to the touchpad, and it is easier to do with this one."
+    },
+    {
+      "feature": "battery",
+      "sentiment": "negative",
+      "positive_mentions": 0,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": -1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The docking station is NOT a docking station, it is a multi device connection \"hub\" and cannot charge the PC."
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "asin": "B0F1DXXMHY",
+  "product": "Msi Titan 18 Hx",
+  "features": [
+    {
+      "feature": "keyboard",
+      "sentiment": "positive",
+      "positive_mentions": 3,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "It is a very large laptop with full size keyboard, amazing lights and fast. I finally have been able to play cyberpunk in VR \ud83d\ude42Also the mechanical keyboard is AMAZING!!"
+    },
+    {
+      "feature": "fan_noise",
+      "sentiment": "mixed",
+      "positive_mentions": 1,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 0,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "and if you don't have a problem with fan noise (I use headphones), running it at max settings is awesome. Be careful, it gets very hot, burns and makes a lot of noise."
+    },
+    {
+      "feature": "trackpad",
+      "sentiment": "mixed",
+      "positive_mentions": 0,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 0,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "I was concerned about the touchpad"
+    },
+    {
+      "feature": "price",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "If aesthetics are not your main priority and you value performance and productivity above all, this laptop is an excellent choice for demanding tasks.",
+      "value": [
+        "price usd: 3999.0",
+        "price rs: 499990"
+      ]
+    },
+    {
+      "feature": "performance",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "If aesthetics are not your main priority and you value performance and productivity above all, this laptop is an excellent choice for demanding tasks."
+    },
+    {
+      "feature": "software",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "In my case, I use it for geology and mining applications, specifically for geological modeling software and running heavy calculations, and it performs very well."
+    },
+    {
+      "feature": "display",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Incredibly fast, very solid construction, and coming from an OLED display to this mini LED, I found it to be significantly brighter and more vibrant than the OLED screen.",
+      "value": [
+        "standing screen display size: 18 Inches"
+      ]
+    },
+    {
+      "feature": "battery",
+      "sentiment": "negative",
+      "positive_mentions": 0,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": -1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Of course the only downside is I get maybe 60-90 run time on the battery"
+    }
+  ]
+}

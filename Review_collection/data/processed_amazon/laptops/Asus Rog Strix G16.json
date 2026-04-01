@@ -1,0 +1,148 @@
+{
+  "asin": "B0DZZWMB2L",
+  "product": "Asus Rog Strix G16",
+  "features": [
+    {
+      "feature": "display",
+      "sentiment": "positive",
+      "positive_mentions": 4,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 4,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The screen is beautiful! The screen is beautiful I was initially a little disappointed I didn\u2019t get the 4k version due to the price difference",
+      "value": [
+        "standing screen display size: 16 Inches"
+      ]
+    },
+    {
+      "feature": "storage",
+      "sentiment": "positive",
+      "positive_mentions": 4,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 4,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Blazing fast, powerful CPU and graphics card, plenty of RAM and disk space, and so much more! Going to be upgrading ram and storage down the lineRuns GTA V Enhanced on High RT over 100fps in most scenariosI\u2019ve also run Warframe with the \u201chigh preset\u201d and runs over 120fpsit looks beautiful and performs beautiful!"
+    },
+    {
+      "feature": "price",
+      "sentiment": "positive",
+      "positive_mentions": 2,
+      "negative_mentions": 0,
+      "neutral_mentions": 2,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "It has a quality feel, it's fast, the price was right. for the price and what it can do this is a fabulous piece of tech.",
+      "value": [
+        "price usd: 1399.99",
+        "price rs: 149990"
+      ]
+    },
+    {
+      "feature": "software",
+      "sentiment": "positive",
+      "positive_mentions": 3,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 3,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "So I had to pay to upgrade it as I prefer the Pro version as I have more control over the configuration of Windows itself. they\u2019re not terrible by any means, just not super LOUD, most gamers would probably be using a headset anyway for voice chat/streaming/gameplay anyway\u2026don\u2019t let this steer you away, this is a great laptop despite not having \u201cthe best sound system in the world\u201dI Don\u2019t notice any excessive fan noise or overheating issues of any kindI\u2019m using it everyday for gaming and I can\u2019t leave it alone!"
+    },
+    {
+      "feature": "fan_noise",
+      "sentiment": "mixed",
+      "positive_mentions": 0,
+      "negative_mentions": 0,
+      "neutral_mentions": 3,
+      "mentions_total": 0,
+      "feature_score": 0,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Fan stays quiet can\u2019t ever hear it over my headphones. they\u2019re not terrible by any means, just not super LOUD, most gamers would probably be using a headset anyway for voice chat/streaming/gameplay anyway\u2026don\u2019t let this steer you away, this is a great laptop despite not having \u201cthe best sound system in the world\u201dI Don\u2019t notice any excessive fan noise or overheating issues of any kindI\u2019m using it everyday for gaming and I can\u2019t leave it alone!"
+    },
+    {
+      "feature": "performance",
+      "sentiment": "positive",
+      "positive_mentions": 2,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Blazing fast, powerful CPU and graphics card, plenty of RAM and disk space, and so much more! But, all-in-all, I am pleased with the performance, quality, and appearance of this laptop."
+    },
+    {
+      "feature": "connectivity",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Wifi works great, and so far no heating issues. Plus, when I have a Bluetooth keyboard attached and activate the Num Lock, it actives the one on the mouse pad as well."
+    },
+    {
+      "feature": "keyboard",
+      "sentiment": "mixed",
+      "positive_mentions": 0,
+      "negative_mentions": 0,
+      "neutral_mentions": 2,
+      "mentions_total": 0,
+      "feature_score": 0,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Plus, when I have a Bluetooth keyboard attached and activate the Num Lock, it actives the one on the mouse pad as well. the keyboard isn't the easiest to ready(prefer the keyboard on my MSI thin 15, much easier to see for these old eyes)."
+    },
+    {
+      "feature": "speaker",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "they\u2019re not terrible by any means, just not super LOUD, most gamers would probably be using a headset anyway for voice chat/streaming/gameplay anyway\u2026don\u2019t let this steer you away, this is a great laptop despite not having \u201cthe best sound system in the world\u201dI Don\u2019t notice any excessive fan noise or overheating issues of any kindI\u2019m using it everyday for gaming and I can\u2019t leave it alone!"
+    },
+    {
+      "feature": "battery",
+      "sentiment": "mixed",
+      "positive_mentions": 0,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 0,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Battery lasts about as long as you would expect,",
+      "value": [
+        "average battery life in hours: 2 Hours"
+      ]
+    },
+    {
+      "feature": "thermals",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Wifi works great, and so far no heating issues."
+    }
+  ]
+}

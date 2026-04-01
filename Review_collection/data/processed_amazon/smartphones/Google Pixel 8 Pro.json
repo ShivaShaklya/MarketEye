@@ -1,0 +1,109 @@
+{
+  "asin": "B0GHRT7C7K",
+  "product": "Google Pixel 8 Pro",
+  "features": [
+    {
+      "feature": "display",
+      "sentiment": "mixed",
+      "positive_mentions": 1,
+      "negative_mentions": 2,
+      "neutral_mentions": 2,
+      "mentions_total": 0,
+      "feature_score": -1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Bright, sharp screen. I did mess up putting the screen protector on.",
+      "value": [
+        "standing screen display size: 6.3 Inches"
+      ]
+    },
+    {
+      "feature": "fingerprint",
+      "sentiment": "mixed",
+      "positive_mentions": 2,
+      "negative_mentions": 3,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": -1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The 5a has a rear capacitive fingerprint reader that still is considered one of the best ever. If you don't use the fingerprint reader you may like this phone,"
+    },
+    {
+      "feature": "battery",
+      "sentiment": "mixed",
+      "positive_mentions": 2,
+      "negative_mentions": 2,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 0,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "This phone does everything I need and has a great battery that lasts over a day. Looking forward to seeing how much more battery life I get when I figure out how to disable it completely."
+    },
+    {
+      "feature": "camera",
+      "sentiment": "positive",
+      "positive_mentions": 4,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 4,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "However, the camera still is very good compared to other similar priced phones. My girlfriend's phone has a fancy camera"
+    },
+    {
+      "feature": "software",
+      "sentiment": "mixed",
+      "positive_mentions": 1,
+      "negative_mentions": 1,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 0,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "I am getting used to Pixel and have learned to appreciate Pixel software. I was frustrated with Samsung software."
+    },
+    {
+      "feature": "performance",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Pixel phones in general have impressed me with performance and value, and this latest Pixel 10a is no exception. Fast enough for my needs - I don't do hardcore gaming on my phone, it's fast enough for just about everything else."
+    },
+    {
+      "feature": "price",
+      "sentiment": "positive",
+      "positive_mentions": 2,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Pixel phones in general have impressed me with performance and value, and this latest Pixel 10a is no exception. Very good price for what you get.",
+      "value": [
+        "price usd: 499.0",
+        "price rs: 79999"
+      ]
+    },
+    {
+      "feature": "speaker",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Excellent sound quality with and without buds."
+    }
+  ]
+}

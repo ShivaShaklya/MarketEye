@@ -1,0 +1,50 @@
+{
+  "asin": "B09B19KMZY",
+  "product": "Samsung Galaxy A34",
+  "features": [
+    {
+      "feature": "software",
+      "sentiment": "negative",
+      "positive_mentions": 0,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": -1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Newer software that came with it was more virus like."
+    },
+    {
+      "feature": "price",
+      "sentiment": "mixed",
+      "positive_mentions": 0,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 0,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "It is an open box product being sold at full price.",
+      "value": [
+        "price usd: 177.72",
+        "price rs: 32999"
+      ]
+    },
+    {
+      "feature": "battery",
+      "sentiment": "negative",
+      "positive_mentions": 0,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": -1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "I have slfor a couple of months and then the worst thing happens the battery swelled up and started to malfunction I have to get a new Phone.",
+      "value": [
+        "battery power rating: 5000",
+        "battery capacity: 5000 Milliamp Hours"
+      ]
+    }
+  ]
+}

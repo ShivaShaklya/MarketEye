@@ -1,0 +1,93 @@
+{
+  "asin": "B0CN556RQ4",
+  "product": "Samsung Galaxy Z Flip 5",
+  "features": [
+    {
+      "feature": "display",
+      "sentiment": "positive",
+      "positive_mentions": 6,
+      "negative_mentions": 2,
+      "neutral_mentions": 3,
+      "mentions_total": 0,
+      "feature_score": 4,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "So far it's nice came with a screen Came with no scratches, was easy to setup, screen was in perfect condition and overall the phone is a 10/10 for me.",
+      "value": [
+        "other display features: Wireless",
+        "standing screen display size: 6.7 Inches"
+      ]
+    },
+    {
+      "feature": "design",
+      "sentiment": "positive",
+      "positive_mentions": 4,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 3,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "I would recommend this phone becasue as i said before its fun to use it is a durable phone it packs all latest processing speed strength pretty good camera and build quality. It folding into a small compact square makes this in my opinion the optimal design for a smart phone."
+    },
+    {
+      "feature": "camera",
+      "sentiment": "positive",
+      "positive_mentions": 2,
+      "negative_mentions": 0,
+      "neutral_mentions": 2,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "I would recommend this phone becasue as i said before its fun to use it is a durable phone it packs all latest processing speed strength pretty good camera and build quality. The camera on the phone is great as well.",
+      "value": [
+        "other camera features: Front"
+      ]
+    },
+    {
+      "feature": "battery",
+      "sentiment": "negative",
+      "positive_mentions": 1,
+      "negative_mentions": 2,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": -1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The phone works perfectly fine , came with no issues , my only issue is it did have like 5 different updates avaliable an the battery life isn't as good as my old phone, The 1 major downside to this phone is the battery life it is not very good other than that it is an all around really fun and durable phone to use.",
+      "value": [
+        "battery power rating: 3700 Milliamp Hours",
+        "battery capacity: 3700 Milliamp Hours"
+      ]
+    },
+    {
+      "feature": "price",
+      "sentiment": "positive",
+      "positive_mentions": 2,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "this one, for the price, seems to be a perfect entry for me into the world of a foldable phone. For the price here its a steal and amazon provides a pretty good buy back program if you have unused samsung phones or want to upgrade its a great opportunity to get rid of phones to get nice money off of this phone more than it already is.",
+      "value": [
+        "price usd: 279.95",
+        "price rs: 87399"
+      ]
+    },
+    {
+      "feature": "performance",
+      "sentiment": "positive",
+      "positive_mentions": 2,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "I would recommend this phone becasue as i said before its fun to use it is a durable phone it packs all latest processing speed strength pretty good camera and build quality. It is flawless butter smooth scrolling speed."
+    }
+  ]
+}

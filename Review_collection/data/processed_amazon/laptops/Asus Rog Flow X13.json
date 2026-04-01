@@ -1,0 +1,136 @@
+{
+  "asin": "B0DW238TXK",
+  "product": "Asus Rog Flow X13",
+  "features": [
+    {
+      "feature": "performance",
+      "sentiment": "positive",
+      "positive_mentions": 6,
+      "negative_mentions": 1,
+      "neutral_mentions": 5,
+      "mentions_total": 0,
+      "feature_score": 5,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "\u2705 \"Shared Memory\" speed is surprisingly fast (LPDDR5X bandwidth). durable, and the performance is outstanding\u2014whether I\u2019m handling HRIS systems, multitasking with Microsoft Office, or enjoying gaming sessions like Hogwarts Legacy or Aliens: Fireteam Elite."
+    },
+    {
+      "feature": "software",
+      "sentiment": "mixed",
+      "positive_mentions": 1,
+      "negative_mentions": 3,
+      "neutral_mentions": 6,
+      "mentions_total": 0,
+      "feature_score": -2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Alternatively, setting the GPU allocation to 64GB (leaving 48GB for System) provided the perfect stability balance.2. Crash: Attempting to load a 42GB model file caused an immediate crash because there wasn't enough System RAM to stage the file."
+    },
+    {
+      "feature": "battery",
+      "sentiment": "mixed",
+      "positive_mentions": 2,
+      "negative_mentions": 3,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": -1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The Gold Premium Care package gives me peace of mind with accidental damage protection and battery service for years to come. I even tried the original EVE Tech V as a possible option (don't bother with EVE Tech/Dough, hype over performance and delivery).These provide power, charging through any USB C (albeit slow on small bricks, LoL), quality screens, a keyboard that doesn't suck (expectations tempered for those of us with mechanical keyboards), an overall quick and quality experience.",
+      "value": [
+        "average battery life in hours: 10 Hours"
+      ]
+    },
+    {
+      "feature": "storage",
+      "sentiment": "mixed",
+      "positive_mentions": 1,
+      "negative_mentions": 2,
+      "neutral_mentions": 3,
+      "mentions_total": 0,
+      "feature_score": -1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "\u2705 \"Shared Memory\" speed is surprisingly fast (LPDDR5X bandwidth). Crash: Attempting to load a 42GB model file caused an immediate crash because there wasn't enough System RAM to stage the file."
+    },
+    {
+      "feature": "connectivity",
+      "sentiment": "positive",
+      "positive_mentions": 2,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "A 10,000mAh batter plugged in USB C has often gotten me through a few hours of work moving around a construction site or job project. I even tried the original EVE Tech V as a possible option (don't bother with EVE Tech/Dough, hype over performance and delivery).These provide power, charging through any USB C (albeit slow on small bricks, LoL), quality screens, a keyboard that doesn't suck (expectations tempered for those of us with mechanical keyboards), an overall quick and quality experience."
+    },
+    {
+      "feature": "keyboard",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 2,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "I even tried the original EVE Tech V as a possible option (don't bother with EVE Tech/Dough, hype over performance and delivery).These provide power, charging through any USB C (albeit slow on small bricks, LoL), quality screens, a keyboard that doesn't suck (expectations tempered for those of us with mechanical keyboards), an overall quick and quality experience. The keyboard attachment."
+    },
+    {
+      "feature": "display",
+      "sentiment": "mixed",
+      "positive_mentions": 1,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 0,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The screen is so bright it hurts my eyes. When i this device there was a large blue bright spot on the left hand side of the screen along with some bad backlight bleeding, unacceptable for a device in this price bracket.",
+      "value": [
+        "standing screen display size: 13.4 Inches"
+      ]
+    },
+    {
+      "feature": "price",
+      "sentiment": "negative",
+      "positive_mentions": 0,
+      "negative_mentions": 1,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": -1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "When i this device there was a large blue bright spot on the left hand side of the screen along with some bad backlight bleeding, unacceptable for a device in this price bracket. And when I try to initiate a return the only option it gives is UPS pickup due to its price.",
+      "value": [
+        "price usd: 2749.99",
+        "price rs: 138499"
+      ]
+    },
+    {
+      "feature": "design",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The design is sleek"
+    },
+    {
+      "feature": "fan_noise",
+      "sentiment": "mixed",
+      "positive_mentions": 0,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 0,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Fans are loud!"
+    }
+  ]
+}

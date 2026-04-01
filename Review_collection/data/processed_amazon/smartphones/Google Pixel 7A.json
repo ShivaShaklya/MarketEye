@@ -1,0 +1,111 @@
+{
+  "asin": "B0FFTRPM4K",
+  "product": "Google Pixel 7A",
+  "features": [
+    {
+      "feature": "software",
+      "sentiment": "positive",
+      "positive_mentions": 4,
+      "negative_mentions": 0,
+      "neutral_mentions": 4,
+      "mentions_total": 0,
+      "feature_score": 4,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Very nice features almost pure android. always fresh and in active development directly from original Android source- best camera on the marketNeutral:- speed is very slowly improving (if at all)- not many extras in the packaging (e.g., no wall power adapter)- I like bit smaller phones in general (Pixel 5 was an ideal size for me)- AI emphasized too much (and not used at all by me)."
+    },
+    {
+      "feature": "camera",
+      "sentiment": "positive",
+      "positive_mentions": 3,
+      "negative_mentions": 1,
+      "neutral_mentions": 3,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The camera is amazing. always fresh and in active development directly from original Android source- best camera on the marketNeutral:- speed is very slowly improving (if at all)- not many extras in the packaging (e.g., no wall power adapter)- I like bit smaller phones in general (Pixel 5 was an ideal size for me)- AI emphasized too much (and not used at all by me).",
+      "value": [
+        "rear facing camera photo sensor resolution: 48 MP",
+        "camera description: Front, Rear",
+        "number of rear facing cameras: 3",
+        "number of front cameras: 1"
+      ]
+    },
+    {
+      "feature": "fingerprint",
+      "sentiment": "positive",
+      "positive_mentions": 2,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The face recognition and fingerprint features work great on this one. They have done really good at improving the fingerprint sensing abilities."
+    },
+    {
+      "feature": "battery",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The battery life is better than iPhone was when it was new. The battery lasts about 24 hours depending on how much I use it.",
+      "value": [
+        "battery capacity: 4970",
+        "battery power: 4970",
+        "battery average life: 10 Hours",
+        "average battery life talk time: 21 Hours"
+      ]
+    },
+    {
+      "feature": "price",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "This is a great phone and a great price! Also the price was beyond reasonable when other androids and apple products are well over a thousand dollars",
+      "value": [
+        "price usd: 549.0",
+        "price rs: 26490"
+      ]
+    },
+    {
+      "feature": "performance",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "always fresh and in active development directly from original Android source- best camera on the marketNeutral:- speed is very slowly improving (if at all)- not many extras in the packaging (e.g., no wall power adapter)- I like bit smaller phones in general (Pixel 5 was an ideal size for me)- AI emphasized too much (and not used at all by me)."
+    },
+    {
+      "feature": "display",
+      "sentiment": "mixed",
+      "positive_mentions": 0,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 0,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Android requires you to press the volume button then press two buttons on the screen.",
+      "value": [
+        "display type: OLED",
+        "display resolution maximum: 2676 x 2676",
+        "display pixel density: 422 Pixels Per Inch (PPI)"
+      ]
+    }
+  ]
+}

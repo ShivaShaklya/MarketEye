@@ -1,0 +1,42 @@
+{
+  "asin": "B0CVFC6NQX",
+  "product": "Macbook Pro 14 M3 Pro",
+  "features": [
+    {
+      "feature": "battery",
+      "sentiment": "positive",
+      "positive_mentions": 2,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "This macbook came in really good condition and with a battery life of 100%. Really Good It\u2019s pretty much in perfect condition, only complain would be the generic charging brick and not original box."
+    },
+    {
+      "feature": "design",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The design is beautiful."
+    },
+    {
+      "feature": "keyboard",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "it didn't come with its original box, it arrived very well packaged, and the best thing is that it came with the protective case and the keyboard protector."
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "asin": "B0FSCVPZ5W",
+  "product": "Oneplus Open",
+  "features": [
+    {
+      "feature": "battery",
+      "sentiment": "positive",
+      "positive_mentions": 11,
+      "negative_mentions": 1,
+      "neutral_mentions": 2,
+      "mentions_total": 0,
+      "feature_score": 10,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The cherry on top is the proprietary vooc charger which is so fast, sometimes I mistake the charge % while plugged in for a stopwatch. The battery is incredible.",
+      "value": [
+        "battery power rating: 7300.0",
+        "battery capacity: 7300 Milliamp Hours"
+      ]
+    },
+    {
+      "feature": "display",
+      "sentiment": "positive",
+      "positive_mentions": 7,
+      "negative_mentions": 1,
+      "neutral_mentions": 3,
+      "mentions_total": 0,
+      "feature_score": 6,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The One Plus 15 screen is fantastic it gets super bright with amazing colors and a really good stereo speaker on it that makes watching movies or playing games amazing! I like the matte anti-glare screen protectors.",
+      "value": [
+        "other display features: Wireless",
+        "standing screen display size: 6.78 Inches"
+      ]
+    },
+    {
+      "feature": "camera",
+      "sentiment": "positive",
+      "positive_mentions": 4,
+      "negative_mentions": 1,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 3,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "I can say that the camera on this phone is still really good. Night photos could be better",
+      "value": [
+        "other camera features: Front, Rear"
+      ]
+    },
+    {
+      "feature": "price",
+      "sentiment": "positive",
+      "positive_mentions": 3,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 3,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Amazing value in a great and highly capable phone. The value of the phone is decent... Cheaper than Google, Samsung, and Apple",
+      "value": [
+        "price usd: 999.99",
+        "price rs: 47997"
+      ]
+    },
+    {
+      "feature": "network",
+      "sentiment": "negative",
+      "positive_mentions": 0,
+      "negative_mentions": 1,
+      "neutral_mentions": 2,
+      "mentions_total": 0,
+      "feature_score": -1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "I don't use 5G all that much because I think 5G signal strength isn't so great in certain areas where I live in Texas. and I always have full bars of signal strength."
+    },
+    {
+      "feature": "software",
+      "sentiment": "positive",
+      "positive_mentions": 3,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 3,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "highly recommend for any Android user who wants a flagship alternative to Samsung \ud83e\udd22 Handles multitasking very well and has many very unique, quirky UI features that make this phone very pleasant to use and easy to transition to from a different UI."
+    },
+    {
+      "feature": "performance",
+      "sentiment": "positive",
+      "positive_mentions": 2,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "really enjoy screen clarity and sharpness, speed and flexibility. The performance is incredible with everything you do feeling very fluid and smooth."
+    },
+    {
+      "feature": "speaker",
+      "sentiment": "positive",
+      "positive_mentions": 3,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 3,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The One Plus 15 screen is fantastic it gets super bright with amazing colors and a really good stereo speaker on it that makes watching movies or playing games amazing! Dolby Atmos (dubbed holo audio on OP15) sounds amazing with shows, games, and movies."
+    },
+    {
+      "feature": "design",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "behind the skin and design, it still retains the advantages of an android here in early 2026.Pretty thin, large screen, and average weight."
+    }
+  ]
+}

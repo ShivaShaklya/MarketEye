@@ -1,0 +1,85 @@
+{
+  "asin": "B08B4ZZKKJ",
+  "product": "Lenovo Thinkpad X1 Yoga",
+  "features": [
+    {
+      "feature": "software",
+      "sentiment": "mixed",
+      "positive_mentions": 0,
+      "negative_mentions": 0,
+      "neutral_mentions": 2,
+      "mentions_total": 0,
+      "feature_score": 0,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "I flashed the bios as soon as I got it and installed Fedora 43 (not dual boot and I wiped out Windows 10. I needed an older laptop with Windows 10."
+    },
+    {
+      "feature": "battery",
+      "sentiment": "positive",
+      "positive_mentions": 2,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The laptop arrived a day early, well packaged, contained a charger, it looks almost new with some minor scratches and works exceptionally well (strong battery). Decent battery life."
+    },
+    {
+      "feature": "display",
+      "sentiment": "positive",
+      "positive_mentions": 2,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Brightness is easily adjustable. Everything works as it should including the touch screen.",
+      "value": [
+        "standing screen display size: 14 Inches"
+      ]
+    },
+    {
+      "feature": "price",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Good value for the price.",
+      "value": [
+        "price usd: 275.0",
+        "price rs: 54990"
+      ]
+    },
+    {
+      "feature": "camera",
+      "sentiment": "negative",
+      "positive_mentions": 0,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": -1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "and I can\u2019t access camera in Microsoft edge and performance is low"
+    },
+    {
+      "feature": "performance",
+      "sentiment": "negative",
+      "positive_mentions": 0,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": -1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "and I can\u2019t access camera in Microsoft edge and performance is low"
+    }
+  ]
+}

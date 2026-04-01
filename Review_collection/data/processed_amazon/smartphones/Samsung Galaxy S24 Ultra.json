@@ -1,0 +1,90 @@
+{
+  "asin": "B0D2RX8Y5T",
+  "product": "Samsung Galaxy S24 Ultra",
+  "features": [
+    {
+      "feature": "display",
+      "sentiment": "mixed",
+      "positive_mentions": 3,
+      "negative_mentions": 2,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Beautiful screen. Immedietly took the phone, slapped a tempered glass screen protector and case on it and it is basically brand new.",
+      "value": [
+        "other display features: Wireless",
+        "standing screen display size: 6.8 Inches"
+      ]
+    },
+    {
+      "feature": "battery",
+      "sentiment": "positive",
+      "positive_mentions": 3,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 3,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Battery and functionality is perfect. The battery life is robust, and all functionalities are fully operational.",
+      "value": [
+        "battery power rating: 5000 Milliamp Hours",
+        "battery capacity: 5000 Milliamp Hours"
+      ]
+    },
+    {
+      "feature": "price",
+      "sentiment": "negative",
+      "positive_mentions": 1,
+      "negative_mentions": 2,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": -1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "if you can get this one for 4-5 hundred off retail, it's a great value. I was worried I'd need to repair the phone which would cost more than it's worth,",
+      "value": [
+        "price usd: 679.99",
+        "price rs: 119999"
+      ]
+    },
+    {
+      "feature": "performance",
+      "sentiment": "positive",
+      "positive_mentions": 2,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Performance is flawless so far. All features are fully operational, and I have no reservations or concerns regarding its performance."
+    },
+    {
+      "feature": "fingerprint",
+      "sentiment": "negative",
+      "positive_mentions": 0,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": -1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The few issues I had with my old note 10 lite I had for 5 years are solved (the in-screen fingerprint reader was iffy, especially in sunlight, and the lack of stereo speakers was annoying... after years of that you really notice the difference in the ultra)."
+    },
+    {
+      "feature": "design",
+      "sentiment": "negative",
+      "positive_mentions": 0,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": -1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The one and only complaint is this phone is kind of a tank in size and weight, especially with a case and screen protector which I of course use because my phone does get some abuse here and there."
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "asin": "B0CK5V7MWK",
+  "product": "Samsung Galaxy Z Fold 5",
+  "features": [
+    {
+      "feature": "display",
+      "sentiment": "negative",
+      "positive_mentions": 1,
+      "negative_mentions": 3,
+      "neutral_mentions": 3,
+      "mentions_total": 0,
+      "feature_score": -2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Inner display was fine Had to return due to the wifi/Bluetooth cable in the hinge being unfunctional, front screen came scraped from the top to bottom on the left half of screen.",
+      "value": [
+        "other display features: Wireless",
+        "standing screen display size: 7.6 Inches"
+      ]
+    },
+    {
+      "feature": "battery",
+      "sentiment": "mixed",
+      "positive_mentions": 2,
+      "negative_mentions": 1,
+      "neutral_mentions": 3,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Battery is at 97% which is better than I expected. The battery is holding a charge for a very long time, no visible blemishes without pulling out the magnifying glass, it wasn't locked to any particular carrier, and it performs at the level of new flagship phones.",
+      "value": [
+        "battery power rating: 4400",
+        "battery capacity: 4400"
+      ]
+    },
+    {
+      "feature": "price",
+      "sentiment": "positive",
+      "positive_mentions": 3,
+      "negative_mentions": 0,
+      "neutral_mentions": 2,
+      "mentions_total": 0,
+      "feature_score": 3,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Excellent condition great price This was the best value for the best version of the phone.",
+      "value": [
+        "price usd: 489.99",
+        "price rs: 79999"
+      ]
+    },
+    {
+      "feature": "design",
+      "sentiment": "negative",
+      "positive_mentions": 0,
+      "negative_mentions": 1,
+      "neutral_mentions": 2,
+      "mentions_total": 0,
+      "feature_score": -1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "There was also dirt on the body I had to clean off so the phone wasn't even properly cleaned. Overall this Phone should have been sold as a refurbished - good rating at the MOST due to all the scratches on the body and screen,"
+    },
+    {
+      "feature": "camera",
+      "sentiment": "negative",
+      "positive_mentions": 0,
+      "negative_mentions": 3,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": -3,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "the dirty/smudgy inside camera lenses is unforgivable as I would have to take it to a repair shop and pay money to have them remove and replace the lenses if I want that fixed, or risk doing it myself. Camera is literally unusable.",
+      "value": [
+        "other camera features: Front, Rear"
+      ]
+    }
+  ]
+}

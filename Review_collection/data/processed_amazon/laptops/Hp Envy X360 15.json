@@ -1,0 +1,112 @@
+{
+  "asin": "B0C4HNM8L4",
+  "product": "Hp Envy X360 15",
+  "features": [
+    {
+      "feature": "performance",
+      "sentiment": "positive",
+      "positive_mentions": 2,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Its compact, user friendly, she really likes the performance. Powered by Snapdragon X Elite, it delivers snappy performance for multitasking, light video editing, and AI features like Copilot+ without draining the impressive 15+ hour battery life."
+    },
+    {
+      "feature": "battery",
+      "sentiment": "negative",
+      "positive_mentions": 1,
+      "negative_mentions": 2,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": -1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Powered by Snapdragon X Elite, it delivers snappy performance for multitasking, light video editing, and AI features like Copilot+ without draining the impressive 15+ hour battery life. I'm experiencing a significant discrepancy with my HP Envy x360 2-in-1 laptop's battery life.",
+      "value": [
+        "average battery life in hours: 12 Hours"
+      ]
+    },
+    {
+      "feature": "price",
+      "sentiment": "positive",
+      "positive_mentions": 3,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 3,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Fast shipping good price The 360-degree hinge, premium aluminum build, and responsive keyboard make it versatile for sales demos, client calls, or on-the-go productivity, all at a price that undercuts similar specs from bigger brands.",
+      "value": [
+        "price usd: 773.99",
+        "price rs: 84990"
+      ]
+    },
+    {
+      "feature": "keyboard",
+      "sentiment": "mixed",
+      "positive_mentions": 1,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 0,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The 360-degree hinge, premium aluminum build, and responsive keyboard make it versatile for sales demos, client calls, or on-the-go productivity, all at a price that undercuts similar specs from bigger brands. After about 35 days of normal use, the space bar and backspace keys began failing intermittently."
+    },
+    {
+      "feature": "display",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The HP OmniBook X Flip 2-in-1 is a standout for work and creativity\u2014its 14\" WUXGA IPS touch screen is vibrant and responsive, flipping seamlessly into tablet mode for note-taking or sketching with the included stylus.",
+      "value": [
+        "standing screen display size: 14 Inches"
+      ]
+    },
+    {
+      "feature": "design",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The 360-degree hinge, premium aluminum build, and responsive keyboard make it versatile for sales demos, client calls, or on-the-go productivity, all at a price that undercuts similar specs from bigger brands."
+    },
+    {
+      "feature": "software",
+      "sentiment": "mixed",
+      "positive_mentions": 0,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 0,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "I updated BIOS and drivers via HP Support Assistant and ran HP diagnostics,"
+    },
+    {
+      "feature": "storage",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "It still has tons of storage!"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "asin": "B0D365SPZN",
+  "product": "Samsung Galaxy S24 Plus",
+  "features": [
+    {
+      "feature": "battery",
+      "sentiment": "positive",
+      "positive_mentions": 6,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 6,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Battery life lasts a full day for me, and power management is steady without overheating during normal use. The refurbished S24+ is great, the battery especially holds a bigger charge and the cpu is more efficient than the s21.",
+      "value": [
+        "battery average life: 18 Hours",
+        "battery capacity: 4900 Milliamp Hours",
+        "battery description: Lithium-Ion",
+        "battery power: 4900 Milliamp Hours"
+      ]
+    },
+    {
+      "feature": "performance",
+      "sentiment": "positive",
+      "positive_mentions": 5,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 5,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Bottom line: If you want flagship power with practical savings, this renewed S24+ delivers the performance, clarity, and premium feel you hope for. \u2705 Pros:\u2714 Excellent renewed condition \u2014 near-factory clean look\u2714 Powerful, efficient processing for smooth performance\u2714 Large 256GB storage is practical for heavy use\u2714 Unlocked model adds flexibility for carriers and travel\u2714 Strong 5G and connectivity performance\u2714 Reliable for daily work, media, and accessories\u2714 No jitters, crashes, or odd performance spikes\u26a0 Cons / tips:\u2022 Renewed means it\u2019s not box-new \u2014 accessories may vary, so keep a spare USB-C cable or adapter handy if needed.\u2022 Higher-end features work best when paired with good charging gear (GaN blocks, fast adapters, etc.), which is normal for any flagship phone.\u2022"
+    },
+    {
+      "feature": "software",
+      "sentiment": "positive",
+      "positive_mentions": 3,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The storage is 256gb, its pretty big for my needs because I already have quite a bit of apps taking up the 1st 100gb+ aswell the needed space for the occasional updates for apps and software updates. This phone replaced my old Galaxy S21 Plus as it no longer had software updates."
+    },
+    {
+      "feature": "display",
+      "sentiment": "positive",
+      "positive_mentions": 3,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 3,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The screen is gorgeous \u2014 vivid, sharp, and buttery smooth, making reading, browsing, and streaming feel premium. The display is great, 1440p with adaptive 120hz.",
+      "value": [
+        "display type: AMOLED",
+        "display resolution maximum: 3120x1440 Pixels",
+        "display pixel density: 513 Pixels Per Inch (PPI)"
+      ]
+    },
+    {
+      "feature": "storage",
+      "sentiment": "positive",
+      "positive_mentions": 4,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 4,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The storage is 256gb, its pretty big for my needs because I already have quite a bit of apps taking up the 1st 100gb+ aswell the needed space for the occasional updates for apps and software updates. The processor handles multitasking and heavier apps with zero slowdown, and the 256GB storage gives plenty of headroom for media and large apps.",
+      "value": [
+        "memory storage capacity: 256 GB"
+      ]
+    },
+    {
+      "feature": "price",
+      "sentiment": "positive",
+      "positive_mentions": 3,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 3,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The phone looks like new and works great, it is a nice way to get a one year old phone for almost 50% off the price of a new phone. It's a great balance of price to performance if your coming from the s21 generationThe only gray opinion I have is that the screen is significantly bigger than the s21 and it is heavier significantly, it feels different to hold it",
+      "value": [
+        "price usd: 438.93",
+        "price rs: 59999"
+      ]
+    },
+    {
+      "feature": "camera",
+      "sentiment": "mixed",
+      "positive_mentions": 0,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 0,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "When checking the physical screen for imperfections there was a incredibly small single line scratch that was only noticeable if you shine a light on it and bother to search for the scratchThe camera is significantly higher quality for taking pictures as well, im not a taking pictures kind of guy",
+      "value": [
+        "rear facing camera photo sensor resolution: 50 MP",
+        "camera description: Front",
+        "camera flash: no flash",
+        "number of rear facing cameras: 3",
+        "number of front cameras: 1"
+      ]
+    }
+  ]
+}

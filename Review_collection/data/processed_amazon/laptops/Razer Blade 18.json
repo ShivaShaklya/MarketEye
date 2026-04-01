@@ -1,0 +1,73 @@
+{
+  "asin": "B0BQNVT4S5",
+  "product": "Razer Blade 18",
+  "features": [
+    {
+      "feature": "display",
+      "sentiment": "mixed",
+      "positive_mentions": 3,
+      "negative_mentions": 1,
+      "neutral_mentions": 4,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "It is a real desktop replacement, great performance and looks amazing, the screen is perfect for erverything. Screen is gorgeous and can hit over 500 nits of brightness.",
+      "value": [
+        "standing screen display size: 18 Inches"
+      ]
+    },
+    {
+      "feature": "performance",
+      "sentiment": "positive",
+      "positive_mentions": 2,
+      "negative_mentions": 0,
+      "neutral_mentions": 2,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "It is a real desktop replacement, great performance and looks amazing, the screen is perfect for erverything. none the less, the screen, performance and looks are amazing."
+    },
+    {
+      "feature": "price",
+      "sentiment": "mixed",
+      "positive_mentions": 1,
+      "negative_mentions": 1,
+      "neutral_mentions": 2,
+      "mentions_total": 0,
+      "feature_score": 0,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "I can get it from another company at a much cheaper price The blooming on the screen is atrocious at this price point.",
+      "value": [
+        "price usd: 4599.99",
+        "price rs: 479990"
+      ]
+    },
+    {
+      "feature": "design",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Best build quality out there for a gaming laptop."
+    },
+    {
+      "feature": "keyboard",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Keyboard looks amazing and feels pretty good, with less key travel than your typical gaming keyboard on other laptops."
+    }
+  ]
+}

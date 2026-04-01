@@ -1,0 +1,81 @@
+{
+  "asin": "B0BN72FYFG",
+  "product": "Iphone 14",
+  "features": [
+    {
+      "feature": "battery",
+      "sentiment": "mixed",
+      "positive_mentions": 3,
+      "negative_mentions": 3,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 0,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Battery health is 88% . Battery health was great, there were no scratches on the screen, and setup was quick and easy.",
+      "value": [
+        "battery power rating: 12.7 Watt Hours",
+        "battery capacity: 3279 Milliamp Hours"
+      ]
+    },
+    {
+      "feature": "display",
+      "sentiment": "mixed",
+      "positive_mentions": 2,
+      "negative_mentions": 2,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 0,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The camera works, the screen is clean, it practically looks new out of box minus the little tiny corner scratches on the edges (which isn\u2019t noticeable.) Battery health was great, there were no scratches on the screen, and setup was quick and easy.",
+      "value": [
+        "other display features: Wireless",
+        "standing screen display size: 6.1 Inches"
+      ]
+    },
+    {
+      "feature": "camera",
+      "sentiment": "mixed",
+      "positive_mentions": 1,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 0,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The camera works, the screen is clean, it practically looks new out of box minus the little tiny corner scratches on the edges (which isn\u2019t noticeable.) Last night both my face ID and flash light was not working.",
+      "value": [
+        "other camera features: Front, Rear"
+      ]
+    },
+    {
+      "feature": "price",
+      "sentiment": "positive",
+      "positive_mentions": 2,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The price did go up in a span of a week, so I\u2019m glad I got it. Overall decent quality for the price.",
+      "value": [
+        "price usd: 294.95",
+        "price rs: 52190"
+      ]
+    },
+    {
+      "feature": "speaker",
+      "sentiment": "negative",
+      "positive_mentions": 0,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": -1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Bought Excellent condition, came with a small scratch towards the top of the screen, both speaker ports and microphone were dirty."
+    }
+  ]
+}

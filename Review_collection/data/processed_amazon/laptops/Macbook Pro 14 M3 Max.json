@@ -1,0 +1,104 @@
+{
+  "asin": "B0FWD6SKL6",
+  "product": "Macbook Pro 14 M3 Max",
+  "features": [
+    {
+      "feature": "display",
+      "sentiment": "positive",
+      "positive_mentions": 6,
+      "negative_mentions": 2,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 4,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The build quality and display are top-tier, as expected from Apple, making it a great choice for anyone who values performance and stability in a laptop. The screen size is the perfect size IMO, the 13 is too small and my 15 air was too big.",
+      "value": [
+        "display: ['Liquid Retina XDR display', '14.2-inch (diagonal) Liquid Retina XDR display;2 3024-by-1964 native resolution at 254 pixels per inch', 'XDR (Extreme Dynamic Range)', '1,000,000:1 contrast ratio', 'XDR brightness: 1000 nits sustained full-screen, 1600 nits peak3 (HDR content only)', 'SDR brightness: up to 1000 nits (outdoor)', 'Color', 'Support for 1 billion colors', 'Wide color (P3)', 'True Tone technology', 'Refresh rates', 'ProMotion technology for adaptive refresh rates up to 120Hz']",
+        "display support: ['Simultaneously supports full native resolution on the built-in display at 1 billion colors and:', 'Up to two external displays with up to 6K resolution at 60Hz over Thunderbolt, or one external display with up to 6K resolution at 60Hz over Thunderbolt and one external display with up to 4K resolution at 144Hz over HDMI', 'One external display supported at 8K resolution at 60Hz or one external display at 4K resolution at 240Hz over HDMI']"
+      ]
+    },
+    {
+      "feature": "performance",
+      "sentiment": "positive",
+      "positive_mentions": 6,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 6,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Best performance. The build quality and display are top-tier, as expected from Apple, making it a great choice for anyone who values performance and stability in a laptop."
+    },
+    {
+      "feature": "battery",
+      "sentiment": "positive",
+      "positive_mentions": 5,
+      "negative_mentions": 0,
+      "neutral_mentions": 2,
+      "mentions_total": 0,
+      "feature_score": 5,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "It\u2019s fast, reliable, easy to use, the battery lasts all day, even running multiple virtual machines. Battery life is excellent, and the overall system feels incredibly smooth and reliable for daily professional use.",
+      "value": [
+        "battery and power: ['Up to 24 hours video streaming', 'Up to 16 hours wireless web', 'Built-in 72.4\u2011watt\u2011hour lithium\u2011polymer battery', '70W USB-C Power Adapter', '35W Dual USB-C Port Compact Power Adapter (included with M4 with 10\u2011core GPU; configurable with M4 with 8\u2011core GPU)', 'USB-C to MagSafe 3 Cable', 'Fast-charge capable with 96W or higher USB-C Power Adapter']"
+      ]
+    },
+    {
+      "feature": "design",
+      "sentiment": "mixed",
+      "positive_mentions": 2,
+      "negative_mentions": 2,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 0,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Value for money, amazing display, performance is fast and smooth, the speakers are impeccable, I love the look of the black border around the keyboard on the silver, has a nice sturdy feel and weight to it for all you get packed into a 14\u201d. The build quality and display are top-tier, as expected from Apple, making it a great choice for anyone who values performance and stability in a laptop."
+    },
+    {
+      "feature": "price",
+      "sentiment": "positive",
+      "positive_mentions": 2,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Value for money, amazing display, performance is fast and smooth, the speakers are impeccable, I love the look of the black border around the keyboard on the silver, has a nice sturdy feel and weight to it for all you get packed into a 14\u201d. No concerns!The price was super super goodWe bought MacBook Pro M5 new with 512 GB just for 1300 \ud83d\ude33 that\u2019s awesome \ud83d\ude09Thank you again for this deal !!!",
+      "value": [
+        "price usd: 1399.99",
+        "price rs: 302990"
+      ]
+    },
+    {
+      "feature": "keyboard",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Value for money, amazing display, performance is fast and smooth, the speakers are impeccable, I love the look of the black border around the keyboard on the silver, has a nice sturdy feel and weight to it for all you get packed into a 14\u201d. Some things are different and the keys are a different size than on my old Mac, which has taken a little getting used to.",
+      "value": [
+        "keyboard and trackpad: ['Backlit Magic Keyboard with:', '78 (U.S.) or 79 (ISO) keys including 12 full\u2011height function keys and 4 arrow keys in an inverted\u2011T arrangement', 'Touch ID', 'Ambient light sensor', 'Force Touch trackpad for precise cursor control and pressure\u2011sensing capabilities; enables Force clicks, accelerators, pressure\u2011sensitive drawing, and Multi\u2011Touch gestures']"
+      ]
+    },
+    {
+      "feature": "software",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Battery life is excellent, and the overall system feels incredibly smooth and reliable for daily professional use. Due to my profession in networking, I work primarily with Windows and Linux"
+    }
+  ]
+}

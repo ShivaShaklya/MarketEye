@@ -1,0 +1,172 @@
+{
+  "asin": "B0G2T512W3",
+  "product": "Lenovo Legion Pro 7I",
+  "features": [
+    {
+      "feature": "performance",
+      "sentiment": "positive",
+      "positive_mentions": 6,
+      "negative_mentions": 1,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 5,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The combination of the Intel Core Ultra 9 and the RTX 5070 Ti GPU chews through every modern title I've thrown at it without breaking a sweat. The performance is, in a word, staggering."
+    },
+    {
+      "feature": "display",
+      "sentiment": "positive",
+      "positive_mentions": 5,
+      "negative_mentions": 0,
+      "neutral_mentions": 2,
+      "mentions_total": 0,
+      "feature_score": 5,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The 16-inch 2.5K OLED panel is breathtaking. When you crank up settings or use high refresh rates, the i7 + RTX combo keeps fps stable and smooth \u2014 no noticeable lag even in hectic firefights or big open-world scenes.",
+      "value": [
+        "standing screen display size: 16 Inches"
+      ]
+    },
+    {
+      "feature": "thermals",
+      "sentiment": "positive",
+      "positive_mentions": 2,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "What's equally impressive is the thermal management. the heat is managed so well that the keyboard and typing area remain remarkably comfortable."
+    },
+    {
+      "feature": "price",
+      "sentiment": "positive",
+      "positive_mentions": 2,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Amazing laptop with great specs / price. What truly seals the deal is the incredible value proposition.",
+      "value": [
+        "price usd: 1892.24",
+        "price rs: 173299"
+      ]
+    },
+    {
+      "feature": "battery",
+      "sentiment": "negative",
+      "positive_mentions": 1,
+      "negative_mentions": 2,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": -1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "If you want great battery life get a Mac Pro or similar. Like most powerful gaming laptops, the battery drains fast if you actually game on battery power.",
+      "value": [
+        "average battery life in hours: 7 Hours"
+      ]
+    },
+    {
+      "feature": "keyboard",
+      "sentiment": "positive",
+      "positive_mentions": 2,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "\u201dBuild & convenience: Keyboard and overall build feel sturdy and premium. the heat is managed so well that the keyboard and typing area remain remarkably comfortable."
+    },
+    {
+      "feature": "design",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "\u201dBuild & convenience: Keyboard and overall build feel sturdy and premium. If you move the machine around a lot (school, caf\u00e9s, trips) you\u2019ll feel the weight."
+    },
+    {
+      "feature": "storage",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Every aspect of the Legion Pro 7i feels premium, from its solid aluminum chassis to the scorching-fast storage."
+    },
+    {
+      "feature": "trackpad",
+      "sentiment": "mixed",
+      "positive_mentions": 0,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 0,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "If I had to pinpoint the one area where a budget-conscious decision was made, it's the plastic trackpad."
+    },
+    {
+      "feature": "speaker",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "I\u2019ve done some lighter tasks, streaming, and even editing-type work (video/audio) and the system handles it like a champ."
+    },
+    {
+      "feature": "software",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "I\u2019ve done some lighter tasks, streaming, and even editing-type work (video/audio) and the system handles it like a champ."
+    },
+    {
+      "feature": "connectivity",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Ports, connectivity and cooling seem well-balanced \u2014 you can plug in accessories, external drives or headsets without fuss; fans don\u2019t get unbearably loud unless under heavy load."
+    },
+    {
+      "feature": "fan_noise",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Ports, connectivity and cooling seem well-balanced \u2014 you can plug in accessories, external drives or headsets without fuss; fans don\u2019t get unbearably loud unless under heavy load."
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "asin": "B0CWTX6KWJ",
+  "product": "Macbook Pro 16 M3 Max",
+  "features": [
+    {
+      "feature": "display",
+      "sentiment": "positive",
+      "positive_mentions": 2,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "it's very minor and only seeiable when ur on a complete black screen with ur mouse in the corner, everything else seems great, packahing wasnt the best laptop was with barely any protection in the box nothing too crazy, battery cycle is only at 11 and everything else seems amazingly clean, there is a little glow effect happening in the upper left corner of my screen",
+      "value": [
+        "standing screen display size: 16.2 Inches"
+      ]
+    },
+    {
+      "feature": "battery",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "nothing too crazy, battery cycle is only at 11 and everything else seems amazingly clean, there is a little glow effect happening in the upper left corner of my screen",
+      "value": [
+        "average battery life in hours: 22 Hours"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "asin": "B0CY2GYZRR",
+  "product": "Xiaomi 14",
+  "features": [
+    {
+      "feature": "display",
+      "sentiment": "negative",
+      "positive_mentions": 1,
+      "negative_mentions": 2,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": -1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "This phone quality is the best I have ever seen, super fast speed wise, screen size is perfect and not too heavy and I recommend this phone to everyone. this is the first where I've ended up with dead pixels on the side and bottom of my display within a year of owning the device.",
+      "value": [
+        "display type: AMOLED",
+        "display resolution maximum: 2670 x 1200",
+        "display pixel density: 460 Pixels Per Inch (PPI)"
+      ]
+    },
+    {
+      "feature": "performance",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "This phone quality is the best I have ever seen, super fast speed wise, screen size is perfect and not too heavy and I recommend this phone to everyone."
+    }
+  ]
+}

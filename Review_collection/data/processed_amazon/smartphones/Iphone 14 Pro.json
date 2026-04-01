@@ -1,0 +1,108 @@
+{
+  "asin": "B0BN95FRW9",
+  "product": "Iphone 14 Pro",
+  "features": [
+    {
+      "feature": "battery",
+      "sentiment": "mixed",
+      "positive_mentions": 6,
+      "negative_mentions": 4,
+      "neutral_mentions": 4,
+      "mentions_total": 0,
+      "feature_score": 2,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "It's a perfect upgrade and the battery holds very well for a 3 year old phone. Note that this phone still has a lightening charger and does not have Apple Intelligence.the condition is like new, battery at 100%, no scratches anywhere- a great bang for the buck!",
+      "value": [
+        "battery power rating: 12.38 Watt Hours",
+        "battery capacity: 3200 Milliamp Hours"
+      ]
+    },
+    {
+      "feature": "price",
+      "sentiment": "positive",
+      "positive_mentions": 4,
+      "negative_mentions": 1,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 3,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "If you want a flagship phone experience without the flagship price tag, this version of the 14 Pro is a smart pick. I really appreciate the price for this phone, I don\u2019t feel like I\u2019ve spent an arm and a leg just for an upgrade.",
+      "value": [
+        "price usd: 399.99",
+        "price rs: 49999"
+      ]
+    },
+    {
+      "feature": "camera",
+      "sentiment": "positive",
+      "positive_mentions": 4,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 4,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Video quality is great too \u2014 it handles action and detail really well. Overall, the phone works perfectly: performance, camera, Face ID \u2014 everything is fine.",
+      "value": [
+        "other camera features: Front, Rear"
+      ]
+    },
+    {
+      "feature": "display",
+      "sentiment": "positive",
+      "positive_mentions": 3,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 0,
+      "feature_score": 3,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Right away you notice how smooth the display is. The phone really was in excellent condition, not one scratch on the screen or back.",
+      "value": [
+        "other display features: Wireless",
+        "standing screen display size: 6.1 Inches"
+      ]
+    },
+    {
+      "feature": "performance",
+      "sentiment": "positive",
+      "positive_mentions": 4,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 4,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "Performance is excellent. The ProMotion screen is crisp and responsive, and everything from scrolling to gaming feels fluid."
+    },
+    {
+      "feature": "storage",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The 128GB of storage is enough for everyday use, especially if most of your photos and videos are backed up to the cloud.",
+      "value": [
+        "memory storage capacity: 128 GB"
+      ]
+    },
+    {
+      "feature": "software",
+      "sentiment": "positive",
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 0,
+      "feature_score": 1,
+      "source": "amazon",
+      "type": "review",
+      "evidence": "The camera system is one of my favorite aspects."
+    }
+  ]
+}
