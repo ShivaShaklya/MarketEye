@@ -30,6 +30,7 @@
     let isProcessing = false;
     let userId = null;
     let chatId = null;
+    let currentStatus = null;
 
     restoreSession();
     messageInput.focus();
@@ -54,12 +55,15 @@
         try {
             let response;
 
-            if (isFirstMessage) {
+            const shouldStartFreshChat = isFirstMessage || currentStatus === 'MARKET_RESEARCH_READY';
+
+            if (shouldStartFreshChat) {
                 response = await startChat(message);
                 if (!response.error) {
                     userId = response.user_id;
                     chatId = response.chat_id;
                     isFirstMessage = false;
+                    currentStatus = response.status || null;
                     persistSession();
                     updateStatus('Session active');
                     syncExportAvailability(response.status);
@@ -74,6 +78,7 @@
                 addMessage('Warning: ' + response.error, 'bot');
                 updateStatus('Waiting for a valid prompt');
             } else {
+                currentStatus = response.status || null;
                 addMessage(response.response, 'bot');
                 updateStatus(response.status === 'MARKET_RESEARCH_READY' ? 'Report ready to export' : 'Ready for your next question');
                 syncExportAvailability(response.status);
@@ -111,6 +116,7 @@
         userId = null;
         chatId = null;
         isFirstMessage = true;
+        currentStatus = null;
         clearSession();
         chatMessages.innerHTML = welcomeMarkup;
         messageInput.value = '';
@@ -131,14 +137,16 @@
             const session = JSON.parse(raw);
             userId = session.user_id || null;
             chatId = session.chat_id || null;
-            isFirstMessage = !(userId && chatId);
+            currentStatus = session.status || null;
+            isFirstMessage = !(userId && chatId) || currentStatus === 'MARKET_RESEARCH_READY';
             syncExportAvailability(session.status);
 
             if (userId && chatId) {
-                updateStatus(session.status === 'MARKET_RESEARCH_READY' ? 'Last report ready to export' : 'Previous session restored');
+                updateStatus(session.status === 'MARKET_RESEARCH_READY' ? 'Last report ready to export. Send a new idea to start a new chat.' : 'Previous session restored');
             }
         } catch (error) {
             console.warn('Unable to restore session', error);
+            currentStatus = null;
             syncExportAvailability();
         }
     }
@@ -149,7 +157,7 @@
         localStorage.setItem(storageKey, JSON.stringify({
             user_id: userId,
             chat_id: chatId,
-            status: status || null
+            status: status || currentStatus || null
         }));
     }
 
@@ -158,9 +166,10 @@
     }
 
     function syncExportAvailability(status) {
-        const isReady = Boolean(userId && chatId && status === 'MARKET_RESEARCH_READY');
+        currentStatus = status || currentStatus || null;
+        const isReady = Boolean(userId && chatId && currentStatus === 'MARKET_RESEARCH_READY');
         exportPdfBtn.disabled = !isReady;
-        persistSession(status);
+        persistSession(currentStatus);
     }
 
     async function exportPdf() {

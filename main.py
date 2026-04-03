@@ -33,8 +33,6 @@ def main() -> None:
     parser = build_parser()
     args = parser.parse_args()
 
-    output_path = Path(args.output)
-
     if args.chat_json:
         chat_payload = load_input_payload(args.chat_json)
         paired_report = load_input_payload(args.report_json) if args.report_json else None
@@ -45,6 +43,8 @@ def main() -> None:
         )
     else:
         report_payload = load_input_payload(args.input)
+
+    output_path = _resolve_output_path(args.output, report_payload)
 
     generator = ReportGenerator()
 
@@ -57,6 +57,25 @@ def main() -> None:
 
     pdf_path = generator.generate(report_payload, output_path)
     print(f"Report generated: {pdf_path.resolve()}")
+
+
+def _resolve_output_path(requested_output: str, report_payload: dict) -> Path:
+    output_path = Path(requested_output)
+    if output_path.name != "report.pdf":
+        return output_path
+
+    safe_author = _safe_filename(report_payload.get("author")) or "marketeye_report"
+    return output_path.with_name(f"{safe_author}.pdf")
+
+
+def _safe_filename(value: str | None) -> str:
+    if not value:
+        return ""
+    cleaned = "".join(ch if ch.isalnum() or ch in {"-", "_"} else "_" for ch in str(value).strip())
+    cleaned = cleaned.strip("_")
+    while "__" in cleaned:
+        cleaned = cleaned.replace("__", "_")
+    return cleaned
 
 
 if __name__ == "__main__":

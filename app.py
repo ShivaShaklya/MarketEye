@@ -24,6 +24,16 @@ app = Flask(
 
 REPORT_OUTPUT_DIR = Path("outputs") / "web_exports"
 
+
+def _safe_filename(value: str | None) -> str:
+    if not value:
+        return ""
+    cleaned = "".join(ch if ch.isalnum() or ch in {"-", "_"} else "_" for ch in str(value).strip())
+    cleaned = cleaned.strip("_")
+    while "__" in cleaned:
+        cleaned = cleaned.replace("__", "_")
+    return cleaned
+
 @app.route('/')
 def index():
     """Serve the main chat interface."""
@@ -107,7 +117,8 @@ def api_export_chat_pdf(user_id, chat_id):
         return jsonify({"error": f"Report dependencies are unavailable: {exc}"}), 500
 
     REPORT_OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-    output_pdf = REPORT_OUTPUT_DIR / f"{user_id}_{chat_id}.pdf"
+    filename_root = _safe_filename(user_id) or "marketeye_report"
+    output_pdf = REPORT_OUTPUT_DIR / f"{filename_root}.pdf"
     asset_dir = Path("generated_assets") / f"{user_id}_{chat_id}"
 
     try:
