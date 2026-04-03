@@ -33,6 +33,7 @@ def create_chat(user_id: str) -> Dict[str,Any]:
         "idea_raw": "",
         "idea_understanding":{},
         "constraints":{},
+        "competitive_analysis": None,
 
         #Log
         "conversation_history": []

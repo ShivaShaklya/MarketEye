@@ -1,0 +1,130 @@
+{
+  "asin": "unknown",
+  "product": "Razer Blade 18",
+  "features": [
+    {
+      "feature": "battery",
+      "sentiment": "positive",
+      "positive_mentions": 42,
+      "negative_mentions": 3,
+      "neutral_mentions": 38,
+      "mentions_total": 83,
+      "feature_score": 39,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "and the battery is 99w hours and got really good battery life, over 6 hours of use before needing to charge However, it lost 24 of its battery charge while asleep for 24 hours"
+    },
+    {
+      "feature": "camera",
+      "sentiment": "positive",
+      "positive_mentions": 31,
+      "negative_mentions": 3,
+      "neutral_mentions": 25,
+      "mentions_total": 59,
+      "feature_score": 28,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": " the video if you liked it However, okay, so, this is what the 1080p camera looks on the razer blade 18 using nothing but natural light"
+    },
+    {
+      "feature": "design",
+      "sentiment": "positive",
+      "positive_mentions": 30,
+      "negative_mentions": 2,
+      "neutral_mentions": 29,
+      "mentions_total": 61,
+      "feature_score": 28,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "it features an rtx 5090 mobile with a vapor chamber cooling design that is so cool that they had to put a window on the bottom so you could look at it"
+    },
+    {
+      "feature": "display",
+      "sentiment": "positive",
+      "positive_mentions": 81,
+      "negative_mentions": 11,
+      "neutral_mentions": 85,
+      "mentions_total": 177,
+      "feature_score": 70,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "so i m ready to let bygones be bygones and take a look at the new razer blade 18, which they claim is the very first in the world to feature a dual mode display running at either full hd plus 440 hz or a whopping 4k plus However, the blade 18 is the only razer laptop with an intel processor this year, and mine has nvidia s rtx 5090 laptop graphics, 32 gigs of ram, and an 18in 4k 240 hz screen, but you can customize it with lower or higher specs when ordering with the link below",
+      "value": [
+        "standing screen display size: 18 Inches"
+      ]
+    },
+    {
+      "feature": "performance",
+      "sentiment": "positive",
+      "positive_mentions": 94,
+      "negative_mentions": 17,
+      "neutral_mentions": 82,
+      "mentions_total": 193,
+      "feature_score": 77,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "secret labs titan evo ergonomic gaming chairs are built to promote proper posture for all those long late night sessions However,  you can make the argument that this is a gaming laptop and not a lot of people are going to be using the touchpad, but i disagree"
+    },
+    {
+      "feature": "price",
+      "sentiment": "positive",
+      "positive_mentions": 27,
+      "negative_mentions": 7,
+      "neutral_mentions": 28,
+      "mentions_total": 62,
+      "feature_score": 20,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "so, function so cool, that must cost a fortune However, one, it s ridiculously expensive"
+    },
+    {
+      "feature": "software",
+      "sentiment": "positive",
+      "positive_mentions": 58,
+      "negative_mentions": 15,
+      "neutral_mentions": 67,
+      "mentions_total": 140,
+      "feature_score": 43,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "secret labs titan evo ergonomic gaming chairs are built to promote proper posture for all those long late night sessions However, getting inside requires removing 12 tr5 screws, all the same length"
+    },
+    {
+      "feature": "speaker",
+      "sentiment": "positive",
+      "positive_mentions": 23,
+      "negative_mentions": 3,
+      "neutral_mentions": 32,
+      "mentions_total": 58,
+      "feature_score": 20,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "so, i guess that s how they re getting that pretty impressive sound stage However, that s a bit of a surprise, but despite being very slightly bigger than the last year s 2024 2023 model, the speakers were slightly worse in our opinion"
+    },
+    {
+      "feature": "storage",
+      "sentiment": "positive",
+      "positive_mentions": 44,
+      "negative_mentions": 12,
+      "neutral_mentions": 49,
+      "mentions_total": 105,
+      "feature_score": 32,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "okay, so we ve got the highest spec of this machine with 4 terb of built in storage, but there are two tb and 1 tb versions that come with a free m However, the blade 18 is the only razer laptop with an intel processor this year, and mine has nvidia s rtx 5090 laptop graphics, 32 gigs of ram, and an 18in 4k 240 hz screen, but you can customize it with lower or higher specs when ordering with the link below"
+    },
+    {
+      "feature": "thermals",
+      "sentiment": "positive",
+      "positive_mentions": 31,
+      "negative_mentions": 1,
+      "neutral_mentions": 22,
+      "mentions_total": 54,
+      "feature_score": 30,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "it features an rtx 5090 mobile with a vapor chamber cooling design that is so cool that they had to put a window on the bottom so you could look at it"
+    }
+  ],
+  "review_summary": "and the battery is 99w hours and got really good battery life, over 6 hours of use before needing to charge However, it lost 24 of its battery charge while asleep for 24 hours  the video if you liked it However, okay, so, this is what the 1080p camera looks on the razer blade 18 using nothing but natural light it features an rtx 5090 mobile with a vapor chamber cooling design that is so cool that they had to put a window on the bottom so you could look at it"
+}

@@ -1,0 +1,82 @@
+{
+    "chip": [
+        "Apple M4 chip",
+        "10-core CPU with 4 performance cores and 6 efficiency cores",
+        "10-core GPU",
+        "Hardware-accelerated ray tracing",
+        "16-core Neural Engine",
+        "120GB/s memory bandwidth",
+        "Media Engine",
+        "Hardware-accelerated H.264, HEVC, ProRes, and ProRes RAW",
+        "Video decode engine",
+        "Video encode engine",
+        "ProRes encode and decode engine",
+        "AV1 decode"
+    ],
+    "apple_intelligence": [
+        "Apple Intelligence is the personal intelligence system that helps you write, express yourself, and get things done effortlessly. With groundbreaking privacy protections, it gives you peace of mind that no one else can access your data — not even Apple."
+    ],
+    "display": [
+        "Liquid Retina display",
+        "13.6-inch (diagonal) LED-backlit display with IPS technology; 2560-by-1664 native resolution at 224 pixels per inch",
+        "500 nits brightness",
+        "Color",
+        "Support for 1 billion colors",
+        "Wide color (P3)",
+        "True Tone technology"
+    ],
+    "battery_and_power": [
+        "Up to 18 hours video streaming",
+        "Up to 15 hours wireless web",
+        "Built-in 53.8-watt-hour lithium-polymer battery",
+        "30W USB-C Power Adapter (included with M4 with 8-core GPU)",
+        "35W Dual USB-C Port Compact Power Adapter (included with M4 with 10-core GPU; configurable with M4 with 8-core GPU)",
+        "USB-C to MagSafe 3 Cable",
+        "Fast-charge capable with 70W USB-C Power Adapter"
+    ],
+    "charging_and_expansion": [
+        "MagSafe 3 charging port",
+        "3.5 mm headphone jack",
+        "Two Thunderbolt 4 (USB-C) ports with support for:",
+        "Charging",
+        "DisplayPort",
+        "Thunderbolt 4 (up to 40Gb/s)",
+        "USB 4 (up to 40Gb/s)"
+    ],
+    "display_support": [
+        "Simultaneously supports full native resolution on the built-in display at 1 billion colors and:",
+        "Up to two external displays with up to 6K resolution at 60Hz",
+        "Thunderbolt 4 digital video output",
+        "Support for native DisplayPort 1.4 output over USB-C"
+    ],
+    "video_playback": [
+        "Supported formats include HEVC, H.264, AV1, and ProRes",
+        "HDR with Dolby Vision, HDR10+/HDR10, and HLG"
+    ],
+    "audio_playback": [
+        "Supported formats include AAC, MP3, Apple Lossless, FLAC, Dolby Digital, Dolby Digital Plus, and Dolby Atmos"
+    ],
+    "keyboard_and_trackpad": [
+        "Backlit Magic Keyboard with:",
+        "78 (U.S.) or 79 (ISO) keys including 12 full-height function keys and 4 arrow keys in an inverted-T arrangement",
+        "Touch ID",
+        "Ambient light sensor",
+        "Force Touch trackpad for precise cursor control and pressure-sensing capabilities; enables Force clicks, accelerators, pressure-sensitive drawing, and Multi-Touch gestures"
+    ],
+    "camera": [
+        "12MP Center Stage camera with support for Desk View",
+        "1080p HD video recording",
+        "Advanced image signal processor with computational video"
+    ],
+    "audio": [
+        "Four-speaker sound system",
+        "Support for Spatial Audio when playing music or video with Dolby Atmos on built-in speakers",
+        "Spatial Audio with dynamic head tracking when using supported models of AirPods, AirPods Pro, and AirPods Max",
+        "Three-mic array with directional beamforming",
+        "Voice Isolation and Wide Spectrum microphone modes",
+        "Enhanced voice clarity in audio and video calls",
+        "3.5 mm headphone jack with advanced support for high-impedance headphones"
+    ],
+    "price_usd": 999.0,
+    "price_rs": 279990
+}

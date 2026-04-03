@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ report.title }}</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 0;
+        }
+
+        :root {
+            --ink: #0D0221;
+            --accent: #0F084B;
+            --surface: #D9DBF1;
+            --paper: #F9F9ED;
+            --line: #B8BBD0;
+            --muted: #55506E;
+            --white: #FFFFFF;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: "Cambria", "Times New Roman", serif;
+            color: var(--ink);
+            background: #F3F0E7;
+            font-size: 11.5pt;
+            line-height: 1.52;
+        }
+
+        .report {
+            background:
+                radial-gradient(circle at top right, rgba(15, 8, 75, 0.08), transparent 18%),
+                linear-gradient(180deg, #F7F4EC 0%, #F3F0E7 100%);
+            min-height: 100vh;
+            padding: 0 14mm 14mm;
+            position: relative;
+        }
+
+        .topbar {
+            height: 8mm;
+            margin: 0 -14mm 12mm;
+            background: linear-gradient(90deg, var(--ink) 0%, var(--accent) 100%);
+            position: relative;
+            box-shadow: 0 1.6mm 4mm rgba(13, 2, 33, 0.12);
+        }
+
+        .topbar::after {
+            content: "";
+            position: absolute;
+            right: 12mm;
+            top: 1.5mm;
+            width: 42mm;
+            height: 5mm;
+            border-radius: 999px;
+            background: rgba(249, 249, 237, 0.18);
+        }
+
+        .brand-hero {
+            margin: 2mm 0 10mm;
+            padding: 10mm 8mm 9mm;
+            border: 1px solid rgba(15, 8, 75, 0.14);
+            border-radius: 4mm;
+            background:
+                linear-gradient(180deg, rgba(236, 238, 250, 0.96) 0%, rgba(247, 247, 252, 0.96) 100%);
+            box-shadow: 0 2.6mm 8mm rgba(13, 2, 33, 0.08);
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .brand-hero::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background:
+                radial-gradient(circle at 18% 18%, rgba(15, 8, 75, 0.05), transparent 30%),
+                radial-gradient(circle at 82% 78%, rgba(13, 2, 33, 0.05), transparent 28%);
+            pointer-events: none;
+        }
+
+        .brand-mark {
+            font-size: 38pt;
+            line-height: 1;
+            font-weight: 800;
+            color: var(--accent);
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            position: relative;
+            z-index: 1;
+            text-shadow: 0 0.4mm 0 rgba(255, 255, 255, 0.4);
+        }
+
+        .brand-rule {
+            width: 50mm;
+            height: 1.2mm;
+            margin: 4mm auto 0;
+            border-radius: 999px;
+            background: linear-gradient(90deg, var(--ink) 0%, var(--accent) 100%);
+            position: relative;
+            z-index: 1;
+        }
+
+        .section-block {
+            margin-bottom: 9mm;
+            padding-top: 12mm;
+            page-break-inside: auto;
+            position: relative;
+        }
+
+        .section-block::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 38mm;
+            height: 1.8mm;
+            border-radius: 999px;
+            background: linear-gradient(90deg, var(--ink) 0%, var(--accent) 100%);
+            opacity: 0.92;
+            box-shadow: 0 0.6mm 2mm rgba(13, 2, 33, 0.08);
+        }
+
+        .section-block:first-of-type {
+            padding-top: 0;
+        }
+
+        .section-block:first-of-type::before {
+            display: none;
+        }
+
+        .page-title {
+            margin: 0 0 1.6mm;
+            font-size: 28pt;
+            line-height: 1.08;
+            font-weight: 800;
+            color: var(--ink);
+            break-after: avoid-page;
+            page-break-after: avoid;
+        }
+
+        .page-subtitle {
+            margin: 0 0 5mm;
+            font-size: 13pt;
+            line-height: 1.35;
+            color: var(--muted);
+            font-style: italic;
+            break-after: avoid-page;
+            page-break-after: avoid;
+        }
+
+        .section {
+            margin-bottom: 4.5mm;
+            page-break-inside: auto;
+            break-inside: avoid-page;
+        }
+
+        .section + .section {
+            padding-top: 5mm;
+        }
+
+        .section-label {
+            display: inline-block;
+            margin-bottom: 2mm;
+            padding: 1.2mm 3.2mm;
+            border-radius: 999px;
+            background: linear-gradient(180deg, #E2E4F5 0%, var(--surface) 100%);
+            color: var(--accent);
+            font-size: 10.5pt;
+            font-weight: 800;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            break-after: avoid-page;
+            page-break-after: avoid;
+            box-shadow: 0 0.8mm 2.4mm rgba(13, 2, 33, 0.05);
+        }
+
+        .panel {
+            border: 1px solid var(--line);
+            border-radius: 2mm;
+            background: rgba(255, 255, 255, 0.94);
+            padding: 4.2mm;
+            box-shadow: 0 1.8mm 5.4mm rgba(13, 2, 33, 0.06);
+        }
+
+        .grid-2 {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 3.5mm;
+        }
+
+        .kv {
+            border: 1px solid var(--line);
+            border-radius: 2mm;
+            background: linear-gradient(180deg, rgba(227, 230, 246, 0.98) 0%, rgba(217, 219, 241, 0.88) 100%);
+            padding: 3.6mm;
+            box-shadow: 0 1.5mm 4.2mm rgba(13, 2, 33, 0.04);
+        }
+
+        .kv-label {
+            margin-bottom: 1mm;
+            font-size: 10pt;
+            text-transform: uppercase;
+            letter-spacing: 0.11em;
+            color: var(--muted);
+            font-weight: 800;
+        }
+
+        .kv-value {
+            font-size: 13pt;
+            line-height: 1.38;
+            font-weight: 700;
+        }
+
+        .body-value {
+            font-size: 12pt;
+            line-height: 1.5;
+            font-weight: 400;
+        }
+
+        .text-block {
+            border: 1px solid var(--line);
+            border-radius: 2mm;
+            background: linear-gradient(180deg, rgba(230, 233, 247, 0.98) 0%, rgba(220, 223, 242, 0.92) 100%);
+            padding: 4.2mm;
+            font-size: 12pt;
+            line-height: 1.55;
+            box-shadow: 0 1.4mm 4mm rgba(13, 2, 33, 0.04);
+        }
+
+        .list {
+            margin: 0;
+            padding-left: 4.8mm;
+            font-size: 11.5pt;
+            line-height: 1.5;
+        }
+
+        .list li {
+            margin-bottom: 1.5mm;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            table-layout: fixed;
+            background: rgba(255, 255, 255, 0.96);
+            border-radius: 2mm;
+            overflow: hidden;
+            box-shadow: 0 1.8mm 5mm rgba(13, 2, 33, 0.05);
+        }
+
+        th, td {
+            border: 1px solid var(--line);
+            padding: 2.7mm;
+            text-align: left;
+            vertical-align: top;
+        }
+
+        th {
+            background: var(--surface);
+            color: var(--ink);
+            font-size: 9pt;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            font-weight: 800;
+        }
+
+        .cell-text {
+            font-size: 10.2pt;
+            line-height: 1.34;
+            font-weight: 700;
+        }
+
+        .cell-list {
+            margin: 0;
+            padding-left: 3.4mm;
+            font-size: 9.6pt;
+            line-height: 1.36;
+        }
+
+        .cell-list li {
+            margin-bottom: 1mm;
+        }
+
+        .swot-grid {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 3.5mm;
+        }
+
+        .swot-box {
+            border: 1px solid var(--line);
+            border-radius: 2mm;
+            background: rgba(255, 255, 255, 0.93);
+            padding: 3.7mm;
+            box-shadow: 0 1.6mm 4.4mm rgba(13, 2, 33, 0.05);
+        }
+
+        .swot-title {
+            margin: 0 0 1.8mm;
+            font-size: 14pt;
+            line-height: 1.2;
+            color: var(--accent);
+            font-weight: 800;
+        }
+    </style>
+</head>
+<body>
+    <main class="report">
+        <div class="topbar"></div>
+
+        {% set p1 = report.pages[0] %}
+        <section class="section-block">
+            <div class="brand-hero">
+                <div class="brand-mark">{{ report.brand }}</div>
+                <div class="brand-rule"></div>
+            </div>
+            <h1 class="page-title">{{ p1.title }}</h1>
+
+            {% if p1.raw_idea %}
+            <div class="section">
+                <div class="section-label">Raw Idea</div>
+                <div class="text-block">{{ p1.raw_idea }}</div>
+            </div>
+            {% endif %}
+
+            {% if p1.domain or p1.subdomain %}
+            <div class="section">
+                <div class="section-label">Idea Understanding</div>
+                <div class="grid-2">
+                    {% if p1.domain %}
+                    <div class="kv">
+                        <div class="kv-label">Domain</div>
+                        <div class="kv-value">{{ p1.domain }}</div>
+                    </div>
+                    {% endif %}
+                    {% if p1.subdomain %}
+                    <div class="kv">
+                        <div class="kv-label">Subdomain</div>
+                        <div class="kv-value">{{ p1.subdomain }}</div>
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+            {% endif %}
+
+            {% if p1.one_line_description %}
+            <div class="section">
+                <div class="section-label">One-Line Description</div>
+                <div class="text-block">{{ p1.one_line_description }}</div>
+            </div>
+            {% endif %}
+
+            {% if p1.features_identified %}
+            <div class="section">
+                <div class="section-label">Features Identified</div>
+                <div class="panel">
+                    <ul class="list">
+                        {% for item in p1.features_identified %}
+                        <li>{{ item }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+            {% endif %}
+
+            {% if p1.constraints_noted %}
+            <div class="section">
+                <div class="section-label">Constraints Noted</div>
+                <div class="panel">
+                    <ul class="list">
+                        {% for item in p1.constraints_noted %}
+                        <li>{{ item }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+            {% endif %}
+        </section>
+
+        {% set p2 = report.pages[1] %}
+        <section class="section-block">
+            <h1 class="page-title">{{ p2.title }}</h1>
+            <p class="page-subtitle">Your ideal customer</p>
+
+            {% if p2.name %}
+            <div class="section">
+                <div class="section-label">Name</div>
+                <div class="kv">
+                    <div class="kv-value">{{ p2.name }}</div>
+                </div>
+            </div>
+            {% endif %}
+
+            {% if p2.role_or_profile %}
+            <div class="section">
+                <div class="section-label">Role / Profile</div>
+                <div class="text-block">{{ p2.role_or_profile }}</div>
+            </div>
+            {% endif %}
+
+            {% if p2.demographic_details %}
+            <div class="section">
+                <div class="section-label">Demographic Details</div>
+                <div class="panel">
+                    <ul class="list">
+                        {% for item in p2.demographic_details %}
+                        <li>{{ item }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+            {% endif %}
+
+            {% if p2.primary_need %}
+            <div class="section">
+                <div class="section-label">Primary Need</div>
+                <div class="text-block">{{ p2.primary_need }}</div>
+            </div>
+            {% endif %}
+
+            {% if p2.buying_motivation %}
+            <div class="section">
+                <div class="section-label">Buying Motivation</div>
+                <div class="text-block">{{ p2.buying_motivation }}</div>
+            </div>
+            {% endif %}
+
+            {% if p2.key_pain_points %}
+            <div class="section">
+                <div class="section-label">Pain Points</div>
+                <div class="panel">
+                    <ul class="list">
+                        {% for item in p2.key_pain_points %}
+                        <li>{{ item }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+            {% endif %}
+
+            {% if p2.adoption_friction %}
+            <div class="section">
+                <div class="section-label">Adoption Friction</div>
+                <div class="panel">
+                    <ul class="list">
+                        {% for item in p2.adoption_friction %}
+                        <li>{{ item }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+            {% endif %}
+
+            {% if p2.constraints_sensitivity %}
+            <div class="section">
+                <div class="section-label">Constraint Sensitivity</div>
+                <div class="panel">
+                    <ul class="list">
+                        {% for item in p2.constraints_sensitivity %}
+                        <li>{{ item }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+            {% endif %}
+        </section>
+
+        {% set p3 = report.pages[2] %}
+        <section class="section-block">
+            <h1 class="page-title">{{ p3.title }}</h1>
+            <p class="page-subtitle">Your potential competitors</p>
+
+            {% if p3.comparison_rows %}
+            <div class="section">
+                <div class="section-label">Competitor Table</div>
+                <table>
+                    <colgroup>
+                        <col style="width: 18%;">
+                        <col style="width: 10%;">
+                        <col style="width: 24%;">
+                        <col style="width: 24%;">
+                        <col style="width: 24%;">
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <th>Competitor Name</th>
+                            <th>Price</th>
+                            <th>Key Features</th>
+                            <th>Strengths</th>
+                            <th>Weaknesses</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for row in p3.comparison_rows %}
+                        <tr>
+                            <td><div class="cell-text">{{ row.name }}</div></td>
+                            <td><div class="cell-text">{{ row.price }}</div></td>
+                            <td>
+                                {% if row.key_features %}
+                                <ul class="cell-list">
+                                    {% for item in row.key_features %}
+                                    <li>{{ item }}</li>
+                                    {% endfor %}
+                                </ul>
+                                {% endif %}
+                            </td>
+                            <td>
+                                {% if row.strengths %}
+                                <ul class="cell-list">
+                                    {% for item in row.strengths %}
+                                    <li>{{ item }}</li>
+                                    {% endfor %}
+                                </ul>
+                                {% endif %}
+                            </td>
+                            <td>
+                                {% if row.weaknesses %}
+                                <ul class="cell-list">
+                                    {% for item in row.weaknesses %}
+                                    <li>{{ item }}</li>
+                                    {% endfor %}
+                                </ul>
+                                {% endif %}
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+            {% endif %}
+        </section>
+
+        {% set p4 = report.pages[3] %}
+        <section class="section-block">
+            <h1 class="page-title">{{ p4.title }}</h1>
+            <p class="page-subtitle">What is the market missing ?</p>
+
+            {% if p4.existing_gaps %}
+            <div class="section">
+                <div class="section-label">Existing Gaps</div>
+                <div class="panel">
+                    <ul class="list">
+                        {% for item in p4.existing_gaps %}
+                        <li>{{ item }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+            {% endif %}
+
+            {% if p4.unmet_features %}
+            <div class="section">
+                <div class="section-label">Unmet Features</div>
+                <div class="panel">
+                    <ul class="list">
+                        {% for item in p4.unmet_features %}
+                        <li>{{ item }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+            {% endif %}
+
+            {% if p4.opportunity_level %}
+            <div class="section">
+                <div class="section-label">Opportunity Level</div>
+                <div class="text-block">{{ p4.opportunity_level }}</div>
+            </div>
+            {% endif %}
+        </section>
+
+        {% set p5 = report.pages[4] %}
+        <section class="section-block">
+            <h1 class="page-title">{{ p5.title }}</h1>
+            <p class="page-subtitle">Your innovation focus points</p>
+
+            {% if p5.innovation_focus_points %}
+            <div class="section">
+                <div class="section-label">Innovation Focus</div>
+                <div class="panel">
+                    <ul class="list">
+                        {% for item in p5.innovation_focus_points %}
+                        <li>{{ item }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+            {% endif %}
+
+            {% if p5.is_feasible or p5.reasoning %}
+            <div class="section">
+                <div class="section-label">Feasibility Check</div>
+                <div class="panel">
+                    {% if p5.is_feasible %}
+                    <div class="kv-label">{{ p5.feasibility_question }}</div>
+                    <div class="body-value" style="margin-bottom: 3mm;">{{ p5.is_feasible }}</div>
+                    {% endif %}
+                    {% if p5.reasoning %}
+                    <div class="kv-label">Reasoning</div>
+                    <div class="body-value">{{ p5.reasoning }}</div>
+                    {% endif %}
+                </div>
+            </div>
+            {% endif %}
+
+            {% if p5.technical_challenges or p5.cost_constraints %}
+            <div class="section">
+                <div class="grid-2">
+                    {% if p5.technical_challenges %}
+                    <div class="panel">
+                        <div class="section-label">Technical Challenges</div>
+                        <ul class="list">
+                            {% for item in p5.technical_challenges %}
+                            <li>{{ item }}</li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    {% endif %}
+                    {% if p5.cost_constraints %}
+                    <div class="panel">
+                        <div class="section-label">Cost Constraints</div>
+                        <ul class="list">
+                            {% for item in p5.cost_constraints %}
+                            <li>{{ item }}</li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+            {% endif %}
+
+            {% if p5.implementation_challenges %}
+            <div class="section">
+                <div class="section-label">Implementation Challenges</div>
+                <div class="panel">
+                    <ul class="list">
+                        {% for item in p5.implementation_challenges %}
+                        <li>{{ item }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+            {% endif %}
+        </section>
+
+        {% set p6 = report.pages[5] %}
+        <section class="section-block">
+            <h1 class="page-title">{{ p6.title }}</h1>
+
+            {% if p6.swot.Strengths or p6.swot.Weaknesses or p6.swot.Opportunities or p6.swot.Threats %}
+            <div class="section">
+                <div class="section-label">SWOT Analysis</div>
+                <div class="swot-grid">
+                    {% for label, items in p6.swot.items() %}
+                    {% if items %}
+                    <div class="swot-box">
+                        <h3 class="swot-title">{{ label }}</h3>
+                        <ul class="list">
+                            {% for item in items %}
+                            <li>{{ item }}</li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+            {% endif %}
+
+            {% if p6.ending_statement %}
+            <div class="section">
+                <div class="section-label">Ending Statement</div>
+                <div class="text-block">{{ p6.ending_statement }}</div>
+            </div>
+            {% endif %}
+        </section>
+    </main>
+</body>
+</html>

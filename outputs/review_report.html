@@ -1,0 +1,1198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MarketEye Strategic Assessment</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 0;
+        }
+
+        :root {
+            --navy: #11263c;
+            --navy-deep: #0a1726;
+            --blue: #1f4f7a;
+            --teal: #2f7d8c;
+            --gold: #c7a76c;
+            --ink: #1b2733;
+            --muted: #607284;
+            --line: #d8e2eb;
+            --surface: #f5f8fb;
+            --surface-strong: #ebf1f6;
+            --white: #ffffff;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: "Aptos", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+            color: var(--ink);
+            background: var(--white);
+            font-size: 11pt;
+            line-height: 1.62;
+        }
+
+        .page {
+            width: 210mm;
+            min-height: 297mm;
+            padding: 20mm 18mm 18mm;
+            position: relative;
+            page-break-after: always;
+        }
+
+        .page:last-child {
+            page-break-after: auto;
+        }
+
+        .cover-page {
+            padding: 0;
+            background:
+                radial-gradient(circle at top right, rgba(47, 125, 140, 0.22), transparent 34%),
+                linear-gradient(135deg, #f7fafc 0%, #eef4f8 46%, #ffffff 100%);
+        }
+
+        .cover-frame {
+            min-height: 297mm;
+            padding: 22mm 20mm 18mm;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .cover-ribbon {
+            width: 86mm;
+            height: 8mm;
+            background: linear-gradient(90deg, var(--navy) 0%, var(--teal) 100%);
+            margin-bottom: 18mm;
+        }
+
+        .cover-grid {
+            display: grid;
+            grid-template-columns: 1.4fr 0.86fr;
+            gap: 14mm;
+        }
+
+        .cover-title {
+            font-size: 31pt;
+            line-height: 1.04;
+            margin: 0;
+            font-weight: 800;
+            letter-spacing: -0.04em;
+            color: var(--navy-deep);
+            max-width: 120mm;
+        }
+
+        .cover-subtitle {
+            margin-top: 8mm;
+            font-size: 15pt;
+            line-height: 1.42;
+            color: var(--blue);
+            max-width: 115mm;
+            font-weight: 500;
+        }
+
+        .cover-summary {
+            margin-top: 10mm;
+            padding: 8mm;
+            background: rgba(255, 255, 255, 0.82);
+            border: 1px solid rgba(17, 38, 60, 0.08);
+            border-left: 4px solid var(--gold);
+            box-shadow: 0 18px 38px rgba(17, 38, 60, 0.08);
+        }
+
+        .cover-summary-label {
+            font-size: 8.5pt;
+            text-transform: uppercase;
+            letter-spacing: 0.14em;
+            color: var(--muted);
+            margin-bottom: 3mm;
+            font-weight: 700;
+        }
+
+        .cover-summary p {
+            margin: 0;
+            font-size: 11.4pt;
+            line-height: 1.68;
+        }
+
+        .cover-panel {
+            background: linear-gradient(180deg, var(--navy) 0%, #17344f 100%);
+            color: var(--white);
+            padding: 10mm 8mm;
+            display: flex;
+            flex-direction: column;
+            gap: 7mm;
+            min-height: 170mm;
+            box-shadow: 0 24px 44px rgba(17, 38, 60, 0.18);
+        }
+
+        .cover-panel-title {
+            font-size: 8.6pt;
+            text-transform: uppercase;
+            letter-spacing: 0.16em;
+            opacity: 0.74;
+            font-weight: 700;
+        }
+
+        .cover-highlight {
+            padding-bottom: 5mm;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+        }
+
+        .cover-highlight:last-child {
+            border-bottom: 0;
+            padding-bottom: 0;
+        }
+
+        .cover-highlight-label {
+            font-size: 8.5pt;
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+            opacity: 0.72;
+            margin-bottom: 1.5mm;
+        }
+
+        .cover-highlight-value {
+            font-size: 12pt;
+            line-height: 1.45;
+            font-weight: 600;
+        }
+
+        .cover-footer {
+            position: absolute;
+            left: 20mm;
+            right: 20mm;
+            bottom: 16mm;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            gap: 8mm;
+            padding-top: 8mm;
+            border-top: 1px solid rgba(17, 38, 60, 0.14);
+        }
+
+        .cover-footer-block {
+            min-width: 0;
+        }
+
+        .cover-footer-label {
+            font-size: 8.2pt;
+            text-transform: uppercase;
+            letter-spacing: 0.16em;
+            color: var(--muted);
+            margin-bottom: 1.5mm;
+            font-weight: 700;
+        }
+
+        .cover-footer-value {
+            font-size: 10.6pt;
+            color: var(--navy);
+            font-weight: 600;
+            word-break: break-word;
+        }
+
+        .toc-page {
+            background: linear-gradient(180deg, #ffffff 0%, #f8fbfd 100%);
+        }
+
+        .page-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 6mm;
+            margin-bottom: 10mm;
+        }
+
+        .brand-strip {
+            width: 34mm;
+            height: 2.2mm;
+            background: linear-gradient(90deg, var(--navy), var(--teal));
+            margin-bottom: 3mm;
+        }
+
+        .page-eyebrow {
+            font-size: 8.4pt;
+            text-transform: uppercase;
+            letter-spacing: 0.16em;
+            color: var(--muted);
+            font-weight: 700;
+            margin-bottom: 2.5mm;
+        }
+
+        .page-title {
+            font-size: 24pt;
+            line-height: 1.1;
+            margin: 0;
+            color: var(--navy-deep);
+            font-weight: 780;
+            letter-spacing: -0.03em;
+        }
+
+        .page-meta {
+            text-align: right;
+            color: var(--muted);
+            font-size: 9pt;
+            line-height: 1.6;
+        }
+
+        .toc-grid {
+            display: grid;
+            grid-template-columns: 1.2fr 0.9fr;
+            gap: 10mm;
+            margin-top: 10mm;
+        }
+
+        .toc-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .toc-item {
+            display: flex;
+            gap: 4mm;
+            padding: 4.2mm 0;
+            border-bottom: 1px solid var(--line);
+        }
+
+        .toc-index {
+            min-width: 8mm;
+            color: var(--gold);
+            font-weight: 800;
+            font-size: 10pt;
+        }
+
+        .toc-text {
+            font-size: 11.4pt;
+            font-weight: 600;
+            color: var(--ink);
+            margin-bottom: 1mm;
+        }
+
+        .toc-subtext {
+            font-size: 9.5pt;
+            color: var(--muted);
+            line-height: 1.5;
+        }
+
+        .toc-panel {
+            background: var(--navy);
+            color: var(--white);
+            padding: 8mm;
+            display: flex;
+            flex-direction: column;
+            gap: 6mm;
+        }
+
+        .toc-panel-copy {
+            font-size: 10.6pt;
+            line-height: 1.65;
+            opacity: 0.92;
+        }
+
+        .toc-stat {
+            padding-top: 5mm;
+            border-top: 1px solid rgba(255, 255, 255, 0.15);
+        }
+
+        .toc-stat-label {
+            font-size: 8pt;
+            text-transform: uppercase;
+            letter-spacing: 0.14em;
+            opacity: 0.68;
+            margin-bottom: 1.5mm;
+        }
+
+        .toc-stat-value {
+            font-size: 15pt;
+            font-weight: 720;
+            line-height: 1.2;
+        }
+
+        .section-page {
+            background: #ffffff;
+        }
+
+        .section-shell {
+            min-height: 259mm;
+            border: 1px solid var(--line);
+            padding: 0;
+            background: linear-gradient(180deg, #ffffff 0%, #fcfdff 100%);
+        }
+
+        .section-topband {
+            height: 7mm;
+            background: linear-gradient(90deg, var(--navy) 0%, var(--blue) 55%, var(--teal) 100%);
+        }
+
+        .section-body {
+            padding: 13mm 12mm 10mm;
+        }
+
+        .section-title-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 8mm;
+            margin-bottom: 8mm;
+        }
+
+        .section-kicker {
+            color: var(--teal);
+            font-size: 8.4pt;
+            letter-spacing: 0.16em;
+            text-transform: uppercase;
+            margin-bottom: 2mm;
+            font-weight: 800;
+        }
+
+        .section-title {
+            font-size: 22pt;
+            line-height: 1.08;
+            font-weight: 780;
+            margin: 0;
+            color: var(--navy-deep);
+            letter-spacing: -0.03em;
+        }
+
+        .section-code {
+            min-width: 26mm;
+            padding: 4mm 4.5mm;
+            background: var(--surface);
+            border: 1px solid var(--line);
+            text-align: center;
+        }
+
+        .section-code-label {
+            font-size: 7.8pt;
+            text-transform: uppercase;
+            letter-spacing: 0.16em;
+            color: var(--muted);
+            margin-bottom: 1mm;
+            font-weight: 700;
+        }
+
+        .section-code-value {
+            font-size: 12.5pt;
+            color: var(--navy);
+            font-weight: 800;
+        }
+
+        .lede {
+            margin: 0 0 4.5mm;
+            font-size: 11.2pt;
+            line-height: 1.72;
+            color: var(--ink);
+            text-align: left;
+        }
+
+        .callout {
+            margin: 7mm 0 8mm;
+            padding: 7mm 7mm 7.5mm;
+            background: linear-gradient(135deg, rgba(17, 38, 60, 0.98), rgba(31, 79, 122, 0.98));
+            color: var(--white);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .callout::after {
+            content: "";
+            position: absolute;
+            right: -18mm;
+            top: -10mm;
+            width: 42mm;
+            height: 42mm;
+            background: rgba(199, 167, 108, 0.18);
+            border-radius: 50%;
+        }
+
+        .callout-title {
+            position: relative;
+            z-index: 1;
+            font-size: 8.3pt;
+            text-transform: uppercase;
+            letter-spacing: 0.16em;
+            opacity: 0.76;
+            margin-bottom: 2mm;
+            font-weight: 700;
+        }
+
+        .callout-body {
+            position: relative;
+            z-index: 1;
+            font-size: 13pt;
+            line-height: 1.48;
+            font-weight: 600;
+            max-width: 140mm;
+        }
+
+        .highlight-grid {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 4.5mm;
+            margin: 8mm 0 2mm;
+        }
+
+        .highlight-card {
+            background: var(--surface);
+            border: 1px solid var(--line);
+            padding: 5mm 5.5mm;
+            min-height: 27mm;
+        }
+
+        .highlight-label {
+            color: var(--muted);
+            font-size: 8pt;
+            text-transform: uppercase;
+            letter-spacing: 0.14em;
+            margin-bottom: 1.5mm;
+            font-weight: 700;
+        }
+
+        .highlight-value {
+            font-size: 10.7pt;
+            line-height: 1.52;
+            color: var(--ink);
+            font-weight: 600;
+        }
+
+        .bullet-grid {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 6mm;
+            margin-top: 8mm;
+        }
+
+        .bullet-group {
+            border-top: 2px solid var(--surface-strong);
+            padding-top: 4.5mm;
+            page-break-inside: avoid;
+        }
+
+        .bullet-title {
+            font-size: 10.8pt;
+            font-weight: 800;
+            color: var(--blue);
+            margin: 0 0 3mm;
+            letter-spacing: -0.01em;
+        }
+
+        .bullet-list {
+            margin: 0;
+            padding-left: 4.5mm;
+        }
+
+        .bullet-list li {
+            margin-bottom: 2.4mm;
+            line-height: 1.58;
+        }
+
+        .entity-card {
+            margin-top: 8mm;
+            border: 1px solid var(--line);
+            background: linear-gradient(180deg, #ffffff 0%, #f9fbfd 100%);
+            padding: 7mm;
+            page-break-inside: avoid;
+        }
+
+        .entity-title {
+            font-size: 15pt;
+            font-weight: 800;
+            margin: 0;
+            color: var(--navy);
+            letter-spacing: -0.02em;
+        }
+
+        .entity-subtitle {
+            color: var(--teal);
+            margin-top: 1.8mm;
+            font-size: 10.8pt;
+            font-weight: 600;
+            line-height: 1.45;
+        }
+
+        .entity-meta {
+            margin-top: 3.5mm;
+            font-size: 9.4pt;
+            color: var(--muted);
+            line-height: 1.6;
+        }
+
+        .mini-grid {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 4mm;
+            margin-top: 5mm;
+        }
+
+        .mini-card {
+            background: var(--white);
+            border-left: 3px solid var(--gold);
+            padding: 4mm 4.5mm;
+            box-shadow: inset 0 0 0 1px var(--line);
+        }
+
+        .mini-card-label {
+            font-size: 7.8pt;
+            color: var(--muted);
+            text-transform: uppercase;
+            letter-spacing: 0.14em;
+            margin-bottom: 1.2mm;
+            font-weight: 700;
+        }
+
+        .mini-card-value {
+            font-size: 10.4pt;
+            line-height: 1.52;
+            color: var(--ink);
+            font-weight: 600;
+        }
+
+        .card-body {
+            margin-top: 4mm;
+        }
+
+        .card-body p {
+            margin: 0;
+            text-align: left;
+            color: var(--ink);
+        }
+
+        .chart-page .section-shell {
+            background: linear-gradient(180deg, #ffffff 0%, #f7fafc 100%);
+        }
+
+        .chart-block {
+            margin-top: 7mm;
+            page-break-inside: avoid;
+        }
+
+        .chart-block img {
+            width: 100%;
+            max-height: 132mm;
+            object-fit: contain;
+            border: 1px solid var(--line);
+            background: #ffffff;
+            padding: 5mm;
+        }
+
+        .chart-caption {
+            margin-top: 3mm;
+            color: var(--muted);
+            font-size: 9.5pt;
+            line-height: 1.5;
+        }
+
+        .page-footer {
+            position: absolute;
+            left: 18mm;
+            right: 18mm;
+            bottom: 10mm;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 6mm;
+            padding-top: 3mm;
+            border-top: 1px solid var(--line);
+            color: var(--muted);
+            font-size: 8.6pt;
+        }
+
+        .page-number::before {
+            content: counter(page);
+        }
+
+        p {
+            margin: 0 0 3.8mm;
+        }
+    </style>
+</head>
+<body>
+    <section class="page cover-page">
+        <div class="cover-frame">
+            <div class="cover-ribbon"></div>
+            <div class="cover-grid">
+                <div>
+                    <h1 class="cover-title">MarketEye Strategic Assessment</h1>
+                    <div class="cover-subtitle">Develop a low-cost smartphone incorporating integrated solar charging capabilities specifically designed for underserved rural markets.</div>
+
+                    <div class="cover-summary">
+                        <div class="cover-summary-label">Executive Overview</div>
+                        <p>Develop a low-cost smartphone incorporating integrated solar charging capabilities specifically designed for underserved rural markets.</p>
+                    </div>
+                </div>
+
+                <aside class="cover-panel">
+                    <div class="cover-panel-title">Engagement Snapshot</div>
+                    <div class="cover-highlight">
+                        <div class="cover-highlight-label">Domain</div>
+                        <div class="cover-highlight-value">Electronics</div>
+                    </div>
+                    <div class="cover-highlight">
+                        <div class="cover-highlight-label">Stage</div>
+                        <div class="cover-highlight-value">Solution Design And Solution Detailing</div>
+                    </div>
+                    <div class="cover-highlight">
+                        <div class="cover-highlight-label">Status</div>
+                        <div class="cover-highlight-value">Market Research Ready</div>
+                    </div>
+                    <div class="cover-highlight">
+                        <div class="cover-highlight-label">Updated</div>
+                        <div class="cover-highlight-value">12 Mar 2026</div>
+                    </div>
+                </aside>
+            </div>
+
+            <div class="cover-footer">
+                <div class="cover-footer-block">
+                    <div class="cover-footer-label">Prepared For</div>
+                    <div class="cover-footer-value">user_e5360209</div>
+                </div>
+                <div class="cover-footer-block">
+                    <div class="cover-footer-label">Prepared On</div>
+                    <div class="cover-footer-value">12 Mar 2026</div>
+                </div>
+                <div class="cover-footer-block">
+                    <div class="cover-footer-label">Reference</div>
+                    <div class="cover-footer-value">d7062ce16be54e7f84575da608b46feb</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="page toc-page">
+        <div class="page-header">
+            <div>
+                <div class="brand-strip"></div>
+                <div class="page-eyebrow">Contents</div>
+                <h2 class="page-title">Report Structure</h2>
+            </div>
+            <div class="page-meta">
+                <div>user_e5360209</div>
+                <div>Market Research Ready</div>
+            </div>
+        </div>
+
+        <div class="toc-grid">
+            <ol class="toc-list">
+                <li class="toc-item">
+                    <div class="toc-index">01</div>
+                    <div>
+                        <div class="toc-text">Executive Summary</div>
+                        <div class="toc-subtext">Topline</div>
+                    </div>
+                </li>
+                <li class="toc-item">
+                    <div class="toc-index">02</div>
+                    <div>
+                        <div class="toc-text">Idea Snapshot</div>
+                        <div class="toc-subtext">Concept Definition</div>
+                    </div>
+                </li>
+                <li class="toc-item">
+                    <div class="toc-index">03</div>
+                    <div>
+                        <div class="toc-text">Constraints and Design Guardrails</div>
+                        <div class="toc-subtext">Commercial Boundaries</div>
+                    </div>
+                </li>
+                <li class="toc-item">
+                    <div class="toc-index">04</div>
+                    <div>
+                        <div class="toc-text">Customer Persona</div>
+                        <div class="toc-subtext">Audience Lens</div>
+                    </div>
+                </li>
+                <li class="toc-item">
+                    <div class="toc-index">05</div>
+                    <div>
+                        <div class="toc-text">Market Dynamics</div>
+                        <div class="toc-subtext">External Environment</div>
+                    </div>
+                </li>
+                <li class="toc-item">
+                    <div class="toc-index">06</div>
+                    <div>
+                        <div class="toc-text">Research Sources</div>
+                        <div class="toc-subtext">Reference Trail</div>
+                    </div>
+                </li>
+                <li class="toc-item">
+                    <div class="toc-index">07</div>
+                    <div>
+                        <div class="toc-text">Conversation Trace</div>
+                        <div class="toc-subtext">Decision Log</div>
+                    </div>
+                </li>
+                <li class="toc-item">
+                    <div class="toc-index">08</div>
+                    <div>
+                        <div class="toc-text">Strategic Charts</div>
+                        <div class="toc-subtext">Visual evidence and synthesized signal views</div>
+                    </div>
+                </li>
+            </ol>
+
+            <aside class="toc-panel">
+                <div class="cover-panel-title">Report Notes</div>
+                <div class="toc-panel-copy">
+                    This document translates MarketEye’s structured chat record into a consulting-style report
+                    intended for concept review, stakeholder alignment, and early market framing.
+                </div>
+                <div class="toc-stat">
+                    <div class="toc-stat-label">Sections</div>
+                    <div class="toc-stat-value">7</div>
+                </div>
+                <div class="toc-stat">
+                    <div class="toc-stat-label">Charts</div>
+                    <div class="toc-stat-value">3</div>
+                </div>
+                <div class="toc-stat">
+                    <div class="toc-stat-label">Source Type</div>
+                    <div class="toc-stat-value">Generated from MarketEye chat session data</div>
+                </div>
+            </aside>
+        </div>
+
+        <div class="page-footer">
+            <div>MarketEye Strategic Assessment</div>
+            <div>Page <span class="page-number"></span></div>
+        </div>
+    </section>
+
+    <section class="page section-page">
+        <div class="section-shell">
+            <div class="section-topband"></div>
+            <div class="section-body">
+                <div class="section-title-row">
+                    <div>
+                        <div class="section-kicker">Topline</div>
+                        <h2 class="section-title">Executive Summary</h2>
+                    </div>
+                    <div class="section-code">
+                        <div class="section-code-label">Section</div>
+                        <div class="section-code-value">01</div>
+                    </div>
+                </div>
+
+                <p class="lede">Develop a low-cost smartphone incorporating integrated solar charging capabilities specifically designed for underserved rural markets.</p>
+                <p class="lede">The market for affordable mobile computing and communication devices tailored for energy-constrained rural populations, primarily in emerging economies. This segment demands extreme cost-effectiveness combined with essential off-grid power solutions (solar charging) integrated directly into the hardware.</p>
+                <p class="lede">Key operating constraints include budget price range set to 10000, geolocation set to rural market, segment set to rural market, special features set to solar charging, feature priority set to quality and cost, distribution preference set to both, buyer preference set to online and offline.</p>
+
+                <div class="callout">
+                    <div class="callout-title">Strategic Readout</div>
+                    <div class="callout-body">The concept is most credible when positioned around reliability, affordability, and access in energy-constrained markets.</div>
+                </div>
+
+
+
+            </div>
+        </div>
+
+        <div class="page-footer">
+            <div>MarketEye Strategic Assessment</div>
+            <div>Page <span class="page-number"></span></div>
+        </div>
+    </section>
+    <section class="page section-page">
+        <div class="section-shell">
+            <div class="section-topband"></div>
+            <div class="section-body">
+                <div class="section-title-row">
+                    <div>
+                        <div class="section-kicker">Concept Definition</div>
+                        <h2 class="section-title">Idea Snapshot</h2>
+                    </div>
+                    <div class="section-code">
+                        <div class="section-code-label">Section</div>
+                        <div class="section-code-value">02</div>
+                    </div>
+                </div>
+
+                <p class="lede">The query specifies a clear solution (low-cost smartphone with solar charging) targeted at a specific segment (rural market), moving past pure problem framing into initial solution detailing, although specific technical details are missing.</p>
+
+
+                <div class="highlight-grid">
+                    <div class="highlight-card">
+                        <div class="highlight-label">Domain</div>
+                        <div class="highlight-value">Electronics</div>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="highlight-label">Subdomain</div>
+                        <div class="highlight-value">Mobile Devices and Renewable Energy</div>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="highlight-label">Ideation Stage</div>
+                        <div class="highlight-value">solution_design and solution_detailing</div>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="highlight-label">Raw Idea</div>
+                        <div class="highlight-value">I&#39;m building a low-cost smartphone with solar charging for rural markets.</div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="page-footer">
+            <div>MarketEye Strategic Assessment</div>
+            <div>Page <span class="page-number"></span></div>
+        </div>
+    </section>
+    <section class="page section-page">
+        <div class="section-shell">
+            <div class="section-topband"></div>
+            <div class="section-body">
+                <div class="section-title-row">
+                    <div>
+                        <div class="section-kicker">Commercial Boundaries</div>
+                        <h2 class="section-title">Constraints and Design Guardrails</h2>
+                    </div>
+                    <div class="section-code">
+                        <div class="section-code-label">Section</div>
+                        <div class="section-code-value">03</div>
+                    </div>
+                </div>
+
+                <p class="lede">These constraints define the operating envelope for concept refinement, go-to-market trade-offs, and early product scoping.</p>
+
+
+                <div class="highlight-grid">
+                    <div class="highlight-card">
+                        <div class="highlight-label">Budget Price Range</div>
+                        <div class="highlight-value">10000</div>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="highlight-label">Geolocation</div>
+                        <div class="highlight-value">rural market</div>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="highlight-label">Segment</div>
+                        <div class="highlight-value">rural market</div>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="highlight-label">Special Features</div>
+                        <div class="highlight-value">solar charging</div>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="highlight-label">Feature Priority</div>
+                        <div class="highlight-value">quality and cost</div>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="highlight-label">Distribution Preference</div>
+                        <div class="highlight-value">both</div>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="highlight-label">Buyer Preference</div>
+                        <div class="highlight-value">online and offline</div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="page-footer">
+            <div>MarketEye Strategic Assessment</div>
+            <div>Page <span class="page-number"></span></div>
+        </div>
+    </section>
+    <section class="page section-page">
+        <div class="section-shell">
+            <div class="section-topband"></div>
+            <div class="section-body">
+                <div class="section-title-row">
+                    <div>
+                        <div class="section-kicker">Audience Lens</div>
+                        <h2 class="section-title">Customer Persona</h2>
+                    </div>
+                    <div class="section-code">
+                        <div class="section-code-label">Section</div>
+                        <div class="section-code-value">04</div>
+                    </div>
+                </div>
+
+                <p class="lede">The primary persona below captures the user reality that the solution must satisfy to achieve adoption in its initial market wedge.</p>
+
+
+
+
+                <article class="entity-card">
+                    <h3 class="entity-title">Aisha Sharma</h3>
+                    <div class="entity-subtitle">Small business owner/Farmer operating in a village setting with limited infrastructure.</div>
+                    <div class="entity-meta">Age: 35 | Education: Primary/Some secondary school | Household Income: Varies, frequently dependent on seasonal agricultural work (low and inconsistent)</div>
+                    <div class="mini-grid">
+                        <div class="mini-card">
+                            <div class="mini-card-label">Primary Need</div>
+                            <div class="mini-card-value">Reliable, off-grid communication essential for coordinating supplies, market prices, and family contact, without incurring recurring charging costs.</div>
+                        </div>
+                        <div class="mini-card">
+                            <div class="mini-card-label">Buying Motivation</div>
+                            <div class="mini-card-value">Durability and the immediate cost savings (no need to pay for charging services or frequent battery replacements). The solar feature is a necessity, not a luxury.</div>
+                        </div>
+                    </div>
+                    <div class="bullet-grid">
+                        <div class="bullet-group">
+                            <h4 class="bullet-title">Pain Points</h4>
+                            <ul class="bullet-list">
+                                <li>Lack of reliable grid electricity makes keeping a phone charged extremely difficult and time-consuming.</li>
+                                <li>Current basic phones break easily and replacement/repair services are distant or expensive.</li>
+                                <li>High cost of entry for quality communication devices.</li>
+                            </ul>
+                        </div>
+                        <div class="bullet-group">
+                            <h4 class="bullet-title">Adoption Friction</h4>
+                            <ul class="bullet-list">
+                                <li>Skepticism towards new technology, requiring clear, in-person demonstration of the solar feature.</li>
+                                <li>Literacy barriers in navigating complex smartphone operating systems; requires a very simple, intuitive interface.</li>
+                            </ul>
+                        </div>
+                        <div class="bullet-group">
+                            <h4 class="bullet-title">Constraint Sensitivity</h4>
+                            <ul class="bullet-list">
+                                <li>Price: Extremely high sensitivity. The absolute maximum purchase price is crucial (targeting below 10000 INR equivalent).</li>
+                                <li>Feature: Solar Charging (Must work reliably), Durability/Ruggedness (Must withstand dust and rough handling)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+
+        <div class="page-footer">
+            <div>MarketEye Strategic Assessment</div>
+            <div>Page <span class="page-number"></span></div>
+        </div>
+    </section>
+    <section class="page section-page">
+        <div class="section-shell">
+            <div class="section-topband"></div>
+            <div class="section-body">
+                <div class="section-title-row">
+                    <div>
+                        <div class="section-kicker">External Environment</div>
+                        <h2 class="section-title">Market Dynamics</h2>
+                    </div>
+                    <div class="section-code">
+                        <div class="section-code-label">Section</div>
+                        <div class="section-code-value">05</div>
+                    </div>
+                </div>
+
+                <p class="lede">The market for affordable mobile computing and communication devices tailored for energy-constrained rural populations, primarily in emerging economies. This segment demands extreme cost-effectiveness combined with essential off-grid power solutions (solar charging) integrated directly into the hardware.</p>
+
+
+
+                <div class="bullet-grid">
+                    <div class="bullet-group">
+                        <h3 class="bullet-title">Target Market Characteristics</h3>
+                        <ul class="bullet-list">
+                            <li>High price sensitivity, with consumer spending limited significantly below typical urban entry-level smartphone prices (constrained by the 10000 unit price point).</li>
+                            <li>Reliance on distributed, non-grid electricity infrastructure, making battery life and self-sufficiency (solar charging) critical survival features, not just conveniences.</li>
+                            <li>Preference for rugged design and simplicity over advanced processing power or high-end applications, prioritizing voice/SMS capabilities and essential utility apps.</li>
+                            <li>Distribution heavily relies on established offline retail networks (local village stores, kiosks, mobile vendors) alongside potential government or NGO partnerships, given low digital literacy and limited e-commerce access.</li>
+                        </ul>
+                    </div>
+                    <div class="bullet-group">
+                        <h3 class="bullet-title">Key Trends</h3>
+                        <ul class="bullet-list">
+                            <li>The global penetration of feature phones is declining, but the transition to smartphones in rural areas is gated by reliable power availability and affordability.</li>
+                            <li>Increasing government and multilateral initiatives focusing on digital inclusion and rural electrification, which could provide subsidies or partnership opportunities for distribution.</li>
+                            <li>Advancements in low-power computing components (SoCs) that allow for basic smartphone functionality at dramatically lower Bill of Materials (BOM) costs.</li>
+                        </ul>
+                    </div>
+                    <div class="bullet-group">
+                        <h3 class="bullet-title">Demand Drivers</h3>
+                        <ul class="bullet-list">
+                            <li>The necessity of mobile connectivity for economic participation (accessing market prices, mobile banking, remote work coordination).</li>
+                            <li>The high operational cost and inconvenience associated with finding external power sources (e.g., paying for phone charging services at local shops).</li>
+                            <li>Growing demand for digital literacy tools (educational apps, government services) which require a smartphone platform.</li>
+                        </ul>
+                    </div>
+                    <div class="bullet-group">
+                        <h3 class="bullet-title">Major Risks</h3>
+                        <ul class="bullet-list">
+                            <li>Achieving the necessary low cost (sub-10000) while integrating reliable solar charging technology that meets user expectations regarding charge speed and durability.</li>
+                            <li>Distribution and logistics complexity in reaching deep rural areas effectively using both online (where possible) and necessary offline channels.</li>
+                            <li>Potential for strong competition from refurbished or established low-cost feature phone manufacturers who may quickly pivot to slightly more expensive, low-spec Android devices.</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="page-footer">
+            <div>MarketEye Strategic Assessment</div>
+            <div>Page <span class="page-number"></span></div>
+        </div>
+    </section>
+    <section class="page section-page">
+        <div class="section-shell">
+            <div class="section-topband"></div>
+            <div class="section-body">
+                <div class="section-title-row">
+                    <div>
+                        <div class="section-kicker">Reference Trail</div>
+                        <h2 class="section-title">Research Sources</h2>
+                    </div>
+                    <div class="section-code">
+                        <div class="section-code-label">Section</div>
+                        <div class="section-code-value">06</div>
+                    </div>
+                </div>
+
+                <p class="lede">The system preserves the source themes suggested by the model so downstream researchers know where to validate the narrative with external evidence.</p>
+
+
+
+                <div class="bullet-grid">
+                    <div class="bullet-group">
+                        <h3 class="bullet-title">Suggested Information Sources</h3>
+                        <ul class="bullet-list">
+                            <li>GSMA Mobile for Development reports on rural connectivity and affordability.</li>
+                            <li>Market analysis concerning global B-tier/entry-level smartphone sales trends in Africa and South Asia.</li>
+                            <li>Reports from organizations tracking energy access and rural technology adoption (e.g., World Bank, specific NGO reports).</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="page-footer">
+            <div>MarketEye Strategic Assessment</div>
+            <div>Page <span class="page-number"></span></div>
+        </div>
+    </section>
+    <section class="page section-page">
+        <div class="section-shell">
+            <div class="section-topband"></div>
+            <div class="section-body">
+                <div class="section-title-row">
+                    <div>
+                        <div class="section-kicker">Decision Log</div>
+                        <h2 class="section-title">Conversation Trace</h2>
+                    </div>
+                    <div class="section-code">
+                        <div class="section-code-label">Section</div>
+                        <div class="section-code-value">07</div>
+                    </div>
+                </div>
+
+                <p class="lede">A short transcript trace is included for auditability and to show how the structured report evolved through the interaction.</p>
+
+
+
+
+                <article class="entity-card">
+                    <h3 class="entity-title">Assistant</h3>
+                    <div class="entity-subtitle">12 Mar 2026</div>
+                    <div class="card-body">
+                        <p>Updated: 10000</p>
+                    </div>
+                </article>
+                <article class="entity-card">
+                    <h3 class="entity-title">User</h3>
+                    <div class="entity-subtitle">12 Mar 2026</div>
+                    <div class="card-body">
+                        <p>quality and cost</p>
+                    </div>
+                </article>
+                <article class="entity-card">
+                    <h3 class="entity-title">Assistant</h3>
+                    <div class="entity-subtitle">12 Mar 2026</div>
+                    <div class="card-body">
+                        <p>Noted: quality and cost</p>
+                    </div>
+                </article>
+                <article class="entity-card">
+                    <h3 class="entity-title">User</h3>
+                    <div class="entity-subtitle">12 Mar 2026</div>
+                    <div class="card-body">
+                        <p>both</p>
+                    </div>
+                </article>
+                <article class="entity-card">
+                    <h3 class="entity-title">Assistant</h3>
+                    <div class="entity-subtitle">12 Mar 2026</div>
+                    <div class="card-body">
+                        <p>Noted: both</p>
+                    </div>
+                </article>
+                <article class="entity-card">
+                    <h3 class="entity-title">User</h3>
+                    <div class="entity-subtitle">12 Mar 2026</div>
+                    <div class="card-body">
+                        <p>online and offline</p>
+                    </div>
+                </article>
+                <article class="entity-card">
+                    <h3 class="entity-title">Assistant</h3>
+                    <div class="entity-subtitle">12 Mar 2026</div>
+                    <div class="card-body">
+                        <p>Noted: online and offline</p>
+                    </div>
+                </article>
+                <article class="entity-card">
+                    <h3 class="entity-title">Assistant</h3>
+                    <div class="entity-subtitle">12 Mar 2026</div>
+                    <div class="card-body">
+                        <p>Report generated.</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+
+        <div class="page-footer">
+            <div>MarketEye Strategic Assessment</div>
+            <div>Page <span class="page-number"></span></div>
+        </div>
+    </section>
+
+    <section class="page chart-page">
+        <div class="section-shell">
+            <div class="section-topband"></div>
+            <div class="section-body">
+                <div class="section-title-row">
+                    <div>
+                        <div class="section-kicker">Visual Evidence</div>
+                        <h2 class="section-title">Strategic Charts</h2>
+                    </div>
+                    <div class="section-code">
+                        <div class="section-code-label">Section</div>
+                        <div class="section-code-value">08</div>
+                    </div>
+                </div>
+
+                <p class="lede">
+                    These exhibits summarize the structured signals extracted from the report record and provide a
+                    quick visual lens on market breadth, constraint intensity, and persona tension points.
+                </p>
+
+                <figure class="chart-block">
+                    <img src="file:///C:/Users/Isha%20Agrawal/Downloads/capstone1/MarketEye/generated_assets/user_e5360209_d7062ce16be54e7f84575da608b46feb/market_landscape.png" alt="Research landscape across characteristics, trends, demand drivers, risks, and cited sources.">
+                    <figcaption class="chart-caption">Research landscape across characteristics, trends, demand drivers, risks, and cited sources.</figcaption>
+                </figure>
+                <figure class="chart-block">
+                    <img src="file:///C:/Users/Isha%20Agrawal/Downloads/capstone1/MarketEye/generated_assets/user_e5360209_d7062ce16be54e7f84575da608b46feb/constraint_profile.png" alt="Constraint profile based on the factors captured during the MarketEye discovery flow.">
+                    <figcaption class="chart-caption">Constraint profile based on the factors captured during the MarketEye discovery flow.</figcaption>
+                </figure>
+                <figure class="chart-block">
+                    <img src="file:///C:/Users/Isha%20Agrawal/Downloads/capstone1/MarketEye/generated_assets/user_e5360209_d7062ce16be54e7f84575da608b46feb/persona_friction.png" alt="Primary persona tension points highlighting need intensity, pain points, and adoption friction.">
+                    <figcaption class="chart-caption">Primary persona tension points highlighting need intensity, pain points, and adoption friction.</figcaption>
+                </figure>
+            </div>
+        </div>
+
+        <div class="page-footer">
+            <div>MarketEye Strategic Assessment</div>
+            <div>Page <span class="page-number"></span></div>
+        </div>
+    </section>
+</body>
+</html>

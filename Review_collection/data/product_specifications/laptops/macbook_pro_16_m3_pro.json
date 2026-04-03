@@ -1,0 +1,94 @@
+{
+    "chip": [
+        "Apple M5 chip",
+        "10‑core CPU with 4 performance cores and 6 efficiency cores",
+        "10‑core GPU",
+        "Neural Accelerators",
+        "Hardware-accelerated ray tracing",
+        "16-core Neural Engine",
+        "153GB/s memory bandwidth",
+        "Media Engine",
+        "Hardware-accelerated H.264, HEVC, ProRes, and ProRes RAW",
+        "Video decode engine",
+        "Video encode engine",
+        "ProRes encode and decode engine",
+        "AV1 decode"
+    ],
+    "apple_intelligence": [
+        "Apple Intelligence is the personal intelligence system that helps you write, express yourself, and get things done effortlessly. With groundbreaking privacy protections, it gives you peace of mind that no one else can access your data — not even Apple."
+    ],
+    "display": [
+        "Liquid Retina XDR display",
+        "14.2-inch (diagonal) Liquid Retina XDR display;2 3024-by-1964 native resolution at 254 pixels per inch",
+        "XDR (Extreme Dynamic Range)",
+        "1,000,000:1 contrast ratio",
+        "XDR brightness: 1000 nits sustained full-screen, 1600 nits peak3 (HDR content only)",
+        "SDR brightness: up to 1000 nits (outdoor)",
+        "Color",
+        "Support for 1 billion colors",
+        "Wide color (P3)",
+        "True Tone technology",
+        "Refresh rates",
+        "ProMotion technology for adaptive refresh rates up to 120Hz"
+    ],
+    "battery_and_power": [
+        "Up to 24 hours video streaming",
+        "Up to 16 hours wireless web",
+        "Built-in 72.4‑watt‑hour lithium‑polymer battery",
+        "70W USB-C Power Adapter",
+        "35W Dual USB-C Port Compact Power Adapter (included with M4 with 10‑core GPU; configurable with M4 with 8‑core GPU)",
+        "USB-C to MagSafe 3 Cable",
+        "Fast-charge capable with 96W or higher USB-C Power Adapter"
+    ],
+    "charging_and_expansion": [
+        "SDXC card slot",
+        "HDMI port",
+        "3.5 mm headphone jack",
+        "MagSafe 3 port",
+        "Three Thunderbolt 4 (USB-C) ports with support for:",
+        "DisplayPort",
+        "Thunderbolt 4 (up to 40Gb/s)",
+        "USB 4 (up to 40Gb/s)"
+    ],
+    "display_support": [
+        "Simultaneously supports full native resolution on the built-in display at 1 billion colors and:",
+        "Up to two external displays with up to 6K resolution at 60Hz over Thunderbolt, or one external display with up to 6K resolution at 60Hz over Thunderbolt and one external display with up to 4K resolution at 144Hz over HDMI",
+        "One external display supported at 8K resolution at 60Hz or one external display at 4K resolution at 240Hz over HDMI"
+    ],
+    "video_playback": [
+        "Supported formats include HEVC, H.264, AV1, and ProRes",
+        "HDR with Dolby Vision, HDR10+/HDR10, and HLG"
+    ],
+    "audio_playback": [
+        "Supported formats include AAC, MP3, Apple Lossless, FLAC, Dolby Digital, Dolby Digital Plus, and Dolby Atmos"
+    ],
+    "keyboard_and_trackpad": [
+        "Backlit Magic Keyboard with:",
+        "78 (U.S.) or 79 (ISO) keys including 12 full‑height function keys and 4 arrow keys in an inverted‑T arrangement",
+        "Touch ID",
+        "Ambient light sensor",
+        "Force Touch trackpad for precise cursor control and pressure‑sensing capabilities; enables Force clicks, accelerators, pressure‑sensitive drawing, and Multi‑Touch gestures"
+    ],
+    "camera": [
+        "12MP Center Stage camera with support for Desk View",
+        "1080p HD video recording",
+        "Advanced image signal processor with computational video"
+    ],
+    "wireless": [
+        "Wi-Fi",
+        "Wi-Fi 6E (802.11ax)8",
+        "Bluetooth",
+        "Bluetooth 5.3"
+    ],
+    "audio": [
+        "High-fidelity six-speaker sound system with force-cancelling woofers",
+        "Wide stereo sound",
+        "Support for Spatial Audio when playing music or video with Dolby Atmos on built-in speakers",
+        "Spatial Audio with dynamic head tracking when using supported models of AirPods, AirPods Pro, and AirPods Max9",
+        "Studio-quality three-mic array with high signal-to-noise ratio and directional beamforming",
+        "3.5 mm headphone jack with advanced support for high-impedance headphones",
+        "HDMI port supports multichannel audio output"
+    ],
+    "price_usd": 1799.0,
+    "price_rs": 417000
+}

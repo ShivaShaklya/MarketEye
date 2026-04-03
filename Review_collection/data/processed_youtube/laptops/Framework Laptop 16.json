@@ -1,0 +1,130 @@
+{
+  "asin": "unknown",
+  "product": "Framework Laptop 16",
+  "features": [
+    {
+      "feature": "battery",
+      "sentiment": "positive",
+      "positive_mentions": 39,
+      "negative_mentions": 7,
+      "neutral_mentions": 41,
+      "mentions_total": 87,
+      "feature_score": 32,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "they have modules for usb c capable of 240 watt charging, usb a, displayport, hdmi 2 However, there s no way this battery is made in canada"
+    },
+    {
+      "feature": "camera",
+      "sentiment": "positive",
+      "positive_mentions": 32,
+      "negative_mentions": 7,
+      "neutral_mentions": 32,
+      "mentions_total": 71,
+      "feature_score": 25,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "but if you do buy one, or really any electronic you care about, you should protect it with a skin, and dbrand sponsored this portion of the video so linus could show you how However, this does not have thunderbolt, which is quite unfortunate, but i don t need a thunderbolt connector because i have the ug green revo doc max thunderbolt 5 docking station because with four thunderbolt 5 ports delivering 120 gbits per second, this block of speed is ideal for video editing, 3d rendering, and heavy data tasks"
+    },
+    {
+      "feature": "design",
+      "sentiment": "positive",
+      "positive_mentions": 31,
+      "negative_mentions": 8,
+      "neutral_mentions": 23,
+      "mentions_total": 62,
+      "feature_score": 23,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "and if you don t want a gpu, you can just save over half a pound of weight and an inch of length by just not having a gpu anymore However, if you missed our framework factory tour, a little tidbit is that they pre assemble the diy edition laptops for qc and stress testing, and then they get taken apart before shipping so you can build it yourself"
+    },
+    {
+      "feature": "display",
+      "sentiment": "positive",
+      "positive_mentions": 76,
+      "negative_mentions": 13,
+      "neutral_mentions": 65,
+      "mentions_total": 154,
+      "feature_score": 63,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "they have modules for usb c capable of 240 watt charging, usb a, displayport, hdmi 2 However, the keyboard stability and display uniformity are things that would normally be a deal breaker for me, especially at this price point, and i wouldn t blame you for feeling the same",
+      "value": [
+        "standing screen display size: 16 Inches"
+      ]
+    },
+    {
+      "feature": "performance",
+      "sentiment": "positive",
+      "positive_mentions": 56,
+      "negative_mentions": 11,
+      "neutral_mentions": 43,
+      "mentions_total": 110,
+      "feature_score": 45,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "as for gaming, it s not a great price to performance option, but it s not terrible either However, that s, for years, companies have struggled to make an upgradable laptop at all, let alone one meant for gaming"
+    },
+    {
+      "feature": "price",
+      "sentiment": "positive",
+      "positive_mentions": 33,
+      "negative_mentions": 8,
+      "neutral_mentions": 33,
+      "mentions_total": 74,
+      "feature_score": 25,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "with the thermal pads in there, this keyboard isn t quite on the level of asus or alienware, but it comfortably beats msi and razer and brings it much more in line with the price However, but all of this modularity comes at a steep price, possibly for my boss, because the keyboard on the framework 16 is frankly unacceptable for a laptop of this price"
+    },
+    {
+      "feature": "software",
+      "sentiment": "positive",
+      "positive_mentions": 60,
+      "negative_mentions": 18,
+      "neutral_mentions": 49,
+      "mentions_total": 127,
+      "feature_score": 42,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "now, this isn t quite as easy as they made it look on the website However, if you missed our framework factory tour, a little tidbit is that they pre assemble the diy edition laptops for qc and stress testing, and then they get taken apart before shipping so you can build it yourself"
+    },
+    {
+      "feature": "speaker",
+      "sentiment": "positive",
+      "positive_mentions": 21,
+      "negative_mentions": 2,
+      "neutral_mentions": 7,
+      "mentions_total": 30,
+      "feature_score": 19,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "the webcam and microphone, which use the same module as the framework 13, very cool, look and sound this, at least with a big studio light in front of me"
+    },
+    {
+      "feature": "storage",
+      "sentiment": "positive",
+      "positive_mentions": 170,
+      "negative_mentions": 30,
+      "neutral_mentions": 180,
+      "mentions_total": 380,
+      "feature_score": 140,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "the all new framework 16 is here, and i am super excited about it However, but all of this modularity comes at a steep price, possibly for my boss, because the keyboard on the framework 16 is frankly unacceptable for a laptop of this price"
+    },
+    {
+      "feature": "thermals",
+      "sentiment": "mixed",
+      "positive_mentions": 21,
+      "negative_mentions": 7,
+      "neutral_mentions": 24,
+      "mentions_total": 52,
+      "feature_score": 14,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "with the thermal pads in there, this keyboard isn t quite on the level of asus or alienware, but it comfortably beats msi and razer and brings it much more in line with the price However, as for cooling, they partnered with cooler master to design this gigantic heat pipe array, which paired with the liquid metal resulted in combustor temps that absolutely crushed the a16 from asus, which is running the exact same rx 7700s"
+    }
+  ],
+  "review_summary": "they have modules for usb c capable of 240 watt charging, usb a, displayport, hdmi 2 However, there s no way this battery is made in canada but if you do buy one, or really any electronic you care about, you should protect it with a skin, and dbrand sponsored this portion of the video so linus could show you how However, this does not have thunderbolt, which is quite unfortunate, but i don t need a thunderbolt connector because i have the ug green revo doc max thunderbolt 5 docking station because with four thunderbolt 5 ports delivering 120 gbits per second, this block of speed is ideal for video editing, 3d rendering, and heavy data tasks and if you don t want a gpu, you can just save over half a pound of weight and an inch of length by just not having a gpu anymore However, if you missed our framework factory tour, a little tidbit is that they pre assemble the diy edition laptops for qc and stress testing, and then they get taken apart before shipping so you can build it yourself"
+}

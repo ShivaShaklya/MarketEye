@@ -5,12 +5,14 @@ Routes only - all business logic delegated to chat_orchestration
 
 import sys
 import os
+from pathlib import Path
 
 # Add Backend to path for imports
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'Backend'))
 
-from flask import Flask, render_template, request, jsonify
+from flask import Flask, render_template, request, jsonify, send_file
 from Backend.chat_orchestration import start_chat, process_message
+from Backend.chat_store import load_chat
 import uuid
 
 # app = Flask(__name__)
@@ -20,7 +22,7 @@ app = Flask(
     static_folder='Frontend/static'
 )
 
-
+REPORT_OUTPUT_DIR = Path("outputs") / "web_exports"
 
 @app.route('/')
 def index():
@@ -84,6 +86,43 @@ def api_send_message():
 def api_reset_chat():
     """Reset the current chat session."""
     return jsonify({"success": True, "message": "Chat session reset."})
+
+
+@app.route('/api/chat/export/<user_id>/<chat_id>', methods=['GET'])
+def api_export_chat_pdf(user_id, chat_id):
+    """Generate and download a PDF for an existing chat session."""
+    try:
+        chat = load_chat(f"{user_id}_{chat_id}")
+    except FileNotFoundError:
+        return jsonify({"error": "Chat session not found."}), 404
+    except Exception as exc:
+        return jsonify({"error": str(exc)}), 500
+
+    if not chat.get("finalized"):
+        return jsonify({"error": "Report is not ready yet. Complete the chat flow first."}), 400
+
+    try:
+        from reporting import ReportGenerator, transform_chat_to_report_payload
+    except Exception as exc:
+        return jsonify({"error": f"Report dependencies are unavailable: {exc}"}), 500
+
+    REPORT_OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    output_pdf = REPORT_OUTPUT_DIR / f"{user_id}_{chat_id}.pdf"
+    asset_dir = Path("generated_assets") / f"{user_id}_{chat_id}"
+
+    try:
+        payload = transform_chat_to_report_payload(chat, asset_dir)
+        generator = ReportGenerator()
+        generator.generate(payload, output_pdf)
+    except Exception as exc:
+        return jsonify({"error": str(exc)}), 500
+
+    return send_file(
+        output_pdf,
+        as_attachment=True,
+        download_name=output_pdf.name,
+        mimetype='application/pdf'
+    )
 
 
 if __name__ == '__main__':

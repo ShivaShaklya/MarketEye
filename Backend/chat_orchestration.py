@@ -8,11 +8,13 @@ from chat_store import create_chat, save_chat, add_turn, load_chat
 from query_processing import preprocess_query, idea_confirmation, apply_user_edits, get_constraints_from_query
 from constraint_handling import STAGE_GUIDANCE, NUMERIC_CLARIFIABLE, needs_numeric_clarification, is_quantifiable_feature, has_numeric_value
 from report import create_persona, create_market_overview
+from rag_pipeline import run_rag, format_rag_summary
 
 # =============================================================================
 # CONSTANTS
 # =============================================================================
 CONFIRM_WORDS = {"yes", "y", "correct", "looks good", "ok", "okay", "confirm"}
+DECLINE_WORDS = {"no", "n", "skip", "later", "not now"}
 SKIP_JUSTIFICATION = {"justification"}
 
 # =============================================================================
@@ -76,7 +78,7 @@ def start_chat(user_id, query):
 
     processed, confidence = preprocess_query(query)
     understanding = idea_confirmation(chat, processed, confidence)
-    
+
     formatted = _log_understanding(chat, understanding)
     _save(chat, "WAITING_IDEA_CONFIRMATION")
 
@@ -90,15 +92,16 @@ def process_message(user_id, chat_id, msg):
         return {"error": "Session not found", "response": "Session expired."}
 
     add_turn(chat, "user", msg)
-    
+
     handlers = {
         "WAITING_IDEA_CONFIRMATION": _on_idea,
         "WAITING_CONSTRAINTS": _on_constraint,
         "WAITING_NUMERIC_CLARIFICATION": _on_numeric,
         "WAITING_FEATURE_CLARIFICATION": _on_feature,
+        "WAITING_RAG_CONFIRMATION": _on_rag_confirmation,
         "MARKET_RESEARCH_READY": lambda c, m: _resp(c, "Report complete! Start new chat."),
     }
-    
+
     handler = handlers.get(chat.get("status", ""))
     return handler(chat, msg) if handler else _resp(chat, "Error. Start new conversation.")
 
@@ -114,7 +117,7 @@ def _on_idea(chat, msg):
         get_constraints_from_query(chat)
         _save(chat, "WAITING_CONSTRAINTS")
         return _next_q(chat, "Great! Idea confirmed.\n")
-    
+
     understanding = apply_user_edits(chat, chat["idea_understanding"], msg)
     formatted = _log_understanding(chat, understanding)
     save_chat(chat)
@@ -145,11 +148,40 @@ def _on_feature(chat, msg):
     """Handle feature clarification."""
     features, clarified, idx = chat.get("_features", []), chat.get("_clarified", []), chat.get("_fidx", 0)
     if idx < len(features):
-        f = features[idx]
-        clarified.append(f"{f} (~{msg.strip()})" if msg.strip() else f)
+        feature = features[idx]
+        clarified.append(f"{feature} (~{msg.strip()})" if msg.strip() else feature)
         chat["_fidx"], chat["_clarified"] = idx + 1, clarified
         save_chat(chat)
     return _next_feat(chat)
+
+
+def _on_rag_confirmation(chat, msg):
+    """Handle competitor-analysis confirmation."""
+    reply = msg.lower().strip()
+
+    if reply in DECLINE_WORDS:
+        add_turn(chat, "assistant", "Skipped competitor analysis.")
+        _save(chat, "MARKET_RESEARCH_READY")
+        return _resp(chat, "No problem. Your report is ready, and you can export the PDF anytime.")
+
+    if reply not in CONFIRM_WORDS:
+        return _resp(chat, "Would you like me to run competitor analysis with the RAG pipeline? Reply yes or no.")
+
+    try:
+        rag_result = run_rag(chat)
+        chat["competitive_analysis"] = rag_result
+        summary = format_rag_summary(rag_result)
+        add_turn(chat, "assistant", summary)
+        _save(chat, "MARKET_RESEARCH_READY")
+        return _resp(chat, summary + "\n\nPDF export is still available for this session.")
+    except Exception as exc:
+        add_turn(chat, "assistant", f"RAG analysis failed: {exc}")
+        _save(chat, "MARKET_RESEARCH_READY")
+        return _resp(
+            chat,
+            "The core report is ready, but competitor analysis could not run right now. "
+            f"Reason: {exc}"
+        )
 
 
 # =============================================================================
@@ -161,47 +193,47 @@ def _next_q(chat, prefix=""):
     stage = chat["idea_understanding"].get("ideation_stage", "exploration and problem_framing")
     questions = STAGE_GUIDANCE.get(stage, STAGE_GUIDANCE["exploration and problem_framing"])["questions"]
     constraints = chat.get("constraints", {})
-    
-    for q in questions:
-        key, prompt = q["key"], q["prompt"]
-        
+
+    for question in questions:
+        key, prompt = question["key"], question["prompt"]
+
         if key not in constraints:
             _save(chat, "WAITING_CONSTRAINTS", key)
             return _resp(chat, f"{prefix}\n{prompt}")
-        
-        val = constraints.get(key, "")
-        if key in NUMERIC_CLARIFIABLE and isinstance(val, str) and needs_numeric_clarification(val):
+
+        value = constraints.get(key, "")
+        if key in NUMERIC_CLARIFIABLE and isinstance(value, str) and needs_numeric_clarification(value):
             _save(chat, "WAITING_NUMERIC_CLARIFICATION", key)
             cfg = NUMERIC_CLARIFIABLE[key]
-            return _resp(chat, f"{prefix}\nYou mentioned '{val}'.\n{cfg['prompt'].format(value=val)}\n{cfg['examples']}")
-    
+            return _resp(chat, f"{prefix}\nYou mentioned '{value}'.\n{cfg['prompt'].format(value=value)}\n{cfg['examples']}")
+
     features = constraints.get("special_features", [])
     if features and not chat.get("_features_done"):
         chat["_features"], chat["_clarified"], chat["_fidx"] = features, [], 0
         _save(chat, "WAITING_FEATURE_CLARIFICATION")
         return _next_feat(chat, prefix)
-    
+
     return _report(chat)
 
 
 def _next_feat(chat, prefix=""):
     """Next feature clarification."""
     features, clarified, idx = chat.get("_features", []), chat.get("_clarified", []), chat.get("_fidx", 0)
-    
+
     while idx < len(features):
-        f = features[idx]
-        if has_numeric_value(f) or not is_quantifiable_feature(f):
-            clarified.append(f)
+        feature = features[idx]
+        if has_numeric_value(feature) or not is_quantifiable_feature(feature):
+            clarified.append(feature)
             idx += 1
             continue
         chat["_fidx"], chat["_clarified"] = idx, clarified
         save_chat(chat)
-        return _resp(chat, f"{prefix}\nYou mentioned '{f}'.\nCould you be more specific?")
-    
+        return _resp(chat, f"{prefix}\nYou mentioned '{feature}'.\nCould you be more specific?")
+
     chat["constraints"]["special_features"] = clarified
     chat["_features_done"] = True
-    for k in ["_features", "_clarified", "_fidx"]:
-        chat.pop(k, None)
+    for key in ["_features", "_clarified", "_fidx"]:
+        chat.pop(key, None)
     _save(chat, "WAITING_CONSTRAINTS")
     return _report(chat)
 
@@ -214,27 +246,27 @@ def _report(chat):
     """Generate report."""
     persona = create_persona(chat)
     market = create_market_overview(chat)
-    
+
     chat["finalized"] = True
     add_turn(chat, "assistant", "Report generated.")
-    _save(chat, "MARKET_RESEARCH_READY")
-    
+    _save(chat, "WAITING_RAG_CONFIRMATION")
+
     parts = [
-        "## 📊 Market Research Report\n",
-        "### 💡 Idea", _fmt(chat["idea_understanding"], SKIP_JUSTIFICATION),
-        "\n### 🎯 Constraints", _fmt(chat.get("constraints", {})),
-        "\n### 👤 Customer Persona"
+        "## Market Research Report\n",
+        "### Idea", _fmt(chat["idea_understanding"], SKIP_JUSTIFICATION),
+        "\n### Constraints", _fmt(chat.get("constraints", {})),
+        "\n### Customer Persona"
     ]
-    for p in persona.get("personas", []):
+    for persona_item in persona.get("personas", []):
         parts.extend([
-            f"\n**{p.get('name', 'Customer')}** - {p.get('role_or_profile', '')}",
-            f"• Need: {p.get('primary_need', 'N/A')}",
-            f"• Motivation: {p.get('buying_motivation', 'N/A')}"
+            f"\n**{persona_item.get('name', 'Customer')}** - {persona_item.get('role_or_profile', '')}",
+            f"- Need: {persona_item.get('primary_need', 'N/A')}",
+            f"- Motivation: {persona_item.get('buying_motivation', 'N/A')}"
         ])
     parts.extend([
-        "\n### 📈 Market Overview",
+        "\n### Market Overview",
         f"**Definition**: {market.get('market_definition', 'N/A')}",
-        *[f"• {t}" for t in market.get('key_trends', [])],
-        "\n---\n✅ Done!"
+        *[f"- {trend}" for trend in market.get('key_trends', [])],
+        "\n---\nWould you like me to run competitor analysis using the RAG pipeline? Reply yes or no."
     ])
     return _resp(chat, "\n".join(parts))

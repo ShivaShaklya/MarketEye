@@ -1,0 +1,138 @@
+{
+  "asin": "unknown",
+  "product": "OnePlus 12R",
+  "features": [
+    {
+      "feature": "battery",
+      "sentiment": "positive",
+      "positive_mentions": 15,
+      "negative_mentions": 1,
+      "neutral_mentions": 8,
+      "mentions_total": 24,
+      "feature_score": 14,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "as hyped as the oneplus 12 was the oneplus 12r is the more practical sensible option for most buyers at least that s what i felt after looking at the specs and the price of the phone itself fun fact the oneplus 12r is the most affordable snapdragon agent2 phone that you can buy right now that s until the ion neo 9 pro launches but what if you re considering between the oneplus 12 and the oneplus 12r should you pay more for the oneplus 12 or save some money and settle for the oneplus 12 r well that s exactly what we re going to find out in this this video if you re here for the first time i m asad you re watching track and english your destination for detailed gadget reviews now i really want to start by talking about the industrial design of the 1plus 12r now since there is no periscope camera there is inside the oneplus 12 oneplus has managed to cram in a larger 5,500 m battery inside this phone and it s slimmer compared to the 1plus 12 plus it s very obviously lighter as well this is about 220 g this is about 207 28 g that s not it you re now get a proper metal frame coring gorilla glass 5 protection on the rear and on the front you also get coring gorilla glass victus 2 protection yep all the materials used in the construction of the oneplus 12r are the same as the oneplus 12 there are no compromises whatsoever but there s one tiny little difference there s ip65 rating on the oneplus 12 whereas the 12r has ip64 rating which by the way is not too different it doesn t make too much of a difference in daily usage anyway now the curved glass on the rear and the front blended into this metal frame makes it feel narrower than most phones out there which makes the inhand feel even better than most of the square bodied phones i the inhand feel of the oneplus 12 are it s very comfortable to hold and use also it s lighter which was my biggest concern with the oneplus 12 if you remember and i must say this i m a fan of this blue color i blue color phones a lot in fact i the color blue in general but if you don t this one you can pick the black one instead plus the camera module on the oneplus 12r looks very nice it looks very similar to the more expensive oneplus 12 therefore it maintains design home homogenity between different lineups of phone and when you re paying 40,000 for this phone it feels very very premium to hold in use remember the oneplus 10r that launched with a plastic back thankfully that s not the case with the oneplus 12r now the only non premium inclusion on the oneplus 12r is the fact that the usb type c port at the bottom is usb typ c 2",
+      "value": [
+        "battery power rating: 5500",
+        "battery capacity: 5500"
+      ]
+    },
+    {
+      "feature": "camera",
+      "sentiment": "positive",
+      "positive_mentions": 28,
+      "negative_mentions": 4,
+      "neutral_mentions": 10,
+      "mentions_total": 42,
+      "feature_score": 24,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "4500 nits is useful in certain places watching hdr videos However, there is no need to talk about the camera setup"
+    },
+    {
+      "feature": "design",
+      "sentiment": "positive",
+      "positive_mentions": 9,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 10,
+      "feature_score": 9,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": " it feels the weight has increased"
+    },
+    {
+      "feature": "display",
+      "sentiment": "positive",
+      "positive_mentions": 26,
+      "negative_mentions": 1,
+      "neutral_mentions": 5,
+      "mentions_total": 32,
+      "feature_score": 25,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": " 12 has 4500 peak brightness, right",
+      "value": [
+        "other display features: Wireless",
+        "standing screen display size: 6.78 Inches"
+      ]
+    },
+    {
+      "feature": "performance",
+      "sentiment": "positive",
+      "positive_mentions": 21,
+      "negative_mentions": 0,
+      "neutral_mentions": 8,
+      "mentions_total": 29,
+      "feature_score": 21,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "it can be used lag free up to 4 years it seems"
+    },
+    {
+      "feature": "price",
+      "sentiment": "positive",
+      "positive_mentions": 17,
+      "negative_mentions": 0,
+      "neutral_mentions": 7,
+      "mentions_total": 24,
+      "feature_score": 17,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "most importantly, for the same price"
+    },
+    {
+      "feature": "software",
+      "sentiment": "positive",
+      "positive_mentions": 16,
+      "negative_mentions": 1,
+      "neutral_mentions": 7,
+      "mentions_total": 24,
+      "feature_score": 15,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "i think they are giving less software updates"
+    },
+    {
+      "feature": "speaker",
+      "sentiment": "positive",
+      "positive_mentions": 11,
+      "negative_mentions": 0,
+      "neutral_mentions": 0,
+      "mentions_total": 11,
+      "feature_score": 11,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "the stereo speaker is ok when compared to 11r"
+    },
+    {
+      "feature": "storage",
+      "sentiment": "positive",
+      "positive_mentions": 14,
+      "negative_mentions": 0,
+      "neutral_mentions": 3,
+      "mentions_total": 17,
+      "feature_score": 14,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "0 could ve increased storage",
+      "value": [
+        "memory storage capacity: 8 GB"
+      ]
+    },
+    {
+      "feature": "thermals",
+      "sentiment": "positive",
+      "positive_mentions": 4,
+      "negative_mentions": 0,
+      "neutral_mentions": 1,
+      "mentions_total": 5,
+      "feature_score": 4,
+      "source": "youtube",
+      "type": "transcript",
+      "evidence": "it won t heat up while gaming"
+    }
+  ],
+  "review_summary": "as hyped as the oneplus 12 was the oneplus 12r is the more practical sensible option for most buyers at least that s what i felt after looking at the specs and the price of the phone itself fun fact the oneplus 12r is the most affordable snapdragon agent2 phone that you can buy right now that s until the ion neo 9 pro launches but what if you re considering between the oneplus 12 and the oneplus 12r should you pay more for the oneplus 12 or save some money and settle for the oneplus 12 r well that s exactly what we re going to find out in this this video if you re here for the first time i m asad you re watching track and english your destination for detailed gadget reviews now i really want to start by talking about the industrial design of the 1plus 12r now since there is no periscope camera there is inside the oneplus 12 oneplus has managed to cram in a larger 5,500 m battery inside this phone and it s slimmer compared to the 1plus 12 plus it s very obviously lighter as well this is about 220 g this is about 207 28 g that s not it you re now get a proper metal frame coring gorilla glass 5 protection on the rear and on the front you also get coring gorilla glass victus 2 protection yep all the materials used in the construction of the oneplus 12r are the same as the oneplus 12 there are no compromises whatsoever but there s one tiny little difference there s ip65 rating on the oneplus 12 whereas the 12r has ip64 rating which by the way is not too different it doesn t make too much of a difference in daily usage anyway now the curved glass on the rear and the front blended into this metal frame makes it feel narrower than most phones out there which makes the inhand feel even better than most of the square bodied phones i the inhand feel of the oneplus 12 are it s very comfortable to hold and use also it s lighter which was my biggest concern with the oneplus 12 if you remember and i must say this i m a fan of this blue color i blue color phones a lot in fact i the color blue in general but if you don t this one you can pick the black one instead plus the camera module on the oneplus 12r looks very nice it looks very similar to the more expensive oneplus 12 therefore it maintains design home homogenity between different lineups of phone and when you re paying 40,000 for this phone it feels very very premium to hold in use remember the oneplus 10r that launched with a plastic back thankfully that s not the case with the oneplus 12r now the only non premium inclusion on the oneplus 12r is the fact that the usb type c port at the bottom is usb typ c 2 4500 nits is useful in certain places watching hdr videos However, there is no need to talk about the camera setup  it feels the weight has increased"
+}

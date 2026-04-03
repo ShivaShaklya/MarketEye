@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MarketEye Project Report</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 0;
+        }
+
+        :root {
+            --ink: #0D0221;
+            --accent: #0F084B;
+            --surface: #D9DBF1;
+            --paper: #F9F9ED;
+            --line: #B8BBD0;
+            --muted: #55506E;
+            --white: #FFFFFF;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: "Cambria", "Times New Roman", serif;
+            color: var(--ink);
+            background: #F3F0E7;
+            font-size: 11.5pt;
+            line-height: 1.52;
+        }
+
+        .report {
+            background:
+                radial-gradient(circle at top right, rgba(15, 8, 75, 0.08), transparent 18%),
+                linear-gradient(180deg, #F7F4EC 0%, #F3F0E7 100%);
+            min-height: 100vh;
+            padding: 0 14mm 14mm;
+            position: relative;
+        }
+
+        .topbar {
+            height: 8mm;
+            margin: 0 -14mm 12mm;
+            background: linear-gradient(90deg, var(--ink) 0%, var(--accent) 100%);
+            position: relative;
+            box-shadow: 0 1.6mm 4mm rgba(13, 2, 33, 0.12);
+        }
+
+        .topbar::after {
+            content: "";
+            position: absolute;
+            right: 12mm;
+            top: 1.5mm;
+            width: 42mm;
+            height: 5mm;
+            border-radius: 999px;
+            background: rgba(249, 249, 237, 0.18);
+        }
+
+        .brand-hero {
+            margin: 2mm 0 10mm;
+            padding: 10mm 8mm 9mm;
+            border: 1px solid rgba(15, 8, 75, 0.14);
+            border-radius: 4mm;
+            background:
+                linear-gradient(180deg, rgba(236, 238, 250, 0.96) 0%, rgba(247, 247, 252, 0.96) 100%);
+            box-shadow: 0 2.6mm 8mm rgba(13, 2, 33, 0.08);
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .brand-hero::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background:
+                radial-gradient(circle at 18% 18%, rgba(15, 8, 75, 0.05), transparent 30%),
+                radial-gradient(circle at 82% 78%, rgba(13, 2, 33, 0.05), transparent 28%);
+            pointer-events: none;
+        }
+
+        .brand-mark {
+            font-size: 38pt;
+            line-height: 1;
+            font-weight: 800;
+            color: var(--accent);
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            position: relative;
+            z-index: 1;
+            text-shadow: 0 0.4mm 0 rgba(255, 255, 255, 0.4);
+        }
+
+        .brand-rule {
+            width: 50mm;
+            height: 1.2mm;
+            margin: 4mm auto 0;
+            border-radius: 999px;
+            background: linear-gradient(90deg, var(--ink) 0%, var(--accent) 100%);
+            position: relative;
+            z-index: 1;
+        }
+
+        .section-block {
+            margin-bottom: 9mm;
+            padding-top: 12mm;
+            page-break-inside: auto;
+            position: relative;
+        }
+
+        .section-block::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 38mm;
+            height: 1.8mm;
+            border-radius: 999px;
+            background: linear-gradient(90deg, var(--ink) 0%, var(--accent) 100%);
+            opacity: 0.92;
+            box-shadow: 0 0.6mm 2mm rgba(13, 2, 33, 0.08);
+        }
+
+        .section-block:first-of-type {
+            padding-top: 0;
+        }
+
+        .section-block:first-of-type::before {
+            display: none;
+        }
+
+        .page-title {
+            margin: 0 0 1.6mm;
+            font-size: 28pt;
+            line-height: 1.08;
+            font-weight: 800;
+            color: var(--ink);
+            break-after: avoid-page;
+            page-break-after: avoid;
+        }
+
+        .page-subtitle {
+            margin: 0 0 5mm;
+            font-size: 13pt;
+            line-height: 1.35;
+            color: var(--muted);
+            font-style: italic;
+            break-after: avoid-page;
+            page-break-after: avoid;
+        }
+
+        .section {
+            margin-bottom: 4.5mm;
+            page-break-inside: auto;
+            break-inside: avoid-page;
+        }
+
+        .section + .section {
+            padding-top: 5mm;
+        }
+
+        .section-label {
+            display: inline-block;
+            margin-bottom: 2mm;
+            padding: 1.2mm 3.2mm;
+            border-radius: 999px;
+            background: linear-gradient(180deg, #E2E4F5 0%, var(--surface) 100%);
+            color: var(--accent);
+            font-size: 10.5pt;
+            font-weight: 800;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            break-after: avoid-page;
+            page-break-after: avoid;
+            box-shadow: 0 0.8mm 2.4mm rgba(13, 2, 33, 0.05);
+        }
+
+        .panel {
+            border: 1px solid var(--line);
+            border-radius: 2mm;
+            background: rgba(255, 255, 255, 0.94);
+            padding: 4.2mm;
+            box-shadow: 0 1.8mm 5.4mm rgba(13, 2, 33, 0.06);
+        }
+
+        .grid-2 {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 3.5mm;
+        }
+
+        .kv {
+            border: 1px solid var(--line);
+            border-radius: 2mm;
+            background: linear-gradient(180deg, rgba(227, 230, 246, 0.98) 0%, rgba(217, 219, 241, 0.88) 100%);
+            padding: 3.6mm;
+            box-shadow: 0 1.5mm 4.2mm rgba(13, 2, 33, 0.04);
+        }
+
+        .kv-label {
+            margin-bottom: 1mm;
+            font-size: 10pt;
+            text-transform: uppercase;
+            letter-spacing: 0.11em;
+            color: var(--muted);
+            font-weight: 800;
+        }
+
+        .kv-value {
+            font-size: 13pt;
+            line-height: 1.38;
+            font-weight: 700;
+        }
+
+        .body-value {
+            font-size: 12pt;
+            line-height: 1.5;
+            font-weight: 400;
+        }
+
+        .text-block {
+            border: 1px solid var(--line);
+            border-radius: 2mm;
+            background: linear-gradient(180deg, rgba(230, 233, 247, 0.98) 0%, rgba(220, 223, 242, 0.92) 100%);
+            padding: 4.2mm;
+            font-size: 12pt;
+            line-height: 1.55;
+            box-shadow: 0 1.4mm 4mm rgba(13, 2, 33, 0.04);
+        }
+
+        .list {
+            margin: 0;
+            padding-left: 4.8mm;
+            font-size: 11.5pt;
+            line-height: 1.5;
+        }
+
+        .list li {
+            margin-bottom: 1.5mm;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            table-layout: fixed;
+            background: rgba(255, 255, 255, 0.96);
+            border-radius: 2mm;
+            overflow: hidden;
+            box-shadow: 0 1.8mm 5mm rgba(13, 2, 33, 0.05);
+        }
+
+        th, td {
+            border: 1px solid var(--line);
+            padding: 2.7mm;
+            text-align: left;
+            vertical-align: top;
+        }
+
+        th {
+            background: var(--surface);
+            color: var(--ink);
+            font-size: 9pt;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            font-weight: 800;
+        }
+
+        .cell-text {
+            font-size: 10.2pt;
+            line-height: 1.34;
+            font-weight: 700;
+        }
+
+        .cell-list {
+            margin: 0;
+            padding-left: 3.4mm;
+            font-size: 9.6pt;
+            line-height: 1.36;
+        }
+
+        .cell-list li {
+            margin-bottom: 1mm;
+        }
+
+        .swot-grid {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 3.5mm;
+        }
+
+        .swot-box {
+            border: 1px solid var(--line);
+            border-radius: 2mm;
+            background: rgba(255, 255, 255, 0.93);
+            padding: 3.7mm;
+            box-shadow: 0 1.6mm 4.4mm rgba(13, 2, 33, 0.05);
+        }
+
+        .swot-title {
+            margin: 0 0 1.8mm;
+            font-size: 14pt;
+            line-height: 1.2;
+            color: var(--accent);
+            font-weight: 800;
+        }
+    </style>
+</head>
+<body>
+    <main class="report">
+        <div class="topbar"></div>
+
+        <section class="section-block">
+            <div class="brand-hero">
+                <div class="brand-mark">MarketEye</div>
+                <div class="brand-rule"></div>
+            </div>
+            <h1 class="page-title">Idea Snapshot</h1>
+
+            <div class="section">
+                <div class="section-label">Raw Idea</div>
+                <div class="text-block">I am building a low-cost laptop for rural market</div>
+            </div>
+
+            <div class="section">
+                <div class="section-label">Idea Understanding</div>
+                <div class="grid-2">
+                    <div class="kv">
+                        <div class="kv-label">Domain</div>
+                        <div class="kv-value">Hardware</div>
+                    </div>
+                    <div class="kv">
+                        <div class="kv-label">Subdomain</div>
+                        <div class="kv-value">Computing Devices</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-label">One-Line Description</div>
+                <div class="text-block">Develop an affordable laptop specifically designed for use in rural markets.</div>
+            </div>
+
+            <div class="section">
+                <div class="section-label">Features Identified</div>
+                <div class="panel">
+                    <ul class="list">
+                        <li>Cost and performance</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-label">Constraints Noted</div>
+                <div class="panel">
+                    <ul class="list">
+                        <li>Budget Price Range: 20000</li>
+                        <li>Geolocation: Rural market</li>
+                        <li>Feature Priority: Cost and performance</li>
+                        <li>Distribution Preference: Both</li>
+                        <li>Buyer Preference: Online and offline</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-block">
+            <h1 class="page-title">Customer Persona</h1>
+            <p class="page-subtitle">Your ideal customer</p>
+
+            <div class="section">
+                <div class="section-label">Name</div>
+                <div class="kv">
+                    <div class="kv-value">Suresh Kumar</div>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-label">Role / Profile</div>
+                <div class="text-block">Small Kirana store owner or local NGO administrator managing community resources</div>
+            </div>
+
+            <div class="section">
+                <div class="section-label">Demographic Details</div>
+                <div class="panel">
+                    <ul class="list">
+                        <li>Age: 38</li>
+                        <li>Location: Village center, Tier 3/4 area</li>
+                        <li>Education: Completed 10th grade, some vocational training</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-label">Primary Need</div>
+                <div class="text-block">Access to reliable digital records, basic government scheme applications, and educational content for children without heavy upfront investment.</div>
+            </div>
+
+            <div class="section">
+                <div class="section-label">Buying Motivation</div>
+                <div class="text-block">To enable basic digital inclusion for his business operations (inventory, basic accounting) and to provide a shared learning tool for his family or a small local training center.</div>
+            </div>
+
+            <div class="section">
+                <div class="section-label">Pain Points</div>
+                <div class="panel">
+                    <ul class="list">
+                        <li>Lack of consistent electricity/unreliable power supply.</li>
+                        <li>High cost of traditional laptops and maintenance/repair services.</li>
+                        <li>Lack of technical proficiency to manage complex software or hardware issues.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-label">Adoption Friction</div>
+                <div class="panel">
+                    <ul class="list">
+                        <li>Skepticism towards new technology that requires constant external support.</li>
+                        <li>Difficulty in sourcing immediate repair parts or service technicians locally.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-label">Constraint Sensitivity</div>
+                <div class="panel">
+                    <ul class="list">
+                        <li>Price: Extremely sensitive. Must be significantly below ₹20,000 (The target is often closer to ₹15,000 for acceptable viability).</li>
+                        <li>Feature: Durability (ability to handle dust, heat, and occasional drops), Long battery life or robust offline capability</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-block">
+            <h1 class="page-title">Competition Analysis</h1>
+            <p class="page-subtitle">Your potential competitors</p>
+
+            <div class="section">
+                <div class="section-label">Competitor Table</div>
+                <table>
+                    <colgroup>
+                        <col style="width: 18%;">
+                        <col style="width: 10%;">
+                        <col style="width: 24%;">
+                        <col style="width: 24%;">
+                        <col style="width: 24%;">
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <th>Competitor Name</th>
+                            <th>Price</th>
+                            <th>Key Features</th>
+                            <th>Strengths</th>
+                            <th>Weaknesses</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><div class="cell-text">HP EliteBook 840</div></td>
+                            <td><div class="cell-text">₹27,995</div></td>
+                            <td>
+                                <ul class="cell-list">
+                                    <li>14-Inch display</li>
+                                    <li>16 GB RAM</li>
+                                    <li>256 GB SSD</li>
+                                    <li>Windows 11 Pro</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul class="cell-list">
+                                    <li>Most affordable option in the current dataset</li>
+                                    <li>Professional operating system (Windows 11 Pro)</li>
+                                    <li>Lightweight for its class (6 pounds)</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul class="cell-list">
+                                    <li>Still exceeds the target budget of ₹20,000</li>
+                                    <li>Integrated graphics limit performance for heavy tasks</li>
+                                    <li>Smaller storage capacity (256 GB)</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><div class="cell-text">Razer Blade 15</div></td>
+                            <td><div class="cell-text">₹53,999</div></td>
+                            <td>
+                                <ul class="cell-list">
+                                    <li>15.6-Inch LED display</li>
+                                    <li>16 GB RAM</li>
+                                    <li>512 GB SSD</li>
+                                    <li>Dedicated NVIDIA GPU</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul class="cell-list">
+                                    <li>High performance for multimedia and personal use</li>
+                                    <li>Advanced cooling system</li>
+                                    <li>Robust build quality</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul class="cell-list">
+                                    <li>Significantly over the ₹20,000 budget</li>
+                                    <li>High power consumption</li>
+                                    <li>Older model year (2020) compared to others</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><div class="cell-text">Microsoft Surface Laptop Studio 2</div></td>
+                            <td><div class="cell-text">₹74,000</div></td>
+                            <td>
+                                <ul class="cell-list">
+                                    <li>13-Inch display</li>
+                                    <li>23-Hour battery life</li>
+                                    <li>Snapdragon X Plus processor</li>
+                                    <li>16 GB LPDDR5x RAM</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul class="cell-list">
+                                    <li>Exceptional battery life (23 hours), ideal for areas with unstable power</li>
+                                    <li>Highly portable</li>
+                                    <li>Modern LPDDR5x memory</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul class="cell-list">
+                                    <li>Price is nearly 4x the target budget</li>
+                                    <li>Small screen size may not be ideal for all rural use cases</li>
+                                    <li>Integrated Adreno graphics</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="section-block">
+            <h1 class="page-title">Market Gap Analysis</h1>
+            <p class="page-subtitle">What is the market missing ?</p>
+
+            <div class="section">
+                <div class="section-label">Existing Gaps</div>
+                <div class="panel">
+                    <ul class="list">
+                        <li>Complete absence of devices in the sub-₹25,000 price bracket within the current competitive landscape.</li>
+                        <li>Lack of ruggedized designs for rural environments (dust, heat, humidity).</li>
+                        <li>Oversupply of high-end gaming features (RTX 4080/5060) that are unnecessary for the target demographic.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-label">Unmet Features</div>
+                <div class="panel">
+                    <ul class="list">
+                        <li>Ultra-low price point (₹20,000).</li>
+                        <li>Long battery life at an affordable price (currently only available in premium models like the Surface).</li>
+                        <li>Simplified hardware that prioritizes durability over high-end gaming specs.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-label">Opportunity Level</div>
+                <div class="text-block">High</div>
+            </div>
+        </section>
+
+        <section class="section-block">
+            <h1 class="page-title">Feasibility Analysis</h1>
+            <p class="page-subtitle">Your innovation focus points</p>
+
+
+            <div class="section">
+                <div class="section-label">Feasibility Check</div>
+                <div class="panel">
+                    <div class="kv-label">Is your idea feasible?</div>
+                    <div class="body-value" style="margin-bottom: 3mm;">Yes</div>
+                    <div class="kv-label">Reasoning</div>
+                    <div class="body-value">The data shows a massive price floor of approximately ₹28,000 for basic business laptops. A product priced at ₹20,000 would have no direct competition among the listed brands, provided the performance meets basic computing needs (web browsing, education, and office tasks).</div>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="grid-2">
+                    <div class="panel">
+                        <div class="section-label">Technical Challenges</div>
+                        <ul class="list">
+                            <li>Sourcing components that provide &#39;performance&#39; (as requested) while staying under the ₹20,000 bill of materials.</li>
+                            <li>Optimizing power efficiency to match the long battery life seen in premium models without using expensive silicon like the Snapdragon X Plus.</li>
+                        </ul>
+                    </div>
+                    <div class="panel">
+                        <div class="section-label">Cost Constraints</div>
+                        <ul class="list">
+                            <li>The target price of ₹20,000 is roughly $240 USD, which is significantly lower than the cheapest competitor ($1,199 USD for the HP EliteBook in global pricing).</li>
+                            <li>Operating system licensing costs (Windows 11) may consume a large portion of the budget.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-label">Implementation Challenges</div>
+                <div class="panel">
+                    <ul class="list">
+                        <li>Establishing a dual-channel (online and offline) distribution network in geographically remote rural areas.</li>
+                        <li>Providing after-sales service and hardware repair in regions with limited infrastructure.</li>
+                        <li>Balancing the &#39;performance&#39; requirement with the &#39;cost&#39; constraint, as rural users may require the device for more than just basic tasks.</li>
+                        <li>Competing with the brand recognition of established players like HP and Acer if they decide to enter the low-cost segment.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-block">
+            <h1 class="page-title">SWOT &amp; Final Statement</h1>
+
+
+        </section>
+    </main>
+</body>
+</html>
