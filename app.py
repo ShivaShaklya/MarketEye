@@ -12,7 +12,7 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'Backend'))
 
 from flask import Flask, render_template, request, jsonify, send_file
 from Backend.chat_orchestration import start_chat, process_message
-from Backend.chat_store import load_chat
+from Backend.chat_store import load_chat, list_chats
 import uuid
 
 # app = Flask(__name__)
@@ -96,6 +96,27 @@ def api_send_message():
 def api_reset_chat():
     """Reset the current chat session."""
     return jsonify({"success": True, "message": "Chat session reset."})
+
+
+@app.route('/api/chats', methods=['GET'])
+def api_list_chats():
+    """List saved chats for sidebar history."""
+    try:
+        return jsonify({"chats": list_chats()})
+    except Exception as exc:
+        return jsonify({"error": str(exc)}), 500
+
+
+@app.route('/api/chat/<user_id>/<chat_id>', methods=['GET'])
+def api_get_chat(user_id, chat_id):
+    """Return a full saved chat session."""
+    try:
+        chat = load_chat(f"{user_id}_{chat_id}")
+        return jsonify(chat)
+    except FileNotFoundError:
+        return jsonify({"error": "Chat session not found."}), 404
+    except Exception as exc:
+        return jsonify({"error": str(exc)}), 500
 
 
 @app.route('/api/chat/export/<user_id>/<chat_id>', methods=['GET'])

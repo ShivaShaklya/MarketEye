@@ -54,6 +54,35 @@ def load_chat(chat_id: str) -> Dict[str, Any]:
     with open(chat_path(chat_id), "r", encoding="utf-8") as f:
         return json.load(f)
 
+
+def list_chats() -> List[Dict[str, Any]]:
+    records: List[Dict[str, Any]] = []
+    if not os.path.isdir(CHATS_DB):
+        return records
+
+    for name in os.listdir(CHATS_DB):
+        if not name.endswith(".json"):
+            continue
+        path = os.path.join(CHATS_DB, name)
+        try:
+            with open(path, "r", encoding="utf-8") as f:
+                chat = json.load(f)
+        except (OSError, json.JSONDecodeError):
+            continue
+
+        preview = chat.get("idea_raw") or "Untitled chat"
+        records.append({
+            "user_id": chat.get("user_id", ""),
+            "chat_id": chat.get("chat_id", ""),
+            "title": preview[:80],
+            "status": chat.get("status", ""),
+            "updated_at": chat.get("updated_at", ""),
+            "finalized": bool(chat.get("finalized")),
+        })
+
+    records.sort(key=lambda item: item.get("updated_at", ""), reverse=True)
+    return records
+
 def add_turn(chat: Dict[str, Any], role: str, text: str) -> None:
     chat["conversation_history"].append({
         "ts": now_iso(),

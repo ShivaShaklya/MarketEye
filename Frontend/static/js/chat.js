@@ -13,6 +13,7 @@
     const newChatBtn = document.getElementById('new-chat-btn');
     const chatStatus = document.getElementById('chat-status');
     const exportPdfBtn = document.getElementById('export-pdf-btn');
+    const historyList = document.getElementById('history-list');
     const storageKey = 'marketeye-active-chat';
 
     const welcomeMarkup = `
@@ -33,6 +34,7 @@
     let currentStatus = null;
 
     restoreSession();
+    loadHistory();
     messageInput.focus();
 
     chatForm.addEventListener('submit', handleSubmit);
@@ -67,6 +69,7 @@
                     persistSession();
                     updateStatus('Session active');
                     syncExportAvailability(response.status);
+                    loadHistory();
                 }
             } else {
                 response = await sendMessage(message);
@@ -82,6 +85,7 @@
                 addMessage(response.response, 'bot');
                 updateStatus(response.status === 'MARKET_RESEARCH_READY' ? 'Report ready to export' : 'Ready for your next question');
                 syncExportAvailability(response.status);
+                loadHistory();
             }
         } catch (error) {
             hideTypingIndicator();
@@ -123,6 +127,7 @@
         setProcessing(false);
         updateStatus('Ready for your first prompt');
         syncExportAvailability();
+        loadHistory();
         messageInput.focus();
     }
 
@@ -202,6 +207,120 @@
         } finally {
             syncExportAvailability('MARKET_RESEARCH_READY');
         }
+    }
+
+    async function loadHistory() {
+        if (!historyList) return;
+
+        try {
+            const response = await fetch('/api/chats');
+            const data = await response.json();
+            const chats = Array.isArray(data.chats) ? data.chats : [];
+            renderHistory(chats);
+        } catch (error) {
+            console.error('History load error:', error);
+        }
+    }
+
+    function renderHistory(chats) {
+        if (!historyList) return;
+
+        const introCard = `
+            <article class="insight-card insight-card-active">
+                <span class="insight-badge">Live</span>
+                <h2>New chat</h2>
+                <p>Describe your idea and MarketEye will build the analysis progressively.</p>
+            </article>
+        `;
+
+        if (!chats.length) {
+            historyList.innerHTML = `${introCard}
+                <article class="insight-card">
+                    <span class="insight-badge">Empty</span>
+                    <h2>No saved chats</h2>
+                    <p>Your completed and in-progress conversations will appear here.</p>
+                </article>`;
+            return;
+        }
+
+        const items = chats.map((chat) => {
+            const activeClass = chat.user_id === userId && chat.chat_id === chatId ? ' insight-card-active' : '';
+            const badge = chat.finalized ? 'Ready' : 'Live';
+            const updated = formatTimestamp(chat.updated_at);
+            return `
+                <article class="insight-card history-card${activeClass}" data-user-id="${escapeHtml(chat.user_id)}" data-chat-id="${escapeHtml(chat.chat_id)}">
+                    <span class="insight-badge">${badge}</span>
+                    <h2 class="history-card-title">${escapeHtml(chat.title || 'Untitled chat')}</h2>
+                    <p class="history-card-meta">${escapeHtml((chat.status || '').replaceAll('_', ' ').toLowerCase())}</p>
+                    <p class="history-card-meta">${escapeHtml(updated)}</p>
+                </article>
+            `;
+        }).join('');
+
+        historyList.innerHTML = introCard + items;
+        historyList.querySelectorAll('.history-card').forEach((card) => {
+            card.addEventListener('click', () => {
+                const selectedUserId = card.dataset.userId;
+                const selectedChatId = card.dataset.chatId;
+                if (selectedUserId && selectedChatId) {
+                    openSavedChat(selectedUserId, selectedChatId);
+                }
+            });
+        });
+    }
+
+    async function openSavedChat(selectedUserId, selectedChatId) {
+        updateStatus('Loading saved chat...');
+        try {
+            const response = await fetch(`/api/chat/${encodeURIComponent(selectedUserId)}/${encodeURIComponent(selectedChatId)}`);
+            const chat = await response.json();
+            if (!response.ok) {
+                throw new Error(chat.error || 'Unable to load chat.');
+            }
+
+            userId = chat.user_id || selectedUserId;
+            chatId = chat.chat_id || selectedChatId;
+            currentStatus = chat.status || null;
+            isFirstMessage = !(userId && chatId) || currentStatus === 'MARKET_RESEARCH_READY';
+            persistSession(currentStatus);
+            syncExportAvailability(currentStatus);
+            renderConversation(chat.conversation_history || []);
+            updateStatus(currentStatus === 'MARKET_RESEARCH_READY' ? 'Saved report ready to export. Send a new idea to start a new chat.' : 'Saved chat loaded');
+            loadHistory();
+        } catch (error) {
+            console.error('Open chat error:', error);
+            addMessage(`Warning: ${error.message}`, 'bot');
+            updateStatus('Unable to load saved chat');
+        }
+    }
+
+    function renderConversation(conversation) {
+        if (!Array.isArray(conversation) || !conversation.length) {
+            chatMessages.innerHTML = welcomeMarkup;
+            return;
+        }
+
+        chatMessages.innerHTML = '';
+        conversation.forEach((entry) => {
+            const sender = entry.role === 'user' ? 'user' : 'bot';
+            addMessage(entry.text || '', sender);
+        });
+    }
+
+    function formatTimestamp(value) {
+        if (!value) return 'Unknown date';
+        const parsed = new Date(value);
+        if (Number.isNaN(parsed.getTime())) return value;
+        return parsed.toLocaleString();
+    }
+
+    function escapeHtml(text) {
+        return String(text || '')
+            .replace(/&/g, '&amp;')
+            .replace(/</g, '&lt;')
+            .replace(/>/g, '&gt;')
+            .replace(/"/g, '&quot;')
+            .replace(/'/g, '&#39;');
     }
 
     function addMessage(content, sender) {
