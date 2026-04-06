@@ -104,15 +104,21 @@ def transform_chat_to_report_payload(
     swot = _swot_items(
         analysis.get("swot_analysis")
         or analysis.get("swot")
+        or analysis.get("SWOT")
         or report_payload.get("swot_analysis")
         or report_payload.get("swot")
+        or report_payload.get("SWOT")
         or chat_payload.get("swot_analysis")
         or chat_payload.get("swot")
+        or chat_payload.get("SWOT")
     )
     ending_statement = _optional_scalar(
         analysis.get("ending_statement")
+        or analysis.get("EndStatement")
         or report_payload.get("ending_statement")
+        or report_payload.get("EndStatement")
         or chat_payload.get("ending_statement")
+        or chat_payload.get("EndStatement")
     )
 
     page1 = {

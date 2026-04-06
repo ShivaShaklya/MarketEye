@@ -8,7 +8,8 @@ from chat_store import create_chat, save_chat, add_turn, load_chat
 from query_processing import preprocess_query, idea_confirmation, apply_user_edits, get_constraints_from_query
 from constraint_handling import STAGE_GUIDANCE, NUMERIC_CLARIFIABLE, needs_numeric_clarification, is_quantifiable_feature, has_numeric_value
 from report import create_persona, create_market_overview
-from rag_pipeline import run_rag, format_rag_summary
+from rag_pipeline import run_rag, format_rag_summary, save_report
+from gemini_client_setup import call_llm_swot
 
 # =============================================================================
 # CONSTANTS
@@ -169,6 +170,10 @@ def _on_rag_confirmation(chat, msg):
 
     try:
         rag_result = run_rag(chat)
+        swot_payload = _build_swot_payload(chat, rag_result)
+        if swot_payload:
+            rag_result.setdefault("analysis", {}).update(swot_payload)
+            save_report(chat, rag_result)
         chat["competitive_analysis"] = rag_result
         summary = format_rag_summary(rag_result)
         add_turn(chat, "assistant", summary)
@@ -270,3 +275,32 @@ def _report(chat):
         "\n---\nWould you like me to run competitor analysis using the RAG pipeline? Reply yes or no."
     ])
     return _resp(chat, "\n".join(parts))
+
+
+def _build_swot_payload(chat, rag_result):
+    analysis = rag_result.get("analysis", {}) if isinstance(rag_result, dict) else {}
+    if not analysis:
+        return {}
+
+    swot_input = {
+        "idea_raw": chat.get("idea_raw", ""),
+        "idea_understanding": chat.get("idea_understanding", {}),
+        "constraints": chat.get("constraints", {}),
+        "top_competitors": analysis.get("top_competitors", []),
+        "market_gap_analysis": analysis.get("market_gap_analysis", {}),
+        "feasibility_analysis": analysis.get("feasibility_analysis", {}),
+        "implementation_challenges": analysis.get("implementation_challenges", []),
+    }
+
+    try:
+        swot_result = call_llm_swot(swot_input)
+    except Exception as exc:
+        add_turn(chat, "assistant", f"SWOT generation failed: {exc}")
+        return {}
+
+    normalized = {}
+    if isinstance(swot_result.get("SWOT"), dict):
+        normalized["swot"] = swot_result["SWOT"]
+    if swot_result.get("EndStatement"):
+        normalized["ending_statement"] = swot_result["EndStatement"]
+    return normalized
