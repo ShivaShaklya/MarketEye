@@ -181,6 +181,20 @@ def evaluate_metrics_actual_pipeline(idea_json, ground_truth):
     print(result)
     return result
 
+def calc_average_metrics(metrics_json):
+    total_p, total_r, total_n = 0, 0, 0
+    for i in metrics_json['results']:
+        p,r,n=i['precision@10'],i['recall@10'],i['ndcg@10']
+        total_p+=p
+        total_r+=r
+        total_n+=n
+    avg_p=total_p/10
+    avg_r=total_r/10
+    avg_n=total_n/10
+    print(f"\nAverage Precision@10: {avg_p:.3f}")
+    print(f"Average Recall@10: {avg_r:.3f}")
+    print(f"Average NDCG@10: {avg_n:.3f}")
+
 def save_results(results):
     output = {
         "timestamp": str(datetime.now()),
@@ -193,7 +207,7 @@ def save_results(results):
     print(f"\nSaved results to {OUTPUT_FILE}")
 
 #Driver Code
-db_dict={
+'''db_dict={
     "youtube": youtube_db,
     "amazon": amazon_db,
     "specs": specs_db
@@ -215,5 +229,7 @@ for idea in ideas:
     ground_truth_json=json.load(open(ideas_dict[idea],encoding="utf-8"))
     results = evaluate_metrics_actual_pipeline(idea_json, ground_truth_json)
     all_results.append(results)
-save_results(all_results)
+save_results(all_results)'''
+
+calc_average_metrics(json.load(open(".\evaluation_results_retrieve.json", encoding="utf-8")))
 
