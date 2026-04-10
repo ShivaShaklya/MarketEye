@@ -89,8 +89,11 @@ DATA_PATH="data/processed_amazon"
 COLLECTION_NAME="feature_rag_amazon"
 
 client = chromadb.PersistentClient(path="..\chroma_db")
-#client.delete_collection(COLLECTION_NAME)
-collection=client.get_or_create_collection(
+client.delete_collection(COLLECTION_NAME)
+# collection=client.get_or_create_collection(
+#     name=COLLECTION_NAME
+# )
+collection=client.create_collection(
     name=COLLECTION_NAME
 )
 

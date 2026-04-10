@@ -6,6 +6,7 @@ import os
 client = chromadb.PersistentClient(path="../chroma_db")
 collection1 = client.get_collection("feature_rag_youtube")
 collection2=client.get_collection("rag_product_specifications")
+collection3=client.get_collection("feature_rag_amazon")
 
 '''#
 data = collection.get(include=["metadatas"])
@@ -363,7 +364,7 @@ for i, p in enumerate(results[:5]):
 collections=client.list_collections()
 for c in collections:
     print(c.name, c.id)
-print(os.path.abspath("..\chroma_db"))'''
+print(os.path.abspath("..\chroma_db"))
 
 ##
 # Peek at first few entries
@@ -371,4 +372,46 @@ results1 = collection1.peek(limit=5)
 print("Results 1:", results1)
 
 results2= collection2.peek(limit=5)
-print("Results 2:", results2)
+print("Results 2:", results2)'''
+
+##
+results1 = collection1.get(
+    where={"category": "laptops"},
+    limit=5
+)
+
+# print("Collection1 Results:")
+# for i in range(len(results1["ids"])):
+#     print({
+#         "id": results1["ids"][i],
+#         "metadata": results1["metadatas"][i],
+#         "text": results1["documents"][i][:200]  # preview
+#     })
+
+
+# results2 = collection2.get(
+#     where={"category": "laptops"},
+#     limit=5
+# )
+
+# print("\nCollection2 Results:")
+# for i in range(len(results2["ids"])):
+#     print({
+#         "id": results2["ids"][i],
+#         "metadata": results2["metadatas"][i],
+#         "text": results2["documents"][i][:200]
+#     })
+
+results3 = collection3.get(
+    where={"category": "laptops"},
+    limit=5
+)
+
+print("\nCollection3 Results:")
+for i in range(len(results3["ids"])):
+    print({
+        "id": results3["ids"][i],
+        "metadata": results3["metadatas"][i],
+        "text": results3["documents"][i][:200]
+    })
+
