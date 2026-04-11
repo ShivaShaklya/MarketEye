@@ -62,43 +62,43 @@ def build_search_query(idea_json):
     """
     return query.strip()
 
-def retrieve_products(query, category, k=15):
+def retrieve_products(query, category, k=20):
     try:
-        amazon_docs = amazon_db.similarity_search(query, k=k, filter={"category": category})
+        amazon_docs = amazon_db.similarity_search_with_score(query, k=k, filter={"category": category})
     except:
         amazon_docs = []
 
     try:
-        youtube_docs= youtube_db.similarity_search(query, k=k, filter={"category": category})
+        youtube_docs= youtube_db.similarity_search_with_score(query, k=k, filter={"category": category})
     except:
         youtube_docs = []
 
     try:
-        spec_docs = specs_db.similarity_search(query, k=k, filter={"category": category})
+        spec_docs = specs_db.similarity_search_with_score(query, k=k, filter={"category": category})
     except:
         spec_docs = []
 
-    #Fallback
-    if not amazon_docs and not youtube_docs:
-        amazon_docs = amazon_db.similarity_search(query, k=k)
-        youtube_docs = youtube_db.similarity_search(query, k=k)
+    # #Fallback
+    # if not amazon_docs and not youtube_docs:
+    #     amazon_docs = amazon_db.similarity_search(query, k=k)
+    #     youtube_docs = youtube_db.similarity_search(query, k=k)
     
-    if not spec_docs:
-        spec_docs = specs_db.similarity_search(query, k=k)
+    # if not spec_docs:
+    #     spec_docs = specs_db.similarity_search(query, k=k)
 
     return amazon_docs,youtube_docs,spec_docs
 
 def group_by_product(amazon_docs,youtube_docs,spec_docs):
     grouped=defaultdict(list)
-    for doc in amazon_docs:
+    for doc, score in amazon_docs:
         product=doc.metadata.get("product")
         grouped[product].append(doc)
 
-    for doc in youtube_docs:
+    for doc,score in youtube_docs:
         product=doc.metadata.get("product")
         grouped[product].append(doc)
 
-    for doc in spec_docs:
+    for doc,score in spec_docs:
         product=doc.metadata.get("product")
         grouped[product].append(doc)
 

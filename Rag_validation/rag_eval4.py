@@ -15,12 +15,16 @@ from rag_pipeline1 import (
     rank_products
 )
 
+#NDCG@k curve
+#Plot 4 similarity score graphs
+#Generative evaluation: Faithfulness, Relevance
+
 load_dotenv()
 key=os.getenv("API-KEY")
 embedding=HuggingFaceEmbeddings(model_name="intfloat/e5-base-v2")
 client = genai.Client(api_key=key)
 
-OUTPUT_FILE="evaluation_results_retrieve.json"
+OUTPUT_FILE="evaluation_results_retrieve1.json"
 K_POOL=10
 K_RETRIEVE = 15
 
@@ -80,21 +84,31 @@ def recall_at_k_products(ranked, gt_products, k):
     ranked_k = ranked[:k]
     gt_set = set(gt_products.keys())
 
-    hits = sum(1 for p in ranked_k if p in gt_set)
+    hits = len(set(ranked_k) & gt_set)
+    #hits = sum(1 for p in ranked_k if p in gt_set)
     return hits / len(gt_set) if gt_set else 0
 
 def ndcg_at_k_products(ranked, gt_products, k):
+    ranked_k = ranked[:k]
+
+    #Calculatong DCG
     dcg = 0
-    for i, product in enumerate(ranked[:k]):
+    for i, product in enumerate(ranked_k):
         rel = gt_products.get(product, 0)
         dcg += (2**rel - 1) / math.log2(i + 2)
 
-    ideal = sorted(gt_products.values(), reverse=True)
+    #Calculating IDCG
+    ideal = sorted(gt_products.values(), reverse=True)[:k]
     idcg = 0
-    for i, rel in enumerate(ideal[:k]):
+    for i, rel in enumerate(ideal):
         idcg += (2**rel - 1) / math.log2(i + 2)
 
-    return dcg / idcg if idcg > 0 else 0
+    ndcg=dcg / idcg
+    if ndcg>idcg:
+        print("Error: DCG exceeds IDCG")
+        print(gt_products)
+
+    return  ndcg
 
 def idea_to_query(idea_json):
     constraints=idea_json.get("constraints",{})
@@ -131,7 +145,7 @@ def gt_to_products(ground_truth):
             print("No product name found in:", gt['text'])
             continue
         else:
-            print("Extracted product:", product)
+            #print("Extracted product:", product)
             product=normalize_product(product)
 
         if product not in product_scores:
@@ -161,7 +175,7 @@ def evaluate_metrics_actual_pipeline(idea_json, ground_truth):
     # 🔥 Use ACTUAL pipeline
     ranked = retrieve_ranked_products(query, category, constraints)
 
-    ranked_products = [normalize_product(product) for product, _, _ in ranked]
+    ranked_products = list(dict.fromkeys(normalize_product(product) for product, _, _ in ranked))
 
     # Convert GT → product level
     gt_products = gt_to_products(ground_truth)
@@ -207,29 +221,30 @@ def save_results(results):
     print(f"\nSaved results to {OUTPUT_FILE}")
 
 #Driver Code
-'''db_dict={
-    "youtube": youtube_db,
-    "amazon": amazon_db,
-    "specs": specs_db
-}
-ideas=[]
-ideas_dict={}
-for ctr in range(1,11):
-    idea_file= f"./Ideas/idea{ctr}.json"
-    ground_truth_file=f"./ground_truth/idea{ctr}.json"
-    ideas_dict[idea_file]=ground_truth_file
-    ideas.append(idea_file)
+if __name__ == "__main__":
+    db_dict={
+        "youtube": youtube_db,
+        "amazon": amazon_db,
+        "specs": specs_db
+    }
+    ideas=[]
+    ideas_dict={}
+    for ctr in range(1,11):
+        idea_file= f"./Ideas/idea{ctr}.json"
+        ground_truth_file=f"./ground_truth/idea{ctr}.json"
+        ideas_dict[idea_file]=ground_truth_file
+        ideas.append(idea_file)
 
-#ideas=['..\Ideas\idea2.json']
-idea_data=[]
-all_results=[]
-for idea in ideas:
-    print("Processing:",idea)
-    idea_json=json.load(open(idea,encoding="utf-8"))
-    ground_truth_json=json.load(open(ideas_dict[idea],encoding="utf-8"))
-    results = evaluate_metrics_actual_pipeline(idea_json, ground_truth_json)
-    all_results.append(results)
-save_results(all_results)'''
+    #ideas=['..\Ideas\idea2.json']
+    idea_data=[]
+    all_results=[]
+    for idea in ideas:
+        print("Processing:",idea)
+        idea_json=json.load(open(idea,encoding="utf-8"))
+        ground_truth_json=json.load(open(ideas_dict[idea],encoding="utf-8"))
+        results = evaluate_metrics_actual_pipeline(idea_json, ground_truth_json)
+        all_results.append(results)
+    save_results(all_results)
 
-calc_average_metrics(json.load(open(".\evaluation_results_retrieve.json", encoding="utf-8")))
+    #calc_average_metrics(json.load(open(".\evaluation_results_retrieve1.json", encoding="utf-8")))
 
