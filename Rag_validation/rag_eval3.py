@@ -9,13 +9,6 @@ from langchain_community.vectorstores import Chroma
 from google import genai
 import re
 
-#Retrival Component Evaluation
-    #Precision, Recall, Hit rate, NDCG (Normalized Discounted Cumulative Gain)
-        #Add metadata filter
-        #Average for 10 outputs
-        #Understand each result
-        #Improve if possible
-
 #Generation Component Evaluation
     #Faithfulness, Answer Relevancy
 
@@ -131,14 +124,13 @@ def evaluate_metrics(query, category, db_dict, ground_truth):
 
     result = {
         "query": query,
-        "precision@10": round(precision, 3),
-        "recall@10": round(recall, 3),
-        "ndcg@10": round(ndcg, 3),
+        "precision": round(precision, 3),
+        "recall": round(recall, 3),
+        "ndcg": round(ndcg, 3),
         "num_ground_truth": len(ground_truth)
     }
 
     print(result)
-    #results.append(result)
 
     return result
 
@@ -287,11 +279,11 @@ def build_ground_truth(query, pool, client):
             if match:
                 parsed = json.loads(match.group())
             else:
-                return build_ground_truth1(query, pool, client)
+                print("Failed to parse LLM output as JSON.")
+                return "Error"
 
     except Exception as e:
         print("[LLM ERROR]:", e)
-        return build_ground_truth1(query, pool, client)
 
     ground_truth = []
     scored_docs = []
@@ -310,37 +302,6 @@ def build_ground_truth(query, pool, client):
 
     if not ground_truth and scored_docs:
         print("Fallback triggered")
-        scored_docs.sort(key=lambda x: x["relevance"], reverse=True)
-        ground_truth = scored_docs[:5]
-
-    save_ground_truth(query, pool, ground_truth)
-
-    return ground_truth
-
-def build_ground_truth1(query, pool, client):
-    ground_truth = []
-    scored_docs = []
-
-    for doc in pool:
-        score = llm_call(query, doc["text"], client)
-
-        scored_docs.append({
-            "doc_id": doc["doc_id"],
-            "relevance": score
-        })
-
-        if score > 0:
-            print(f"Score: {score} for file:",query)
-            ground_truth.append({
-                "doc_id": doc["doc_id"],
-                "relevance": score
-            })
-        else:
-            print("Score: 0 for file:",query)
-
-    # Fallback: if empty, take top scored docs
-    if not ground_truth and scored_docs:
-        print("Fallback for idea:", query)
         scored_docs.sort(key=lambda x: x["relevance"], reverse=True)
         ground_truth = scored_docs[:5]
 
@@ -367,20 +328,20 @@ def build_pool(query,category, db_dict):
 
     return unique_pool
 
-def evaluate(idea_json, db_dict, client):
+def evaluate(idea_json, db_dict, client, ground_truth=None):
     query = idea_to_query(idea_json)
     print(f"\nEvaluating Query: {query}")
     category=detect_category(idea_json)
     print("category:", category)
 
-    # Step 1: Build pool
-    pool = build_pool(query,category, db_dict)
+    # # Step 1: Build pool
+    # pool = build_pool(query,category, db_dict)
 
-    # Step 2: Ground truth
-    ground_truth = build_ground_truth(query, pool, client)
+    # # Step 2: Ground truth
+    # ground_truth = build_ground_truth(query, pool, client)
 
-    #evaluate_metrics(query, category, db_dict, ground_truth)
-    return "abc"
+    eval_score=evaluate_metrics(query, category, db_dict, ground_truth)
+    return eval_score
     
 
 #Driver Code
@@ -390,15 +351,18 @@ db_dict={
     "specs": specs_db
 }
 ideas=[]
+ideas_dict={}
 for ctr in range(1,11):
     idea_file= f"./Ideas/idea{ctr}.json"
     ground_truth_file=f"./ground_truth/idea{ctr}.json"
-    
+    ideas_dict[idea_file]=ground_truth_file
+    ideas.append(idea_file)
 
 #ideas=['..\Ideas\idea2.json']
 idea_data=[]
 for idea in ideas:
     print("Processing:",idea)
     idea_json=json.load(open(idea))
-    results = evaluate(idea_json, db_dict, client)
-    #save_results(results)
+    ground_truth_json=json.load(open(ideas_dict[idea]))
+    results = evaluate(idea_json, db_dict, client,ground_truth_json)
+    save_results(results)
