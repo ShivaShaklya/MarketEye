@@ -161,7 +161,7 @@ def get_constraints_from_query(chat):
     - usage_context
     - distribution_method_preference,
 
-    - special_features (array)
+    - special_features (array of strings)
 
     Return valid JSON only.
     """
@@ -174,19 +174,30 @@ def get_constraints_from_query(chat):
     )
 
     chat["contents"] = updated_contents
-    
+
     chat.setdefault("constraints", {})
 
     for key, value in data.items():
+        if key == "special_features":
+            value = _normalize_special_features(value)
+
         if key not in chat["constraints"]:
             chat["constraints"][key] = value
 
         elif key == "special_features":
-            existing = set(chat["constraints"].get("special_features", []))
+            existing = set(_normalize_special_features(chat["constraints"].get("special_features", [])))
             existing.update(value)
             chat["constraints"]["special_features"] = list(existing)
     
     return data
+
+
+def _normalize_special_features(value):
+    if isinstance(value, list):
+        return [str(item).strip() for item in value if str(item).strip()]
+    if isinstance(value, str) and value.strip():
+        return [value.strip()]
+    return []
 
 # ============================================================================
 # CLI VERSION - COMMENTED OUT (Use chat_orchestration.py for Flask web interface)

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>{{ report.title }}</title>
+    <title>MarketEye Project Report</title>
     <style>
         @page {
             size: A4;
@@ -415,175 +415,142 @@
     <main class="report">
         <div class="topbar"></div>
 
-        {% set p1 = report.pages[0] %}
         <section class="section-block">
             <div class="brand-hero">
-                <div class="brand-mark">{{ report.brand }}</div>
+                <div class="brand-mark">MarketEye</div>
                 <div class="brand-rule"></div>
             </div>
             <div class="page-header">
-                <h1 class="page-title">{{ p1.title }}</h1>
+                <h1 class="page-title">Idea Snapshot</h1>
             </div>
 
-            {% if p1.raw_idea %}
             <div class="section">
                 <div class="section-label">Raw Idea</div>
-                <div class="text-block">{{ p1.raw_idea }}</div>
+                <div class="text-block">I want to build a budget friendly smartphone for rural students to study</div>
             </div>
-            {% endif %}
 
-            {% if p1.domain or p1.subdomain %}
             <div class="section">
                 <div class="section-label">Idea Understanding</div>
                 <div class="grid-2">
-                    {% if p1.domain %}
                     <div class="kv">
                         <div class="kv-label">Domain</div>
-                        <div class="kv-value">{{ p1.domain }}</div>
+                        <div class="kv-value">Consumer Electronics</div>
                     </div>
-                    {% endif %}
-                    {% if p1.subdomain %}
                     <div class="kv">
                         <div class="kv-label">Subdomain</div>
-                        <div class="kv-value">{{ p1.subdomain }}</div>
+                        <div class="kv-value">EdTech Hardware</div>
                     </div>
-                    {% endif %}
                 </div>
             </div>
-            {% endif %}
 
-            {% if p1.one_line_description %}
             <div class="section">
                 <div class="section-label">One-Line Description</div>
-                <div class="text-block">{{ p1.one_line_description }}</div>
+                <div class="text-block">A low-cost, ruggedized smartphone optimized for educational software access and offline learning resources for rural students.</div>
             </div>
-            {% endif %}
 
-            {% if p1.features_identified %}
             <div class="section">
                 <div class="section-label">Features Identified</div>
                 <div class="panel">
                     <ul class="list">
-                        {% for item in p1.features_identified %}
-                        <li>{{ item }}</li>
-                        {% endfor %}
+                        <li>Cost and quality</li>
                     </ul>
                 </div>
             </div>
-            {% endif %}
 
-            {% if p1.constraints_noted %}
             <div class="section">
                 <div class="section-label">Constraints Noted</div>
                 <div class="panel">
                     <ul class="list">
-                        {% for item in p1.constraints_noted %}
-                        <li>{{ item }}</li>
-                        {% endfor %}
+                        <li>Budget Price Range: 5000-7000</li>
+                        <li>Geolocation: Rural</li>
+                        <li>Segment: Student</li>
+                        <li>Usage Context: Study</li>
+                        <li>Feature Priority: Cost and quality</li>
+                        <li>Distribution Preference: Consumers</li>
+                        <li>Buyer Preference: Online and offline</li>
+                        <li>Special Features: </li>
                     </ul>
                 </div>
             </div>
-            {% endif %}
         </section>
 
-        {% set p2 = report.pages[1] %}
         <section class="section-block">
             <div class="page-header">
-                <h1 class="page-title">{{ p2.title }}</h1>
+                <h1 class="page-title">Customer Persona</h1>
                 <p class="page-subtitle">Your ideal customer</p>
             </div>
 
-            {% if p2.name %}
             <div class="section">
                 <div class="section-label">Name</div>
                 <div class="kv">
-                    <div class="kv-value">{{ p2.name }}</div>
+                    <div class="kv-value">Arjun Sharma</div>
                 </div>
             </div>
-            {% endif %}
 
-            {% if p2.role_or_profile %}
             <div class="section">
                 <div class="section-label">Role / Profile</div>
-                <div class="text-block">{{ p2.role_or_profile }}</div>
+                <div class="text-block">Rural high school student with limited access to consistent high-speed internet</div>
             </div>
-            {% endif %}
 
-            {% if p2.demographic_details %}
             <div class="section">
                 <div class="section-label">Demographic Details</div>
                 <div class="panel">
                     <ul class="list">
-                        {% for item in p2.demographic_details %}
-                        <li>{{ item }}</li>
-                        {% endfor %}
+                        <li>17 Years old</li>
+                        <li>Lives in a rural village in India</li>
+                        <li>High school student preparing for competitive exams</li>
                     </ul>
                 </div>
             </div>
-            {% endif %}
 
-            {% if p2.primary_need %}
             <div class="section">
                 <div class="section-label">Primary Need</div>
-                <div class="text-block">{{ p2.primary_need }}</div>
+                <div class="text-block">A reliable device capable of running educational apps and storing offline video lessons without overheating or battery failure.</div>
             </div>
-            {% endif %}
 
-            {% if p2.buying_motivation %}
             <div class="section">
                 <div class="section-label">Buying Motivation</div>
-                <div class="text-block">{{ p2.buying_motivation }}</div>
+                <div class="text-block">Needs a dedicated learning device that doesn&#39;t distract him with excessive bloatware or high-end gaming features he cannot afford.</div>
             </div>
-            {% endif %}
 
-            {% if p2.key_pain_points %}
             <div class="section">
                 <div class="section-label">Pain Points</div>
                 <div class="panel">
                     <ul class="list">
-                        {% for item in p2.key_pain_points %}
-                        <li>{{ item }}</li>
-                        {% endfor %}
+                        <li>Frequent power cuts making long study sessions difficult</li>
+                        <li>Slow mobile data connectivity at home</li>
+                        <li>High cost of existing smartphones that have necessary specs for study apps</li>
                     </ul>
                 </div>
             </div>
-            {% endif %}
 
-            {% if p2.adoption_friction %}
             <div class="section">
                 <div class="section-label">Adoption Friction</div>
                 <div class="panel">
                     <ul class="list">
-                        {% for item in p2.adoption_friction %}
-                        <li>{{ item }}</li>
-                        {% endfor %}
+                        <li>Skepticism regarding the durability of low-cost hardware</li>
+                        <li>Difficulty finding local service centers for repairs in rural areas</li>
                     </ul>
                 </div>
             </div>
-            {% endif %}
 
-            {% if p2.constraints_sensitivity %}
             <div class="section">
                 <div class="section-label">Constraint Sensitivity</div>
                 <div class="panel">
                     <ul class="list">
-                        {% for item in p2.constraints_sensitivity %}
-                        <li>{{ item }}</li>
-                        {% endfor %}
+                        <li>Price: Extremely price-sensitive; the 5000-7000 range is likely at the absolute limit of his family&#39;s disposable income for a &#39;secondary&#39; educational tool.</li>
+                        <li>Feature: Needs long battery life to compensate for poor electricity, Requires robust storage expandability for offline content</li>
                     </ul>
                 </div>
             </div>
-            {% endif %}
         </section>
 
-        {% set p3 = report.pages[2] %}
         <section class="section-block">
             <div class="page-header">
-                <h1 class="page-title">{{ p3.title }}</h1>
+                <h1 class="page-title">Competition Analysis</h1>
                 <p class="page-subtitle">Your potential competitors</p>
             </div>
 
-            {% if p3.comparison_rows %}
             <div class="section">
                 <div class="section-label">Competitor Table</div>
                 <table>
@@ -604,248 +571,281 @@
                         </tr>
                     </thead>
                     <tbody>
-                        {% for row in p3.comparison_rows %}
                         <tr>
-                            <td><div class="cell-text">{{ row.name }}</div></td>
-                            <td><div class="cell-text">{{ row.price }}</div></td>
+                            <td><div class="cell-text">OnePlus Nord 3 (Nord N30 5G)</div></td>
+                            <td><div class="cell-text">₹2,299 (As per data) / $119.99</div></td>
                             <td>
-                                {% if row.key_features %}
                                 <ul class="cell-list">
-                                    {% for item in row.key_features %}
-                                    <li>{{ item }}</li>
-                                    {% endfor %}
+                                    <li>5000 MAh battery</li>
+                                    <li>6.72-Inch display</li>
+                                    <li>6GB RAM</li>
+                                    <li>128GB Storage</li>
+                                    <li>5G connectivity</li>
                                 </ul>
-                                {% endif %}
                             </td>
                             <td>
-                                {% if row.strengths %}
                                 <ul class="cell-list">
-                                    {% for item in row.strengths %}
-                                    <li>{{ item }}</li>
-                                    {% endfor %}
+                                    <li>Most affordable option in the dataset</li>
+                                    <li>Large battery capacity for long study sessions</li>
+                                    <li>Fast charging (47 minutes)</li>
                                 </ul>
-                                {% endif %}
                             </td>
                             <td>
-                                {% if row.weaknesses %}
                                 <ul class="cell-list">
-                                    {% for item in row.weaknesses %}
-                                    <li>{{ item }}</li>
-                                    {% endfor %}
+                                    <li>No headphone jack (requires expensive wireless or adapters)</li>
+                                    <li>Short talk time (7 hours) compared to others</li>
+                                    <li>Plastic build (Bar form factor) may not be rugged enough for rural use</li>
                                 </ul>
-                                {% endif %}
                             </td>
                         </tr>
-                        {% endfor %}
+                        <tr>
+                            <td><div class="cell-text">Xiaomi 14 Pro</div></td>
+                            <td><div class="cell-text">₹26,999 / $299.50</div></td>
+                            <td>
+                                <ul class="cell-list">
+                                    <li>5500 MAh battery</li>
+                                    <li>AMOLED display</li>
+                                    <li>3.5Mm headphone jack</li>
+                                    <li>Waterproof (IP rating)</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul class="cell-list">
+                                    <li>Includes 3.5mm jack for affordable wired earphones</li>
+                                    <li>High durability (Waterproof)</li>
+                                    <li>Superior display quality for reading</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul class="cell-list">
+                                    <li>Price is nearly 4x the target budget</li>
+                                    <li>Overpowered specs (200MP camera) unnecessary for education</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><div class="cell-text">Poco F5 Pro</div></td>
+                            <td><div class="cell-text">₹33,999 / $306.00</div></td>
+                            <td>
+                                <ul class="cell-list">
+                                    <li>5000 MAh battery</li>
+                                    <li>12GB RAM</li>
+                                    <li>3.5Mm headphone jack</li>
+                                    <li>67W Wall Charger included</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul class="cell-list">
+                                    <li>High RAM for multitasking between study apps</li>
+                                    <li>Retains the 3.5mm audio jack</li>
+                                    <li>Comprehensive box contents (Case and Charger included)</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul class="cell-list">
+                                    <li>Extremely high price point for the target segment</li>
+                                    <li>Heavy weight (1.15 pounds) may affect portability</li>
+                                </ul>
+                            </td>
+                        </tr>
                     </tbody>
                 </table>
             </div>
-            {% endif %}
         </section>
 
-        {% set p4 = report.pages[3] %}
         <section class="section-block">
             <div class="page-header">
-                <h1 class="page-title">{{ p4.title }}</h1>
+                <h1 class="page-title">Market Gap Analysis</h1>
                 <p class="page-subtitle">What is the market missing ?</p>
             </div>
 
-            {% if p4.existing_gaps %}
             <div class="section">
                 <div class="section-label">Existing Gaps</div>
                 <div class="panel">
                     <ul class="list">
-                        {% for item in p4.existing_gaps %}
-                        <li>{{ item }}</li>
-                        {% endfor %}
+                        <li>Affordability: Current market leaders are priced significantly above the ₹5,000-₹7,000 range.</li>
+                        <li>Audio Accessibility: Many modern devices (OnePlus, Google) are removing the 3.5mm jack, which is essential for budget-conscious students using wired headphones.</li>
+                        <li>Battery vs. Price: High-capacity batteries (7300mAh) are currently locked behind premium price tags (₹47,000+).</li>
                     </ul>
                 </div>
             </div>
-            {% endif %}
 
-            {% if p4.unmet_features %}
             <div class="section">
                 <div class="section-label">Unmet Features</div>
                 <div class="panel">
                     <ul class="list">
-                        {% for item in p4.unmet_features %}
-                        <li>{{ item }}</li>
-                        {% endfor %}
+                        <li>Ruggedized build for rural environments at a sub-₹7,000 price point.</li>
+                        <li>Optimization for offline learning resources to combat poor rural connectivity.</li>
+                        <li>Long-lasting battery life (60+ hours talk time) in a budget device.</li>
                     </ul>
                 </div>
             </div>
-            {% endif %}
 
-            {% if p4.opportunity_level %}
             <div class="section">
                 <div class="section-label">Opportunity Level</div>
-                <div class="text-block">{{ p4.opportunity_level }}</div>
+                <div class="text-block">High</div>
             </div>
-            {% endif %}
         </section>
 
-        {% set p5 = report.pages[4] %}
         <section class="section-block">
             <div class="page-header">
-                <h1 class="page-title">{{ p5.title }}</h1>
+                <h1 class="page-title">Feasibility Analysis</h1>
                 <p class="page-subtitle">Your innovation focus points</p>
             </div>
 
-            {% if p5.innovation_focus_points %}
-            <div class="section">
-                <div class="section-label">Innovation Focus</div>
-                <div class="panel">
-                    <ul class="list">
-                        {% for item in p5.innovation_focus_points %}
-                        <li>{{ item }}</li>
-                        {% endfor %}
-                    </ul>
-                </div>
-            </div>
-            {% endif %}
 
-            {% if p5.is_feasible or p5.reasoning %}
             <div class="section">
                 <div class="section-label">Feasibility Check</div>
                 <div class="panel">
-                    {% if p5.is_feasible %}
-                    <div class="kv-label">{{ p5.feasibility_question }}</div>
-                    <div class="body-value" style="margin-bottom: 3mm;">{{ p5.is_feasible }}</div>
-                    {% endif %}
-                    {% if p5.reasoning %}
+                    <div class="kv-label">Is your idea feasible?</div>
+                    <div class="body-value" style="margin-bottom: 3mm;">Yes</div>
                     <div class="kv-label">Reasoning</div>
-                    <div class="body-value">{{ p5.reasoning }}</div>
-                    {% endif %}
+                    <div class="body-value">The idea is feasible because there is a massive price vacuum between the ultra-low-cost basic phones and the mid-range smartphones (₹20k+) provided in the data. By stripping away premium features like 200MP cameras, wireless charging, and 5G (if 4G suffices), costs can be redirected toward durability and battery.</div>
                 </div>
             </div>
-            {% endif %}
 
-            {% if p5.technical_challenges or p5.cost_constraints %}
             <div class="section">
                 <div class="grid-2">
-                    {% if p5.technical_challenges %}
                     <div class="panel">
                         <div class="section-label">Technical Challenges</div>
                         <ul class="list">
-                            {% for item in p5.technical_challenges %}
-                            <li>{{ item }}</li>
-                            {% endfor %}
+                            <li>Sourcing a high-capacity battery (5000mAh+) that fits within the ₹7,000 BOM (Bill of Materials).</li>
+                            <li>Optimizing a low-end processor to run modern educational apps without lag.</li>
+                            <li>Ensuring screen legibility in outdoor rural environments without using expensive AMOLED panels.</li>
                         </ul>
                     </div>
-                    {% endif %}
-                    {% if p5.cost_constraints %}
                     <div class="panel">
                         <div class="section-label">Cost Constraints</div>
                         <ul class="list">
-                            {% for item in p5.cost_constraints %}
-                            <li>{{ item }}</li>
-                            {% endfor %}
+                            <li>The target price of ₹5,000-₹7,000 is extremely tight for a &#39;rugged&#39; device.</li>
+                            <li>Distribution costs for rural &#39;offline&#39; reach will eat into the slim hardware margins.</li>
                         </ul>
                     </div>
-                    {% endif %}
                 </div>
             </div>
-            {% endif %}
 
-            {% if p5.implementation_challenges %}
             <div class="section">
                 <div class="section-label">Implementation Challenges</div>
                 <div class="panel">
                     <ul class="list">
-                        {% for item in p5.implementation_challenges %}
-                        <li>{{ item }}</li>
-                        {% endfor %}
+                        <li>Supply Chain: Establishing a reliable distribution and service network in remote rural areas.</li>
+                        <li>Hardware Durability: Balancing &#39;ruggedized&#39; materials with the strict ₹7,000 price ceiling.</li>
+                        <li>Software: Developing or pre-loading lightweight educational software that works seamlessly offline.</li>
+                        <li>Competition: Fighting the brand perception of established players like Xiaomi/Poco who occasionally drop prices on older models.</li>
                     </ul>
                 </div>
             </div>
-            {% endif %}
         </section>
 
-        {% set p6 = report.pages[5] %}
         <section class="section-block">
-            {% if p6.swot %}
             <div class="section section-flow">
                 <div class="page-header">
                     <h1 class="page-title">SWOT Analysis</h1>
                     <p class="page-subtitle">Strategic strengths, weaknesses, opportunities, and threats</p>
                 </div>
                 <div class="grid-2">
-                    {% if p6.swot.Strengths %}
                     <div class="panel">
                         <div class="section-label">Strengths</div>
                         <ul class="list">
-                            {% for item in p6.swot.Strengths %}
-                            <li>{{ item }}</li>
-                            {% endfor %}
+                            <li>Precise price positioning within the ₹5,000-₹7,000 range, filling a vacuum left by premium-focused competitors.</li>
+                            <li>Ruggedized hardware design specifically engineered for the physical demands of rural environments.</li>
+                            <li>Software optimization for offline learning, directly addressing the lack of stable internet connectivity in target areas.</li>
+                            <li>Retention of essential low-cost peripherals like the 3.5mm headphone jack, which competitors are increasingly removing.</li>
                         </ul>
                     </div>
-                    {% endif %}
-                    {% if p6.swot.Weaknesses %}
                     <div class="panel">
                         <div class="section-label">Weaknesses</div>
                         <ul class="list">
-                            {% for item in p6.swot.Weaknesses %}
-                            <li>{{ item }}</li>
-                            {% endfor %}
+                            <li>Extremely narrow profit margins due to the high cost of rugged materials relative to the low retail price ceiling.</li>
+                            <li>Potential hardware performance bottlenecks when running modern educational applications on budget-tier processors.</li>
+                            <li>High operational costs associated with establishing a service and distribution network in remote rural geographies.</li>
+                            <li>Lack of established brand equity compared to market leaders like Xiaomi and OnePlus.</li>
                         </ul>
                     </div>
-                    {% endif %}
-                    {% if p6.swot.Opportunities %}
                     <div class="panel">
                         <div class="section-label">Opportunities</div>
                         <ul class="list">
-                            {% for item in p6.swot.Opportunities %}
-                            <li>{{ item }}</li>
-                            {% endfor %}
+                            <li>Massive untapped market of rural students requiring dedicated study devices rather than shared family phones.</li>
+                            <li>Potential for B2B partnerships with NGOs, government educational initiatives, and rural schools for bulk procurement.</li>
+                            <li>First-mover advantage in the &#39;Rugged EdTech Hardware&#39; niche at a sub-₹10,000 price point.</li>
+                            <li>Ability to create a recurring revenue stream through pre-loaded proprietary educational content and services.</li>
                         </ul>
                     </div>
-                    {% endif %}
-                    {% if p6.swot.Threats %}
                     <div class="panel">
                         <div class="section-label">Threats</div>
                         <ul class="list">
-                            {% for item in p6.swot.Threats %}
-                            <li>{{ item }}</li>
-                            {% endfor %}
+                            <li>Aggressive discounting of older, more powerful models by established brands like Poco or Xiaomi.</li>
+                            <li>Rapid inflation in component costs (batteries, displays) that could make the ₹5,000-₹7,000 price point unsustainable.</li>
+                            <li>Shift in consumer preference toward 5G-enabled devices, which may be difficult to include at this budget.</li>
+                            <li>Logistical challenges in rural supply chains that could lead to stockouts or high delivery lead times.</li>
                         </ul>
                     </div>
-                    {% endif %}
                 </div>
             </div>
-            {% endif %}
 
-            {% if p6.ideal_product_outline %}
             <div class="section section-flow">
                 <div class="page-header">
                     <h1 class="page-title">Ideal Product Outline</h1>
                     <p class="page-subtitle">Your recommended product direction</p>
                 </div>
                 <div class="outline-grid">
-                    {% for label, items in p6.ideal_product_outline.items() %}
-                    {% if items %}
                     <div class="outline-box">
-                        <h3 class="outline-title">{{ label }}</h3>
+                        <h3 class="outline-title">Core Product Vision</h3>
                         <ul class="list">
-                            {% for item in items %}
-                            <li>{{ item }}</li>
-                            {% endfor %}
+                            <li>A high-durability, education-first smartphone designed to provide uninterrupted access to learning resources in resource-constrained rural environments, prioritizing battery life and offline functionality over premium aesthetics.</li>
                         </ul>
                     </div>
-                    {% endif %}
-                    {% endfor %}
+                    <div class="outline-box">
+                        <h3 class="outline-title">Target Customer</h3>
+                        <ul class="list">
+                            <li>Rural students and low-income parents seeking a reliable, long-term educational investment for their children&#39;s schooling and competitive exam preparation.</li>
+                        </ul>
+                    </div>
+                    <div class="outline-box">
+                        <h3 class="outline-title">Must Have Features</h3>
+                        <ul class="list">
+                            <li>5000MAh+ high-density battery with 10W/15W charging for multi-day usage in areas with unstable power.</li>
+                            <li>3.5Mm headphone jack to support affordable wired audio for private study sessions.</li>
+                            <li>Reinforced polycarbonate &#39;ruggedized&#39; chassis with IP52 dust and splash resistance.</li>
+                            <li>6.5-Inch High-Brightness LCD (450+ nits) for legibility in outdoor rural settings.</li>
+                            <li>Dedicated MicroSD slot supporting up to 256GB for storing offline video lectures and PDFs.</li>
+                        </ul>
+                    </div>
+                    <div class="outline-box">
+                        <h3 class="outline-title">Recommended Differentiators</h3>
+                        <ul class="list">
+                            <li>Custom &#39;Edu-OS&#39; skin: A lightweight Android fork that prioritizes educational apps and includes a distraction-free &#39;Study Mode&#39;.</li>
+                            <li>Pre-loaded Offline Learning Hub: A repository of NCERT/State Board materials accessible without an active internet connection.</li>
+                            <li>Signal-Boost Antenna: Optimized 4G LTE bands specifically tuned for better reception in remote or low-coverage areas.</li>
+                            <li>Replaceable Battery Design: Allowing parents to swap batteries easily, extending the device&#39;s lifecycle without professional repair.</li>
+                        </ul>
+                    </div>
+                    <div class="outline-box">
+                        <h3 class="outline-title">Pricing And Positioning</h3>
+                        <ul class="list">
+                            <li>Target Price: ₹5,999 (Base Variant) to ₹6,999 (Pro Variant with extra storage).</li>
+                            <li>Positioning: Marketed as a &#39;Digital Study Companion&#39; rather than a smartphone, distancing it from entertainment-heavy competitors like Poco or Xiaomi.</li>
+                            <li>Value Proposition: &#39;The only phone built to survive the village and pass the exam.&#39;</li>
+                        </ul>
+                    </div>
+                    <div class="outline-box">
+                        <h3 class="outline-title">Launch Considerations</h3>
+                        <ul class="list">
+                            <li>Hybrid Distribution: Partner with local &#39;Kirana&#39; stores and rural CSCs (Common Service Centers) for physical touchpoints alongside online marketplaces.</li>
+                            <li>BOM Optimization: Use a power-efficient Unisoc or MediaTek Helio G-series processor to keep costs low while maintaining smooth performance for EdTech apps.</li>
+                            <li>Service Network: Implement a &#39;Postal Repair&#39; model where students can drop off devices at local post offices for centralized servicing.</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-            {% endif %}
 
-            {% if p6.ending_statement %}
             <div class="section section-flow">
                 <div class="page-header">
                     <h1 class="page-title">Final Statement</h1>
                     <p class="page-subtitle">Closing recommendation</p>
                 </div>
-                <div class="text-block">{{ p6.ending_statement }}</div>
+                <div class="text-block">The business idea demonstrates high market potential by addressing a specific, underserved niche where mainstream manufacturers have failed to balance cost, durability, and educational utility. While the tight ₹5,000-₹7,000 price ceiling presents significant manufacturing and distribution challenges, the focus on offline learning and ruggedization provides a unique value proposition. Success will depend on lean supply chain management and the ability to deliver a lag-free educational experience on entry-level hardware.</div>
             </div>
-            {% endif %}
         </section>
     </main>
 </body>

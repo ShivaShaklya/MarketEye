@@ -478,13 +478,17 @@ body {
     margin-bottom: 0;
 }
 
+.message-content strong {
+    color: #f9f7ff;
+}
+
 .message-content em {
     color: rgba(255, 255, 255, 0.72);
 }
 
 .message-content h2,
 .message-content h3 {
-    margin: 16px 0 10px;
+    margin: 18px 0 12px;
     letter-spacing: -0.02em;
 }
 
@@ -494,6 +498,49 @@ body {
 
 .message-content h3 {
     font-size: 1rem;
+}
+
+.message-field {
+    margin: 12px 0;
+    padding: 12px 14px;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.message-field-label {
+    margin-bottom: 6px;
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--accent);
+}
+
+.message-field-value {
+    font-size: 0.98rem;
+    line-height: 1.65;
+    color: var(--text-main);
+}
+
+.message-list {
+    margin: 10px 0 14px;
+    padding-left: 22px;
+}
+
+.message-list li {
+    margin-bottom: 8px;
+    color: var(--text-main);
+}
+
+.message-list li:last-child {
+    margin-bottom: 0;
+}
+
+.message-divider {
+    margin: 18px 0;
+    border: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
 }
 
 .chat-input-container {

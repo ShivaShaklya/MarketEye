@@ -1,5 +1,6 @@
-from gemini_client_setup import call_llm
-from chat_store import add_turn, save_chat
+from typing import Any, Dict
+
+from gemini_client_setup import call_llm, call_llm_grounded_grants
 import json
 
 def create_persona(chat):
@@ -89,6 +90,26 @@ def create_market_overview(chat):
 
     chat["contents"] = updated_contents
     chat["market_overview"] = data
+    return data
+
+
+def create_grant_opportunities(chat: Dict[str, Any], limit: int = 5) -> Dict[str, Any]:
+    context = {
+        "idea_raw": chat.get("idea_raw", ""),
+        "idea_understanding": chat.get("idea_understanding", {}),
+        "constraints": chat.get("constraints", {}),
+        "limit": limit,
+    }
+
+    try:
+        data = call_llm_grounded_grants(context)
+    except Exception as exc:
+        data = {
+            "grants": [],
+            "notes": [],
+        }
+
+    chat["grant_opportunities"] = data
     return data
 
 # ============================================================================

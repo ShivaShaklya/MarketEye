@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>{{ report.title }}</title>
+    <title>MarketEye Project Report</title>
     <style>
         @page {
             size: A4;
@@ -415,175 +415,144 @@
     <main class="report">
         <div class="topbar"></div>
 
-        {% set p1 = report.pages[0] %}
         <section class="section-block">
             <div class="brand-hero">
-                <div class="brand-mark">{{ report.brand }}</div>
+                <div class="brand-mark">MarketEye</div>
                 <div class="brand-rule"></div>
             </div>
             <div class="page-header">
-                <h1 class="page-title">{{ p1.title }}</h1>
+                <h1 class="page-title">Idea Snapshot</h1>
             </div>
 
-            {% if p1.raw_idea %}
             <div class="section">
                 <div class="section-label">Raw Idea</div>
-                <div class="text-block">{{ p1.raw_idea }}</div>
+                <div class="text-block">I want to create a laptop for remote workers in tier-2 cities with strong battery life, good webcam quality, and affordable maintenance costs.</div>
             </div>
-            {% endif %}
 
-            {% if p1.domain or p1.subdomain %}
             <div class="section">
                 <div class="section-label">Idea Understanding</div>
                 <div class="grid-2">
-                    {% if p1.domain %}
                     <div class="kv">
                         <div class="kv-label">Domain</div>
-                        <div class="kv-value">{{ p1.domain }}</div>
+                        <div class="kv-value">Hardware</div>
                     </div>
-                    {% endif %}
-                    {% if p1.subdomain %}
                     <div class="kv">
                         <div class="kv-label">Subdomain</div>
-                        <div class="kv-value">{{ p1.subdomain }}</div>
+                        <div class="kv-value">Consumer Electronics</div>
                     </div>
-                    {% endif %}
                 </div>
             </div>
-            {% endif %}
 
-            {% if p1.one_line_description %}
             <div class="section">
                 <div class="section-label">One-Line Description</div>
-                <div class="text-block">{{ p1.one_line_description }}</div>
+                <div class="text-block">A durable, long-battery-life laptop optimized for remote workers in tier-2 cities with a focus on affordable maintenance and high-quality conferencing.</div>
             </div>
-            {% endif %}
 
-            {% if p1.features_identified %}
             <div class="section">
                 <div class="section-label">Features Identified</div>
                 <div class="panel">
                     <ul class="list">
-                        {% for item in p1.features_identified %}
-                        <li>{{ item }}</li>
-                        {% endfor %}
+                        <li>Cost and quality</li>
+                        <li>Strong battery life (~2-3 days)</li>
+                        <li>Good webcam quality</li>
+                        <li>Affordable maintenance cost (~2-3 k)</li>
                     </ul>
                 </div>
             </div>
-            {% endif %}
 
-            {% if p1.constraints_noted %}
             <div class="section">
                 <div class="section-label">Constraints Noted</div>
                 <div class="panel">
                     <ul class="list">
-                        {% for item in p1.constraints_noted %}
-                        <li>{{ item }}</li>
-                        {% endfor %}
+                        <li>Geolocation: Tier-2 cities</li>
+                        <li>Segment: Remote workers</li>
+                        <li>Special Features: Strong battery life (~2-3 days), Good webcam quality, Affordable maintenance cost (~2-3 k)</li>
+                        <li>Budget Price Range: 30000 - 40000</li>
+                        <li>Feature Priority: Cost and quality</li>
+                        <li>Distribution Preference: Both</li>
+                        <li>Buyer Preference: Online and offline</li>
                     </ul>
                 </div>
             </div>
-            {% endif %}
         </section>
 
-        {% set p2 = report.pages[1] %}
         <section class="section-block">
             <div class="page-header">
-                <h1 class="page-title">{{ p2.title }}</h1>
+                <h1 class="page-title">Customer Persona</h1>
                 <p class="page-subtitle">Your ideal customer</p>
             </div>
 
-            {% if p2.name %}
             <div class="section">
                 <div class="section-label">Name</div>
                 <div class="kv">
-                    <div class="kv-value">{{ p2.name }}</div>
+                    <div class="kv-value">Rajesh Kumar</div>
                 </div>
             </div>
-            {% endif %}
 
-            {% if p2.role_or_profile %}
             <div class="section">
                 <div class="section-label">Role / Profile</div>
-                <div class="text-block">{{ p2.role_or_profile }}</div>
+                <div class="text-block">Customer Service Representative (BPO) working remotely</div>
             </div>
-            {% endif %}
 
-            {% if p2.demographic_details %}
             <div class="section">
                 <div class="section-label">Demographic Details</div>
                 <div class="panel">
                     <ul class="list">
-                        {% for item in p2.demographic_details %}
-                        <li>{{ item }}</li>
-                        {% endfor %}
+                        <li>Age 27</li>
+                        <li>Based in Indore</li>
+                        <li>Income: 35,000 - 45,000 INR per month</li>
                     </ul>
                 </div>
             </div>
-            {% endif %}
 
-            {% if p2.primary_need %}
             <div class="section">
                 <div class="section-label">Primary Need</div>
-                <div class="text-block">{{ p2.primary_need }}</div>
+                <div class="text-block">A reliable machine for 8-9 hours of daily video conferencing that doesn&#39;t break down when power fluctuates.</div>
             </div>
-            {% endif %}
 
-            {% if p2.buying_motivation %}
             <div class="section">
                 <div class="section-label">Buying Motivation</div>
-                <div class="text-block">{{ p2.buying_motivation }}</div>
+                <div class="text-block">Needs a balance between professional performance and long-term affordability to avoid recurring expensive repair bills.</div>
             </div>
-            {% endif %}
 
-            {% if p2.key_pain_points %}
             <div class="section">
                 <div class="section-label">Pain Points</div>
                 <div class="panel">
                     <ul class="list">
-                        {% for item in p2.key_pain_points %}
-                        <li>{{ item }}</li>
-                        {% endfor %}
+                        <li>Frequent power outages requiring long battery life</li>
+                        <li>High cost of authorized repair centers in his city</li>
+                        <li>Poor video quality during client meetings on current low-end hardware</li>
                     </ul>
                 </div>
             </div>
-            {% endif %}
 
-            {% if p2.adoption_friction %}
             <div class="section">
                 <div class="section-label">Adoption Friction</div>
                 <div class="panel">
                     <ul class="list">
-                        {% for item in p2.adoption_friction %}
-                        <li>{{ item }}</li>
-                        {% endfor %}
+                        <li>Skepticism regarding long-term durability of a budget-friendly laptop</li>
+                        <li>Fear of difficulty in finding spare parts or local technician support</li>
                     </ul>
                 </div>
             </div>
-            {% endif %}
 
-            {% if p2.constraints_sensitivity %}
             <div class="section">
                 <div class="section-label">Constraint Sensitivity</div>
                 <div class="panel">
                     <ul class="list">
-                        {% for item in p2.constraints_sensitivity %}
-                        <li>{{ item }}</li>
-                        {% endfor %}
+                        <li>Price: Highly price-sensitive; prefers EMI options and clear cost of ownership.</li>
+                        <li>Feature: Needs consistent battery life independent of power grid reliability, Webcam quality is critical for performance reviews</li>
                     </ul>
                 </div>
             </div>
-            {% endif %}
         </section>
 
-        {% set p3 = report.pages[2] %}
         <section class="section-block">
             <div class="page-header">
-                <h1 class="page-title">{{ p3.title }}</h1>
+                <h1 class="page-title">Competition Analysis</h1>
                 <p class="page-subtitle">Your potential competitors</p>
             </div>
 
-            {% if p3.comparison_rows %}
             <div class="section">
                 <div class="section-label">Competitor Table</div>
                 <table>
@@ -604,248 +573,232 @@
                         </tr>
                     </thead>
                     <tbody>
-                        {% for row in p3.comparison_rows %}
                         <tr>
-                            <td><div class="cell-text">{{ row.name }}</div></td>
-                            <td><div class="cell-text">{{ row.price }}</div></td>
+                            <td><div class="cell-text">Microsoft Surface Laptop Studio 2</div></td>
+                            <td><div class="cell-text">74,000 INR</div></td>
                             <td>
-                                {% if row.key_features %}
                                 <ul class="cell-list">
-                                    {% for item in row.key_features %}
-                                    <li>{{ item }}</li>
-                                    {% endfor %}
+                                    <li>23 Hours battery life</li>
+                                    <li>Qualcomm Snapdragon X Plus</li>
+                                    <li>16 GB LPDDR5x RAM</li>
+                                    <li>13-Inch display</li>
                                 </ul>
-                                {% endif %}
                             </td>
                             <td>
-                                {% if row.strengths %}
                                 <ul class="cell-list">
-                                    {% for item in row.strengths %}
-                                    <li>{{ item }}</li>
-                                    {% endfor %}
+                                    <li>Exceptional battery life (highest in data set)</li>
+                                    <li>Modern LPDDR5x memory</li>
+                                    <li>Portable form factor</li>
                                 </ul>
-                                {% endif %}
                             </td>
                             <td>
-                                {% if row.weaknesses %}
                                 <ul class="cell-list">
-                                    {% for item in row.weaknesses %}
-                                    <li>{{ item }}</li>
-                                    {% endfor %}
+                                    <li>Price is nearly double the target budget</li>
+                                    <li>Integrated graphics may limit heavy multitasking</li>
+                                    <li>Maintenance costs for Surface products are typically high</li>
                                 </ul>
-                                {% endif %}
                             </td>
                         </tr>
-                        {% endfor %}
+                        <tr>
+                            <td><div class="cell-text">Razer Blade 15 (2020 Model)</div></td>
+                            <td><div class="cell-text">53,999 INR</div></td>
+                            <td>
+                                <ul class="cell-list">
+                                    <li>Intel Core i7</li>
+                                    <li>16 GB RAM</li>
+                                    <li>15.6-Inch LED display</li>
+                                    <li>NVIDIA RTX 2070 Max-Q</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul class="cell-list">
+                                    <li>Closest price point to the target range</li>
+                                    <li>High performance for multitasking</li>
+                                    <li>Solid build quality</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul class="cell-list">
+                                    <li>Poor battery life compared to remote work needs</li>
+                                    <li>High maintenance and repair costs</li>
+                                    <li>Lacks a high-quality webcam (webcam capability listed as No/Basic)</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><div class="cell-text">Microsoft Surface Pro 9</div></td>
+                            <td><div class="cell-text">112,990 INR</div></td>
+                            <td>
+                                <ul class="cell-list">
+                                    <li>10 MP Rear Webcam</li>
+                                    <li>15.5 Hours battery life</li>
+                                    <li>Intel i5 Processor</li>
+                                    <li>2880 X 1920 Resolution</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul class="cell-list">
+                                    <li>High-quality camera/conferencing capabilities</li>
+                                    <li>Excellent display resolution</li>
+                                    <li>Highly portable for remote work</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul class="cell-list">
+                                    <li>Extremely high price point</li>
+                                    <li>Fragile form factor for tier-2 city environments</li>
+                                    <li>Limited ports</li>
+                                </ul>
+                            </td>
+                        </tr>
                     </tbody>
                 </table>
             </div>
-            {% endif %}
         </section>
 
-        {% set p4 = report.pages[3] %}
         <section class="section-block">
             <div class="page-header">
-                <h1 class="page-title">{{ p4.title }}</h1>
+                <h1 class="page-title">Market Gap Analysis</h1>
                 <p class="page-subtitle">What is the market missing ?</p>
             </div>
 
-            {% if p4.existing_gaps %}
             <div class="section">
                 <div class="section-label">Existing Gaps</div>
                 <div class="panel">
                     <ul class="list">
-                        {% for item in p4.existing_gaps %}
-                        <li>{{ item }}</li>
-                        {% endfor %}
+                        <li>Lack of laptops in the 30k-40k range offering more than 15 hours of battery life.</li>
+                        <li>High-quality webcams (5MP+) are currently locked behind premium price tiers (&gt;70k INR).</li>
+                        <li>No competitor focuses on &#39;affordable maintenance&#39; or localized serviceability for tier-2 cities.</li>
                     </ul>
                 </div>
             </div>
-            {% endif %}
 
-            {% if p4.unmet_features %}
             <div class="section">
                 <div class="section-label">Unmet Features</div>
                 <div class="panel">
                     <ul class="list">
-                        {% for item in p4.unmet_features %}
-                        <li>{{ item }}</li>
-                        {% endfor %}
+                        <li>2-3 Day battery life (current market maxes at ~23 hours in premium segments).</li>
+                        <li>Maintenance cost guarantee (2-3k INR).</li>
+                        <li>Optimized conferencing hardware in a budget chassis.</li>
                     </ul>
                 </div>
             </div>
-            {% endif %}
 
-            {% if p4.opportunity_level %}
             <div class="section">
                 <div class="section-label">Opportunity Level</div>
-                <div class="text-block">{{ p4.opportunity_level }}</div>
+                <div class="text-block">High</div>
             </div>
-            {% endif %}
         </section>
 
-        {% set p5 = report.pages[4] %}
         <section class="section-block">
             <div class="page-header">
-                <h1 class="page-title">{{ p5.title }}</h1>
+                <h1 class="page-title">Feasibility Analysis</h1>
                 <p class="page-subtitle">Your innovation focus points</p>
             </div>
 
-            {% if p5.innovation_focus_points %}
-            <div class="section">
-                <div class="section-label">Innovation Focus</div>
-                <div class="panel">
-                    <ul class="list">
-                        {% for item in p5.innovation_focus_points %}
-                        <li>{{ item }}</li>
-                        {% endfor %}
-                    </ul>
-                </div>
-            </div>
-            {% endif %}
 
-            {% if p5.is_feasible or p5.reasoning %}
             <div class="section">
                 <div class="section-label">Feasibility Check</div>
                 <div class="panel">
-                    {% if p5.is_feasible %}
-                    <div class="kv-label">{{ p5.feasibility_question }}</div>
-                    <div class="body-value" style="margin-bottom: 3mm;">{{ p5.is_feasible }}</div>
-                    {% endif %}
-                    {% if p5.reasoning %}
+                    <div class="kv-label">Is your idea feasible?</div>
+                    <div class="body-value" style="margin-bottom: 3mm;">No</div>
                     <div class="kv-label">Reasoning</div>
-                    <div class="body-value">{{ p5.reasoning }}</div>
-                    {% endif %}
+                    <div class="body-value">While the market gap is high, the technical and financial constraints are contradictory. Achieving 2-3 days of battery life (approx. 48-72 hours) is currently impossible with standard laptop lithium-ion technology, especially within a 30k-40k INR budget. Most budget laptops in this range offer 5-7 hours. Additionally, high-quality webcams and durable builds usually drive the BOM (Bill of Materials) beyond the 40k retail price ceiling.</div>
                 </div>
             </div>
-            {% endif %}
 
-            {% if p5.technical_challenges or p5.cost_constraints %}
             <div class="section">
                 <div class="grid-2">
-                    {% if p5.technical_challenges %}
                     <div class="panel">
                         <div class="section-label">Technical Challenges</div>
                         <ul class="list">
-                            {% for item in p5.technical_challenges %}
-                            <li>{{ item }}</li>
-                            {% endfor %}
+                            <li>Energy density limitations: 2-3 days of battery would require a massive battery pack, increasing weight and cost.</li>
+                            <li>Thermal management: Long battery life often requires low-power processors which may struggle with high-quality video conferencing software.</li>
+                            <li>Sourcing high-quality CMOS sensors for webcams at budget prices.</li>
                         </ul>
                     </div>
-                    {% endif %}
-                    {% if p5.cost_constraints %}
                     <div class="panel">
                         <div class="section-label">Cost Constraints</div>
                         <ul class="list">
-                            {% for item in p5.cost_constraints %}
-                            <li>{{ item }}</li>
-                            {% endfor %}
+                            <li>The 30,000 - 40,000 INR price range leaves very thin margins for specialized features like extended battery cells.</li>
+                            <li>Affordable maintenance (2-3k) is difficult to sustain if using proprietary high-quality parts (like a 23-hour battery).</li>
                         </ul>
                     </div>
-                    {% endif %}
                 </div>
             </div>
-            {% endif %}
 
-            {% if p5.implementation_challenges %}
             <div class="section">
                 <div class="section-label">Implementation Challenges</div>
                 <div class="panel">
                     <ul class="list">
-                        {% for item in p5.implementation_challenges %}
-                        <li>{{ item }}</li>
-                        {% endfor %}
+                        <li>Establishing a service network in tier-2 cities to keep maintenance costs at the 2-3k target.</li>
+                        <li>Balancing the weight of the laptop; a battery capable of &#39;days&#39; of use would likely exceed the 1.5-2kg standard.</li>
+                        <li>Competing with established brands (like Xiaomi or Lenovo) that have massive economies of scale in the budget segment.</li>
+                        <li>Marketing the &#39;long battery&#39; claim without it being perceived as a gimmick, given current industry standards.</li>
                     </ul>
                 </div>
             </div>
-            {% endif %}
         </section>
 
-        {% set p6 = report.pages[5] %}
         <section class="section-block">
-            {% if p6.swot %}
+
+
+
+            
             <div class="section section-flow">
                 <div class="page-header">
                     <h1 class="page-title">SWOT Analysis</h1>
-                    <p class="page-subtitle">Strategic strengths, weaknesses, opportunities, and threats</p>
+                    <p class="page-subtitle">Strategic strengths, risks, and opportunities generated with Gemini 2.5 Flash</p>
                 </div>
                 <div class="grid-2">
-                    {% if p6.swot.Strengths %}
                     <div class="panel">
                         <div class="section-label">Strengths</div>
                         <ul class="list">
-                            {% for item in p6.swot.Strengths %}
-                            <li>{{ item }}</li>
-                            {% endfor %}
+                            <li>Clear focus on a specific, underserved niche: remote workers in tier-2 cities.</li>
+                            <li>Strong value proposition addressing key pain points: battery life, webcam quality, and affordable maintenance.</li>
+                            <li>Prioritization of cost and quality aligns with the target segment&#39;s needs and budget.</li>
+                            <li>Identified significant market gaps in the 30k-40k INR price range for extended battery life and high-quality webcams.</li>
                         </ul>
                     </div>
-                    {% endif %}
-                    {% if p6.swot.Weaknesses %}
                     <div class="panel">
                         <div class="section-label">Weaknesses</div>
                         <ul class="list">
-                            {% for item in p6.swot.Weaknesses %}
-                            <li>{{ item }}</li>
-                            {% endfor %}
+                            <li>The core battery life target (2-3 days / 48-72 hours) is technically unfeasible with current laptop lithium-ion technology within the specified budget and form factor.</li>
+                            <li>Achieving high-quality webcam (5MP+) and durable build within the 30k-40k INR budget is extremely challenging due to Bill of Materials (BOM) costs.</li>
+                            <li>The affordable maintenance cost target (2-3k INR) is difficult to sustain, especially if proprietary or specialized high-quality components are used.</li>
+                            <li>Balancing the weight of a significantly larger battery pack (if even partially achievable) would compromise portability, a key aspect for remote workers.</li>
+                            <li>Thermal management challenges arise from combining low-power processors (for battery) with the demands of high-quality video conferencing software.</li>
                         </ul>
                     </div>
-                    {% endif %}
-                    {% if p6.swot.Opportunities %}
                     <div class="panel">
                         <div class="section-label">Opportunities</div>
                         <ul class="list">
-                            {% for item in p6.swot.Opportunities %}
-                            <li>{{ item }}</li>
-                            {% endfor %}
+                            <li>Significant unmet demand for laptops in the 30k-40k INR range offering extended battery life (&gt;15 hours) and high-quality webcams.</li>
+                            <li>No existing competitor specifically focuses on &#39;affordable maintenance&#39; or localized serviceability for tier-2 cities.</li>
+                            <li>Growing remote work trend, particularly in tier-2 cities, creates an expanding target market.</li>
+                            <li>Competitors are either significantly more expensive or lack the combination of desired features, leaving a clear price-feature gap.</li>
+                            <li>Flexible distribution preference (online and offline) allows for broad market reach within the target demographic.</li>
                         </ul>
                     </div>
-                    {% endif %}
-                    {% if p6.swot.Threats %}
                     <div class="panel">
                         <div class="section-label">Threats</div>
                         <ul class="list">
-                            {% for item in p6.swot.Threats %}
-                            <li>{{ item }}</li>
-                            {% endfor %}
+                            <li>Intense competition from established brands (e.g., Xiaomi, Lenovo) that benefit from massive economies of scale in the budget laptop segment.</li>
+                            <li>Risk of the &#39;long battery&#39; claim being perceived as a gimmick if actual performance falls significantly short of the ambitious 2-3 day target.</li>
+                            <li>Challenges in establishing a robust and cost-effective service network in diverse tier-2 cities to meet the affordable maintenance target.</li>
+                            <li>Potential for existing competitors to adapt their offerings or introduce new models that address some of the identified gaps, leveraging their R&amp;D and market presence.</li>
                         </ul>
                     </div>
-                    {% endif %}
                 </div>
             </div>
-            {% endif %}
 
-            {% if p6.ideal_product_outline %}
-            <div class="section section-flow">
-                <div class="page-header">
-                    <h1 class="page-title">Ideal Product Outline</h1>
-                    <p class="page-subtitle">Your recommended product direction</p>
-                </div>
-                <div class="outline-grid">
-                    {% for label, items in p6.ideal_product_outline.items() %}
-                    {% if items %}
-                    <div class="outline-box">
-                        <h3 class="outline-title">{{ label }}</h3>
-                        <ul class="list">
-                            {% for item in items %}
-                            <li>{{ item }}</li>
-                            {% endfor %}
-                        </ul>
-                    </div>
-                    {% endif %}
-                    {% endfor %}
-                </div>
-            </div>
-            {% endif %}
-
-            {% if p6.ending_statement %}
             <div class="section section-flow">
                 <div class="page-header">
                     <h1 class="page-title">Final Statement</h1>
                     <p class="page-subtitle">Closing recommendation</p>
                 </div>
-                <div class="text-block">{{ p6.ending_statement }}</div>
+                <div class="text-block">The business idea targets a high-opportunity market segment of remote workers in tier-2 cities with a compelling value proposition centered on extended battery life, high-quality conferencing, and affordable maintenance within a budget price range. However, the viability of this concept is severely hampered by fundamental technical and financial contradictions. The aspirational 2-3 day battery life is currently unachievable with existing technology within the 30k-40k INR budget, and integrating high-quality webcams and durable components at this price point while ensuring low maintenance costs presents insurmountable challenges. While the market gap is clear, the proposed solution, as currently defined, is not feasible without significant compromises on the core features or a substantial increase in the budget.</div>
             </div>
-            {% endif %}
         </section>
     </main>
 </body>

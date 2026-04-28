@@ -338,30 +338,83 @@
 
     function formatMessage(text) {
         if (!text) return '';
+        const lines = String(text).replace(/\r\n/g, '\n').split('\n');
+        const blocks = [];
+        let paragraphLines = [];
+        let listItems = [];
 
-        let formatted = text
-            .replace(/&/g, '&amp;')
-            .replace(/</g, '&lt;')
-            .replace(/>/g, '&gt;');
+        const flushParagraph = () => {
+            if (!paragraphLines.length) return;
+            blocks.push(`<p>${paragraphLines.map(formatInline).join('<br>')}</p>`);
+            paragraphLines = [];
+        };
 
-        formatted = formatted.replace(/^## (.+)$/gm, '<h2>$1</h2>');
-        formatted = formatted.replace(/^### (.+)$/gm, '<h3>$1</h3>');
+        const flushList = () => {
+            if (!listItems.length) return;
+            blocks.push(`<ul class="message-list">${listItems.join('')}</ul>`);
+            listItems = [];
+        };
+
+        for (const rawLine of lines) {
+            const line = rawLine.trimEnd();
+            const trimmed = line.trim();
+
+            if (!trimmed) {
+                flushParagraph();
+                flushList();
+                continue;
+            }
+
+            if (trimmed === '---') {
+                flushParagraph();
+                flushList();
+                blocks.push('<hr class="message-divider">');
+                continue;
+            }
+
+            if (trimmed.startsWith('## ')) {
+                flushParagraph();
+                flushList();
+                blocks.push(`<h2>${formatInline(trimmed.slice(3))}</h2>`);
+                continue;
+            }
+
+            if (trimmed.startsWith('### ')) {
+                flushParagraph();
+                flushList();
+                blocks.push(`<h3>${formatInline(trimmed.slice(4))}</h3>`);
+                continue;
+            }
+
+            const fieldMatch = trimmed.match(/^\*\*(.+?)\*\*:\s*(.+)$/);
+            if (fieldMatch) {
+                flushParagraph();
+                flushList();
+                blocks.push(
+                    `<div class="message-field"><div class="message-field-label">${formatInline(fieldMatch[1])}</div><div class="message-field-value">${formatInline(fieldMatch[2])}</div></div>`
+                );
+                continue;
+            }
+
+            if (trimmed.startsWith('- ')) {
+                flushParagraph();
+                listItems.push(`<li>${formatInline(trimmed.slice(2))}</li>`);
+                continue;
+            }
+
+            flushList();
+            paragraphLines.push(trimmed);
+        }
+
+        flushParagraph();
+        flushList();
+        return blocks.join('');
+    }
+
+    function formatInline(text) {
+        let formatted = escapeHtml(text);
         formatted = formatted.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
         formatted = formatted.replace(/\*(.+?)\*/g, '<em>$1</em>');
-
-        formatted = formatted
-            .split('\n\n')
-            .map((para) => para.trim())
-            .filter(Boolean)
-            .map((para) => {
-                if (para.startsWith('<h')) return para;
-                if (para.startsWith('-') || para.startsWith('*')) {
-                    return para.split('\n').map((line) => `<p>${line}</p>`).join('');
-                }
-                return `<p>${para.replace(/\n/g, '<br>')}</p>`;
-            })
-            .join('');
-
         return formatted;
     }
 

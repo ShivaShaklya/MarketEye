@@ -1,7 +1,9 @@
 from google import genai
+from google.genai import types
 from dotenv import load_dotenv
 import os
 import json
+import time
 from typing import List, Dict, Any, Optional, Tuple
 
 load_dotenv()
@@ -36,8 +38,109 @@ def call_llm(prompt_template: str, user_message: str, history_contents: Optional
     
 def format_list(items):
     return "\n- " + "\n- ".join(items) if items else "None"
+
+
+def _generate_json_response(
+    *,
+    model: str,
+    contents: Any,
+    config: Any,
+    retries: int = 2,
+    retry_delay_seconds: float = 1.5,
+) -> Dict[str, Any]:
+    last_error: Exception | None = None
+
+    for attempt in range(retries + 1):
+        try:
+            response = client.models.generate_content(
+                model=model,
+                contents=contents,
+                config=config,
+            )
+            text = (response.text or "").strip()
+            return json.loads(text)
+        except Exception as exc:
+            last_error = exc
+            if attempt == retries:
+                break
+            time.sleep(retry_delay_seconds * (attempt + 1))
+
+    raise ValueError(f"Incorrect output format by LLM or model request failed. Raw error: {last_error}")
     
-def call_llm_swot(input_data: Dict[str, Any]):
+def call_llm_ideal_product_outline(input_data: Dict[str, Any]):
+    idea = input_data["idea_raw"]
+    idea_understanding = input_data["idea_understanding"]
+    constraints = input_data["constraints"]
+
+    top_competitors = input_data["top_competitors"]
+    market_gap_analysis = input_data["market_gap_analysis"]
+    feasibility_analysis = input_data["feasibility_analysis"]
+    implementation_challenges = input_data["implementation_challenges"]
+
+    prompt_template = f"""
+    You are a product strategy analyst.
+    Analyze the following structured business idea and produce an ideal product outline grounded in the provided evidence.
+
+    IDEA OVERVIEW:
+    - Raw Idea: {idea}
+    - Domain: {idea_understanding['domain']}
+    - Subdomain: {idea_understanding['subdomain']}
+    - Stage: {idea_understanding['ideation_stage']}
+    - Description: {idea_understanding['one_line_description']}
+
+    CONSTRAINTS:
+    {constraints}
+
+    TOP COMPETITORS:
+    {json.dumps(top_competitors, indent=2)}
+
+    MARKET GAP ANALYSIS:
+    Existing Gaps: {format_list(market_gap_analysis['existing_gaps'])}
+    Unmet Features: {format_list(market_gap_analysis['unmet_features'])}
+    Opportunity Level: {market_gap_analysis.get('opportunity_level', 'unknown')}
+
+    FEASIBILITY ANALYSIS:
+    Feasible: {feasibility_analysis.get('is_feasible', 'unknown')}
+    Reasoning: {feasibility_analysis.get('reasoning', '')}
+    Technical Challenges: {format_list(feasibility_analysis['technical_challenges'])}
+    Cost Constraints: {format_list(feasibility_analysis['cost_constraints'])}
+
+    IMPLEMENTATION CHALLENGES:
+    {format_list(implementation_challenges)}
+
+    Provide the output as a single valid JSON object:
+    {{
+        "IdealProductOutline": {{
+            "core_product_vision": "...",
+            "target_customer": "...",
+            "must_have_features": ["..."],
+            "recommended_differentiators": ["..."],
+            "pricing_and_positioning": ["..."],
+            "launch_considerations": ["..."]
+        }},
+        "EndStatement": "A concise summary of the best product direction to pursue, based on the business idea, market gap analysis, feasibility analysis, and implementation challenges."
+    }}
+
+    Ensure that:
+    - The outline is specific and grounded in the provided inputs.
+    - Must-have features should reflect the strongest user needs and market gaps.
+    - Pricing and positioning should align with the stated constraints and competitor landscape.
+    - Launch considerations should mention the biggest feasibility or implementation constraints.
+    - Avoid generic or vague statements. 
+    - The response must be strictly valid JSON with no additional text outside the JSON object.
+    """
+
+    return _generate_json_response(
+        model="gemini-flash-latest",
+        contents=prompt_template,
+        config={
+            "response_mime_type": "application/json",
+            "temperature": 0.2,
+        },
+    )
+
+
+def call_llm_swot(input_data: Dict[str, Any]) -> Dict[str, Any]:
     idea = input_data["idea_raw"]
     idea_understanding = input_data["idea_understanding"]
     constraints = input_data["constraints"]
@@ -85,30 +188,177 @@ def call_llm_swot(input_data: Dict[str, Any]):
             "Opportunities": ["..."],
             "Threats": ["..."]
         }},
-        "EndStatement": "A concise summary of the market potential and viability of the business idea, based on the business idea, market gap analysis, feasibility analysis, and implementation challenges." 
+        "EndStatement": "A concise summary of the market potential and viability of the business idea, based on the business idea, market gap analysis, feasibility analysis, and implementation challenges."
     }}
 
-    Ensure that: 
-    - All SWOT points are specific and grounded in the provided inputs. 
-    - Avoid generic or vague statements. 
+    Ensure that:
+    - All SWOT points are specific and grounded in the provided inputs.
+    - Avoid generic or vague statements.
     - The response must be strictly valid JSON with no additional text outside the JSON object.
     """
 
-    response=client.models.generate_content(
-        model="gemini-2.5-flash",
+    return _generate_json_response(
+        model="gemini-flash-latest",
         contents=prompt_template,
         config={
-            "response_mime_type":"application/json",
-            "temperature": 0.2
-        }
+            "response_mime_type": "application/json",
+            "temperature": 0.2,
+        },
     )
 
-    text=(response.text or "").strip()
+
+def call_llm_grounded_grants(input_data: Dict[str, Any]) -> Dict[str, Any]:
+    prompt_template = f"""
+    You are a startup funding analyst.
+
+    Your task is to find REAL and CURRENT grant, funding, accelerator, incubator, or innovation-support programs
+    that are relevant to the product idea below.
+
+    IMPORTANT RULES:
+    - Use Google Search grounding.
+    - Only include opportunities that appear to actually exist based on grounded search results.
+    - Only include an item when you can provide a citation-backed source title and source URL.
+    - Do not invent grant names, providers, eligibility rules, or links.
+    - Prefer official program pages or clearly attributable institutional sources.
+    - If nothing clearly relevant is found, return an empty grants array.
+    - Return strictly valid JSON and nothing else.
+
+    PRODUCT CONTEXT:
+    {json.dumps(input_data, ensure_ascii=False, indent=2)}
+
+    Return JSON in exactly this shape:
+    {{
+      "grants": [
+        {{
+          "program_name": "...",
+          "provider": "...",
+          "why_it_may_fit": "...",
+          "eligibility_hint": "...",
+          "source_title": "...",
+          "source_url": "..."
+        }}
+      ],
+      "notes": ["..."]
+    }}
+    """
+
+    response = client.models.generate_content(
+        model="gemini-flash-latest",
+        contents=prompt_template,
+        config=types.GenerateContentConfig(
+            tools=[types.Tool(google_search=types.GoogleSearch())],
+            response_mime_type="application/json",
+            temperature=0.1,
+        ),
+    )
+
+    text = (response.text or "").strip()
     try:
-        data=json.loads(text)
-        return data
-    except:
-        raise ValueError("Incorrect output format by LLM. Raw output:\n",text)
+        data = json.loads(text)
+    except Exception:
+        raise ValueError("Incorrect output format by LLM. Raw output:\n", text)
+
+    grounded_sources = _extract_grounded_sources(response)
+    data["grants"] = _filter_grounded_grants(data.get("grants", []), grounded_sources)
+    if not data["grants"]:
+        data["notes"] = []
+    else:
+        data["notes"] = [note for note in data.get("notes", []) if str(note).strip()]
+    return data
+
+
+def _extract_grounded_sources(response) -> List[Dict[str, str]]:
+    sources: List[Dict[str, str]] = []
+    candidates = getattr(response, "candidates", None) or []
+
+    for candidate in candidates:
+        metadata = getattr(candidate, "grounding_metadata", None)
+        chunks = getattr(metadata, "grounding_chunks", None) or []
+        for chunk in chunks:
+            web = getattr(chunk, "web", None)
+            if not web:
+                continue
+            title = (getattr(web, "title", "") or "").strip()
+            url = (getattr(web, "uri", "") or "").strip()
+            if not url:
+                continue
+            sources.append({
+                "title": title,
+                "url": url,
+            })
+
+    unique: List[Dict[str, str]] = []
+    seen = set()
+    for item in sources:
+        key = _normalize_url(item["url"])
+        if not key or key in seen:
+            continue
+        seen.add(key)
+        unique.append(item)
+    return unique
+
+
+def _filter_grounded_grants(grants: Any, grounded_sources: List[Dict[str, str]]) -> List[Dict[str, str]]:
+    if not isinstance(grants, list) or not grounded_sources:
+        return []
+
+    by_url = {
+        _normalize_url(source["url"]): source
+        for source in grounded_sources
+        if source.get("url")
+    }
+    by_title = {
+        _normalize_title(source["title"]): source
+        for source in grounded_sources
+        if source.get("title")
+    }
+
+    verified: List[Dict[str, str]] = []
+    seen_programs = set()
+
+    for item in grants:
+        if not isinstance(item, dict):
+            continue
+
+        raw_url = str(item.get("source_url", "") or "").strip()
+        raw_title = str(item.get("source_title", "") or "").strip()
+
+        matched = None
+        if raw_url:
+            matched = by_url.get(_normalize_url(raw_url))
+        if matched is None and raw_title:
+            matched = by_title.get(_normalize_title(raw_title))
+        if matched is None:
+            continue
+
+        program_name = str(item.get("program_name", "") or "").strip()
+        provider = str(item.get("provider", "") or "").strip()
+        if not program_name or not provider:
+            continue
+
+        program_key = (program_name.lower(), _normalize_url(matched["url"]))
+        if program_key in seen_programs:
+            continue
+        seen_programs.add(program_key)
+
+        verified.append({
+            "program_name": program_name,
+            "provider": provider,
+            "why_it_may_fit": str(item.get("why_it_may_fit", "") or "").strip(),
+            "eligibility_hint": str(item.get("eligibility_hint", "") or "").strip(),
+            "source_title": matched.get("title", raw_title),
+            "source_url": matched.get("url", raw_url),
+        })
+
+    return verified
+
+
+def _normalize_url(value: str) -> str:
+    return value.strip().rstrip("/").lower()
+
+
+def _normalize_title(value: str) -> str:
+    return " ".join(value.strip().lower().split())
     
 if __name__=="__main__":
     input_data = {
@@ -226,5 +476,5 @@ if __name__=="__main__":
             "Rural distribution and servicing"
         ]
     }
-    swot_and_report = call_llm_swot(input_data)
-    print(json.dumps(swot_and_report, indent=2))
+    outline_and_report = call_llm_ideal_product_outline(input_data)
+    print(json.dumps(outline_and_report, indent=2))

@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MarketEye Project Report</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 0;
+        }
+
+        :root {
+            --ink: #0D0221;
+            --accent: #0F084B;
+            --surface: #D9DBF1;
+            --paper: #F9F9ED;
+            --line: #B8BBD0;
+            --muted: #55506E;
+            --white: #FFFFFF;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: "Cambria", "Times New Roman", serif;
+            color: var(--ink);
+            background: #F3F0E7;
+            font-size: 11.5pt;
+            line-height: 1.52;
+        }
+
+        .report {
+            background:
+                radial-gradient(circle at top right, rgba(15, 8, 75, 0.08), transparent 18%),
+                linear-gradient(180deg, #F7F4EC 0%, #F3F0E7 100%);
+            min-height: 100vh;
+            padding: 0 14mm 14mm;
+            position: relative;
+        }
+
+        .topbar {
+            height: 8mm;
+            margin: 0 -14mm 12mm;
+            background: linear-gradient(90deg, var(--ink) 0%, var(--accent) 100%);
+            position: relative;
+            box-shadow: 0 1.6mm 4mm rgba(13, 2, 33, 0.12);
+        }
+
+        .topbar::after {
+            content: "";
+            position: absolute;
+            right: 12mm;
+            top: 1.5mm;
+            width: 42mm;
+            height: 5mm;
+            border-radius: 999px;
+            background: rgba(249, 249, 237, 0.18);
+        }
+
+        .brand-hero {
+            margin: 2mm 0 10mm;
+            padding: 10mm 8mm 9mm;
+            border: 1px solid rgba(15, 8, 75, 0.14);
+            border-radius: 4mm;
+            background:
+                linear-gradient(180deg, rgba(236, 238, 250, 0.96) 0%, rgba(247, 247, 252, 0.96) 100%);
+            box-shadow: 0 2.6mm 8mm rgba(13, 2, 33, 0.08);
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .brand-hero::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background:
+                radial-gradient(circle at 18% 18%, rgba(15, 8, 75, 0.05), transparent 30%),
+                radial-gradient(circle at 82% 78%, rgba(13, 2, 33, 0.05), transparent 28%);
+            pointer-events: none;
+        }
+
+        .brand-mark {
+            font-size: 38pt;
+            line-height: 1;
+            font-weight: 800;
+            color: var(--accent);
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            position: relative;
+            z-index: 1;
+            text-shadow: 0 0.4mm 0 rgba(255, 255, 255, 0.4);
+        }
+
+        .brand-rule {
+            width: 50mm;
+            height: 1.2mm;
+            margin: 4mm auto 0;
+            border-radius: 999px;
+            background: linear-gradient(90deg, var(--ink) 0%, var(--accent) 100%);
+            position: relative;
+            z-index: 1;
+        }
+
+        .section-block {
+            margin-bottom: 9mm;
+            padding-top: 12mm;
+            page-break-inside: auto;
+            position: relative;
+            break-inside: auto;
+        }
+
+        .section-block::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 38mm;
+            height: 1.8mm;
+            border-radius: 999px;
+            background: linear-gradient(90deg, var(--ink) 0%, var(--accent) 100%);
+            opacity: 0.92;
+            box-shadow: 0 0.6mm 2mm rgba(13, 2, 33, 0.08);
+        }
+
+        .section-block:first-of-type {
+            padding-top: 0;
+        }
+
+        .section-block:first-of-type::before {
+            display: none;
+        }
+
+        .page-title {
+            margin: 0 0 1.6mm;
+            font-size: 28pt;
+            line-height: 1.08;
+            font-weight: 800;
+            color: var(--ink);
+            break-after: avoid-page;
+            page-break-after: avoid;
+        }
+
+        .page-subtitle {
+            margin: 0 0 5mm;
+            font-size: 13pt;
+            line-height: 1.35;
+            color: var(--muted);
+            font-style: italic;
+            break-after: avoid-page;
+            page-break-after: avoid;
+        }
+
+        .page-header {
+            break-inside: avoid-page;
+            page-break-inside: avoid;
+            margin-bottom: 6mm;
+        }
+
+        .section {
+            margin-bottom: 4.5mm;
+            page-break-inside: auto;
+            break-inside: avoid-page;
+        }
+
+        .section + .section {
+            padding-top: 5mm;
+        }
+
+        .section-flow {
+            break-inside: auto;
+            page-break-inside: auto;
+        }
+
+        .section-label {
+            display: inline-block;
+            margin-bottom: 2mm;
+            padding: 1.2mm 3.2mm;
+            border-radius: 999px;
+            background: linear-gradient(180deg, #E2E4F5 0%, var(--surface) 100%);
+            color: var(--accent);
+            font-size: 10.5pt;
+            font-weight: 800;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            break-after: avoid-page;
+            page-break-after: avoid;
+            box-shadow: 0 0.8mm 2.4mm rgba(13, 2, 33, 0.05);
+        }
+
+        .panel {
+            border: 1px solid var(--line);
+            border-radius: 2mm;
+            background: rgba(255, 255, 255, 0.94);
+            padding: 4.2mm;
+            box-shadow: 0 1.8mm 5.4mm rgba(13, 2, 33, 0.06);
+            break-inside: avoid-page;
+            page-break-inside: avoid;
+        }
+
+        .grid-2 {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 3.5mm;
+        }
+
+        .kv {
+            border: 1px solid var(--line);
+            border-radius: 2mm;
+            background: linear-gradient(180deg, rgba(227, 230, 246, 0.98) 0%, rgba(217, 219, 241, 0.88) 100%);
+            padding: 3.6mm;
+            box-shadow: 0 1.5mm 4.2mm rgba(13, 2, 33, 0.04);
+        }
+
+        .kv-label {
+            margin-bottom: 1mm;
+            font-size: 10pt;
+            text-transform: uppercase;
+            letter-spacing: 0.11em;
+            color: var(--muted);
+            font-weight: 800;
+        }
+
+        .kv-value {
+            font-size: 13pt;
+            line-height: 1.38;
+            font-weight: 700;
+        }
+
+        .body-value {
+            font-size: 12pt;
+            line-height: 1.5;
+            font-weight: 400;
+        }
+
+        .text-block {
+            border: 1px solid var(--line);
+            border-radius: 2mm;
+            background: linear-gradient(180deg, rgba(230, 233, 247, 0.98) 0%, rgba(220, 223, 242, 0.92) 100%);
+            padding: 4.2mm;
+            font-size: 12pt;
+            line-height: 1.55;
+            box-shadow: 0 1.4mm 4mm rgba(13, 2, 33, 0.04);
+            break-inside: avoid-page;
+            page-break-inside: avoid;
+        }
+
+        .list {
+            margin: 0;
+            padding-left: 4.8mm;
+            font-size: 11.5pt;
+            line-height: 1.5;
+        }
+
+        .list li {
+            margin-bottom: 1.5mm;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            table-layout: fixed;
+            background: rgba(255, 255, 255, 0.96);
+            border-radius: 2mm;
+            overflow: hidden;
+            box-shadow: 0 1.8mm 5mm rgba(13, 2, 33, 0.05);
+        }
+
+        th, td {
+            border: 1px solid var(--line);
+            padding: 2.7mm;
+            text-align: left;
+            vertical-align: top;
+        }
+
+        th {
+            background: var(--surface);
+            color: var(--ink);
+            font-size: 9pt;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            font-weight: 800;
+        }
+
+        .cell-text {
+            font-size: 10.2pt;
+            line-height: 1.34;
+            font-weight: 700;
+        }
+
+        .cell-list {
+            margin: 0;
+            padding-left: 3.4mm;
+            font-size: 9.6pt;
+            line-height: 1.36;
+        }
+
+        .cell-list li {
+            margin-bottom: 1mm;
+        }
+
+        .outline-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 3.5mm;
+        }
+
+        .outline-box {
+            border: 1px solid var(--line);
+            border-radius: 2mm;
+            background: rgba(255, 255, 255, 0.93);
+            padding: 3.7mm;
+            box-shadow: 0 1.6mm 4.4mm rgba(13, 2, 33, 0.05);
+            break-inside: avoid-page;
+            page-break-inside: avoid;
+        }
+
+        .outline-title {
+            margin: 0 0 1.8mm;
+            font-size: 14pt;
+            line-height: 1.2;
+            color: var(--accent);
+            font-weight: 800;
+        }
+
+        .grant-list {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 3.5mm;
+        }
+
+        .grant-card {
+            border: 1px solid rgba(15, 8, 75, 0.16);
+            border-radius: 2.4mm;
+            background:
+                linear-gradient(180deg, rgba(236, 239, 252, 0.98) 0%, rgba(228, 231, 247, 0.96) 100%);
+            padding: 4mm 4.2mm;
+            box-shadow: 0 1.5mm 4.2mm rgba(13, 2, 33, 0.05);
+            break-inside: avoid-page;
+            page-break-inside: avoid;
+        }
+
+        .grant-head {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            gap: 3mm;
+            margin-bottom: 2.8mm;
+            padding-bottom: 2.6mm;
+            border-bottom: 1px solid rgba(15, 8, 75, 0.12);
+        }
+
+        .grant-name {
+            margin: 0;
+            font-size: 15pt;
+            line-height: 1.2;
+            font-weight: 800;
+            color: var(--ink);
+        }
+
+        .grant-provider {
+            margin: 0.8mm 0 0;
+            font-size: 10.5pt;
+            color: var(--muted);
+            font-weight: 700;
+        }
+
+        .grant-source-tag {
+            flex-shrink: 0;
+            padding: 1.1mm 2.8mm;
+            border-radius: 999px;
+            background: rgba(15, 8, 75, 0.09);
+            color: var(--accent);
+            font-size: 8.6pt;
+            font-weight: 800;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+        }
+
+        .grant-section {
+            margin-top: 2.4mm;
+        }
+
+        .grant-section:first-of-type {
+            margin-top: 0;
+        }
+
+        .grant-section-label {
+            margin-bottom: 1mm;
+            font-size: 8.8pt;
+            font-weight: 800;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: var(--muted);
+        }
+
+        .grant-section-value {
+            font-size: 11pt;
+            line-height: 1.5;
+        }
+
+        .grant-link {
+            color: var(--accent);
+            font-weight: 700;
+            word-break: break-word;
+            text-decoration: none;
+            border-bottom: 1px solid rgba(15, 8, 75, 0.22);
+        }
+    </style>
+</head>
+<body>
+    <main class="report">
+        <div class="topbar"></div>
+
+        <section class="section-block">
+            <div class="brand-hero">
+                <div class="brand-mark">MarketEye</div>
+                <div class="brand-rule"></div>
+            </div>
+            <div class="page-header">
+                <h1 class="page-title">Idea Snapshot</h1>
+            </div>
+
+            <div class="section">
+                <div class="section-label">Raw Idea</div>
+                <div class="text-block">I want to create a laptop for remote workers in tier-2 cities with strong battery life, good webcam quality, and affordable maintenance costs.</div>
+            </div>
+
+            <div class="section">
+                <div class="section-label">Idea Understanding</div>
+                <div class="grid-2">
+                    <div class="kv">
+                        <div class="kv-label">Domain</div>
+                        <div class="kv-value">Hardware</div>
+                    </div>
+                    <div class="kv">
+                        <div class="kv-label">Subdomain</div>
+                        <div class="kv-value">Consumer Electronics</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-label">One-Line Description</div>
+                <div class="text-block">A durable, long-battery-life laptop optimized for remote workers in tier-2 cities with a focus on affordable maintenance and high-quality conferencing.</div>
+            </div>
+
+            <div class="section">
+                <div class="section-label">Features Identified</div>
+                <div class="panel">
+                    <ul class="list">
+                        <li>Cost and quality</li>
+                        <li>Strong battery life (~2-3 days)</li>
+                        <li>Good webcam quality</li>
+                        <li>Affordable maintenance cost (~2-3 k)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-label">Constraints Noted</div>
+                <div class="panel">
+                    <ul class="list">
+                        <li>Geolocation: Tier-2 cities</li>
+                        <li>Segment: Remote workers</li>
+                        <li>Special Features: Strong battery life (~2-3 days), Good webcam quality, Affordable maintenance cost (~2-3 k)</li>
+                        <li>Budget Price Range: 30000 - 40000</li>
+                        <li>Feature Priority: Cost and quality</li>
+                        <li>Distribution Preference: Both</li>
+                        <li>Buyer Preference: Online and offline</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-block">
+            <div class="page-header">
+                <h1 class="page-title">Customer Persona</h1>
+                <p class="page-subtitle">Your ideal customer</p>
+            </div>
+
+            <div class="section">
+                <div class="section-label">Name</div>
+                <div class="kv">
+                    <div class="kv-value">Rajesh Kumar</div>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-label">Role / Profile</div>
+                <div class="text-block">Customer Service Representative (BPO) working remotely</div>
+            </div>
+
+            <div class="section">
+                <div class="section-label">Demographic Details</div>
+                <div class="panel">
+                    <ul class="list">
+                        <li>Age 27</li>
+                        <li>Based in Indore</li>
+                        <li>Income: 35,000 - 45,000 INR per month</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-label">Primary Need</div>
+                <div class="text-block">A reliable machine for 8-9 hours of daily video conferencing that doesn&#39;t break down when power fluctuates.</div>
+            </div>
+
+            <div class="section">
+                <div class="section-label">Buying Motivation</div>
+                <div class="text-block">Needs a balance between professional performance and long-term affordability to avoid recurring expensive repair bills.</div>
+            </div>
+
+            <div class="section">
+                <div class="section-label">Pain Points</div>
+                <div class="panel">
+                    <ul class="list">
+                        <li>Frequent power outages requiring long battery life</li>
+                        <li>High cost of authorized repair centers in his city</li>
+                        <li>Poor video quality during client meetings on current low-end hardware</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-label">Adoption Friction</div>
+                <div class="panel">
+                    <ul class="list">
+                        <li>Skepticism regarding long-term durability of a budget-friendly laptop</li>
+                        <li>Fear of difficulty in finding spare parts or local technician support</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-label">Constraint Sensitivity</div>
+                <div class="panel">
+                    <ul class="list">
+                        <li>Price: Highly price-sensitive; prefers EMI options and clear cost of ownership.</li>
+                        <li>Feature: Needs consistent battery life independent of power grid reliability, Webcam quality is critical for performance reviews</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-block">
+            <div class="page-header">
+                <h1 class="page-title">Competition Analysis</h1>
+                <p class="page-subtitle">Your potential competitors</p>
+            </div>
+
+            <div class="section">
+                <div class="section-label">Competitor Table</div>
+                <table>
+                    <colgroup>
+                        <col style="width: 18%;">
+                        <col style="width: 10%;">
+                        <col style="width: 24%;">
+                        <col style="width: 24%;">
+                        <col style="width: 24%;">
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <th>Competitor Name</th>
+                            <th>Price</th>
+                            <th>Key Features</th>
+                            <th>Strengths</th>
+                            <th>Weaknesses</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><div class="cell-text">Microsoft Surface Laptop Studio 2</div></td>
+                            <td><div class="cell-text">74,000 INR</div></td>
+                            <td>
+                                <ul class="cell-list">
+                                    <li>23 Hours battery life</li>
+                                    <li>Qualcomm Snapdragon X Plus</li>
+                                    <li>16 GB LPDDR5x RAM</li>
+                                    <li>13-Inch display</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul class="cell-list">
+                                    <li>Exceptional battery life (highest in data set)</li>
+                                    <li>Modern LPDDR5x memory</li>
+                                    <li>Portable form factor</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul class="cell-list">
+                                    <li>Price is nearly double the target budget</li>
+                                    <li>Integrated graphics may limit heavy multitasking</li>
+                                    <li>Maintenance costs for Surface products are typically high</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><div class="cell-text">Razer Blade 15 (2020 Model)</div></td>
+                            <td><div class="cell-text">53,999 INR</div></td>
+                            <td>
+                                <ul class="cell-list">
+                                    <li>Intel Core i7</li>
+                                    <li>16 GB RAM</li>
+                                    <li>15.6-Inch LED display</li>
+                                    <li>NVIDIA RTX 2070 Max-Q</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul class="cell-list">
+                                    <li>Closest price point to the target range</li>
+                                    <li>High performance for multitasking</li>
+                                    <li>Solid build quality</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul class="cell-list">
+                                    <li>Poor battery life compared to remote work needs</li>
+                                    <li>High maintenance and repair costs</li>
+                                    <li>Lacks a high-quality webcam (webcam capability listed as No/Basic)</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><div class="cell-text">Microsoft Surface Pro 9</div></td>
+                            <td><div class="cell-text">112,990 INR</div></td>
+                            <td>
+                                <ul class="cell-list">
+                                    <li>10 MP Rear Webcam</li>
+                                    <li>15.5 Hours battery life</li>
+                                    <li>Intel i5 Processor</li>
+                                    <li>2880 X 1920 Resolution</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul class="cell-list">
+                                    <li>High-quality camera/conferencing capabilities</li>
+                                    <li>Excellent display resolution</li>
+                                    <li>Highly portable for remote work</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul class="cell-list">
+                                    <li>Extremely high price point</li>
+                                    <li>Fragile form factor for tier-2 city environments</li>
+                                    <li>Limited ports</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="section-block">
+            <div class="page-header">
+                <h1 class="page-title">Market Gap Analysis</h1>
+                <p class="page-subtitle">What is the market missing ?</p>
+            </div>
+
+            <div class="section">
+                <div class="section-label">Existing Gaps</div>
+                <div class="panel">
+                    <ul class="list">
+                        <li>Lack of laptops in the 30k-40k range offering more than 15 hours of battery life.</li>
+                        <li>High-quality webcams (5MP+) are currently locked behind premium price tiers (&gt;70k INR).</li>
+                        <li>No competitor focuses on &#39;affordable maintenance&#39; or localized serviceability for tier-2 cities.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-label">Unmet Features</div>
+                <div class="panel">
+                    <ul class="list">
+                        <li>2-3 Day battery life (current market maxes at ~23 hours in premium segments).</li>
+                        <li>Maintenance cost guarantee (2-3k INR).</li>
+                        <li>Optimized conferencing hardware in a budget chassis.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-label">Opportunity Level</div>
+                <div class="text-block">High</div>
+            </div>
+        </section>
+
+        <section class="section-block">
+            <div class="page-header">
+                <h1 class="page-title">Feasibility Analysis</h1>
+                <p class="page-subtitle">Your innovation focus points</p>
+            </div>
+
+
+            <div class="section">
+                <div class="section-label">Feasibility Check</div>
+                <div class="panel">
+                    <div class="kv-label">Is your idea feasible?</div>
+                    <div class="body-value" style="margin-bottom: 3mm;">No</div>
+                    <div class="kv-label">Reasoning</div>
+                    <div class="body-value">While the market gap is high, the technical and financial constraints are contradictory. Achieving 2-3 days of battery life (approx. 48-72 hours) is currently impossible with standard laptop lithium-ion technology, especially within a 30k-40k INR budget. Most budget laptops in this range offer 5-7 hours. Additionally, high-quality webcams and durable builds usually drive the BOM (Bill of Materials) beyond the 40k retail price ceiling.</div>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="grid-2">
+                    <div class="panel">
+                        <div class="section-label">Technical Challenges</div>
+                        <ul class="list">
+                            <li>Energy density limitations: 2-3 days of battery would require a massive battery pack, increasing weight and cost.</li>
+                            <li>Thermal management: Long battery life often requires low-power processors which may struggle with high-quality video conferencing software.</li>
+                            <li>Sourcing high-quality CMOS sensors for webcams at budget prices.</li>
+                        </ul>
+                    </div>
+                    <div class="panel">
+                        <div class="section-label">Cost Constraints</div>
+                        <ul class="list">
+                            <li>The 30,000 - 40,000 INR price range leaves very thin margins for specialized features like extended battery cells.</li>
+                            <li>Affordable maintenance (2-3k) is difficult to sustain if using proprietary high-quality parts (like a 23-hour battery).</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-label">Implementation Challenges</div>
+                <div class="panel">
+                    <ul class="list">
+                        <li>Establishing a service network in tier-2 cities to keep maintenance costs at the 2-3k target.</li>
+                        <li>Balancing the weight of the laptop; a battery capable of &#39;days&#39; of use would likely exceed the 1.5-2kg standard.</li>
+                        <li>Competing with established brands (like Xiaomi or Lenovo) that have massive economies of scale in the budget segment.</li>
+                        <li>Marketing the &#39;long battery&#39; claim without it being perceived as a gimmick, given current industry standards.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-block">
+            <div class="section section-flow">
+                <div class="page-header">
+                    <h1 class="page-title">Ideal Product Outline</h1>
+                    <p class="page-subtitle">Your recommended product direction</p>
+                </div>
+                <div class="outline-grid">
+                    <div class="outline-box">
+                        <h3 class="outline-title">core_product_vision</h3>
+                        <ul class="list">
+                            <li>To be the most reliable and cost-effective laptop for remote workers in tier-2 cities, offering best-in-class battery life and high-quality video conferencing within its segment, backed by an accessible and affordable maintenance program.</li>
+                        </ul>
+                    </div>
+                    <div class="outline-box">
+                        <h3 class="outline-title">target_customer</h3>
+                        <ul class="list">
+                            <li>Remote workers residing in tier-2 cities in India, seeking a durable, high-performing, and cost-efficient laptop for productivity and communication, with a strong preference for both online and offline purchasing options.</li>
+                        </ul>
+                    </div>
+                    <div class="outline-box">
+                        <h3 class="outline-title">must_have_features</h3>
+                        <ul class="list">
+                            <li>**Price Range:** 30,000 - 40,000 INR.</li>
+                            <li>**Battery Life:** Best-in-class for the budget segment, targeting 12-15 hours of real-world usage (acknowledging 2-3 days is technically infeasible).</li>
+                            <li>**Webcam Quality:** High-definition webcam (e.g., 1080p/2MP minimum, aiming for 5MP if BOM allows) with optimized audio for conferencing (e.g., dual-array microphones, noise cancellation).</li>
+                            <li>**Affordable Maintenance:** Guaranteed maintenance costs within 2,000 - 3,000 INR for common issues, supported by a localized service network.</li>
+                            <li>**Durability:** Robust build quality suitable for varied environments in tier-2 cities, resistant to minor impacts and spills.</li>
+                            <li>**Core Performance:** Reliable processor (e.g., Intel i3/i5 equivalent or AMD Ryzen 3/5 equivalent) and 8GB-16GB RAM for smooth multitasking and video conferencing.</li>
+                        </ul>
+                    </div>
+                    <div class="outline-box">
+                        <h3 class="outline-title">recommended_differentiators</h3>
+                        <ul class="list">
+                            <li>**Localized Service Network:** Establish dedicated service centers or partnerships in tier-2 cities to ensure quick and affordable repairs, directly addressing the &#39;affordable maintenance&#39; gap and building trust.</li>
+                            <li>**Conferencing Suite Optimization:** Beyond just a good webcam, include features like AI-powered noise cancellation, privacy shutter, and dedicated conferencing hotkeys for an enhanced virtual meeting experience.</li>
+                            <li>**Modular Design for Repairability:** Design key components (battery, RAM, storage, webcam module) for easier and cheaper replacement, supporting the affordable maintenance goal and extending product lifespan.</li>
+                            <li>**Extended Warranty/Service Packs:** Offer optional, affordable extended warranty or service packs tailored for remote workers, providing peace of mind.</li>
+                            <li>**Optimized OS/Software:** Pre-load with essential remote work tools and a lightweight, power-efficient operating system to maximize battery life and performance.</li>
+                        </ul>
+                    </div>
+                    <div class="outline-box">
+                        <h3 class="outline-title">pricing_and_positioning</h3>
+                        <ul class="list">
+                            <li>**Price Point:** Positioned competitively within the 30,000 - 40,000 INR range, aiming for the upper end (e.g., 37,999 INR) to accommodate enhanced features while remaining accessible to the target segment.</li>
+                            <li>**Value Proposition:** Marketed as &#39;The Reliable Remote Work Companion: Uninterrupted Productivity, Crystal-Clear Calls, and Worry-Free Ownership, All Within Your Budget.&#39;</li>
+                            <li>**Against Competitors:** Directly challenge budget laptops on superior battery life and webcam quality, and premium laptops on affordability and maintenance, carving out a unique niche focused on the specific needs of tier-2 city remote workers.</li>
+                        </ul>
+                    </div>
+                    <div class="outline-box">
+                        <h3 class="outline-title">launch_considerations</h3>
+                        <ul class="list">
+                            <li>**Realistic Battery Claims:** Clearly communicate achievable battery life (e.g., &#39;up to 15 hours&#39;) rather than the unfeasible &#39;2-3 days&#39; to manage customer expectations and avoid marketing pitfalls.</li>
+                            <li>**Service Network Establishment:** Prioritize building out or partnering for a robust, localized service network in target tier-2 cities *before* launch to fulfill the affordable maintenance promise.</li>
+                            <li>**Bill of Materials (BOM) Management:** Rigorous cost engineering is required to integrate enhanced webcam sensors and larger battery packs within the tight budget, potentially requiring innovative component sourcing.</li>
+                            <li>**Weight Management:** Design must carefully balance battery capacity with portability to avoid an overly heavy device, which could deter remote workers.</li>
+                            <li>**Competitive Landscape:** Develop a strong marketing strategy to highlight unique value propositions against established budget players (e.g., Xiaomi, Lenovo, HP) that benefit from massive economies of scale.</li>
+                            <li>**Distribution Strategy:** Leverage both online channels for reach and offline partnerships with local electronics stores in tier-2 cities for physical presence, hands-on experience, and service touchpoints.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+
+            
+            <div class="section section-flow">
+                <div class="page-header">
+                    <h1 class="page-title">SWOT Analysis</h1>
+                    <p class="page-subtitle">Strategic strengths, risks, and opportunities generated with Gemini 2.5 Flash</p>
+                </div>
+                <div class="grid-2">
+                    <div class="panel">
+                        <div class="section-label">Strengths</div>
+                        <ul class="list">
+                            <li>Addresses a significant market gap for remote workers in tier-2 cities, focusing on critical unmet needs.</li>
+                            <li>Strong differentiation through the promise of 2-3 days battery life, high-quality webcam, and affordable maintenance.</li>
+                            <li>Targeted price range of 30,000 - 40,000 INR is highly attractive for the target segment.</li>
+                            <li>Opportunity to establish a brand focused on durability and localized serviceability, which is currently lacking in the budget segment.</li>
+                        </ul>
+                    </div>
+                    <div class="panel">
+                        <div class="section-label">Weaknesses</div>
+                        <ul class="list">
+                            <li>The core constraint of 2-3 days (48-72 hours) battery life is currently technically unfeasible with standard laptop technology within the specified budget.</li>
+                            <li>The budget of 30,000 - 40,000 INR is insufficient to incorporate high-quality webcams (5MP+), extended battery cells, and durable build quality simultaneously.</li>
+                            <li>Achieving affordable maintenance (2-3k INR) is challenging if proprietary or specialized high-quality components are used.</li>
+                            <li>Significant technical challenges related to energy density, thermal management, and sourcing budget-friendly high-quality components.</li>
+                            <li>Potential for increased laptop weight due to the massive battery pack required for multi-day usage, impacting portability.</li>
+                        </ul>
+                    </div>
+                    <div class="panel">
+                        <div class="section-label">Opportunities</div>
+                        <ul class="list">
+                            <li>High market gap for laptops in the 30k-40k INR range offering more than 15 hours of battery life.</li>
+                            <li>Untapped demand for high-quality webcams (5MP+) in the budget segment (&lt;70k INR).</li>
+                            <li>No existing competitor explicitly focuses on &#39;affordable maintenance&#39; or localized serviceability for tier-2 cities.</li>
+                            <li>Growing remote work trend provides a continuously expanding target audience.</li>
+                            <li>Opportunity to capture a niche market by delivering on the promise of durability and cost-effective long-term ownership.</li>
+                        </ul>
+                    </div>
+                    <div class="panel">
+                        <div class="section-label">Threats</div>
+                        <ul class="list">
+                            <li>Established competitors (e.g., Xiaomi, Lenovo) possess massive economies of scale, making it difficult to compete on price and component sourcing.</li>
+                            <li>Risk of the &#39;long battery&#39; claim being perceived as a gimmick if not delivered, leading to reputational damage.</li>
+                            <li>High R&amp;D investment required to attempt the ambitious battery life target, with a high risk of failure.</li>
+                            <li>Difficulty in establishing and sustaining a cost-effective service network in tier-2 cities against established brands.</li>
+                            <li>Competitors could quickly adapt and introduce similar features if the market proves viable, leveraging their existing infrastructure.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section section-flow">
+                <div class="page-header">
+                    <h1 class="page-title">Final Statement</h1>
+                    <p class="page-subtitle">Closing recommendation</p>
+                </div>
+                <div class="text-block">The initial ambition for a 2-3 day battery life laptop within a 30k-40k budget is technically infeasible. However, a significant opportunity exists to create a highly competitive laptop for tier-2 city remote workers by focusing on best-in-class battery life (12-15 hours), a superior webcam, and, crucially, a guaranteed affordable and localized maintenance program, all within the specified budget. Success hinges on realistic feature scoping, aggressive cost management, and robust service network development.</div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

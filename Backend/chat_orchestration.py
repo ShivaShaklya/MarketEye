@@ -9,7 +9,7 @@ from query_processing import preprocess_query, idea_confirmation, apply_user_edi
 from constraint_handling import STAGE_GUIDANCE, NUMERIC_CLARIFIABLE, needs_numeric_clarification, is_quantifiable_feature, has_numeric_value
 from report import create_persona, create_market_overview
 from rag_pipeline import run_rag, format_rag_summary, save_report
-from gemini_client_setup import call_llm_swot
+from gemini_client_setup import call_llm_ideal_product_outline, call_llm_swot
 
 # =============================================================================
 # CONSTANTS
@@ -170,9 +170,14 @@ def _on_rag_confirmation(chat, msg):
 
     try:
         rag_result = run_rag(chat)
+        outline_payload = _build_ideal_product_outline_payload(chat, rag_result)
         swot_payload = _build_swot_payload(chat, rag_result)
+        analysis = rag_result.setdefault("analysis", {})
+        if outline_payload:
+            analysis.update(outline_payload)
         if swot_payload:
-            rag_result.setdefault("analysis", {}).update(swot_payload)
+            analysis.update(swot_payload)
+        if outline_payload or swot_payload:
             save_report(chat, rag_result)
         chat["competitive_analysis"] = rag_result
         summary = format_rag_summary(rag_result)
@@ -212,7 +217,8 @@ def _next_q(chat, prefix=""):
             cfg = NUMERIC_CLARIFIABLE[key]
             return _resp(chat, f"{prefix}\nYou mentioned '{value}'.\n{cfg['prompt'].format(value=value)}\n{cfg['examples']}")
 
-    features = constraints.get("special_features", [])
+    features = _normalize_features(constraints.get("special_features", []))
+    chat.setdefault("constraints", {})["special_features"] = features if features else constraints.get("special_features", [])
     if features and not chat.get("_features_done"):
         chat["_features"], chat["_clarified"], chat["_fidx"] = features, [], 0
         _save(chat, "WAITING_FEATURE_CLARIFICATION")
@@ -223,7 +229,8 @@ def _next_q(chat, prefix=""):
 
 def _next_feat(chat, prefix=""):
     """Next feature clarification."""
-    features, clarified, idx = chat.get("_features", []), chat.get("_clarified", []), chat.get("_fidx", 0)
+    features = _normalize_features(chat.get("_features", []))
+    clarified, idx = chat.get("_clarified", []), chat.get("_fidx", 0)
 
     while idx < len(features):
         feature = features[idx]
@@ -272,9 +279,38 @@ def _report(chat):
         "\n### Market Overview",
         f"**Definition**: {market.get('market_definition', 'N/A')}",
         *[f"- {trend}" for trend in market.get('key_trends', [])],
-        "\n---\nWould you like me to run competitor analysis using the RAG pipeline? Reply yes or no."
     ])
+    parts.append("\n---\nWould you like me to run competitor analysis using the RAG pipeline? Reply yes or no.")
     return _resp(chat, "\n".join(parts))
+
+
+def _build_ideal_product_outline_payload(chat, rag_result):
+    analysis = rag_result.get("analysis", {}) if isinstance(rag_result, dict) else {}
+    if not analysis:
+        return {}
+
+    outline_input = {
+        "idea_raw": chat.get("idea_raw", ""),
+        "idea_understanding": chat.get("idea_understanding", {}),
+        "constraints": chat.get("constraints", {}),
+        "top_competitors": analysis.get("top_competitors", []),
+        "market_gap_analysis": analysis.get("market_gap_analysis", {}),
+        "feasibility_analysis": analysis.get("feasibility_analysis", {}),
+        "implementation_challenges": analysis.get("implementation_challenges", []),
+    }
+
+    try:
+        outline_result = call_llm_ideal_product_outline(outline_input)
+    except Exception as exc:
+        add_turn(chat, "assistant", f"Ideal product outline generation failed: {exc}")
+        return {}
+
+    normalized = {}
+    if isinstance(outline_result.get("IdealProductOutline"), dict):
+        normalized["ideal_product_outline"] = outline_result["IdealProductOutline"]
+    if outline_result.get("EndStatement"):
+        normalized["ending_statement"] = outline_result["EndStatement"]
+    return normalized
 
 
 def _build_swot_payload(chat, rag_result):
@@ -301,6 +337,14 @@ def _build_swot_payload(chat, rag_result):
     normalized = {}
     if isinstance(swot_result.get("SWOT"), dict):
         normalized["swot"] = swot_result["SWOT"]
-    if swot_result.get("EndStatement"):
+    if swot_result.get("EndStatement") and not analysis.get("ending_statement"):
         normalized["ending_statement"] = swot_result["EndStatement"]
     return normalized
+
+
+def _normalize_features(value):
+    if isinstance(value, list):
+        return [str(item).strip() for item in value if str(item).strip()]
+    if isinstance(value, str) and value.strip():
+        return [value.strip()]
+    return []

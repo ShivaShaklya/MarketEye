@@ -12,7 +12,8 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'Backend'))
 
 from flask import Flask, render_template, request, jsonify, send_file
 from Backend.chat_orchestration import start_chat, process_message
-from Backend.chat_store import load_chat, list_chats
+from Backend.chat_store import load_chat, list_chats, save_chat
+from Backend.report import create_grant_opportunities
 import uuid
 
 # app = Flask(__name__)
@@ -143,6 +144,9 @@ def api_export_chat_pdf(user_id, chat_id):
     asset_dir = Path("generated_assets") / f"{user_id}_{chat_id}"
 
     try:
+        if not chat.get("grant_opportunities"):
+            create_grant_opportunities(chat)
+            save_chat(chat)
         payload = transform_chat_to_report_payload(chat, asset_dir)
         generator = ReportGenerator()
         generator.generate(payload, output_pdf)

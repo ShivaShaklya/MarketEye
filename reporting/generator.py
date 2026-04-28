@@ -95,22 +95,18 @@ def transform_chat_to_report_payload(
 
     market_gap = analysis.get("market_gap_analysis", {})
     feasibility = analysis.get("feasibility_analysis", {})
-
     innovation_focus = _optional_list(
         analysis.get("innovation_focus_points")
         or report_payload.get("innovation_focus_points")
         or chat_payload.get("innovation_focus_points")
     )
-    swot = _swot_items(
-        analysis.get("swot_analysis")
-        or analysis.get("swot")
-        or analysis.get("SWOT")
-        or report_payload.get("swot_analysis")
-        or report_payload.get("swot")
-        or report_payload.get("SWOT")
-        or chat_payload.get("swot_analysis")
-        or chat_payload.get("swot")
-        or chat_payload.get("SWOT")
+    ideal_product_outline = _outline_items(
+        analysis.get("ideal_product_outline")
+        or analysis.get("IdealProductOutline")
+        or report_payload.get("ideal_product_outline")
+        or report_payload.get("IdealProductOutline")
+        or chat_payload.get("ideal_product_outline")
+        or chat_payload.get("IdealProductOutline")
     )
     ending_statement = _optional_scalar(
         analysis.get("ending_statement")
@@ -119,6 +115,17 @@ def transform_chat_to_report_payload(
         or report_payload.get("EndStatement")
         or chat_payload.get("ending_statement")
         or chat_payload.get("EndStatement")
+    )
+    swot = _normalize_swot(
+        analysis.get("swot")
+        or analysis.get("swot_analysis")
+        or analysis.get("SWOT")
+        or report_payload.get("swot")
+        or report_payload.get("swot_analysis")
+        or report_payload.get("SWOT")
+        or chat_payload.get("swot")
+        or chat_payload.get("swot_analysis")
+        or chat_payload.get("SWOT")
     )
 
     page1 = {
@@ -167,7 +174,8 @@ def transform_chat_to_report_payload(
     }
 
     page6 = {
-        "title": "SWOT & Final Statement",
+        "title": "SWOT Analysis, Ideal Product Outline & Final Statement",
+        "ideal_product_outline": ideal_product_outline,
         "swot": swot,
         "ending_statement": ending_statement,
     }
@@ -325,21 +333,59 @@ def _feasibility_status(value: Any) -> str:
     return ""
 
 
-def _swot_items(value: Any) -> Dict[str, List[str]]:
+def _outline_items(value: Any) -> Dict[str, List[str]]:
     if not isinstance(value, dict):
-        return {
-            "Strengths": [],
-            "Weaknesses": [],
-            "Opportunities": [],
-            "Threats": [],
-        }
+        return {}
 
-    return {
-        "Strengths": _optional_list(value.get("strengths") or value.get("Strengths")),
-        "Weaknesses": _optional_list(value.get("weaknesses") or value.get("Weaknesses")),
-        "Opportunities": _optional_list(value.get("opportunities") or value.get("Opportunities")),
-        "Threats": _optional_list(value.get("threats") or value.get("Threats")),
-    }
+    normalized: Dict[str, List[str]] = {}
+    for key, item in value.items():
+        items = _optional_list(item)
+        if items:
+            normalized[_titleize_key(str(key))] = items
+    return normalized
+
+
+def _normalize_swot(value: Any) -> Dict[str, List[str]]:
+    if not isinstance(value, dict):
+        return {}
+
+    normalized: Dict[str, List[str]] = {}
+    for key in ["Strengths", "Weaknesses", "Opportunities", "Threats"]:
+        items = _optional_list(value.get(key))
+        if items:
+            normalized[key] = items
+    return normalized
+
+
+def _grant_items(value: Any) -> List[Dict[str, str]]:
+    if not isinstance(value, dict):
+        return []
+
+    grants = value.get("grants")
+    if not isinstance(grants, list):
+        return []
+
+    normalized: List[Dict[str, str]] = []
+    for item in grants:
+        if not isinstance(item, dict):
+            continue
+        normalized.append(
+            {
+                "program_name": _optional_scalar(item.get("program_name")),
+                "provider": _optional_scalar(item.get("provider")),
+                "why_it_may_fit": _optional_scalar(item.get("why_it_may_fit")),
+                "eligibility_hint": _optional_scalar(item.get("eligibility_hint")),
+                "source_title": _optional_scalar(item.get("source_title")),
+                "source_url": _optional_scalar(item.get("source_url")),
+            }
+        )
+    return normalized
+
+
+def _grant_notes(value: Any) -> List[str]:
+    if not isinstance(value, dict):
+        return []
+    return _optional_list(value.get("notes"))
 
 
 def _optional_dict_items(value: Any) -> List[str]:
@@ -422,6 +468,10 @@ def _clean_text(value: str) -> str:
     for src, dest in replacements.items():
         cleaned = cleaned.replace(src, dest)
     return _sentence_start_upper(cleaned.strip())
+
+
+def _titleize_key(value: str) -> str:
+    return _sentence_start_upper(value.replace("_", " ").strip().title())
 
 
 def _sentence_start_upper(value: str) -> str:
